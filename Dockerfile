@@ -13,7 +13,7 @@ ENV ES_HEAP_SIZE 4g
 
 RUN set -x \
   && apt-get update \
-  && apt-get install -y --no-install-recommends make gcc g++ git unzip python python-dev python-pip gdal-bin rlwrap \
+  && apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap \
   && rm -rf /var/lib/apt/lists/*
 
 RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.3.0-1nodesource1~jessie1_amd64.deb > node.deb \
