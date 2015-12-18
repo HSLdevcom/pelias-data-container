@@ -90,6 +90,7 @@ ADD pelias.json pelias.json
 RUN gosu elasticsearch elasticsearch -d \
   && python /address_deduper/app.py serve \
   & npm install -g pelias-cli \
+  && sleep 30 \
   && pelias schema create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
   && pelias openaddresses import --admin-values --deduplicate \
