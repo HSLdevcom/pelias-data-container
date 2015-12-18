@@ -5,7 +5,8 @@ MAINTAINER Reittiopas version: 0.1
 
 ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
 
-RUN mkdir -p /var/lib/elasticsearch/pelias_data
+RUN mkdir -p /var/lib/elasticsearch/pelias_data \
+  && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
 
 ENV ES_HEAP_SIZE 4g
 
@@ -86,9 +87,9 @@ ADD pelias.json pelias.json
 
 # The address deduper will run trough the build process, so start it in the background
 # Hence the single ampersand after the deduper process
-RUN elasticsearch -d \
+RUN gosu elasticsearch elasticsearch -d \
   && python /address_deduper/app.py serve \
-  & npm install pelias-cli \
+  & npm install -g pelias-cli \
   && pelias schema create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
   && pelias openaddresses import --admin-values --deduplicate \
