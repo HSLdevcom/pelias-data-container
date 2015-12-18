@@ -1,0 +1,51 @@
+{
+  "esclient": {
+    "keepAlive": true,
+    "maxRetries": "3",
+    "deadTimeout": "3000",
+    "maxSockets": "20",
+    "hosts": [
+      {
+        "env": "dev",
+        "protocol": "http",
+        "host": "localhost",
+        "port": 9200
+      }
+    ],
+    "log": [{
+      "type": "stdio",
+      "level": [ "error", "warning" ]
+    }]
+  },
+  "logger": {
+    "level": "verbose"
+  },
+  "imports": {
+    "quattroshapes": {
+      "datapath": "/mnt/data/quattroshapes/",
+      "adminLookup": true
+    },
+    "openstreetmap": {
+      "datapath": "/mnt/data/openstreetmap/",
+      "adminLookup": true,
+      "deduplicate": true,
+      "leveldbpath": "/tmp/openstreetmap/",
+      "import": [{
+        "type": { "node": "osmnode", "way": "osmway" },
+        "filename": "finland-latest.osm.pbf"
+      }]
+    },
+    "openaddresses": {
+      "datapath": "/mnt/data/openaddresses/"
+    }
+  },
+  "elasticsearch": {
+    "settings": {
+      "index": {
+        "number_of_replicas": "0",
+        "number_of_shards": "1",
+        "index.index_concurrency": "24"
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+discovery.zen.ping.multicast.enabled: false
+
+network.host: 0.0.0.0
+
+path.data: /var/lib/elasticsearch/pelias_data
