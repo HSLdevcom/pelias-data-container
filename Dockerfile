@@ -99,6 +99,6 @@ RUN gosu elasticsearch elasticsearch -d \
 RUN chown -R 9999:9999 /var/lib/elasticsearch/
 USER 9999
 
-ADD entry.sh entry.sh
+ADD entry.sh /root/entry.sh
 
-ENTRYPOINT entry.sh
+ENTRYPOINT /root/entry.sh
