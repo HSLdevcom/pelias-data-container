@@ -96,14 +96,9 @@ RUN gosu elasticsearch elasticsearch -d \
   && pelias openaddresses import --admin-values --deduplicate \
   && pelias openstreetmap import
 
-ADD entry.sh /root/entry.sh
+ENTRYPOINT ["/bin/sh", "-c"]
 
-ENTRYPOINT /root/entry.sh
+RUN chmod -R a+rwX /var/lib/elasticsearch/ \
+  &&chown -R 9999:9999 /var/lib/elasticsearch/
 
-RUN chmod -R a+rwX /root/entry.sh \
-  && chmod -R a+rwX /var/lib/elasticsearch/
-
-
-RUN chown -R 9999:9999 /root/entry.sh
-RUN chown -R 9999:9999 /var/lib/elasticsearch/
 USER 9999
