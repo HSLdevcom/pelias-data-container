@@ -29,7 +29,7 @@
       "datapath": "/mnt/data/openstreetmap/",
       "adminLookup": true,
       "deduplicate": true,
-      "leveldbpath": "/tmp/openstreetmap/",
+      "leveldbpath": "/tmp",
       "import": [{
         "type": { "node": "osmnode", "way": "osmway" },
         "filename": "finland-latest.osm.pbf"
