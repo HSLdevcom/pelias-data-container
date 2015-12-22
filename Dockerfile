@@ -96,7 +96,7 @@ RUN gosu elasticsearch elasticsearch -d \
   && pelias openaddresses import --admin-values --deduplicate \
   && pelias openstreetmap import
 
-ENTRYPOINT ["/bin/sh", "-c"]
+ENTRYPOINT ["elasticsearch"]
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   &&chown -R 9999:9999 /var/lib/elasticsearch/
