@@ -96,9 +96,11 @@ RUN gosu elasticsearch elasticsearch -d \
   && pelias openaddresses import --admin-values --deduplicate \
   && pelias openstreetmap import
 
-ENTRYPOINT ["elasticsearch"]
-
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   &&chown -R 9999:9999 /var/lib/elasticsearch/
+
+ENV ES_HEAP_SIZE 1g
+
+ENTRYPOINT ["elasticsearch"]
 
 USER 9999
