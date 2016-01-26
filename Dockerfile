@@ -10,14 +10,15 @@ RUN mkdir -p /var/lib/elasticsearch/pelias_data
 ENV ES_HEAP_SIZE 4g
 
 # Install dependencies for importers
-RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.3.0-1nodesource1~jessie1_amd64.deb > node.deb \
- && dpkg -i node.deb \
- && rm node.deb
 
 RUN set -x \
   && apt-get update \
-  && apt-get install -y --no-install-recommends git unzip python python-pip gdal-bin \
+  && apt-get install -y --no-install-recommends make gcc g++ git unzip python python-dev python-pip gdal-bin rlwrap \
   && rm -rf /var/lib/apt/lists/*
+
+RUN curl https://deb.nodesource.com/node_5.x/pool/main/n/nodejs/nodejs_5.3.0-1nodesource1~jessie1_amd64.deb > node.deb \
+ && dpkg -i node.deb \
+ && rm node.deb
 
 RUN git clone https://github.com/openvenues/address_deduper.git \
   && cd address_deduper \
@@ -38,7 +39,7 @@ RUN curl -sS -O http://quattroshapes.mapzen.com/quattroshapes/alpha3/FIN.tgz \
   && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm0.shp FIN/FIN_admin0.shp -lco ENCODING=UTF-8 \
   && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm1.shp FIN/FIN_admin1.shp -lco ENCODING=UTF-8 \
   && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm2.shp FIN/FIN_admin2.shp -lco ENCODING=UTF-8 \
-  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_localadmin.shp FIN/FIN_localadmin.shp -lco ENCODI G=UTF-8 \
+  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_localadmin.shp FIN/FIN_localadmin.shp -lco ENCODING=UTF-8 \
   && rm -rf FIN
 
 # Download Finnish municipalities and convert these to quattroshapes format
