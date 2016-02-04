@@ -91,13 +91,13 @@ RUN gosu elasticsearch elasticsearch -d \
   && python /address_deduper/app.py serve \
   & npm install -g pelias-cli \
   && sleep 30 \
-  && pelias schema create_index \
+  && pelias schema#production create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openaddresses import --admin-values --deduplicate \
-  && pelias openstreetmap import
+  && pelias openaddresses#production import --admin-values --deduplicate \
+  && pelias openstreetmap#production import
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
-  &&chown -R 9999:9999 /var/lib/elasticsearch/
+  && chown -R 9999:9999 /var/lib/elasticsearch/
 
 ENV ES_HEAP_SIZE 1g
 
