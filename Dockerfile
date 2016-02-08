@@ -85,6 +85,10 @@ WORKDIR /root
 # Copying pelias config file
 ADD pelias.json pelias.json
 
+# Add elastisearch-head plugin for browsing ElasticSearch data
+RUN chmod +wx /usr/share/elasticsearch/plugins/
+RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
+
 # The address deduper will run trough the build process, so start it in the background
 # Hence the single ampersand after the deduper process
 RUN gosu elasticsearch elasticsearch -d \
