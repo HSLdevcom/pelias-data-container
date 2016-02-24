@@ -21,10 +21,6 @@ RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.9-1
  && dpkg -i node.deb \
  && rm node.deb
 
-RUN git clone https://github.com/openvenues/address_deduper.git \
-  && cd address_deduper \
-  && pip install -r requirements.txt
-
 # Auxiliary folders
 RUN rm -rf /mnt \
   & mkdir -p /mnt/data/openstreetmap \
@@ -89,15 +85,12 @@ ADD pelias.json pelias.json
 RUN chmod +wx /usr/share/elasticsearch/plugins/
 RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 
-# The address deduper will run trough the build process, so start it in the background
-# Hence the single ampersand after the deduper process
 RUN gosu elasticsearch elasticsearch -d \
-  && python /address_deduper/app.py serve \
-  & npm install -g pelias-cli \
+  && npm install -g pelias-cli \
   && sleep 30 \
   && pelias schema#production create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openaddresses#production import --admin-values --deduplicate \
+  && pelias openaddresses#production import --admin-values \
   && pelias openstreetmap#production import
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \

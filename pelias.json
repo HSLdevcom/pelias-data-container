@@ -28,7 +28,7 @@
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
       "adminLookup": true,
-      "deduplicate": true,
+      "deduplicate": false,
       "leveldbpath": "/tmp",
       "import": [{
         "type": { "node": "osmnode", "way": "osmway" },
