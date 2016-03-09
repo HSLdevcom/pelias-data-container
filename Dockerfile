@@ -28,13 +28,6 @@ RUN rm -rf /mnt \
   & mkdir -p /mnt/data/openaddresses \
   & mkdir -p /mnt/data/nls-places
 
-# Download Finnish municipalities and convert these to quattroshapes format
-RUN curl -sS -O http://kartat.kapsi.fi/files/kuntajako/kuntajako_10k/etrs89/gml/TietoaKuntajaosta_2015_10k.zip \
-  && unzip TietoaKuntajaosta_2015_10k.zip \
-  && ogr2ogr -t_srs EPSG:4326 -nlt POLYGON -splitlistfields -where "nationalLevel='4thOrder'" -f "ESRI Shapefile" kunnat.shp TietoaKuntajaosta_2015_10k/SuomenKuntajako_2015_10k.xml AdministrativeUnit -lco ENCODING=UTF-8 \
-  && ogr2ogr -sql "SELECT text1 AS qs_loc FROM kunnat" -f "ESRI Shapefile" qs_localities.shp kunnat.shp -lco ENCODING=UTF-8 \
-  && rm -rf TietoaKuntajaosta_2015_10k.zip TietoaKuntajaosta_2015_10k/ kunnat.*
-
 # Download OpenStreetMap
 WORKDIR /mnt/data/openstreetmap
 RUN curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
@@ -83,8 +76,8 @@ RUN gosu elasticsearch elasticsearch -d \
   && sleep 30 \
   && pelias schema#master create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openaddresses#master import --admin-values \
   && pelias openstreetmap#master import
+# && pelias openaddresses#master import --admin-values
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
