@@ -22,14 +22,12 @@
   },
   "imports": {
     "quattroshapes": {
-      "datapath": "/mnt/data/quattroshapes/",
-      "adminLookup": true
+      "datapath": "/mnt/data/quattroshapes/"
     },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
-      "adminLookup": true,
-      "deduplicate": false,
       "leveldbpath": "/tmp",
+      "adminLookup": true,
       "import": [{
         "type": { "node": "osmnode", "way": "osmway" },
         "filename": "finland-latest.osm.pbf"
@@ -37,6 +35,9 @@
     },
     "openaddresses": {
       "datapath": "/mnt/data/openaddresses/"
+    },
+    "whosonfirst": {
+      "datapath": "/mnt/data/whosonfirst"
     }
   },
   "elasticsearch": {
