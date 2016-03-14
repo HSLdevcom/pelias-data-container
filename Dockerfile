@@ -75,9 +75,9 @@ RUN gosu elasticsearch elasticsearch -d \
   && npm install -g pelias-cli \
   && sleep 30 \
   && pelias schema#master create_index \
-  && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openstreetmap#master import
-# && pelias openaddresses#master import --admin-values
+# && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places
+  && pelias openstreetmap#master import \
+  && pelias openaddresses#master import --admin-values
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/

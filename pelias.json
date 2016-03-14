@@ -21,6 +21,7 @@
     "level": "verbose"
   },
   "imports": {
+    "adminLookup": true,
     "quattroshapes": {
       "datapath": "/mnt/data/quattroshapes/"
     },
@@ -34,10 +35,11 @@
       }]
     },
     "openaddresses": {
-      "datapath": "/mnt/data/openaddresses/"
+      "datapath": "/mnt/data/openaddresses/",
+      "admin-values": true
     },
     "whosonfirst": {
-      "datapath": "/mnt/data/whosonfirst"
+      "datapath": "/mnt/data/whosonfirst/wof_data"
     }
   },
   "elasticsearch": {
