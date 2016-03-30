@@ -75,7 +75,7 @@ RUN gosu elasticsearch elasticsearch -d \
   && npm install -g pelias-cli \
   && sleep 30 \
   && pelias schema#master create_index \
-# && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places
+  && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
   && pelias openstreetmap#master import \
   && pelias openaddresses#master import --admin-values
 
