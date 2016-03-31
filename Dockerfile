@@ -26,28 +26,7 @@ RUN rm -rf /mnt \
   & mkdir -p /mnt/data/openstreetmap \
   & mkdir -p /tmp/openstreetmap \
   & mkdir -p /mnt/data/openaddresses \
-  & mkdir -p /mnt/data/quattroshapes \
   & mkdir -p /mnt/data/nls-places
-
-# Download quattroshapes data (only higher levels will be used)
-WORKDIR /mnt/data/quattroshapes
-RUN curl -sS -O http://quattroshapes.mapzen.com/quattroshapes/alpha3/FIN.tgz \
-  && tar zxvf FIN.tgz && rm -f FIN.tgz \
-  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm0.shp FIN/FIN_admin0.shp -lco ENCODING=UTF-8 \
-  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm1.shp FIN/FIN_admin1.shp -lco ENCODING=UTF-8 \
-  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_adm2.shp FIN/FIN_admin2.shp -lco ENCODING=UTF-8 \
-  && SHAPE_ENCODING="ISO-8859-1" ogr2ogr qs_localadmin.shp FIN/FIN_localadmin.shp -lco ENCODING=UTF-8 \
-  && rm -rf FIN
-
-# Download Finnish municipalities and convert these to quattroshapes format
-RUN curl -sS -O http://kartat.kapsi.fi/files/kuntajako/kuntajako_10k/etrs89/gml/TietoaKuntajaosta_2015_10k.zip \
-  && unzip TietoaKuntajaosta_2015_10k.zip \
-  && ogr2ogr -t_srs EPSG:4326 -nlt POLYGON -splitlistfields -where "nationalLevel='4thOrder'" -f "ESRI Shapefile" kunnat.shp TietoaKuntajaosta_2015_10k/SuomenKuntajako_2015_10k.xml AdministrativeUnit -lco ENCODING=UTF-8 \
-  && ogr2ogr -sql "SELECT text1 AS qs_loc FROM kunnat" -f "ESRI Shapefile" qs_localities.shp kunnat.shp -lco ENCODING=UTF-8 \
-  && rm -rf TietoaKuntajaosta_2015_10k.zip TietoaKuntajaosta_2015_10k/ kunnat.*
-
-# Download zip codes and convert these to quattroshapes format
-RUN ogr2ogr -t_srs EPSG:4326 -nlt POLYGON -sql "SELECT CONCAT( posti_alue, ' ', nimi ) AS name from 'postialue:pno_meri_2015'" -f "ESRI Shapefile" qs_neighborhoods.shp WFS:http://geo.stat.fi/geoserver/postialue/postialue%3Apno_meri_2015/wfs -lco ENCODING=UTF-8
 
 # Download OpenStreetMap
 WORKDIR /mnt/data/openstreetmap
@@ -76,6 +55,13 @@ RUN git clone https://github.com/HSLdevcom/pelias-nlsfi-places-importer.git $HOM
   && cd $HOME/.pelias/nls-fi-places \
   && npm install
 
+# Download WOF
+WORKDIR /mnt/data/
+RUN git clone https://github.com/pelias/whosonfirst \
+  && cd whosonfirst \
+  && npm install \
+  && npm run download
+
 WORKDIR /root
 
 # Copying pelias config file
@@ -88,10 +74,10 @@ RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 RUN gosu elasticsearch elasticsearch -d \
   && npm install -g pelias-cli \
   && sleep 30 \
-  && pelias schema#production create_index \
+  && pelias schema#master create_index \
   && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openaddresses#production import --admin-values \
-  && pelias openstreetmap#production import
+  && pelias openstreetmap#master import \
+  && pelias openaddresses#master import --admin-values
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/

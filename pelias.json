@@ -21,22 +21,22 @@
     "level": "verbose"
   },
   "imports": {
-    "quattroshapes": {
-      "datapath": "/mnt/data/quattroshapes/",
-      "adminLookup": true
-    },
+    "adminLookup": true,
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
-      "adminLookup": true,
-      "deduplicate": false,
       "leveldbpath": "/tmp",
+      "adminLookup": true,
       "import": [{
         "type": { "node": "osmnode", "way": "osmway" },
         "filename": "finland-latest.osm.pbf"
       }]
     },
     "openaddresses": {
-      "datapath": "/mnt/data/openaddresses/"
+      "datapath": "/mnt/data/openaddresses/",
+      "admin-values": true
+    },
+    "whosonfirst": {
+      "datapath": "/mnt/data/whosonfirst/wof_data"
     }
   },
   "elasticsearch": {
