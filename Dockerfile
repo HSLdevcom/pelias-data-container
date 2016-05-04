@@ -32,18 +32,11 @@ RUN rm -rf /mnt \
 WORKDIR /mnt/data/openstreetmap
 RUN curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
 
-#TODO: find out run number from http://results.openaddresses.io/state.txt
 #TODO: Add Tampere after their data has been fixed
 WORKDIR /mnt/data/openaddresses
-RUN curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75723/fi/18/helsinki.zip \
-  && unzip -o helsinki.zip \
-  && rm helsinki.zip \
-  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75951/fi/14/oulu.zip \
-  && unzip -o oulu.zip \
-  && rm oulu.zip \
-  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75895/fi/19/turku.zip \
-  && unzip -o turku.zip \
-  && rm turku.zip
+RUN curl http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*fi\.zip' | xargs -n 1 curl -O \
+  && ls | xargs -n 1 unzip -o \
+  && rm *.zip README.txt
 
 # Download nls paikat data
 WORKDIR /mnt/data/nls-places
