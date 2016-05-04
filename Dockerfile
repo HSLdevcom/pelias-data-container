@@ -17,7 +17,7 @@ RUN set -x \
   && apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap \
   && rm -rf /var/lib/apt/lists/*
 
-RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.9-1nodesource1~jessie1_amd64.deb > node.deb \
+RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
 
@@ -35,13 +35,13 @@ RUN curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
 #TODO: find out run number from http://results.openaddresses.io/state.txt
 #TODO: Add Tampere after their data has been fixed
 WORKDIR /mnt/data/openaddresses
-RUN curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/37881/fi/18/helsinki.zip \
+RUN curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75723/fi/18/helsinki.zip \
   && unzip -o helsinki.zip \
   && rm helsinki.zip \
-  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/37878/fi/14/oulu.zip \
+  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75951/fi/14/oulu.zip \
   && unzip -o oulu.zip \
   && rm oulu.zip \
-  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/32517/fi/19/turku.zip \
+  && curl -sS -O http://data.openaddresses.io.s3.amazonaws.com/runs/75895/fi/19/turku.zip \
   && unzip -o turku.zip \
   && rm turku.zip
 
