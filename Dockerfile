@@ -14,19 +14,29 @@ ENV ES_HEAP_SIZE 4g
 
 RUN set -x \
   && apt-get update \
-  && apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap \
+  && apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go \
   && rm -rf /var/lib/apt/lists/*
 
-RUN curl https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > node.deb \
+RUN curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > node.deb \
  && dpkg -i node.deb \
  && rm node.deb
+
+RUN git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $HOME/wof-clone \
+  && cd $HOME/wof-clone \
+  && make deps \
+  && make bin
 
 # Auxiliary folders
 RUN rm -rf /mnt \
   & mkdir -p /mnt/data/openstreetmap \
-  & mkdir -p /tmp/openstreetmap \
   & mkdir -p /mnt/data/openaddresses \
-  & mkdir -p /mnt/data/nls-places
+  & mkdir -p /mnt/data/nls-places \
+  & mkdir -p /mnt/data/whosonfirst
+
+# Download WOF
+WORKDIR /mnt/data/whosonfirst
+ADD getwof.sh getwof.sh
+RUN /bin/bash -c "source getwof.sh"
 
 # Download OpenStreetMap
 WORKDIR /mnt/data/openstreetmap
@@ -34,7 +44,7 @@ RUN curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
 
 # Download all '/fi/' entries from OpenAddresses
 WORKDIR /mnt/data/openaddresses
-RUN curl http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*fi\.zip' | xargs -n 1 curl -O \
+RUN curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*fi\.zip' | xargs -n 1 curl -O -sS \
   && ls *.zip | xargs -n 1 unzip -o \
   && rm *.zip README.*
 
@@ -47,13 +57,6 @@ RUN curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_20
 RUN git clone https://github.com/HSLdevcom/pelias-nlsfi-places-importer.git $HOME/.pelias/nls-fi-places \
   && cd $HOME/.pelias/nls-fi-places \
   && npm install
-
-# Download WOF
-WORKDIR /mnt/data/
-RUN git clone https://github.com/pelias/whosonfirst \
-  && cd whosonfirst \
-  && npm install \
-  && npm run download
 
 WORKDIR /root
 
