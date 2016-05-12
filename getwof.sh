@@ -15,7 +15,7 @@ do
     curl -O -sS $URL/wof-$target-latest.csv
     if [ "$target" != "continent" ]
     then
-	head -1 wof-$target-latest.csv > temp && cat wof-$target-latest.csv | grep ",FI" >> temp
+	head -1 wof-$target-latest.csv > temp && cat wof-$target-latest.csv | egrep ",FI(,|$)" >> temp
 	mv temp wof-$target-latest.csv
     fi
 done
