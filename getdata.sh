@@ -71,7 +71,7 @@ curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
 
 # Download all '/fi/' entries from OpenAddresses
 cd $DATA/openaddresses
-curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*fi\.zip' | xargs -n 1 curl -O -sS
+curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*\.zip' | xargs -n 1 curl -O -sS
 ls *.zip | xargs -n 1 unzip -o
 rm *.zip README.*
 
