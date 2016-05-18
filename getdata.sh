@@ -89,7 +89,8 @@ sleep 30
 pelias schema#master create_index
 node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
 pelias openstreetmap#master import
-pelias openaddresses#master import --admin-values
+pelias openaddresses#master import --admin-values --language=fi
+pelias openaddresses#master import --admin-values --language=sv --merge --merge-fields=name
 
 #cleanup
 rm -r $DATA
