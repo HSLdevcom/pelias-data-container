@@ -1,12 +1,24 @@
 #!/bin/bash
 
+#=============
+# Folder setup
+#=============
+
 TOOLS=/mnt/tools
 DATA=/mnt/data
 
 mkdir -p $TOOLS
 mkdir -p $DATA
 
-# Install dependencies for importers
+# Auxiliary folders
+mkdir -p $DATA/openstreetmap
+mkdir -p $DATA/openaddresses
+mkdir -p $DATA/nls-places
+mkdir -p $DATA/whosonfirst
+
+#=========================================
+# Install importers and their dependencies
+#=========================================
 
 set -x
 set -e
@@ -27,11 +39,22 @@ git clone https://github.com/HSLdevcom/pelias-nlsfi-places-importer.git $TOOLS/n
 cd $TOOLS/nls-fi-places
 npm install
 
-# Auxiliary folders
-mkdir -p $DATA/openstreetmap
-mkdir -p $DATA/openaddresses
-mkdir -p $DATA/nls-places
-mkdir -p $DATA/whosonfirst
+# we need a custom pelias dbclient version
+git clone https://github.com/HSLdevcom/dbclient.git $TOOLS/dbclient
+cd $TOOLS/dbclient
+npm install
+# make it available for other pelias components
+npm link
+
+git clone https://github.com/HSLdevcom/openaddresses.git $TOOLS/openaddresses
+cd $TOOLS/openaddresses
+npm install
+# use custom dbclient
+npm link pelias-dbclient
+
+#==============
+# Download data
+#==============
 
 # Download Whosonfirst admin lookup data
 cd $DATA/whosonfirst
@@ -65,7 +88,7 @@ do
     $TOOLS/wof-clone/bin/wof-clone-metafiles -dest $DATADIR $METADIR/wof-$target-latest.csv
 done
 
-# Download OpenStreetMap
+# Download OpenStreetMap data
 cd $DATA/openstreetmap
 curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
 
@@ -83,16 +106,24 @@ rm paikat_2015_05.zip
 
 cd /root
 
+#=================
+# Index everything
+#=================
+
+#start elasticsearch, create index and run importers
 gosu elasticsearch elasticsearch -d
 npm install -g pelias-cli
 sleep 30
 pelias schema#master create_index
 node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
 pelias openstreetmap#master import
-pelias openaddresses#master import --admin-values --language=fi
-pelias openaddresses#master import --admin-values --language=sv --merge --merge-fields=name
+node $TOOLS/openaddresses/import --admin-values --language=sv
+node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
 
+#=======
 #cleanup
+#=======
+
 rm -r $DATA
 rm -r $TOOLS
 rm -r $HOME/.pelias
