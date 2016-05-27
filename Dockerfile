@@ -2,78 +2,23 @@ FROM elasticsearch:1.7
 MAINTAINER Reittiopas version: 0.1
 
 # Finalize elasticsearch installation
-
 ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
+
+# Add elastisearch-head plugin for browsing ElasticSearch data
+RUN chmod +wx /usr/share/elasticsearch/plugins/
+RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
   && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
 
 ENV ES_HEAP_SIZE 4g
 
-# Install dependencies for importers
+# Copy pelias config file
+ADD pelias.json /root/pelias.json
 
-RUN set -x \
-  && apt-get update \
-  && apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go \
-  && rm -rf /var/lib/apt/lists/*
-
-RUN curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > node.deb \
- && dpkg -i node.deb \
- && rm node.deb
-
-RUN git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $HOME/wof-clone \
-  && cd $HOME/wof-clone \
-  && make deps \
-  && make bin
-
-# Auxiliary folders
-RUN rm -rf /mnt \
-  & mkdir -p /mnt/data/openstreetmap \
-  & mkdir -p /mnt/data/openaddresses \
-  & mkdir -p /mnt/data/nls-places \
-  & mkdir -p /mnt/data/whosonfirst
-
-# Download WOF
-WORKDIR /mnt/data/whosonfirst
-ADD getwof.sh getwof.sh
-RUN /bin/bash -c "source getwof.sh"
-
-# Download OpenStreetMap
-WORKDIR /mnt/data/openstreetmap
-RUN curl -sS -O http://download.geofabrik.de/europe/finland-latest.osm.pbf
-
-# Download all '/fi/' entries from OpenAddresses
-WORKDIR /mnt/data/openaddresses
-RUN curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*fi\.zip' | xargs -n 1 curl -O -sS \
-  && ls *.zip | xargs -n 1 unzip -o \
-  && rm *.zip README.*
-
-# Download nls paikat data
-WORKDIR /mnt/data/nls-places
-RUN curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2015_05.zip \
-  && unzip paikat_2015_05.zip \
-  && rm paikat_2015_05.zip
-
-RUN git clone https://github.com/HSLdevcom/pelias-nlsfi-places-importer.git $HOME/.pelias/nls-fi-places \
-  && cd $HOME/.pelias/nls-fi-places \
-  && npm install
-
-WORKDIR /root
-
-# Copying pelias config file
-ADD pelias.json pelias.json
-
-# Add elastisearch-head plugin for browsing ElasticSearch data
-RUN chmod +wx /usr/share/elasticsearch/plugins/
-RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
-
-RUN gosu elasticsearch elasticsearch -d \
-  && npm install -g pelias-cli \
-  && sleep 30 \
-  && pelias schema#master create_index \
-  && node $HOME/.pelias/nls-fi-places/lib/index -d /mnt/data/nls-places \
-  && pelias openstreetmap#master import \
-  && pelias openaddresses#master import --admin-values
+# Download and index data and do cleanup for temp data + packages
+ADD getdata.sh getdata.sh
+RUN /bin/bash -c "source getdata.sh"
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
