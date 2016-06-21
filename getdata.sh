@@ -100,9 +100,9 @@ rm *.zip README.*
 
 # Download nls paikat data
 cd $DATA/nls-places
-curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2015_05.zip
-unzip paikat_2015_05.zip
-rm paikat_2015_05.zip
+curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2016_01.zip
+unzip paikat_2016_01.zip
+rm paikat_2016_01.zip
 
 cd /root
 
