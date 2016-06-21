@@ -114,9 +114,9 @@ cd /root
 gosu elasticsearch elasticsearch -d
 npm install -g pelias-cli
 sleep 30
-pelias schema#master create_index
+pelias schema#12541694e43758f10b106f8d06b636358dcb2206 create_index
 node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
-pelias openstreetmap#master import
+pelias openstreetmap#831f8c8d36110d3110a4fcce4023e28ec3b87dac import
 node $TOOLS/openaddresses/import --admin-values --language=sv
 node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
 
