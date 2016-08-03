@@ -1,4 +1,4 @@
-FROM elasticsearch:1.7
+FROM elasticsearch:2.3
 MAINTAINER Reittiopas version: 0.1
 
 # Finalize elasticsearch installation
