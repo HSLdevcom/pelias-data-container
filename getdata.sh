@@ -27,7 +27,7 @@ apt-get install -y --no-install-recommends git unzip python python-pip python-de
 rm -rf /var/lib/apt/lists/*
 
 mkdir -p $TOOLS
-curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
+curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
 dpkg -i $TOOLS/node.deb
 
 git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $TOOLS/wof-clone
@@ -117,8 +117,8 @@ sleep 30
 pelias schema#master create_index
 node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
 pelias openstreetmap#master import
-node $TOOLS/openaddresses/import --admin-values --language=sv
-node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
+node $TOOLS/openaddresses/import --language=sv
+node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 
 #=======
 #cleanup
