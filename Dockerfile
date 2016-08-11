@@ -1,4 +1,4 @@
-FROM elasticsearch:1.7
+FROM elasticsearch:2.3
 MAINTAINER Reittiopas version: 0.1
 
 # Finalize elasticsearch installation
@@ -6,7 +6,7 @@ ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
 
 # Add elastisearch-head plugin for browsing ElasticSearch data
 RUN chmod +wx /usr/share/elasticsearch/plugins/
-RUN /usr/share/elasticsearch/bin/plugin -install mobz/elasticsearch-head
+RUN /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
   && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
