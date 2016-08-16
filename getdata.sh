@@ -46,11 +46,29 @@ npm install
 # make it available for other pelias components
 npm link
 
+git clone https://github.com/HSLdevcom/wof-pip-service.git $TOOLS/wof-pip-service
+cd $TOOLS/wof-pip-service
+npm install
+npm link
+
+git clone https://github.com/HSLdevcom/wof-admin-lookup.git $TOOLS/wof-admin-lookup
+cd $TOOLS/wof-admin-lookup
+npm install
+# use custom pip service
+npm link pelias-wof-pip-service
+npm link
+
+git clone https://github.com/pelias/openstreetmap.git $TOOLS/openstreetmap
+cd $TOOLS/openstreetmap
+npm install
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
+
 git clone https://github.com/HSLdevcom/openaddresses.git $TOOLS/openaddresses
 cd $TOOLS/openaddresses
 npm install
-# use custom dbclient
 npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
 #==============
 # Download data
