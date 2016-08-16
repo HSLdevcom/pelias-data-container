@@ -134,9 +134,9 @@ npm install -g pelias-cli
 sleep 30
 pelias schema#master create_index
 node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
-pelias openstreetmap#master import
 node $TOOLS/openaddresses/import --admin-values --language=sv
 node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
+node $TOOLS/openstreetmap/index
 
 #=======
 #cleanup
