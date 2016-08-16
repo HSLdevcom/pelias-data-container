@@ -36,7 +36,8 @@
     },
     "whosonfirst": {
       "datapath": "/mnt/data/whosonfirst/wof_data"
-    }
+    },
+    "wofPipNames": ["name:fin_x_preferred", "name:swe_x_preferred"]
   },
   "schema": {
     "indexName": "pelias"
