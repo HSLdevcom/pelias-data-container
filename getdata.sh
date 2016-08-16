@@ -20,6 +20,18 @@ mkdir -p $DATA/whosonfirst
 # Install importers and their dependencies
 #=========================================
 
+# param1: organization name
+# param2: git project name
+# note: changes cd to new project dir
+function install_node_project {
+    git clone --single-branch https://github.com/$1/$2 $TOOLS/$2
+    cd $TOOLS/$2
+    npm install
+
+    #make the package locally available
+    npm link
+}
+
 set -x
 set -e
 apt-get update
@@ -35,40 +47,23 @@ cd $TOOLS/wof-clone
 make deps
 make bin
 
-git clone https://github.com/HSLdevcom/pelias-nlsfi-places-importer.git $TOOLS/nls-fi-places
-cd $TOOLS/nls-fi-places
-npm install
+install_node_project HSLdevcom dbclient
 
-# we need a custom pelias dbclient version
-git clone https://github.com/HSLdevcom/dbclient.git $TOOLS/dbclient
-cd $TOOLS/dbclient
-npm install
-# make it available for other pelias components
-npm link
+install_node_project HSLdevcom wof-pip-service
 
-git clone https://github.com/HSLdevcom/wof-pip-service.git $TOOLS/wof-pip-service
-cd $TOOLS/wof-pip-service
-npm install
-npm link
-
-git clone https://github.com/HSLdevcom/wof-admin-lookup.git $TOOLS/wof-admin-lookup
-cd $TOOLS/wof-admin-lookup
-npm install
-# use custom pip service
+install_node_project HSLdevcom wof-admin-lookup
 npm link pelias-wof-pip-service
-npm link
 
-git clone https://github.com/pelias/openstreetmap.git $TOOLS/openstreetmap
-cd $TOOLS/openstreetmap
-npm install
+install_node_project pelias openstreetmap
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-git clone https://github.com/HSLdevcom/openaddresses.git $TOOLS/openaddresses
-cd $TOOLS/openaddresses
-npm install
+install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
+
+install_node_project HSLdevcom pelias-nlsfi-places-importer
+
 
 #==============
 # Download data
@@ -133,7 +128,7 @@ gosu elasticsearch elasticsearch -d
 npm install -g pelias-cli
 sleep 30
 pelias schema#master create_index
-node $TOOLS/nls-fi-places/lib/index -d $DATA/nls-places
+node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/openaddresses/import --admin-values --language=sv
 node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
