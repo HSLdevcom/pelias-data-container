@@ -144,8 +144,6 @@ node $TOOLS/openstreetmap/index
 
 rm -r $DATA
 rm -r $TOOLS
-rm -r $HOME/.pelias
-npm uninstall -g pelias-cli
 dpkg -r nodejs
 apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
 apt-get clean
