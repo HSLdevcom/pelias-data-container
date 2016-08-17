@@ -47,6 +47,10 @@ cd $TOOLS/wof-clone
 make deps
 make bin
 
+git clone https://github.com/openvenues/address_deduper.git $TOOLS/address_deduper
+cd $TOOLS/address_deduper
+pip install -r requirements.txt
+
 install_node_project HSLdevcom dbclient
 
 install_node_project pelias schema
@@ -64,7 +68,12 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
+install_node_project pelias polylines
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
+
 install_node_project HSLdevcom pelias-nlsfi-places-importer
+npm link pelias-dbclient
 
 
 #==============
@@ -127,6 +136,7 @@ cd /root
 
 #start elasticsearch, create index and run importers
 gosu elasticsearch elasticsearch -d
+python $TOOLS/address_deduper/app.py serve
 sleep 30
 
 #schema script runs only from local folder
@@ -134,6 +144,7 @@ cd $TOOLS/schema/
 node scripts/create_index
 cd /root
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
+node $TOOLS/polylines/bin/cli.js --config --db
 node $TOOLS/openaddresses/import --admin-values --language=sv
 node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
@@ -144,8 +155,6 @@ node $TOOLS/openstreetmap/index
 
 rm -r $DATA
 rm -r $TOOLS
-rm -r $HOME/.pelias
-npm uninstall -g pelias-cli
 dpkg -r nodejs
 apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
 apt-get clean
