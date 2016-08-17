@@ -49,6 +49,8 @@ make bin
 
 install_node_project HSLdevcom dbclient
 
+install_node_project pelias schema
+
 install_node_project HSLdevcom wof-pip-service
 
 install_node_project HSLdevcom wof-admin-lookup
@@ -125,9 +127,9 @@ cd /root
 
 #start elasticsearch, create index and run importers
 gosu elasticsearch elasticsearch -d
-npm install -g pelias-cli
 sleep 30
-pelias schema#master create_index
+
+node $TOOLS/schema/scripts/create_index
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/openaddresses/import --admin-values --language=sv
 node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
