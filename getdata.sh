@@ -134,8 +134,8 @@ cd $TOOLS/schema/
 node scripts/create_index
 cd /root
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
-node $TOOLS/openaddresses/import --admin-values --language=sv
-node $TOOLS/openaddresses/import --admin-values --language=fi --merge --merge-fields=name
+node $TOOLS/openaddresses/import --language=sv
+node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
 
 #=======
