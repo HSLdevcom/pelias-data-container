@@ -47,9 +47,10 @@ cd $TOOLS/wof-clone
 make deps
 make bin
 
-git clone https://github.com/openvenues/address_deduper.git $TOOLS/address_deduper
-cd $TOOLS/address_deduper
-pip install -r requirements.txt
+# deduper does not seem to work well with our data
+#git clone https://github.com/openvenues/address_deduper.git $TOOLS/address_deduper
+#cd $TOOLS/address_deduper
+#pip install -r requirements.txt
 
 install_node_project HSLdevcom dbclient
 
@@ -136,7 +137,10 @@ cd /root
 
 #start elasticsearch, create index and run importers
 gosu elasticsearch elasticsearch -d
-python $TOOLS/address_deduper/app.py serve
+
+#we currently do not use deduping
+#python $TOOLS/address_deduper/app.py serve &
+
 sleep 30
 
 #schema script runs only from local folder
