@@ -1,4 +1,3 @@
-
 FROM elasticsearch:2.3
 MAINTAINER Reittiopas version: 0.1
 
