@@ -17,6 +17,9 @@ ENV ES_HEAP_SIZE 4g
 # Copy pelias config file
 ADD pelias.json /root/pelias.json
 
+RUN mkdir -p /mnt/data
+ADD finland.polylines /mnt/data/finland.polylines
+
 # Download and index data and do cleanup for temp data + packages
 ADD getdata.sh getdata.sh
 RUN /bin/bash -c "source getdata.sh"

@@ -34,6 +34,13 @@
       "datapath": "/mnt/data/openaddresses/",
       "admin-values": true
     },
+    "polyline": {
+      "datapath": "/mnt/data/",
+      "adminLookup": true,
+      "files": [
+        "finland.polylines"
+      ]
+    },
     "whosonfirst": {
       "datapath": "/mnt/data/whosonfirst/wof_data"
     },
