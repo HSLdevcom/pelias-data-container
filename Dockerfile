@@ -7,6 +7,7 @@ ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
 # Add elastisearch-head plugin for browsing ElasticSearch data
 RUN chmod +wx /usr/share/elasticsearch/plugins/
 RUN /usr/share/elasticsearch/bin/plugin install mobz/elasticsearch-head
+RUN /usr/share/elasticsearch/bin/plugin install analysis-icu
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
   && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
@@ -15,6 +16,9 @@ ENV ES_HEAP_SIZE 4g
 
 # Copy pelias config file
 ADD pelias.json /root/pelias.json
+
+RUN mkdir -p /mnt/data
+ADD finland.polylines /mnt/data/finland.polylines
 
 # Download and index data and do cleanup for temp data + packages
 ADD getdata.sh getdata.sh
