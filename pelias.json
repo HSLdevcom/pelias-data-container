@@ -46,8 +46,7 @@
     "wofPipNames": {
       "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred"],
       "region": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "neigbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "macrohood": ["name:fin_x_preferred", "name:swe_x_preferred"]
+      "neigbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"]
     }
   },
   "schema": {
