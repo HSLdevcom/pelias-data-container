@@ -76,6 +76,9 @@ npm link pelias-wof-admin-lookup
 install_node_project HSLdevcom pelias-nlsfi-places-importer
 npm link pelias-dbclient
 
+install_node_project HSLdevcom pelias-gtfs
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
 #==============
 # Download data
@@ -129,6 +132,13 @@ curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2016_0
 unzip paikat_2016_01.zip
 rm paikat_2016_01.zip
 
+# Download gtfs stop data
+cd $DATA
+curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/router-hsl.zip
+unzip router-hsl.zip
+cd router-hsl
+unzip -o hsl.zip
+
 cd /root
 
 #=================
@@ -149,6 +159,7 @@ node scripts/create_index
 cd /root
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/polylines/bin/cli.js --config --db
+node $TOOLS/pelias-gtfs/import -d $DATA/router-hsl
 node $TOOLS/openaddresses/import --language=sv
 node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
