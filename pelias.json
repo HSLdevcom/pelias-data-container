@@ -17,7 +17,8 @@
     }]
   },
   "logger": {
-    "level": "verbose"
+    "level": "info",
+    "suspectFile": false
   },
   "imports": {
     "openstreetmap": {
