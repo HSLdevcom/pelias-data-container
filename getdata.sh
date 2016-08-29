@@ -42,11 +42,6 @@ mkdir -p $TOOLS
 curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
 dpkg -i $TOOLS/node.deb
 
-git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $TOOLS/wof-clone
-cd $TOOLS/wof-clone
-make deps
-make bin
-
 # deduper does not seem to work well with our data
 #git clone https://github.com/openvenues/address_deduper.git $TOOLS/address_deduper
 #cd $TOOLS/address_deduper
@@ -83,38 +78,6 @@ npm link pelias-wof-admin-lookup
 #==============
 # Download data
 #==============
-
-# Download Whosonfirst admin lookup data
-cd $DATA/whosonfirst
-
-URL=https://whosonfirst.mapzen.com/bundles
-METADIR=wof_data/meta/
-DATADIR=wof_data/data/
-mkdir -p $METADIR
-mkdir -p $DATADIR
-
-cd $METADIR
-
-admins=( continent borough country county dependency disputed localadmin locality macrocounty macroregion neighbourhood region )
-
-for target in "${admins[@]}"
-do
-    echo getting $target metadata
-    curl -O -sS $URL/wof-$target-latest.csv
-    if [ "$target" != "continent" ]
-    then
-	head -1 wof-$target-latest.csv > temp && cat wof-$target-latest.csv | grep ",FI," >> temp || true
-	mv temp wof-$target-latest.csv
-    fi
-done
-
-cd ../../
-
-for target in "${admins[@]}"
-do
-    echo getting $target data
-    $TOOLS/wof-clone/bin/wof-clone-metafiles -dest $DATADIR $METADIR/wof-$target-latest.csv
-done
 
 # Download OpenStreetMap data
 cd $DATA/openstreetmap

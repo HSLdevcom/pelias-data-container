@@ -1,0 +1,105 @@
+{
+  "id": 101814293,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000145,
+    "geom:area_square_m":795021.736254,
+    "geom:bbox":"23.8831719769,63.6995246727,23.9057324137,63.7129175251",
+    "geom:latitude":63.706478,
+    "geom:longitude":23.89391,
+    "iso:country":"FI",
+    "lbl:latitude":63.706269,
+    "lbl:longitude":23.89391,
+    "mps:latitude":63.706269,
+    "mps:longitude":23.89391,
+    "mz:hierarchy_label":1,
+    "name:deu_x_preferred":[
+        "Ullava"
+    ],
+    "name:est_x_preferred":[
+        "Ullava vald"
+    ],
+    "name:fin_x_preferred":[
+        "Ullava"
+    ],
+    "name:fra_x_preferred":[
+        "Ullava"
+    ],
+    "name:ita_x_preferred":[
+        "Ullava"
+    ],
+    "name:nld_x_preferred":[
+        "Ullava"
+    ],
+    "name:nor_x_preferred":[
+        "Ullava"
+    ],
+    "name:ron_x_preferred":[
+        "Ullava"
+    ],
+    "name:swe_x_preferred":[
+        "Ullava"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Keski-Pohjanmaa#Mellersta \u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Ullava",
+    "qs:la_lc":"*FI216885",
+    "qs:level":"locality",
+    "qs:loc":"Ullava",
+    "qs:loc_alt":"Ullava",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":101,
+    "wof:belongsto":[
+        85683125,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":633412,
+        "gp:id":574328,
+        "qs:id":265676,
+        "wd:id":"Q1851589",
+        "wk:page":"Ullava"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"c130dc9ec2b27d480c2a1233d7b6f307",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814293,
+            "macroregion_id":404227417,
+            "region_id":85683125
+        }
+    ],
+    "wof:id":101814293,
+    "wof:lastmodified":1470852494,
+    "wof:name":"Ullava",
+    "wof:parent_id":85683125,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    23.88317197689679,
+    63.69952467267808,
+    23.90573241371965,
+    63.71291752512593
+],
+  "geometry": {"coordinates":[[[23.90152698052509,63.71256170033462],[23.89981323798736,63.70903775591796],[23.90573241371965,63.70850390495383],[23.90530388155082,63.70762293485359],[23.90135790082053,63.70797884824606],[23.90007282195182,63.70533589656009],[23.90204565347415,63.70515797041514],[23.90161729609611,63.70427699085866],[23.89964452132909,63.70445491096024],[23.89878800856491,63.70269293720452],[23.89681532442677,63.70287082038612],[23.8959590431096,63.70110883114114],[23.89398644959778,63.70128667740687],[23.89313039968027,63.69952467267808],[23.89115789679317,63.69970248203236],[23.891585850274,63.70058349086054],[23.88764066245227,63.70093904714327],[23.88806853190624,63.70182006719625],[23.88609584696621,63.70199781412191],[23.88737946185796,63.7046408872954],[23.8854065837844,63.70481862749449],[23.88711825582016,63.70834273731816],[23.88317197689679,63.70869819149414],[23.88359985502512,63.7095792289025],[23.88951940946907,63.70904599226026],[23.89037559489333,63.71080802829715],[23.89234884754381,63.71063022098377],[23.89277704128244,63.71151123168602],[23.89475032784469,63.71133339348728],[23.89517860787299,63.71221439729658],[23.89715192834285,63.71203652821123],[23.89758029466856,63.71291752512593],[23.90152698052509,63.71256170033462]]],"type":"Polygon"}
+}

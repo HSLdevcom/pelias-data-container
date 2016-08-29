@@ -20,6 +20,9 @@ ADD pelias.json /root/pelias.json
 RUN mkdir -p /mnt/data
 ADD finland.polylines /mnt/data/finland.polylines
 
+RUN mkdir -p /mnt/data/whosonfirst
+ADD wof_data /mnt/data/whosonfirst/wof_data
+
 # Download and index data and do cleanup for temp data + packages
 ADD getdata.sh getdata.sh
 RUN /bin/bash -c "source getdata.sh"

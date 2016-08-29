@@ -1,0 +1,83 @@
+{
+  "id": 101912995,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000139,
+    "geom:area_square_m":854220.557826,
+    "geom:bbox":"24.2139915441,60.1288072483,24.2315292908,60.1407370937",
+    "geom:latitude":60.13515,
+    "geom:longitude":24.223321,
+    "gn:population":5229,
+    "iso:country":"FI",
+    "lbl:latitude":60.135633,
+    "lbl:longitude":24.22403,
+    "mps:latitude":60.135633,
+    "mps:longitude":24.22403,
+    "mz:hierarchy_label":1,
+    "name:eng_x_preferred":[
+        "Hattieville"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Siuntio#Sjunde\u00e5",
+    "qs:la_lc":"*FI101755",
+    "qs:level":"locality",
+    "qs:loc":"Siuntio",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":3581968,
+        "gp:id":57317,
+        "qs:id":211025,
+        "wd:id":"Q1014359",
+        "wk:page":"Hattieville"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"f7d10ab100cda7ff782869045e54bdc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101912995,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101912995,
+    "wof:lang":[
+        "eng"
+    ],
+    "wof:lastmodified":1470852455,
+    "wof:name":"Siuntio",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.2139915441245,
+    60.12880724826948,
+    24.23152929076929,
+    60.14073709373542
+],
+  "geometry": {"coordinates":[[[24.23152929076929,60.1387052952021],[24.229867863366,60.13061940796729],[24.22355055297669,60.13126381493242],[24.2231724995105,60.13038512770652],[24.22141190620647,60.13056463607592],[24.22065595531899,60.12880724826948],[24.21889543159733,60.12898672417487],[24.21927335196057,60.12986542383885],[24.2139915441245,60.1304037363152],[24.21474719194333,60.13216116471148],[24.21650789943351,60.13198173847456],[24.21801964477294,60.1354965630851],[24.21625876277255,60.13567601053296],[24.216636712823,60.13655471970219],[24.21487576954274,60.13673415059031],[24.21585949892176,60.13902118195779],[24.22946634120825,60.14073709373542],[24.22909340538774,60.13987104821445],[24.23085444326216,60.13969143775319],[24.23047607299958,60.1388127703047],[24.23152929076929,60.1387052952021]]],"type":"Polygon"}
+}

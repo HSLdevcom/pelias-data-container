@@ -1,0 +1,91 @@
+{
+  "id": 101913001,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000005,
+    "geom:area_square_m":28500.944474,
+    "geom:bbox":"22.8630971702,60.1857655618,22.8682644573,60.1898335557",
+    "geom:latitude":60.18755,
+    "geom:longitude":22.866453,
+    "iso:country":"FI",
+    "lbl:latitude":60.186955,
+    "lbl:longitude":22.867332,
+    "mps:latitude":60.186955,
+    "mps:longitude":22.867332,
+    "mz:hierarchy_label":1,
+    "name:nld_x_preferred":[
+        "Str\u00f6mma"
+    ],
+    "name:nno_x_preferred":[
+        "Str\u00f6mma"
+    ],
+    "name:nor_x_preferred":[
+        "Str\u00f6mma"
+    ],
+    "name:swe_x_preferred":[
+        "Str\u00f6mma"
+    ],
+    "name:zho_min_nan_x_preferred":[
+        "Str\u00f6mma"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"9Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Kemi\u00f6#Kimito",
+    "qs:la_lc":"*FI202243",
+    "qs:level":"locality",
+    "qs:loc":"Str\u00f6mma",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":47,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":15000139,
+        "qs:id":989019,
+        "wd:id":"Q1800844"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fdf864bb2680bdab38d08c9835a833a8",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101913001,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101913001,
+    "wof:lastmodified":1470852578,
+    "wof:name":"Str\u00f6mma",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.86309717017002,
+    60.18576556182188,
+    22.86826445728713,
+    60.18983355570407
+],
+  "geometry": {"coordinates":[[[[22.86351197727032,60.18945067988415],[22.86309717017002,60.18983355570407],[22.86364136857509,60.18978357496474],[22.86351197727032,60.18945067988415]]],[[[22.86749627251908,60.18577309020532],[22.86419693024789,60.18881845364496],[22.86683786666691,60.18857585088307],[22.86649475550058,60.18769328653099],[22.86826445728713,60.18753068289647],[22.86757820866279,60.18576556182188],[22.86749627251908,60.18577309020532]]]],"type":"MultiPolygon"}
+}

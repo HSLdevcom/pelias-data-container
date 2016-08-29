@@ -1,0 +1,71 @@
+{
+  "id": 101912989,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000065,
+    "geom:area_square_m":397782.036075,
+    "geom:bbox":"19.9167243655,60.2680213093,19.9348447569,60.277033829",
+    "geom:latitude":60.272732,
+    "geom:longitude":19.925306,
+    "iso:country":"FI",
+    "lbl:latitude":60.273711,
+    "lbl:longitude":19.923659,
+    "mps:latitude":60.273712,
+    "mps:longitude":19.923659,
+    "mz:hierarchy_label":1,
+    "qs:a0":"\u00c5land",
+    "qs:a1":"*",
+    "qs:a1r":"8",
+    "qs:adm0":"\u00c5land",
+    "qs:id":0,
+    "qs:la":"Finstr\u00f6m",
+    "qs:la_lc":"*FI621060",
+    "qs:level":"locality",
+    "qs:loc":"Aalandsdegerby",
+    "qs:pop":0,
+    "qs:source":"Custom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        "102191581",
+        "85632789",
+        "85633143",
+        85667835
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":2930610
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"0785a40030afa852dce3271d89b05e28",
+    "wof:hierarchy":[
+        {
+            "continent_id":"102191581",
+            "country_id":"85633143",
+            "dependency_id":"85632789",
+            "locality_id":101912989,
+            "region_id":85667835
+        }
+    ],
+    "wof:id":101912989,
+    "wof:lastmodified":1470852437,
+    "wof:name":"Aalandsdegerby",
+    "wof:parent_id":85667835,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    19.9167243655462,
+    60.26802130933157,
+    19.93484475687404,
+    60.27703382904895
+],
+  "geometry": {"coordinates":[[[19.92341073718444,60.27690816872604],[19.92314470244457,60.27601852003659],[19.92671591766077,60.27576713964118],[19.92565157253813,60.27220857266565],[19.93100774521275,60.27183137914767],[19.93127394570695,60.27272100992644],[19.93484475687404,60.27246942788059],[19.93351345589952,60.26802130933157],[19.92994310743961,60.26827285360588],[19.93020924225567,60.26916248535525],[19.92842400281302,60.26928822762875],[19.9289562291558,60.271067497952],[19.91824397206733,60.27182152589558],[19.91850983218808,60.27271118333891],[19.9167243655462,60.27283677993051],[19.91778778491101,60.27639542238256],[19.92135907589255,60.27614417658503],[19.92162506433766,60.27703382904895],[19.92341073718444,60.27690816872604]]],"type":"Polygon"}
+}

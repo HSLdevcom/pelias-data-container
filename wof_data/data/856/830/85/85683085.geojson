@@ -1,0 +1,81 @@
+{
+  "id": 85683085,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000966,
+    "geom:bbox":"26.4451085,61.3233415,26.510086,61.3517",
+    "geom:latitude":61.338171,
+    "geom:longitude":26.478831,
+    "iso:country":"FI",
+    "lbl:latitude":61.336592,
+    "lbl:longitude":26.478831,
+    "mps:latitude":61.336592,
+    "mps:longitude":26.478831,
+    "mz:hierarchy_label":1,
+    "name:fin_x_preferred":[
+        "P\u00e4ij\u00e4t-H\u00e4me"
+    ],
+    "name:swe_x_preferred":[
+        "P\u00e4ij\u00e4nne-Tavastland"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a0_lc":"FI000000",
+    "qs:a1":"P\u00e4ij\u00e4t-H\u00e4me#P\u00e4ij\u00e4nne-Tavastland",
+    "qs:a1_alt":"Paijat-Hame#Paijanne-Tavastland",
+    "qs:a1_lc":"FI107000",
+    "qs:a1r":"Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:a1r_alt":"Etela-Suomen AVI#Sodra Finlands RFV",
+    "qs:a1r_lc":"FI100000",
+    "qs:adm0":"Finland",
+    "qs:adm0_a3":"FIN",
+    "qs:level":"adm1",
+    "qs:source":"EuroGlobalMap",
+    "qs:type":"Maakunta#Landskap",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":322,
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "wd:id":"Q5708"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"2ef60089adfe37365d0c5606ff6fd589",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "region_id":85683085
+        }
+    ],
+    "wof:id":85683085,
+    "wof:lang":[
+        "eng",
+        "fin",
+        "swe"
+    ],
+    "wof:lastmodified":1467183762,
+    "wof:name":"P\u00e4ij\u00e4nne-Tavastia",
+    "wof:parent_id":404227411,
+    "wof:placetype":"region",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.44510849999978,
+    61.32334149999983,
+    26.51008599999977,
+    61.35169999999982
+],
+  "geometry": {"coordinates":[[[26.46467199999978,61.35169999999982],[26.50685099999978,61.33958799999982],[26.51008599999977,61.33377449999983],[26.50117799999978,61.32864399999983],[26.49774149999976,61.32833499999984],[26.48498899999979,61.32334149999983],[26.47005499999977,61.32869699999983],[26.46960049999979,61.33076099999982],[26.46510699999976,61.33188649999983],[26.46528799999976,61.33310699999984],[26.46416299999979,61.33473949999983],[26.45991699999976,61.33827199999982],[26.45367249999978,61.33910749999984],[26.44911949999977,61.34490599999983],[26.44709199999977,61.34624849999983],[26.44510849999978,61.34672899999984],[26.44920549999978,61.34903349999981],[26.46467199999978,61.35169999999982]]],"type":"Polygon"}
+}

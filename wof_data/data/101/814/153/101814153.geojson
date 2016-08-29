@@ -1,0 +1,138 @@
+{
+  "id": 101814153,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000271,
+    "geom:area_square_m":1520692.142291,
+    "geom:bbox":"25.2486896122,62.9659731534,25.2782701784,62.9851548581",
+    "geom:latitude":62.976517,
+    "geom:longitude":25.262379,
+    "gn:population":1591,
+    "iso:country":"FI",
+    "lbl:latitude":62.978835,
+    "lbl:longitude":25.263388,
+    "mps:latitude":62.978835,
+    "mps:longitude":25.263388,
+    "mz:hierarchy_label":1,
+    "name:cat_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:ceb_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:deu_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:epo_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:est_x_preferred":[
+        "Kannonkoski vald"
+    ],
+    "name:fin_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:fra_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:glg_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:ita_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:nld_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:nno_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:nor_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:pol_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:ron_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:rus_x_preferred":[
+        "\u041a\u0430\u043d\u043d\u043e\u043d\u043a\u043e\u0441\u043a\u0438"
+    ],
+    "name:sme_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:sqi_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:swe_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:vie_x_preferred":[
+        "Kannonkoski"
+    ],
+    "name:zho_x_preferred":[
+        "\u574e\u8fb2\u79d1\u65af\u57fa"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Keski-Suomi#Mellersta Finland",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Kannonkoski",
+    "qs:la_lc":"*FI213216",
+    "qs:level":"locality",
+    "qs:loc":"Kannonkoski",
+    "qs:loc_alt":"Kannonkoski",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":279,
+    "wof:belongsto":[
+        85683117,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":654318,
+        "gp:id":12590706,
+        "qs:id":1212359,
+        "wd:id":"Q986722"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"7b6cfd02af9168d0317c6ac59c5d8f69",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814153,
+            "macroregion_id":404227417,
+            "region_id":85683117
+        }
+    ],
+    "wof:id":101814153,
+    "wof:lastmodified":1470852511,
+    "wof:name":"Kannonkoski",
+    "wof:parent_id":85683117,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.24868961223939,
+    62.9659731533622,
+    25.27827017838439,
+    62.98515485807337
+],
+  "geometry": {"coordinates":[[[25.26858513498121,62.98476560917874],[25.26721860523639,62.98213658574321],[25.27680811253572,62.98116313990067],[25.27635240020015,62.9802868284433],[25.27827017838439,62.98009207376231],[25.27735873966628,62.9783394602124],[25.27544106674361,62.97853420210328],[25.27498544561718,62.9776578872204],[25.27306780177986,62.97785259875081],[25.27170127863849,62.97522362807467],[25.27361876460867,62.975028935723],[25.27270779588315,62.97327629568474],[25.27462515309531,62.9730815921543],[25.27416966169977,62.97220527681543],[25.26266548122061,62.97337310021112],[25.26221033587024,62.9724967453925],[25.26029294275997,62.97269129236588],[25.25892784670032,62.9700622019194],[25.26084508197363,62.96986767410527],[25.26039005804984,62.96899131473265],[25.26422435287196,62.968602199994],[25.26285914760558,62.9659731533622],[25.25902516836288,62.96636222978611],[25.25993506447531,62.9681149542219],[25.25226640323967,62.96889287063033],[25.2527211863877,62.96976925667781],[25.25080390973221,62.96996368225871],[25.25216828335431,62.97259285273094],[25.25025082534506,62.97278727349646],[25.25161531416154,62.97541645289209],[25.24969767475892,62.97561086884139],[25.2506073804272,62.97736366219186],[25.24868961223939,62.97755806693999],[25.24914445795162,62.97843446829501],[25.25106227878689,62.97824005716285],[25.25151720750046,62.97911645099737],[25.25535288394002,62.97872754405142],[25.25717332363251,62.98223305693153],[25.25909133718568,62.98203854195248],[25.26045714386959,62.98466764549926],[25.26429341634457,62.98427850528338],[25.26474885133831,62.98515485807337],[25.26858513498121,62.98476560917874]]],"type":"Polygon"}
+}

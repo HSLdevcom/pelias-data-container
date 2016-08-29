@@ -1,0 +1,2 @@
+bbox,cessation,country_id,deprecated,file_hash,fullname,geom_hash,geom_latitude,geom_longitude,id,inception,iso,iso_country,lastmodified,lbl_latitude,lbl_longitude,locality_id,name,parent_id,path,placetype,region_id,source,superseded_by,supersedes,wof_country
+"20.623165,59.811225,31.569525,70.07531",uuuu,85633143,,0ee0e132fc25ec421368e66d81b9ad42,,58169193cce47fec62257b5afd651d08,64.495359,26.270795,85633143,uuuu,FI,FI,1467185555,63.252357,27.276469,0,Finland,102191581,856/331/43/85633143.geojson,country,0,naturalearth,,,FI

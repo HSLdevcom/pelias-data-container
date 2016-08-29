@@ -1,0 +1,95 @@
+{
+  "id": 101847027,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000054,
+    "geom:area_square_m":308128.146609,
+    "geom:bbox":"29.1887118872,62.6515226821,29.2100505256,62.6596144953",
+    "geom:latitude":62.656063,
+    "geom:longitude":29.199868,
+    "iso:country":"FI",
+    "lbl:latitude":62.657255,
+    "lbl:longitude":29.197201,
+    "mps:latitude":62.657254,
+    "mps:longitude":29.197201,
+    "mz:hierarchy_label":1,
+    "name:ara_x_preferred":[
+        "\u0641\u064a\u0646\u0627\u062c\u064a\u0631\u0641\u064a"
+    ],
+    "name:ceb_x_preferred":[
+        "Viinij\u00e4rvi"
+    ],
+    "name:deu_x_preferred":[
+        "Viinij\u00e4rvi"
+    ],
+    "name:fin_x_preferred":[
+        "Viinij\u00e4rvi"
+    ],
+    "name:spa_x_preferred":[
+        "Viinij\u00e4rvi"
+    ],
+    "name:swe_x_preferred":[
+        "Viinij\u00e4rvi"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Karjala#Norra Karelen",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Liperi",
+    "qs:la_lc":"*FI312426",
+    "qs:level":"locality",
+    "qs:loc":"Viinij\u00e4rvi",
+    "qs:loc_alt":"Viinijarvi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":53,
+    "wof:belongsto":[
+        85683133,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":631663,
+        "gp:id":574947,
+        "qs:id":382130,
+        "wd:id":"Q1280965"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"afdc74e9665827fb5778fe62c1343001",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101847027,
+            "macroregion_id":404227407,
+            "region_id":85683133
+        }
+    ],
+    "wof:id":101847027,
+    "wof:lastmodified":1470852466,
+    "wof:name":"Viinij\u00e4rvi",
+    "wof:parent_id":85683133,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    29.18871188718293,
+    62.6515226821399,
+    29.21005052563879,
+    62.65961449534927
+],
+  "geometry": {"coordinates":[[[29.20799546173254,62.65631798694312],[29.20630691831104,62.65373310630753],[29.21005052563879,62.65324591529219],[29.20892482111242,62.6515226821399],[29.20330965499011,62.65225338749354],[29.20499783564833,62.65483830406572],[29.19938198421573,62.65556887236494],[29.19881936448502,62.65470721227962],[29.19694740537886,62.65495068125722],[29.19750997721474,62.65581234911747],[29.19189378666692,62.6565426413253],[29.19245625130213,62.65740433040929],[29.18871188718293,62.65789109237977],[29.18983673431751,62.65961449534927],[29.19919791178853,62.65839734010513],[29.19863523041613,62.65753567854154],[29.20799546173254,62.65631798694312]]],"type":"Polygon"}
+}

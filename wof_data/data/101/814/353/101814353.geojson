@@ -1,0 +1,105 @@
+{
+  "id": 101814353,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000202,
+    "geom:area_square_m":1153059.273246,
+    "geom:bbox":"30.6079155011,62.4749208513,30.6412300623,62.4901028875",
+    "geom:latitude":62.482353,
+    "geom:longitude":30.623544,
+    "gn:population":2059,
+    "iso:country":"FI",
+    "lbl:latitude":62.482681,
+    "lbl:longitude":30.623292,
+    "mps:latitude":62.482681,
+    "mps:longitude":30.623292,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:epo_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:fin_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:fra_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:hun_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:nld_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:nor_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:ron_x_preferred":[
+        "Tuupovaara"
+    ],
+    "name:swe_x_preferred":[
+        "Tuupovaara"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Karjala#Norra Karelen",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Joensuu",
+    "qs:la_lc":"*FI312167",
+    "qs:level":"locality",
+    "qs:loc":"Tuupovaara",
+    "qs:loc_alt":"Tuupovaara",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":84,
+    "wof:belongsto":[
+        85683133,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":633611,
+        "qs:id":81298,
+        "wd:id":"Q255065",
+        "wk:page":"Tuupovaara"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"17da188e7d2a5d90f6d75e88dfe711fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814353,
+            "macroregion_id":404227407,
+            "region_id":85683133
+        }
+    ],
+    "wof:id":101814353,
+    "wof:lastmodified":1470852554,
+    "wof:name":"Tuupovaara",
+    "wof:parent_id":85683133,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    30.60791550111907,
+    62.47492085129812,
+    30.64123006234217,
+    62.49010288751816
+],
+  "geometry": {"coordinates":[[[30.62991269018596,62.48984186420728],[30.62871405131477,62.48813082979427],[30.63056533385361,62.48786980034856],[30.62996602612981,62.48701428764042],[30.62811478947265,62.48727530885787],[30.62631723427978,62.48470873113274],[30.62816833330498,62.48444773459602],[30.62756917913373,62.48359221194227],[30.62942020258896,62.48333120104382],[30.62762283274009,62.48076464284532],[30.62947368890798,62.48050363403803],[30.62887459651324,62.47964811789211],[30.63812820268646,62.47834277622997],[30.63752891942221,62.47748729872905],[30.64123006234217,62.47696502044744],[30.64003142760316,62.4752540908907],[30.63633046802221,62.47577633626275],[30.63573129987992,62.47492085129812],[30.62462798369876,62.4764869961395],[30.62522687678609,62.4773425304503],[30.62337617435941,62.4776034837775],[30.62397505994903,62.47845902382659],[30.62027347434673,62.47898087917343],[30.62087230657323,62.47983643318349],[30.60791550111907,62.48166227296792],[30.60971126452068,62.48422909273904],[30.61156246340397,62.48396830159129],[30.61395753512977,62.48739066033681],[30.6158088878999,62.48712981371074],[30.6164077976407,62.48798538896938],[30.62011050589274,62.48746361149182],[30.62190774075714,62.49003027301956],[30.62746199341615,62.48924736332657],[30.62806128616211,62.49010288751816],[30.62991269018596,62.48984186420728]]],"type":"Polygon"}
+}
