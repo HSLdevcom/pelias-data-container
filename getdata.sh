@@ -88,6 +88,21 @@ cd $DATA/openaddresses
 curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*\.zip' | xargs -n 1 curl -O -sS
 ls *.zip | xargs -n 1 unzip -o
 rm *.zip README.*
+#do some cleanup for redundant entries
+set +e
+rm fi/ahvenanmaa-fi.csv
+rm fi/etelä-karjala-sv.csv
+rm fi/etelä-savo-sv.csv
+rm fi/kainuu-sv.csv
+rm fi/kanta-häme-sv.csv
+rm fi/keski-suomi-sv.csv
+rm fi/lappi-sv.csv
+rm fi/päijät-häme-sv.csv
+rm fi/pirkanmaa-sv.csv
+rm fi/pohjois-karjala-sv.csv
+rm fi/pohjois-pohjanmaa-sv.csv
+rm fi/pohjois-savo-sv.csv
+set -e
 
 # Download nls paikat data
 cd $DATA/nls-places
