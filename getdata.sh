@@ -24,7 +24,7 @@ mkdir -p $DATA/whosonfirst
 # param2: git project name
 # note: changes cd to new project dir
 function install_node_project {
-    git clone --single-branch https://github.com/$1/$2 $TOOLS/$2
+    git clone --depth 1 --single-branch https://github.com/$1/$2 $TOOLS/$2
     cd $TOOLS/$2
     npm install
 
