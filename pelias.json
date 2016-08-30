@@ -21,6 +21,7 @@
     "suspectFile": false
   },
   "imports": {
+    "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
       "leveldbpath": "/tmp",
@@ -31,7 +32,8 @@
     },
     "openaddresses": {
       "datapath": "/mnt/data/openaddresses/",
-      "adminLookup": true
+      "adminLookup": true,
+      "adminLayers": ["localadmin", "locality", "neighbourhood", "region"]
     },
     "polyline": {
       "datapath": "/mnt/data/",
