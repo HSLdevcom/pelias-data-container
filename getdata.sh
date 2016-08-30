@@ -14,7 +14,6 @@ mkdir -p $DATA
 mkdir -p $DATA/openstreetmap
 mkdir -p $DATA/openaddresses
 mkdir -p $DATA/nls-places
-mkdir -p $DATA/whosonfirst
 
 #=========================================
 # Install importers and their dependencies
@@ -35,7 +34,7 @@ function install_node_project {
 set -x
 set -e
 apt-get update
-apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
+apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap
 rm -rf /var/lib/apt/lists/*
 
 mkdir -p $TOOLS
@@ -89,20 +88,18 @@ curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep
 ls *.zip | xargs -n 1 unzip -o
 rm *.zip README.*
 #do some cleanup for redundant entries
-set +e
-rm fi/ahvenanmaa-fi.csv
-rm fi/etelä-karjala-sv.csv
-rm fi/etelä-savo-sv.csv
-rm fi/kainuu-sv.csv
-rm fi/kanta-häme-sv.csv
-rm fi/keski-suomi-sv.csv
-rm fi/lappi-sv.csv
-rm fi/päijät-häme-sv.csv
-rm fi/pirkanmaa-sv.csv
-rm fi/pohjois-karjala-sv.csv
-rm fi/pohjois-pohjanmaa-sv.csv
-rm fi/pohjois-savo-sv.csv
-set -e
+rm -f fi/ahvenanmaa-fi.csv
+rm -f fi/etelä-karjala-sv.csv
+rm -f fi/etelä-savo-sv.csv
+rm -f fi/kainuu-sv.csv
+rm -f fi/kanta-häme-sv.csv
+rm -f fi/keski-suomi-sv.csv
+rm -f fi/lappi-sv.csv
+rm -f fi/päijät-häme-sv.csv
+rm -f fi/pirkanmaa-sv.csv
+rm -f fi/pohjois-karjala-sv.csv
+rm -f fi/pohjois-pohjanmaa-sv.csv
+rm -f fi/pohjois-savo-sv.csv
 
 # Download nls paikat data
 cd $DATA/nls-places
@@ -149,5 +146,5 @@ node $TOOLS/openstreetmap/index
 rm -r $DATA
 rm -r $TOOLS
 dpkg -r nodejs
-apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
+apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap
 apt-get clean
