@@ -26,7 +26,6 @@
       "leveldbpath": "/tmp",
       "adminLookup": true,
       "import": [{
-        "type": { "node": "osmnode", "way": "osmway" },
         "filename": "finland-latest.osm.pbf"
       }]
     },
