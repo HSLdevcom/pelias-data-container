@@ -109,16 +109,20 @@ rm paikat_2016_01.zip
 
 # Download gtfs stop data
 cd $DATA
-curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/router-hsl.zip
-unzip router-hsl.zip
-cd router-hsl
-unzip -o hsl.zip
+curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/router-finland.zip
+unzip router-finland.zip
 
 cd /root
 
 #=================
 # Index everything
 #=================
+
+# param: zip name containing gtfs data
+function import_gtfs {
+    unzip -o $1
+    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland
+}
 
 #start elasticsearch, create index and run importers
 gosu elasticsearch elasticsearch -d
@@ -128,13 +132,19 @@ gosu elasticsearch elasticsearch -d
 
 sleep 30
 
-#schema script runs only from local folder
+#schema script runs only from current dir
 cd $TOOLS/schema/
 node scripts/create_index
-cd /root
+
+cd $DATA/router-finland
+targets=(`ls *.zip`)
+for target in "${targets[@]}"
+do
+    import_gtfs $target
+done
+
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/polylines/bin/cli.js --config --db
-node $TOOLS/pelias-gtfs/import -d $DATA/router-hsl
 node $TOOLS/openaddresses/import --language=sv
 node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
