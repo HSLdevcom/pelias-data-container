@@ -1,0 +1,109 @@
+{
+  "id": 101846975,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00011,
+    "geom:area_square_m":606226.262215,
+    "geom:bbox":"24.6578486177,63.5163020692,24.6784732291,63.528344301",
+    "geom:latitude":63.522559,
+    "geom:longitude":24.668923,
+    "gn:population":924,
+    "iso:country":"FI",
+    "lbl:latitude":63.520823,
+    "lbl:longitude":24.671345,
+    "mps:latitude":63.520823,
+    "mps:longitude":24.671345,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:deu_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:epo_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:est_x_preferred":[
+        "Lestij\u00e4rvi vald"
+    ],
+    "name:fin_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:fra_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:ita_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:nld_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:nor_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "name:pol_x_preferred":[
+        "Lestij\u00e4rvi"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Keski-Pohjanmaa#Mellersta \u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Lestij\u00e4rvi",
+    "qs:la_lc":"*FI216421",
+    "qs:level":"locality",
+    "qs:loc":"Lestij\u00e4rvi",
+    "qs:loc_alt":"Lestijarvi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":216,
+    "wof:belongsto":[
+        85683125,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":648178,
+        "gp:id":12591057,
+        "qs:id":1027234,
+        "wd:id":"Q1009103",
+        "wk:page":"Lestij\u00e4rvi"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"a85b0ae017e6a26524fe4bac6938b9de",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846975,
+            "macroregion_id":404227417,
+            "region_id":85683125
+        }
+    ],
+    "wof:id":101846975,
+    "wof:lastmodified":1470852505,
+    "wof:name":"Lestij\u00e4rvi",
+    "wof:parent_id":85683125,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.65784861768748,
+    63.51630206921391,
+    24.67847322912417,
+    63.52834430100393
+],
+  "geometry": {"coordinates":[[[24.6670193670671,63.52815683600096],[24.66657119848117,63.52727831208404],[24.66852783380017,63.52709082883257],[24.66807964042459,63.52621231020652],[24.67199272919618,63.52583728265637],[24.67154445567689,63.52495877562853],[24.67350090913465,63.52477123133269],[24.67305261084385,63.52389272959607],[24.67696533591135,63.523517579969],[24.67651695750885,63.52263908983218],[24.67847322912417,63.52245148450356],[24.67802482596812,63.52157299965802],[24.67606860969363,63.5217605986777],[24.67427552424323,63.51824662388657],[24.67623151918826,63.51805905009877],[24.67533504926223,63.51630206921391],[24.66751136988285,63.51705216664834],[24.66795936826293,63.51793068282086],[24.66600333385577,63.51811815212159],[24.66779541164027,63.52163223187233],[24.66583913217897,63.52181970184199],[24.6662871726873,63.52269822554592],[24.66237443197082,63.52307310444365],[24.66327038326051,63.52483017402272],[24.65935732631573,63.52520497992708],[24.65980523707327,63.52608352580188],[24.65784861768748,63.52627089822596],[24.65874442014228,63.52802799953997],[24.66461453945311,63.52746577078113],[24.66506265266486,63.52834430100393],[24.6670193670671,63.52815683600096]]],"type":"Polygon"}
+}

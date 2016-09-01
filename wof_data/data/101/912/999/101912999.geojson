@@ -1,0 +1,115 @@
+{
+  "id": 101912999,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000093,
+    "geom:area_square_m":566747.947819,
+    "geom:bbox":"23.0564687109,60.3755664968,23.0747648572,60.387523798",
+    "geom:latitude":60.381814,
+    "geom:longitude":23.066587,
+    "gn:population":9344,
+    "iso:country":"FI",
+    "lbl:latitude":60.383794,
+    "lbl:longitude":23.069775,
+    "mps:latitude":60.383794,
+    "mps:longitude":23.069774,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Halikko"
+    ],
+    "name:deu_x_preferred":[
+        "Halikko"
+    ],
+    "name:fin_x_preferred":[
+        "Halikko"
+    ],
+    "name:fra_x_preferred":[
+        "Halikko"
+    ],
+    "name:ita_x_preferred":[
+        "Halikko"
+    ],
+    "name:nld_x_preferred":[
+        "Halikko"
+    ],
+    "name:nor_x_preferred":[
+        "Halikko"
+    ],
+    "name:ron_x_preferred":[
+        "Halikko"
+    ],
+    "name:rus_x_preferred":[
+        "\u0425\u0430\u043b\u0438\u043a\u043a\u043e"
+    ],
+    "name:sme_x_preferred":[
+        "Halikko"
+    ],
+    "name:swe_x_preferred":[
+        "Halikko"
+    ],
+    "name:vie_x_preferred":[
+        "Halikko"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"4Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Halikko",
+    "qs:la_lc":"*FI202073",
+    "qs:level":"locality",
+    "qs:loc":"Halikko",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":321,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":659350,
+        "gp:id":564934,
+        "qs:id":1078556,
+        "wd:id":"Q1571103",
+        "wk:page":"Halikko"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fcb0982da513d397b61bbf624346a1b2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101912999,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101912999,
+    "wof:lastmodified":1470852480,
+    "wof:name":"Halikko",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    23.05646871090272,
+    60.37556649681557,
+    23.07476485716177,
+    60.38752379798325
+],
+  "geometry": {"coordinates":[[[23.05646871090272,60.37588300089078],[23.0564907080402,60.37632357158589],[23.05667170672149,60.37677881292933],[23.0565141675238,60.376793430948],[23.05653945240107,60.37729985029478],[23.06901203516287,60.38752379798325],[23.07368827500449,60.38708942853367],[23.07298567948226,60.38532531437761],[23.07476485716177,60.38516000309062],[23.07265731798464,60.37986767324833],[23.06732054611825,60.38036345153341],[23.06661847586406,60.37859930623461],[23.06483960881872,60.37876451141358],[23.06448865106626,60.37788243275668],[23.06270981247997,60.37804761081281],[23.06235892131889,60.377165526505],[23.06058011119387,60.37733067743937],[23.05987848358365,60.37556649681557],[23.05646871090272,60.37588300089078]]],"type":"Polygon"}
+}

@@ -1,0 +1,124 @@
+{
+  "id": 101846991,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00015,
+    "geom:area_square_m":844830.787519,
+    "geom:bbox":"26.7469504668,62.9379378869,26.76675185,62.9570501204",
+    "geom:latitude":62.946617,
+    "geom:longitude":26.757421,
+    "gn:population":1847,
+    "iso:country":"FI",
+    "lbl:latitude":62.945305,
+    "lbl:longitude":26.757271,
+    "mps:latitude":62.945305,
+    "mps:longitude":26.757271,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Tervo"
+    ],
+    "name:deu_x_preferred":[
+        "Tervo"
+    ],
+    "name:fin_x_preferred":[
+        "Tervo"
+    ],
+    "name:fra_x_preferred":[
+        "Tervo"
+    ],
+    "name:ita_x_preferred":[
+        "Tervo"
+    ],
+    "name:nld_x_preferred":[
+        "Tervo"
+    ],
+    "name:nor_x_preferred":[
+        "Tervo"
+    ],
+    "name:pol_x_preferred":[
+        "Tervo"
+    ],
+    "name:por_x_preferred":[
+        "Tervo"
+    ],
+    "name:ron_x_preferred":[
+        "Tervo"
+    ],
+    "name:rus_x_preferred":[
+        "\u0422\u0435\u0440\u0432\u043e"
+    ],
+    "name:sme_x_preferred":[
+        "Tervo"
+    ],
+    "name:sqi_x_preferred":[
+        "Tervo"
+    ],
+    "name:swe_x_preferred":[
+        "Tervo"
+    ],
+    "name:zho_x_preferred":[
+        "\u6cf0\u723e\u6c83"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Savo#Norra Savolax",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Tervo",
+    "qs:la_lc":"*FI311844",
+    "qs:level":"locality",
+    "qs:loc":"Tervo",
+    "qs:loc_alt":"Tervo",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":234,
+    "wof:belongsto":[
+        85683131,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":634604,
+        "gp:id":573893,
+        "qs:id":1139189,
+        "wd:id":"Q1009142",
+        "wk:page":"Tervo"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"812b86b3c09f0d7a9dc2c3551949d071",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846991,
+            "macroregion_id":404227407,
+            "region_id":85683131
+        }
+    ],
+    "wof:id":101846991,
+    "wof:lastmodified":1470852525,
+    "wof:name":"Tervo",
+    "wof:parent_id":85683131,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.7469504668436,
+    62.93793788694148,
+    26.76675185003432,
+    62.95705012044999
+],
+  "geometry": {"coordinates":[[[26.75748244750076,62.95358343625219],[26.75648530031464,62.95184105374244],[26.75839219024573,62.95162774889434],[26.75739507271498,62.94988537436149],[26.75930183453698,62.94967205973421],[26.75880327408078,62.94880087719866],[26.76070995906156,62.94858754583402],[26.76021138039766,62.94771636877215],[26.7640245710981,62.94728964887594],[26.76352592299133,62.946418484248],[26.76543242871685,62.94620509571894],[26.76343796176207,62.94272045017937],[26.76534423698382,62.94250706579953],[26.76484565161496,62.94163590765675],[26.76675185003432,62.94142250654681],[26.76475763400771,62.93793788694148],[26.76094562128691,62.93836460980191],[26.76144402333489,62.93923578085008],[26.75763180591156,62.93966242287456],[26.75862850420242,62.94140478834174],[26.75100335276892,62.94225784376061],[26.75349465171473,62.94661387056703],[26.75158804373621,62.94682710996847],[26.75407991203213,62.9511831344488],[26.75026610676196,62.9516096117286],[26.75076447698632,62.95248082608651],[26.7469504668436,62.95290722247705],[26.7474487675513,62.9537784492652],[26.74935583669088,62.95356525596395],[26.75134957502104,62.95705012044999],[26.75325682370465,62.95683687561223],[26.75275828827091,62.95596566867613],[26.75657260628083,62.9555391218077],[26.75557542944159,62.95379673131998],[26.75748244750076,62.95358343625219]]],"type":"Polygon"}
+}

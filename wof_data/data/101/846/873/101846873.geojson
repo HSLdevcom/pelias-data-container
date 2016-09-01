@@ -1,0 +1,130 @@
+{
+  "id": 101846873,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000234,
+    "geom:area_square_m":1351937.77682,
+    "geom:bbox":"28.9039264048,62.081950733,28.9377142357,62.0972386108",
+    "geom:latitude":62.090574,
+    "geom:longitude":28.921504,
+    "gn:population":1714,
+    "iso:country":"FI",
+    "lbl:latitude":62.088447,
+    "lbl:longitude":28.923168,
+    "mps:latitude":62.088447,
+    "mps:longitude":28.923168,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:deu_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:est_x_preferred":[
+        "Enonkoski vald"
+    ],
+    "name:fin_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:fra_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:hbs_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:ita_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:nld_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:nor_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:pol_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:ron_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:rus_x_preferred":[
+        "\u042d\u043d\u043e\u043d\u043a\u043e\u0441\u043a\u0438"
+    ],
+    "name:sme_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:spa_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:sqi_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:swe_x_preferred":[
+        "Enonkoski"
+    ],
+    "name:zho_x_preferred":[
+        "\u57c3\u8fb2\u79d1\u65af\u57fa"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Savo#S\u00f6dra Savolax",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Enonkoski",
+    "qs:la_lc":"*FI310046",
+    "qs:level":"locality",
+    "qs:loc":"Enonkoski",
+    "qs:loc_alt":"Enonkoski",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":727,
+    "wof:belongsto":[
+        85683109,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":660235,
+        "gp:id":564583,
+        "qs:id":1060471,
+        "wd:id":"Q952920",
+        "wk:page":"Enonkoski"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"b483e8b1bffb36bca5163ac1442a77fe",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846873,
+            "macroregion_id":404227407,
+            "region_id":85683109
+        }
+    ],
+    "wof:id":101846873,
+    "wof:lastmodified":1470852492,
+    "wof:name":"Enonkoski",
+    "wof:parent_id":85683109,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.90392640479706,
+    62.08195073301277,
+    28.9377142357277,
+    62.09723861084046
+],
+  "geometry": {"coordinates":[[[28.9377142357277,62.09651951018589],[28.93717190842318,62.09565691641933],[28.93533114868939,62.09589663174728],[28.93370451269266,62.09330881596964],[28.93738572809661,62.09282940769367],[28.936301291863,62.09110421717844],[28.93262026134403,62.09158359546785],[28.93207818745532,62.09072098222248],[28.93023767838645,62.09096062996542],[28.92698623712784,62.08578486362205],[28.93066667403895,62.08530563545719],[28.9301247955168,62.08444301573593],[28.92644445101263,62.08492222891635],[28.92536098226469,62.08319695352253],[28.92352086242204,62.08343651123113],[28.92297922598271,62.08257386305331],[28.92113912568499,62.08281339067275],[28.92059756992865,62.08195073301277],[28.91875748918005,62.08219023054409],[28.92038212127807,62.08477822001112],[28.91670160258116,62.08525719220086],[28.91778467820484,62.08698253850491],[28.91226342293885,62.08770087219375],[28.91172200655228,62.08683817757441],[28.90988158104983,62.08707756944074],[28.91042295120917,62.08794027154676],[28.90858245282845,62.08817964829376],[28.90912381123223,62.0890423558962],[28.9072832399678,62.08928171752274],[28.90890738333889,62.09186985084938],[28.90706664669932,62.09210921232744],[28.90760805054123,62.09297192694362],[28.90392640479706,62.09345059704253],[28.90500913092501,62.09517605025343],[28.92157652936856,62.09302118780744],[28.92374406057553,62.0964718007001],[28.9311073950629,62.09551337632359],[28.93219173772462,62.09723861084046],[28.9377142357277,62.09651951018589]]],"type":"Polygon"}
+}

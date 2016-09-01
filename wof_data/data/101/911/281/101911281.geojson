@@ -1,0 +1,74 @@
+{
+  "id": 101911281,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000088,
+    "geom:area_square_m":526978.055463,
+    "geom:bbox":"25.7378394052,61.0144157059,25.7669364276,61.0219284173",
+    "geom:latitude":61.017573,
+    "geom:longitude":25.750122,
+    "iso:country":"FI",
+    "lbl:latitude":61.01689,
+    "lbl:longitude":25.748909,
+    "mps:latitude":61.01689,
+    "mps:longitude":25.74891,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*P\u00e4ij\u00e4t-H\u00e4me#P\u00e4ij\u00e4nne-Tavastland",
+    "qs:a1r":"1Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Lahti#Lahtis",
+    "qs:la_lc":"*FI107398",
+    "qs:level":"locality",
+    "qs:loc":"Viuha",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet perfect local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683091,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":25945601,
+        "qs:id":357202
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"d9df85ba1f697a3aaa59264f549338cb",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101911281,
+            "macroregion_id":404227411,
+            "region_id":85683091
+        }
+    ],
+    "wof:id":101911281,
+    "wof:lastmodified":1470852448,
+    "wof:name":"Viuha",
+    "wof:parent_id":85683091,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.73783940518115,
+    61.014415705879,
+    25.76693642763234,
+    61.02192841729124
+],
+  "geometry": {"coordinates":[[[25.75576992018989,61.01751353426658],[25.76296918120585,61.01671627621448],[25.76470293248883,61.02021243499934],[25.76290296708953,61.02041180719402],[25.76333642695329,61.02128584990083],[25.76693642763234,61.02088707109158],[25.76433552876256,61.01564286926657],[25.75713653209374,61.01644019228968],[25.75670332452614,61.01556613015822],[25.75130399497573,61.01616387011796],[25.75043793254491,61.014415705879],[25.73783940518115,61.01580956721199],[25.7382721056415,61.01668369229418],[25.74007200282887,61.01648463010025],[25.7413704016522,61.01910697991417],[25.73957036844934,61.01930606025661],[25.74086887344816,61.02192841729124],[25.74266904268865,61.02172931879659],[25.74223613542665,61.02085520705054],[25.74403623856693,61.02065609230169],[25.74360331287841,61.01978198539217],[25.75620313629821,61.01838760001806],[25.75576992018989,61.01751353426658]]],"type":"Polygon"}
+}

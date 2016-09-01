@@ -14,7 +14,6 @@ mkdir -p $DATA
 mkdir -p $DATA/openstreetmap
 mkdir -p $DATA/openaddresses
 mkdir -p $DATA/nls-places
-mkdir -p $DATA/whosonfirst
 
 #=========================================
 # Install importers and their dependencies
@@ -24,7 +23,7 @@ mkdir -p $DATA/whosonfirst
 # param2: git project name
 # note: changes cd to new project dir
 function install_node_project {
-    git clone --single-branch https://github.com/$1/$2 $TOOLS/$2
+    git clone --depth 1 --single-branch https://github.com/$1/$2 $TOOLS/$2
     cd $TOOLS/$2
     npm install
 
@@ -35,17 +34,12 @@ function install_node_project {
 set -x
 set -e
 apt-get update
-apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
+apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap
 rm -rf /var/lib/apt/lists/*
 
 mkdir -p $TOOLS
-curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.13-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
+curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
 dpkg -i $TOOLS/node.deb
-
-git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $TOOLS/wof-clone
-cd $TOOLS/wof-clone
-make deps
-make bin
 
 # deduper does not seem to work well with our data
 #git clone https://github.com/openvenues/address_deduper.git $TOOLS/address_deduper
@@ -76,42 +70,13 @@ npm link pelias-wof-admin-lookup
 install_node_project HSLdevcom pelias-nlsfi-places-importer
 npm link pelias-dbclient
 
+install_node_project HSLdevcom pelias-gtfs
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
 #==============
 # Download data
 #==============
-
-# Download Whosonfirst admin lookup data
-cd $DATA/whosonfirst
-
-URL=https://whosonfirst.mapzen.com/bundles
-METADIR=wof_data/meta/
-DATADIR=wof_data/data/
-mkdir -p $METADIR
-mkdir -p $DATADIR
-
-cd $METADIR
-
-admins=( continent borough country county dependency disputed localadmin locality macrocounty macroregion neighbourhood region )
-
-for target in "${admins[@]}"
-do
-    echo getting $target metadata
-    curl -O -sS $URL/wof-$target-latest.csv
-    if [ "$target" != "continent" ]
-    then
-	head -1 wof-$target-latest.csv > temp && cat wof-$target-latest.csv | grep ",FI," >> temp || true
-	mv temp wof-$target-latest.csv
-    fi
-done
-
-cd ../../
-
-for target in "${admins[@]}"
-do
-    echo getting $target data
-    $TOOLS/wof-clone/bin/wof-clone-metafiles -dest $DATADIR $METADIR/wof-$target-latest.csv
-done
 
 # Download OpenStreetMap data
 cd $DATA/openstreetmap
@@ -122,12 +87,32 @@ cd $DATA/openaddresses
 curl -sS http://results.openaddresses.io/state.txt | sed -e 's/\s\+/\n/g' | grep '/fi/.*\.zip' | xargs -n 1 curl -O -sS
 ls *.zip | xargs -n 1 unzip -o
 rm *.zip README.*
+#do some cleanup for redundant entries
+rm -f fi/ahvenanmaa-fi.csv
+rm -f fi/etelä-karjala-sv.csv
+rm -f fi/etelä-savo-sv.csv
+rm -f fi/kainuu-sv.csv
+rm -f fi/kanta-häme-sv.csv
+rm -f fi/keski-suomi-sv.csv
+rm -f fi/lappi-sv.csv
+rm -f fi/päijät-häme-sv.csv
+rm -f fi/pirkanmaa-sv.csv
+rm -f fi/pohjois-karjala-sv.csv
+rm -f fi/pohjois-pohjanmaa-sv.csv
+rm -f fi/pohjois-savo-sv.csv
 
 # Download nls paikat data
 cd $DATA/nls-places
 curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2016_01.zip
 unzip paikat_2016_01.zip
 rm paikat_2016_01.zip
+
+# Download gtfs stop data
+cd $DATA
+curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/router-hsl.zip
+unzip router-hsl.zip
+cd router-hsl
+unzip -o hsl.zip
 
 cd /root
 
@@ -149,6 +134,7 @@ node scripts/create_index
 cd /root
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/polylines/bin/cli.js --config --db
+node $TOOLS/pelias-gtfs/import -d $DATA/router-hsl
 node $TOOLS/openaddresses/import --language=sv
 node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 node $TOOLS/openstreetmap/index
@@ -160,5 +146,5 @@ node $TOOLS/openstreetmap/index
 rm -r $DATA
 rm -r $TOOLS
 dpkg -r nodejs
-apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap golang-go
+apt-get purge -y git unzip python python-pip python-dev build-essential gdal-bin rlwrap
 apt-get clean

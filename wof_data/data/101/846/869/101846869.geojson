@@ -1,0 +1,118 @@
+{
+  "id": 101846869,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000137,
+    "geom:area_square_m":815272.911923,
+    "geom:bbox":"27.4357198386,61.3200361459,27.460398358,61.3332937208",
+    "geom:latitude":61.326955,
+    "geom:longitude":27.449494,
+    "gn:population":841,
+    "iso:country":"FI",
+    "lbl:latitude":61.324459,
+    "lbl:longitude":27.452579,
+    "mps:latitude":61.324459,
+    "mps:longitude":27.452578,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:deu_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:fin_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:fra_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:ita_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:nld_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:nor_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:pol_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:por_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:ron_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:sme_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:swe_x_preferred":[
+        "Suomenniemi"
+    ],
+    "name:zho_x_preferred":[
+        "\u8607\u5967\u9580\u6d85\u7c73"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Karjala#S\u00f6dra Karelen",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Suomenniemi",
+    "qs:la_lc":"*FI109775",
+    "qs:level":"locality",
+    "qs:loc":"Suomenniemi",
+    "qs:loc_alt":"Suomenniemi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":188,
+    "wof:belongsto":[
+        85683109,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":635710,
+        "gp:id":573473,
+        "qs:id":1043435,
+        "wd:id":"Q204707",
+        "wk:page":"Suomenniemi"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"d1e25cb7556865ffbf185a3f639e8678",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846869,
+            "macroregion_id":404227407,
+            "region_id":85683109
+        }
+    ],
+    "wof:id":101846869,
+    "wof:lastmodified":1470852460,
+    "wof:name":"Suomenniemi",
+    "wof:parent_id":85683109,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.43571983864496,
+    61.32003614587524,
+    27.46039835802731,
+    61.33329372083716
+],
+  "geometry": {"coordinates":[[[27.4535723525612,61.3330730769747],[27.45260193344438,61.33133673752701],[27.45440912559781,61.33111608487587],[27.45295358898943,61.32851158393686],[27.45476062269785,61.32829092924089],[27.45427545937486,61.3274227658045],[27.45788936665798,61.32698140308389],[27.45740414358681,61.32611325153323],[27.45921101716647,61.32589254351069],[27.45678513098085,61.32155179546612],[27.46039835802731,61.32111038004587],[27.45991318162851,61.32024223911992],[27.45449344100848,61.32090430862581],[27.45400842986152,61.32003614587524],[27.45039524267861,61.32047740073494],[27.45088016382988,61.3213455769652],[27.44907349021611,61.32156617773416],[27.44955839662555,61.32243435910505],[27.44775165465921,61.32265494434523],[27.44920642044099,61.32525949908546],[27.44739952008899,61.32548008227417],[27.44836942524267,61.32721645758915],[27.44294831394575,61.32787811396065],[27.44246348130667,61.3270099068846],[27.43704229494267,61.32767134258211],[27.43752699249035,61.32853956987043],[27.43571983864496,61.32876001062442],[27.43668923443772,61.33049647388702],[27.43849647835953,61.33027601965915],[27.43898126668688,61.33114424215944],[27.44259577455659,61.33070325339929],[27.4435656221782,61.33243966665498],[27.45079471792172,61.33155736790354],[27.45176504696838,61.33329372083716],[27.4535723525612,61.3330730769747]]],"type":"Polygon"}
+}

@@ -1,0 +1,57 @@
+{
+  "id": 421479669,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Neitt\u00e4v\u00e4",
+    "geom:area":0.012045,
+    "geom:bbox":"26.5209927795,64.4684871416,26.7242682263,64.5506812237",
+    "geom:latitude":64.51112,
+    "geom:longitude":26.629241,
+    "gp:parent_id":"12590877",
+    "iso:country":"FI",
+    "lbl:latitude":64.512261,
+    "lbl:longitude":26.631176,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683137,
+        404227415
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12830845"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"033a150b488d00437bfb7542e2029e80",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227415,
+            "postalcode_id":421479669,
+            "region_id":85683137
+        }
+    ],
+    "wof:id":421479669,
+    "wof:lastmodified":1469577663,
+    "wof:name":"91780",
+    "wof:parent_id":85683137,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.520992779534,
+    64.46848714158276,
+    26.72426822626692,
+    64.55068122366623
+],
+  "geometry": {"coordinates":[[[[26.71438883735382,64.54201432899461],[26.72426822626692,64.51102088659653],[26.70972682008092,64.48560021588563],[26.66385270427457,64.46848714158276],[26.5876795289719,64.48297790557824],[26.520992779534,64.48933483395669],[26.52197450280089,64.49858319239341],[26.52368057313964,64.50539224281235],[26.53009080280967,64.51785851579517],[26.55923924267593,64.54068918080554],[26.58006532492133,64.53996520803175],[26.63565132133132,64.55068122366623],[26.71438883735382,64.54201432899461]]]],"type":"MultiPolygon"}
+}

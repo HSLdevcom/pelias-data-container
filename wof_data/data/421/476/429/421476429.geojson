@@ -1,0 +1,57 @@
+{
+  "id": 421476429,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Tiuruniemi",
+    "geom:area":0.000606,
+    "geom:bbox":"28.6252666839,61.1879463292,28.6828669483,61.2124317728",
+    "geom:latitude":61.198415,
+    "geom:longitude":28.659665,
+    "gp:parent_id":"12590763",
+    "iso:country":"FI",
+    "lbl:latitude":61.1973,
+    "lbl:longitude":28.661645,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683103,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12829701"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"16e71d80b9bcde9643b7abe5f75e17b9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "postalcode_id":421476429,
+            "region_id":85683103
+        }
+    ],
+    "wof:id":421476429,
+    "wof:lastmodified":1469577646,
+    "wof:name":"55330",
+    "wof:parent_id":85683103,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.62526668392816,
+    61.18794632918031,
+    28.68286694828541,
+    61.21243177284314
+],
+  "geometry": {"coordinates":[[[[28.67344828066658,61.18908510396865],[28.65583098475394,61.18794632918031],[28.64908217271786,61.19070836952809],[28.64317272100529,61.19288503128892],[28.64018383159884,61.19389132381438],[28.6401373577667,61.19390632218982],[28.63853361160534,61.19437715586677],[28.62538057997795,61.19872414522185],[28.62526668392816,61.19876451362693],[28.64322474325255,61.20009197325516],[28.67997289219187,61.21243177284314],[28.68286694828541,61.21027359076538],[28.67403985827631,61.20047345790079],[28.67344828066658,61.18908510396865]]]],"type":"MultiPolygon"}
+}

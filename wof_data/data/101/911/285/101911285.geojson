@@ -1,0 +1,75 @@
+{
+  "id": 101911285,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000072,
+    "geom:area_square_m":407514.592131,
+    "geom:bbox":"27.6767694711,62.8227366395,27.6977914576,62.8301278617",
+    "geom:latitude":62.826159,
+    "geom:longitude":27.688502,
+    "iso:country":"FI",
+    "lbl:latitude":62.8267,
+    "lbl:longitude":27.692722,
+    "mps:latitude":62.8267,
+    "mps:longitude":27.692722,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Savo#Norra Savolax",
+    "qs:a1r":"4It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Kuopio",
+    "qs:la_lc":"*FI311297",
+    "qs:level":"locality",
+    "qs:loc":"P\u00f6ll\u00e4k\u00e4nsalmi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet perfect local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683131,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":7645682,
+        "gp:id":25951034,
+        "qs:id":1017031
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"aeecbd5cc661b2fee58fa9fa509d657c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101911285,
+            "macroregion_id":404227407,
+            "region_id":85683131
+        }
+    ],
+    "wof:id":101911285,
+    "wof:lastmodified":1470852565,
+    "wof:name":"P\u00f6ll\u00e4k\u00e4nsalmi",
+    "wof:parent_id":85683131,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.67676947106003,
+    62.82273663945676,
+    27.69779145763516,
+    62.83012786165301
+],
+  "geometry": {"coordinates":[[[27.69779145763516,62.82749285638442],[27.69569864897244,62.82402220217313],[27.69191302628138,62.82447200594197],[27.69086702798472,62.82273663945676],[27.68708149858651,62.82318632042444],[27.68760438067363,62.82405401906925],[27.67813984187222,62.82517784786251],[27.67866250858054,62.82604558115179],[27.67676947106003,62.8262702838914],[27.67781480762721,62.82800575988227],[27.68917323315003,62.82665710473418],[27.69126551774286,62.83012786165301],[27.6931586953325,62.82990297468797],[27.69263552264954,62.82903529530273],[27.696421698032,62.8285854656325],[27.69589845983614,62.82771779908711],[27.69779145763516,62.82749285638442]]],"type":"Polygon"}
+}

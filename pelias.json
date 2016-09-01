@@ -17,22 +17,23 @@
     }]
   },
   "logger": {
-    "level": "verbose"
+    "level": "info",
+    "suspectFile": false
   },
   "imports": {
-    "adminLookup": true,
+    "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
       "leveldbpath": "/tmp",
       "adminLookup": true,
       "import": [{
-        "type": { "node": "osmnode", "way": "osmway" },
         "filename": "finland-latest.osm.pbf"
       }]
     },
     "openaddresses": {
       "datapath": "/mnt/data/openaddresses/",
-      "admin-values": true
+      "adminLookup": true,
+      "adminLayers": ["localadmin", "locality", "neighbourhood", "region"]
     },
     "polyline": {
       "datapath": "/mnt/data/",
@@ -47,8 +48,7 @@
     "wofPipNames": {
       "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred"],
       "region": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "neigbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "macrohood": ["name:fin_x_preferred", "name:swe_x_preferred"]
+      "neigbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"]
     }
   },
   "schema": {

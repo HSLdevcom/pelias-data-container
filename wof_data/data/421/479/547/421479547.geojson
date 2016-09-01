@@ -1,0 +1,58 @@
+{
+  "id": 421479547,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Savonlinna",
+    "geom:area":0.00003,
+    "geom:bbox":"28.8462385934,61.8683791732,28.8563734792,61.872312938",
+    "geom:latitude":61.87021,
+    "geom:longitude":28.851281,
+    "iso:country":"FI",
+    "lbl:latitude":61.870357,
+    "lbl:longitude":28.851377,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683109,
+        102191581,
+        85633143,
+        404227407,
+        101814063
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"26194547"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"96b01e7e4a4891d05475652bf1c48c7a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "locality_id":101814063,
+            "macroregion_id":404227407,
+            "postalcode_id":421479547,
+            "region_id":85683109
+        }
+    ],
+    "wof:id":421479547,
+    "wof:lastmodified":1469577662,
+    "wof:name":"57120",
+    "wof:parent_id":101814063,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.84623859336889,
+    61.86837917323696,
+    28.85637347924129,
+    61.87231293804653
+],
+  "geometry": {"coordinates":[[[[28.85637347924129,61.87042736503624],[28.85360113277575,61.86837917323696],[28.85067502332332,61.86844932575402],[28.84623859336889,61.86849427153986],[28.8466320469135,61.87081195961727],[28.85147806429784,61.87231293804653],[28.85249555678703,61.87217624155524],[28.85581292077553,61.87183940613447],[28.85637347924129,61.87042736503624]]]],"type":"MultiPolygon"}
+}
