@@ -9,6 +9,20 @@ SCRIPTS=$TOOLS/scripts
 # Install importers and their dependencies
 #=========================================
 
+# note: we cannot run parallel npm installs!
+
+# param1: organization name
+# param2: git project name
+# note: changes cd to new project dir
+function install_node_project {
+    git clone --depth 1 --single-branch https://github.com/$1/$2 $TOOLS/$2
+    cd $TOOLS/$2
+    npm install
+
+    #make the package locally available
+    npm link
+}
+
 set -x
 set -e
 apt-get update
@@ -19,29 +33,34 @@ mkdir -p $TOOLS
 curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
 dpkg -i $TOOLS/node.deb
 
-# install npm packages in parallel
-# NOTE!!! update package count check below if you add new npm install lines
+install_node_project HSLdevcom dbclient
 
-$SCRIPTS/install-dbclient.sh &
-$SCRIPTS/install-schema.sh &
-$SCRIPTS/install-wof-pip-service.sh &
+install_node_project pelias schema
 
-#must sync here, next installations will link with packages above
-wait
+install_node_project HSLdevcom wof-pip-service
 
-$SCRIPTS/install-wof-admin-lookup &
-$SCRIPTS/install-openstreetmap &
-$SCRIPTS/install-openaddresses &
-$SCRIPTS/install-polylines &
-$SCRIPTS/install-pelias-nlsfi-places-importer &
-$SCRIPTS/install-pelias-gtfs &
+install_node_project HSLdevcom wof-admin-lookup
+npm link pelias-wof-pip-service
 
-wait
+install_node_project pelias openstreetmap
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
-ok_count=$(cat /tmp/npmlog | grep 'OK' | wc -l )
-if [ $ok_count -ne 9 ]; then
-    exit 1;
-fi
+install_node_project HSLdevcom openaddresses
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
+
+install_node_project pelias polylines
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
+
+install_node_project HSLdevcom pelias-nlsfi-places-importer
+npm link pelias-dbclient
+
+install_node_project HSLdevcom pelias-gtfs
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
+
 
 #==============
 # Download data
