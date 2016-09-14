@@ -1,19 +1,9 @@
 #!/bin/bash
 
-#=============
-# Folder setup
-#=============
-
+# main Docker script has already created these:
 export TOOLS=/mnt/tools
 export DATA=/mnt/data
-
-mkdir -p $TOOLS
-mkdir -p $DATA
-
-# Auxiliary folders
-mkdir -p $DATA/openstreetmap
-mkdir -p $DATA/openaddresses
-mkdir -p $DATA/nls-places
+SCRIPTS=$TOOLS/scripts
 
 #=========================================
 # Install importers and their dependencies
@@ -32,19 +22,19 @@ dpkg -i $TOOLS/node.deb
 # install npm packages in parallel
 # NOTE!!! update package count check below if you add new npm install lines
 
-$TOOLS/install-dbclient.sh &
-$TOOLS/install-schema.sh &
-$TOOLS/install-wof-pip-service.sh &
+$SCRIPTS/install-dbclient.sh &
+$SCRIPTS/install-schema.sh &
+$SCRIPTS/install-wof-pip-service.sh &
 
 #must sync here, next installations will link with packages above
 wait
 
-$TOOLS/install-wof-admin-lookup &
-$TOOLS/install-openstreetmap &
-$TOOLS/install-openaddresses &
-$TOOLS/install-polylines &
-$TOOLS/install-pelias-nlsfi-places-importer &
-$TOOLS/install-pelias-gtfs &
+$SCRIPTS/install-wof-admin-lookup &
+$SCRIPTS/install-openstreetmap &
+$SCRIPTS/install-openaddresses &
+$SCRIPTS/install-polylines &
+$SCRIPTS/install-pelias-nlsfi-places-importer &
+$SCRIPTS/install-pelias-gtfs &
 
 wait
 
@@ -58,10 +48,10 @@ fi
 #==============
 
 #run multiple downloads in parallel to save time
-$TOOLS/oa-loader.sh &
-$TOOLS/osm-loader.sh &
-$TOOLS/nlsfi-loader.sh &
-$TOOLS/gtfs-loader.sh &
+$SCRIPTS/oa-loader.sh &
+$SCRIPTS/osm-loader.sh &
+$SCRIPTS/nlsfi-loader.sh &
+$SCRIPTS/gtfs-loader.sh &
 
 #sync
 wait
@@ -87,13 +77,12 @@ cd $TOOLS/schema/
 node scripts/create_index
 
 #run two imports in parallel to save time
-$TOOLS/index1.sh &
-$TOOLS/index2.sh &
+$SCRIPTS/index1.sh &
+$SCRIPTS/index2.sh &
 
 wait
 
 ok_count=$(cat /tmp/indexresults | grep 'OK' | wc -l )
-
 if [ $ok_count -ne 2 ]; then
     exit 1;
 fi

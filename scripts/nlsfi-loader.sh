@@ -3,8 +3,10 @@
 # errors should break the execution
 set -e
 
-# Download nls paikat data
+mkdir -p $DATA/nls-places
 cd $DATA/nls-places
+
+# Download nls paikat data
 curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2016_01.zip
 unzip paikat_2016_01.zip
 rm paikat_2016_01.zip

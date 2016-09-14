@@ -24,8 +24,9 @@ RUN mkdir -p /mnt/data/whosonfirst
 ADD wof_data /mnt/data/whosonfirst/wof_data
 
 # Download and index data and do cleanup for temp data + packages
-ADD getdata.sh getdata.sh
-RUN /bin/bash -c "source getdata.sh"
+RUN mkdir -p /mnt/tools/
+ADD scripts/ /mnt/tools/
+RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
