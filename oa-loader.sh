@@ -23,4 +23,4 @@ rm -f fi/pohjois-karjala-sv.csv
 rm -f fi/pohjois-pohjanmaa-sv.csv
 rm -f fi/pohjois-savo-sv.csv
 
-echo "oa loader: success"  | tee -a ./loadresults
+echo 'OK' >> /tmp/loadresults

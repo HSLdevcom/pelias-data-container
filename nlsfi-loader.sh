@@ -9,4 +9,4 @@ curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/paikat_2016_0
 unzip paikat_2016_01.zip
 rm paikat_2016_01.zip
 
-echo "nlsfi loader: success"  | tee -a ./loadresults
+echo 'OK' >> /tmp/loadresults

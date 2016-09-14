@@ -22,4 +22,4 @@ node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 node $TOOLS/polylines/bin/cli.js --config --db
 node $TOOLS/openstreetmap/index
 
-echo "nlsfi, polylines and osm: success"  | tee -a ./indexresults
+echo 'OK' >> /tmp/indexresults

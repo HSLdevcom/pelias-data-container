@@ -8,4 +8,4 @@ cd $DATA
 curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/router-finland.zip
 unzip router-finland.zip
 
-echo "gtfs stop loader: success"  | tee -a ./loadresults
+echo 'OK' >> /tmp/loadresults

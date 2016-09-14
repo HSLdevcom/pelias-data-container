@@ -19,18 +19,6 @@ mkdir -p $DATA/nls-places
 # Install importers and their dependencies
 #=========================================
 
-# param1: organization name
-# param2: git project name
-# note: changes cd to new project dir
-function install_node_project {
-    git clone --depth 1 --single-branch https://github.com/$1/$2 $TOOLS/$2
-    cd $TOOLS/$2
-    npm install
-
-    #make the package locally available
-    npm link
-}
-
 set -x
 set -e
 apt-get update
@@ -41,48 +29,44 @@ mkdir -p $TOOLS
 curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
 dpkg -i $TOOLS/node.deb
 
-install_node_project HSLdevcom dbclient
+# install npm packages in parallel
+# NOTE!!! update package count check below if you add new npm install lines
 
-install_node_project pelias schema
+$TOOLS/install-dbclient.sh &
+$TOOLS/install-schema.sh &
+$TOOLS/install-wof-pip-service.sh &
 
-install_node_project HSLdevcom wof-pip-service
+#must sync here, next installations will link with packages above
+wait
 
-install_node_project HSLdevcom wof-admin-lookup
-npm link pelias-wof-pip-service
+$TOOLS/install-wof-admin-lookup &
+$TOOLS/install-openstreetmap &
+$TOOLS/install-openaddresses &
+$TOOLS/install-polylines &
+$TOOLS/install-pelias-nlsfi-places-importer &
+$TOOLS/install-pelias-gtfs &
 
-install_node_project pelias openstreetmap
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
+wait
 
-install_node_project HSLdevcom openaddresses
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
-
-install_node_project pelias polylines
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
-
-install_node_project HSLdevcom pelias-nlsfi-places-importer
-npm link pelias-dbclient
-
-install_node_project HSLdevcom pelias-gtfs
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
+ok_count=$(cat /tmp/npmlog | grep 'OK' | wc -l )
+if [ $ok_count -ne 9 ]; then
+    exit 1;
+fi
 
 #==============
 # Download data
 #==============
 
 #run multiple downloads in parallel to save time
-./oa-loader.sh &
-./osm-loader.sh &
-./nlsfi-loader.sh &
-./gtfs-loader.sh &
+$TOOLS/oa-loader.sh &
+$TOOLS/osm-loader.sh &
+$TOOLS/nlsfi-loader.sh &
+$TOOLS/gtfs-loader.sh &
 
 #sync
 wait
 
-ok_count=$(cat ./loadresults | grep "success" | wc -l )
+ok_count=$(cat /tmp/loadresults | grep 'OK' | wc -l )
 if [ $ok_count -ne 4 ]; then
     exit 1;
 fi
@@ -103,12 +87,12 @@ cd $TOOLS/schema/
 node scripts/create_index
 
 #run two imports in parallel to save time
-./index1.sh &
-./index2.sh &
+$TOOLS/index1.sh &
+$TOOLS/index2.sh &
 
 wait
 
-ok_count=$(cat ./indexresults | grep "success" | wc -l )
+ok_count=$(cat /tmp/indexresults | grep 'OK' | wc -l )
 
 if [ $ok_count -ne 2 ]; then
     exit 1;

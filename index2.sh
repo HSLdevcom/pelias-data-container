@@ -11,4 +11,4 @@ node $TOOLS/openaddresses/import --language=sv
 # then import and merge fi data with sv docs
 node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
 
-echo "openaddresses: success"  | tee -a ./indexresults
+echo 'OK' >> /tmp/indexresults
