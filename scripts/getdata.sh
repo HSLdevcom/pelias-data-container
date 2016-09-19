@@ -42,7 +42,7 @@ install_node_project HSLdevcom wof-pip-service
 install_node_project HSLdevcom wof-admin-lookup
 npm link pelias-wof-pip-service
 
-install_node_project hsldevcom openstreetmap
+install_node_project pelias openstreetmap
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
