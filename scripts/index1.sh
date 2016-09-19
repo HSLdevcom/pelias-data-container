@@ -10,7 +10,7 @@ function import_gtfs {
     unzip -o $1
     prefix=$(echo $1 | sed 's/.zip//g')
     prefix=${prefix^^}
-    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland -prefix $prefix
+    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland --prefix=$prefix
 }
 
 cd $DATA/router-finland
