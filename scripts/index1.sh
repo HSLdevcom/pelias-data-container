@@ -8,7 +8,9 @@ set -e
 # param: zip name containing gtfs data
 function import_gtfs {
     unzip -o $1
-    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland
+    prefix=$(echo $1 | sed 's/.zip//g')
+    prefix=${prefix^^}
+    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland -prefix $prefix
 }
 
 cd $DATA/router-finland
