@@ -21,7 +21,5 @@ do
 done
 
 node --max-old-space-size=6200 $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
-node $TOOLS/polylines/bin/cli.js --config --db
-node $TOOLS/openstreetmap/index
 
 echo 'OK' >> /tmp/indexresults
