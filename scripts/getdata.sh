@@ -73,28 +73,20 @@ $SCRIPTS/osm-loader.sh &
 $SCRIPTS/nlsfi-loader.sh &
 $SCRIPTS/gtfs-loader.sh &
 
+#launch also Elasticsearch at this point
+$SCRIPTS/start-ES.sh &
+
 #sync
 wait
 
 ok_count=$(cat /tmp/loadresults | grep 'OK' | wc -l )
-if [ $ok_count -ne 4 ]; then
+if [ $ok_count -ne 5 ]; then
     exit 1;
 fi
-
-cd /root
 
 #=================
 # Index everything
 #=================
-
-#start elasticsearch, create index and run importers
-gosu elasticsearch elasticsearch -d
-
-sleep 10
-
-#schema script runs only from current dir
-cd $TOOLS/schema/
-node scripts/create_index
 
 #run two imports in parallel to save time
 $SCRIPTS/index1.sh &
