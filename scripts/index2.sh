@@ -18,9 +18,14 @@ do
     import_gtfs $target
 done
 
+#import geonames data
+cd $TOOLS/geonames
+./bin/pelias-geonames -i fi
+
+#import openaddresses data
 cd  $TOOLS/openaddresses
 
-# first import swedish docs
+# first import swedish OA docs
 bin/parallel 2 --language=sv
 
 # then import and merge fi data with sv docs

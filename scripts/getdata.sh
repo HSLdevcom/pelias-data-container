@@ -62,6 +62,9 @@ install_node_project HSLdevcom pelias-gtfs
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
+install_node_project pelias geonames
+npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
 #==============
 # Download data
@@ -72,6 +75,7 @@ $SCRIPTS/oa-loader.sh &
 $SCRIPTS/osm-loader.sh &
 $SCRIPTS/nlsfi-loader.sh &
 $SCRIPTS/gtfs-loader.sh &
+$SCRIPTS/geonames-loader.sh &
 
 #launch also Elasticsearch at this point
 $SCRIPTS/start-ES.sh &
@@ -80,7 +84,7 @@ $SCRIPTS/start-ES.sh &
 wait
 
 ok_count=$(cat /tmp/loadresults | grep 'OK' | wc -l )
-if [ $ok_count -ne 5 ]; then
+if [ $ok_count -ne 6 ]; then
     exit 1;
 fi
 
