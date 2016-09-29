@@ -22,6 +22,9 @@
   },
   "imports": {
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
+    "adminLookup": {
+      "maxConcurrentReqs": 4
+    },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
       "leveldbpath": "/tmp",
