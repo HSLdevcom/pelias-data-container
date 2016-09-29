@@ -1,4 +1,4 @@
-#!/bin/bash
+''#!/bin/bash
 
 # main Docker script has already created these:
 export TOOLS=/mnt/tools
@@ -43,7 +43,7 @@ install_node_project HSLdevcom wof-pip-service
 install_node_project HSLdevcom wof-admin-lookup
 npm link pelias-wof-pip-service
 
-install_node_project pelias openstreetmap
+install_node_project HSLdevcom openstreetmap
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
