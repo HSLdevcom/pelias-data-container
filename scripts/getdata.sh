@@ -1,4 +1,4 @@
-''#!/bin/bash
+#!/bin/bash
 
 # main Docker script has already created these:
 export TOOLS=/mnt/tools
