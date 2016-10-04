@@ -18,10 +18,6 @@ do
     import_gtfs $target
 done
 
-#import geonames data
-cd $TOOLS/geonames
-./bin/pelias-geonames -i fi
-
 #import openaddresses data
 cd  $TOOLS/openaddresses
 
