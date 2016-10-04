@@ -1,17 +1,30 @@
 #!/bin/bash
 
-# this import script indexes openaddresses data
-
 # errors should break the execution
 set -e
 
-# first import swedish docs
-node $TOOLS/openaddresses/import --language=sv
+# param: zip name containing gtfs data
+function import_gtfs {
+    unzip -o $1
+    prefix=$(echo $1 | sed 's/.zip//g')
+    prefix=${prefix^^}
+    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland --prefix=$prefix
+}
+
+cd $DATA/router-finland
+targets=(`ls *.zip`)
+for target in "${targets[@]}"
+do
+    import_gtfs $target
+done
+
+#import openaddresses data
+cd  $TOOLS/openaddresses
+
+# first import swedish OA docs
+bin/parallel 2 --language=sv
 
 # then import and merge fi data with sv docs
-node $TOOLS/openaddresses/import --language=fi --merge --merge-fields=name
-
-node $TOOLS/polylines/bin/cli.js --config --db
-node $TOOLS/openstreetmap/index
+bin/parallel 2 --language=fi --merge --merge-fields=name
 
 echo 'OK' >> /tmp/indexresults
