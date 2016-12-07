@@ -49,6 +49,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":633700,
+        "gp:id":"566148",
         "qs:id":1026782,
         "wd:id":"Q7854844",
         "wk:page":"Turenki"
@@ -66,7 +67,7 @@
         }
     ],
     "wof:id":101815397,
-    "wof:lastmodified":1470852499,
+    "wof:lastmodified":1477508558,
     "wof:name":"Turenki",
     "wof:parent_id":85683077,
     "wof:placetype":"locality",

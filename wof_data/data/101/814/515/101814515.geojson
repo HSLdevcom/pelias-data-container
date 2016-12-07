@@ -113,6 +113,7 @@
     "wof:belongsto":[
         85683147,
         102191581,
+        907199555,
         85633143,
         404227409,
         136253047
@@ -132,15 +133,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907199555,
             "locality_id":101814515,
             "macroregion_id":404227409,
             "region_id":85683147
         }
     ],
     "wof:id":101814515,
-    "wof:lastmodified":1470852542,
+    "wof:lastmodified":1479836606,
     "wof:name":"Salla",
-    "wof:parent_id":85683147,
+    "wof:parent_id":907199555,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

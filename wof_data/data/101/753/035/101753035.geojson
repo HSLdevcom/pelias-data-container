@@ -138,6 +138,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":640124,
+        "gp:id":"25946899",
         "qs:id":845202,
         "wd:id":"Q372075"
     },
@@ -154,7 +155,7 @@
         }
     ],
     "wof:id":101753035,
-    "wof:lastmodified":1470852473,
+    "wof:lastmodified":1477508535,
     "wof:name":"Raisio",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":653787,
+        "gp:id":"12590851",
         "qs:id":3
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872877,
-    "wof:lastmodified":1470852557,
+    "wof:lastmodified":1477508666,
     "wof:name":"Karvoskyl\u00e4",
     "wof:parent_id":85683143,
     "wof:placetype":"locality",

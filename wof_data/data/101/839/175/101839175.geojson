@@ -75,6 +75,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":637219,
+        "gp:id":"572948",
         "qs:id":1062285,
         "wd:id":"Q6157"
     },
@@ -91,7 +92,7 @@
         }
     ],
     "wof:id":101839175,
-    "wof:lastmodified":1470852519,
+    "wof:lastmodified":1477508570,
     "wof:name":"Sein\u00e4joki",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

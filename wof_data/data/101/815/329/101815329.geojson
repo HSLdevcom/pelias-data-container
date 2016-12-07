@@ -77,6 +77,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gn:id":661410,
         "gp:id":564132,
         "qs:id":1327437,
         "wd:id":"Q206601"
@@ -94,7 +95,7 @@
         }
     ],
     "wof:id":101815329,
-    "wof:lastmodified":1470852482,
+    "wof:lastmodified":1472227635,
     "wof:name":"Alastaro",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

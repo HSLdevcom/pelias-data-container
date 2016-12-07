@@ -76,6 +76,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":649825,
+        "gp:id":"568444",
         "qs:id":1242925,
         "wd:id":"Q531620",
         "wk:page":"Kuusjoki"
@@ -93,7 +94,7 @@
         }
     ],
     "wof:id":101815359,
-    "wof:lastmodified":1470852478,
+    "wof:lastmodified":1477508558,
     "wof:name":"Kuusjoki",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

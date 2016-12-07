@@ -99,6 +99,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":640749,
+        "gp:id":"571703",
         "qs:id":81344,
         "wd:id":"Q599159",
         "wk:page":"Pukkila"
@@ -116,7 +117,7 @@
         }
     ],
     "wof:id":101815233,
-    "wof:lastmodified":1470852450,
+    "wof:lastmodified":1477508558,
     "wof:name":"Pukkila",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

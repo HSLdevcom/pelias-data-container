@@ -41,6 +41,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":642377,
+        "gp:id":"12590788",
         "qs:id":9,
         "wd:id":"Q935869"
     },
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101872889,
-    "wof:lastmodified":1470852548,
+    "wof:lastmodified":1477508666,
     "wof:name":"Pelkosenniemi",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

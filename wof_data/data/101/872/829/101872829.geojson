@@ -41,6 +41,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":654075,
+        "gp:id":"12591041",
         "qs:id":126551,
         "wd:id":"Q5991"
     },
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101872829,
-    "wof:lastmodified":1470852496,
+    "wof:lastmodified":1477508665,
     "wof:name":"Karijoki",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

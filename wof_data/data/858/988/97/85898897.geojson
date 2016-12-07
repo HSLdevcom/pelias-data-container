@@ -64,9 +64,7 @@
     "wk:longitude":24.984444,
     "wk:population":753,
     "wk:wordcount":2882,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":6698617,
@@ -77,17 +75,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"652e8c406d10134d8c572804c3dd60dc",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898897
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898897,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852572,
+    "wof:lastmodified":1480369814,
     "wof:name":"Suomenlina",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

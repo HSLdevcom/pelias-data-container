@@ -78,6 +78,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":652629,
+        "gp:id":"574003",
         "qs:id":276105,
         "wd:id":"Q668748",
         "wk:page":"Kisko"
@@ -95,7 +96,7 @@
         }
     ],
     "wof:id":101815379,
-    "wof:lastmodified":1470852478,
+    "wof:lastmodified":1477508558,
     "wof:name":"Kisko",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

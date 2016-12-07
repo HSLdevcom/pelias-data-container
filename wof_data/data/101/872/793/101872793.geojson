@@ -74,6 +74,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":645370,
+        "gp:id":"91932321",
         "qs:id":5,
         "wd:id":"Q1641664",
         "wk:page":"Muurla"
@@ -91,7 +92,7 @@
         }
     ],
     "wof:id":101872793,
-    "wof:lastmodified":1470852479,
+    "wof:lastmodified":1477508665,
     "wof:name":"Muurla",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

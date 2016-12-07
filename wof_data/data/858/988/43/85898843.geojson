@@ -59,10 +59,7 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wof:belongsto":[
-        890537275,
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655661,
@@ -73,18 +70,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"edad41b1199094a736af279779a61614",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "macrohood_id":890537275,
-            "neighbourhood_id":85898843
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898843,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852571,
+    "wof:lastmodified":1480380458,
     "wof:name":"Jollas",
     "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",

@@ -38,6 +38,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"15000131",
         "qs:id":2
     },
     "wof:country":"FI",
@@ -53,7 +54,7 @@
         }
     ],
     "wof:id":101872815,
-    "wof:lastmodified":1470852461,
+    "wof:lastmodified":1477508665,
     "wof:name":"Pellosniemi",
     "wof:parent_id":85683109,
     "wof:placetype":"locality",

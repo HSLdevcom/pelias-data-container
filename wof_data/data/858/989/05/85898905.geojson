@@ -78,9 +78,7 @@
     "wk:longitude":25.063889,
     "wk:population":2223,
     "wk:wordcount":140,
-    "wof:belongsto":[
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":634973,
@@ -91,17 +89,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"4903105f0a74550c441f3114a5a54334",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "neighbourhood_id":85898905
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898905,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852571,
+    "wof:lastmodified":1480369792,
     "wof:name":"Tammisalo",
     "wof:parent_id":890536883,
     "wof:placetype":"neighbourhood",

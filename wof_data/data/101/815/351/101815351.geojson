@@ -75,6 +75,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":632860,
+        "gp:id":"574492",
         "qs:id":1242905,
         "wd:id":"Q386061",
         "wk:page":"Vahto"
@@ -92,7 +93,7 @@
         }
     ],
     "wof:id":101815351,
-    "wof:lastmodified":1470852485,
+    "wof:lastmodified":1477508558,
     "wof:name":"Vahto",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

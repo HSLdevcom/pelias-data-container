@@ -70,9 +70,7 @@
     "wk:longitude":24.945833,
     "wk:population":10586,
     "wk:wordcount":192,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":6545259,
@@ -83,17 +81,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"cd34b0cbb2cb8b853ed2842e8fdfd960",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85907973
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907973,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852573,
+    "wof:lastmodified":1480370078,
     "wof:name":"Ullanlinna",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

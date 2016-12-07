@@ -46,6 +46,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":633093,
+        "gp:id":"574424",
         "qs:id":6,
         "wd:id":"Q7362220"
     },
@@ -62,7 +63,7 @@
         }
     ],
     "wof:id":101872893,
-    "wof:lastmodified":1470852544,
+    "wof:lastmodified":1477508666,
     "wof:name":"Vaalaj\u00e4rvi",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

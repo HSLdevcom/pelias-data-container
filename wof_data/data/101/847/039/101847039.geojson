@@ -108,6 +108,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":656949,
+        "gp:id":"91930230",
         "qs:id":1242927,
         "wd:id":"Q984934",
         "wk:page":"Hyrynsalmi"
@@ -125,7 +126,7 @@
         }
     ],
     "wof:id":101847039,
-    "wof:lastmodified":1470852539,
+    "wof:lastmodified":1477508573,
     "wof:name":"Hyrynsalmi",
     "wof:parent_id":85683137,
     "wof:placetype":"locality",

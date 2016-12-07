@@ -43,6 +43,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"564152",
         "qs:id":8,
         "wd:id":"Q7939819"
     },
@@ -59,7 +60,7 @@
         }
     ],
     "wof:id":101872901,
-    "wof:lastmodified":1470852543,
+    "wof:lastmodified":1477508666,
     "wof:name":"Vojakkala",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

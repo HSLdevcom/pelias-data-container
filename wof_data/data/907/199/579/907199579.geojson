@@ -11,7 +11,7 @@
     "figov:national_code":"742",
     "figov:swe_type":"Kommun",
     "geom:area":1.37104,
-    "geom:area_square_m":6450876595.751971,
+    "geom:area_square_m":6450876595.751987,
     "geom:bbox":"27.2220802629,67.1081063508,29.6594052467,68.1963035524",
     "geom:latitude":67.634346,
     "geom:longitude":28.531483,
@@ -38,7 +38,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"b75c6c7822acbd16ba36d0721ce83ad9",
+    "wof:geomhash":"4711437b3de19fb1897944d028996a7f",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +50,7 @@
         }
     ],
     "wof:id":907199579,
-    "wof:lastmodified":1470852363,
+    "wof:lastmodified":1479836596,
     "wof:name":"Savukoski",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",

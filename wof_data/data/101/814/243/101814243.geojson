@@ -49,6 +49,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660735,
+        "gp:id":"25950388",
         "qs:id":369928,
         "wd:id":"Q4890077",
         "wk:page":"Benn\u00e4s"
@@ -66,7 +67,7 @@
         }
     ],
     "wof:id":101814243,
-    "wof:lastmodified":1470852504,
+    "wof:lastmodified":1477508557,
     "wof:name":"P\u00e4nn\u00e4inen",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

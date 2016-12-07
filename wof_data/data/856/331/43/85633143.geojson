@@ -889,6 +889,7 @@
         "wd:id":"Q33"
     },
     "wof:country":"FI",
+    "wof:country_alpha3":"FIN",
     "wof:geomhash":"58169193cce47fec62257b5afd651d08",
     "wof:hierarchy":[
         {
@@ -909,7 +910,7 @@
         "fin",
         "swe"
     ],
-    "wof:lastmodified":1467185555,
+    "wof:lastmodified":1477614059,
     "wof:name":"Finland",
     "wof:parent_id":102191581,
     "wof:placetype":"country",

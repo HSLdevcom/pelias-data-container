@@ -39,7 +39,9 @@
         136253047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "gp:id":"567049"
+    },
     "wof:country":"FI",
     "wof:geomhash":"20a07a157b36be4c9c79741333a443bc",
     "wof:hierarchy":[
@@ -53,7 +55,7 @@
         }
     ],
     "wof:id":101846897,
-    "wof:lastmodified":1470852500,
+    "wof:lastmodified":1477508573,
     "wof:name":"Aronkyl\u00e4",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

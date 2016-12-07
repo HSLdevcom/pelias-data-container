@@ -51,6 +51,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"25950996",
         "qs:id":6,
         "wd:id":"Q3070041"
     },
@@ -67,7 +68,7 @@
         }
     ],
     "wof:id":101872853,
-    "wof:lastmodified":1470852564,
+    "wof:lastmodified":1477508666,
     "wof:name":"Kurkim\u00e4ki",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

@@ -84,6 +84,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":639700,
+        "gp:id":"572091",
         "qs:id":126488,
         "wd:id":"Q1025729",
         "wk:page":"Rautavaara"
@@ -101,7 +102,7 @@
         }
     ],
     "wof:id":101847007,
-    "wof:lastmodified":1470852523,
+    "wof:lastmodified":1477508573,
     "wof:name":"Rautavaara",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

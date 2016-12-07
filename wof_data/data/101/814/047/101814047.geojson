@@ -75,6 +75,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":637288,
+        "gp:id":"572928",
         "qs:id":126479,
         "wd:id":"Q568109",
         "wk:page":"Savonranta"
@@ -92,7 +93,7 @@
         }
     ],
     "wof:id":101814047,
-    "wof:lastmodified":1470852467,
+    "wof:lastmodified":1477508557,
     "wof:name":"Savonranta",
     "wof:parent_id":85683109,
     "wof:placetype":"locality",

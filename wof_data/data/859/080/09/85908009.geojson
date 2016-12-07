@@ -61,10 +61,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":47,
-    "wof:belongsto":[
-        890537227,
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":6545255,
@@ -75,18 +72,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"4f9fb692562e3b8d646fdafef321ecee",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "macrohood_id":890537227,
-            "neighbourhood_id":85908009
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85908009,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852575,
+    "wof:lastmodified":1480380678,
     "wof:name":"Herttoniemenranta",
     "wof:parent_id":890537227,
     "wof:placetype":"neighbourhood",

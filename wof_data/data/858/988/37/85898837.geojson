@@ -83,10 +83,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":207,
-    "wof:belongsto":[
-        890537227,
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":658132,
@@ -97,18 +94,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"58e86c8c70ce6a89a2dc0fa5b1e6a6aa",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "macrohood_id":890537227,
-            "neighbourhood_id":85898837
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898837,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852575,
+    "wof:lastmodified":1480380458,
     "wof:name":"Herttoniemi",
     "wof:parent_id":890537227,
     "wof:placetype":"neighbourhood",

@@ -73,6 +73,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":652578,
+        "gp:id":"567486",
         "qs:id":1027245,
         "wd:id":"Q1743976",
         "wk:page":"Kiukainen"
@@ -90,7 +91,7 @@
         }
     ],
     "wof:id":101815459,
-    "wof:lastmodified":1470852475,
+    "wof:lastmodified":1477508558,
     "wof:name":"Kiukainen",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

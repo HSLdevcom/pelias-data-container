@@ -77,9 +77,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":247,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":652282,
@@ -90,17 +88,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"ac340857394284703d7997ade27bf789",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898847
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898847,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852573,
+    "wof:lastmodified":1480369814,
     "wof:name":"Kluuvi",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

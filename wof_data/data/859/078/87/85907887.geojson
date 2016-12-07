@@ -76,9 +76,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":262,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[
         85907973
     ],
@@ -91,17 +89,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"3254c38c2a92810790cbeed115ce7139",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85907887
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907887,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852573,
+    "wof:lastmodified":1480370116,
     "wof:name":"Punavuori",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

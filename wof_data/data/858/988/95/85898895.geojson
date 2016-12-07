@@ -73,10 +73,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":262,
-    "wof:belongsto":[
-        890537261,
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":573004,
@@ -85,18 +82,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"cb90b588e5dc8902bf51df9fe74a93ef",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "macrohood_id":890537261,
-            "neighbourhood_id":85898895
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898895,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852434,
+    "wof:lastmodified":1480380458,
     "wof:name":"Seurasaari",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

@@ -144,6 +144,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":653185,
+        "gp:id":"91927475",
         "loc:id":"n81136786",
         "qs:id":276108,
         "wd:id":"Q216900",
@@ -162,7 +163,7 @@
         }
     ],
     "wof:id":101753895,
-    "wof:lastmodified":1470852447,
+    "wof:lastmodified":1477508536,
     "wof:name":"Kerava",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

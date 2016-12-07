@@ -48,6 +48,7 @@
     "wof:belongsto":[
         85683103,
         102191581,
+        907198887,
         85633143,
         404227411,
         136253047
@@ -66,15 +67,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907198887,
             "locality_id":101814041,
             "macroregion_id":404227411,
             "region_id":85683103
         }
     ],
     "wof:id":101814041,
-    "wof:lastmodified":1470852470,
+    "wof:lastmodified":1479773135,
     "wof:name":"Nuijamaa",
-    "wof:parent_id":85683103,
+    "wof:parent_id":907198887,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

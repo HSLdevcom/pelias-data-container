@@ -19,7 +19,7 @@ mkdir -p $DATADIR
 
 cd $METADIR
 
-admins=( country localadmin locality neighbourhood region )
+admins=( country localadmin locality neighbourhood region postalcode )
 
 for target in "${admins[@]}"
 do

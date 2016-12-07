@@ -40,6 +40,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":644289,
+        "gp:id":"91933999",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -55,7 +56,7 @@
         }
     ],
     "wof:id":101846711,
-    "wof:lastmodified":1470852449,
+    "wof:lastmodified":1477508573,
     "wof:name":"Nummi",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

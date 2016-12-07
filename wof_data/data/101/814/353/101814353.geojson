@@ -69,6 +69,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":633611,
+        "gp:id":"574254",
         "qs:id":81298,
         "wd:id":"Q255065",
         "wk:page":"Tuupovaara"
@@ -86,7 +87,7 @@
         }
     ],
     "wof:id":101814353,
-    "wof:lastmodified":1470852554,
+    "wof:lastmodified":1477508557,
     "wof:name":"Tuupovaara",
     "wof:parent_id":85683133,
     "wof:placetype":"locality",

@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":649758,
+        "gp:id":"25950034",
         "qs:id":7
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872835,
-    "wof:lastmodified":1470852487,
+    "wof:lastmodified":1477508665,
     "wof:name":"Kyl\u00e4inp\u00e4\u00e4",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

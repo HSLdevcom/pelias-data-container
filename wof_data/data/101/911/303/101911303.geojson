@@ -70,6 +70,7 @@
     "wof:belongsto":[
         85683143,
         102191581,
+        907199519,
         85633143,
         404227415,
         136253047
@@ -87,15 +88,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907199519,
             "locality_id":101911303,
             "macroregion_id":404227415,
             "region_id":85683143
         }
     ],
     "wof:id":101911303,
-    "wof:lastmodified":1470852539,
+    "wof:lastmodified":1479836716,
     "wof:name":"Rukatunturi",
-    "wof:parent_id":85683143,
+    "wof:parent_id":907199519,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

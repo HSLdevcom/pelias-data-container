@@ -90,6 +90,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":641044,
+        "gp:id":"571593",
         "qs:id":126492,
         "wd:id":"Q747261"
     },
@@ -106,7 +107,7 @@
         }
     ],
     "wof:id":101813963,
-    "wof:lastmodified":1470852464,
+    "wof:lastmodified":1477508557,
     "wof:name":"Pomarkku",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

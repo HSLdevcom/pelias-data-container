@@ -44,6 +44,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"29389255",
         "wd:id":"Q5708"
     },
     "wof:country":"FI",
@@ -62,7 +63,7 @@
         "fin",
         "swe"
     ],
-    "wof:lastmodified":1467183762,
+    "wof:lastmodified":1477509256,
     "wof:name":"P\u00e4ij\u00e4nne-Tavastia",
     "wof:parent_id":404227411,
     "wof:placetype":"region",

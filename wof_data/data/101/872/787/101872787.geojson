@@ -80,6 +80,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660940,
+        "gp:id":"25946726",
         "qs:id":369931,
         "wd:id":"Q730954",
         "wk:page":"Askainen"
@@ -97,7 +98,7 @@
         }
     ],
     "wof:id":101872787,
-    "wof:lastmodified":1470852472,
+    "wof:lastmodified":1477508665,
     "wof:name":"Askainen",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

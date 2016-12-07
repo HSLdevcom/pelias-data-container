@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":637375,
+        "gp:id":"572891",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872851,
-    "wof:lastmodified":1470852520,
+    "wof:lastmodified":1477508665,
     "wof:name":"S\u00e4vi\u00e4",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

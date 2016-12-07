@@ -40,7 +40,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "gn:id":634814
+        "gn:id":634814,
+        "gp:id":"575193"
     },
     "wof:country":"FI",
     "wof:geomhash":"4f9aab71dd26d39cdbdb44dfcd192aab",
@@ -55,7 +56,7 @@
         }
     ],
     "wof:id":101846791,
-    "wof:lastmodified":1470852452,
+    "wof:lastmodified":1477508573,
     "wof:name":"Tavastila",
     "wof:parent_id":85683081,
     "wof:placetype":"locality",

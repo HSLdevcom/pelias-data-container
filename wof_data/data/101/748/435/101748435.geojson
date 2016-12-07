@@ -76,6 +76,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655194,
+        "gp:id":"566473",
         "qs:id":273811,
         "wd:id":"Q134620",
         "wk:page":"Jyv\u00e4skyl\u00e4"
@@ -93,7 +94,7 @@
         }
     ],
     "wof:id":101748435,
-    "wof:lastmodified":1470852515,
+    "wof:lastmodified":1477508531,
     "wof:name":"Jyv\u00e4skyl\u00e4",
     "wof:parent_id":85683117,
     "wof:placetype":"locality",

@@ -53,6 +53,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":652317,
+        "gp:id":"567547",
         "qs:id":5,
         "wd:id":"Q926260"
     },
@@ -69,7 +70,7 @@
         }
     ],
     "wof:id":101845577,
-    "wof:lastmodified":1470852550,
+    "wof:lastmodified":1477508572,
     "wof:name":"Taipale",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

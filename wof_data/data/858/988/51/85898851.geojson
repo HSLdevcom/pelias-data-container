@@ -87,9 +87,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":298,
-    "wof:belongsto":[
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":650445,
@@ -99,17 +97,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"b0ca49826d3edd91ecba32dea92ee8c2",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "neighbourhood_id":85898851
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898851,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852575,
+    "wof:lastmodified":1480369814,
     "wof:name":"Kulosaari",
     "wof:parent_id":890536883,
     "wof:placetype":"neighbourhood",

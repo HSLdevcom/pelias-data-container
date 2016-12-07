@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":637537,
+        "gp:id":"572841",
         "qs:id":9
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872823,
-    "wof:lastmodified":1470852490,
+    "wof:lastmodified":1477508665,
     "wof:name":"Sarvijoki",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

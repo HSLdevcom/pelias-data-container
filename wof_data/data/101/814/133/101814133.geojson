@@ -78,6 +78,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655363,
+        "gp:id":"566405",
         "qs:id":845253,
         "wd:id":"Q1369780",
         "wk:page":"Jurva"
@@ -95,7 +96,7 @@
         }
     ],
     "wof:id":101814133,
-    "wof:lastmodified":1470852489,
+    "wof:lastmodified":1477508557,
     "wof:name":"Jurva",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

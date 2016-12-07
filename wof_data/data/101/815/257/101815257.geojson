@@ -75,6 +75,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655958,
+        "gp:id":"25945004",
         "qs:id":126558,
         "wd:id":"Q208293",
         "wk:page":"J\u00e4rvenp\u00e4\u00e4"
@@ -92,7 +93,7 @@
         }
     ],
     "wof:id":101815257,
-    "wof:lastmodified":1470852435,
+    "wof:lastmodified":1477508558,
     "wof:name":"J\u00e4rvenp\u00e4\u00e4",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

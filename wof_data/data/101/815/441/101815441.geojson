@@ -42,6 +42,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"25945946",
         "qs:id":6
     },
     "wof:country":"FI",
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101815441,
-    "wof:lastmodified":1470852452,
+    "wof:lastmodified":1477508558,
     "wof:name":"Mussalo",
     "wof:parent_id":85683081,
     "wof:placetype":"locality",

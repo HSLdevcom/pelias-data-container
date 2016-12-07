@@ -54,9 +54,7 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":564907,
@@ -64,17 +62,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"a95a697327ecf03308b33be5c6eebd90",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898829
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898829,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852575,
+    "wof:lastmodified":1480369814,
     "wof:name":"H\u00e5kansvik",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

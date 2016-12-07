@@ -43,6 +43,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":632045,
+        "gp:id":"91935821",
         "qs:id":1,
         "wd:id":"Q7918624"
     },
@@ -59,7 +60,7 @@
         }
     ],
     "wof:id":101872855,
-    "wof:lastmodified":1470852564,
+    "wof:lastmodified":1477508666,
     "wof:name":"Vehmasm\u00e4ki",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

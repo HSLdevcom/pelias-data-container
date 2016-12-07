@@ -101,6 +101,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gn:id":660928,
+        "gp:id":"564308",
         "qs:id":1,
         "wd:id":"Q732159"
     },
@@ -117,7 +119,7 @@
         }
     ],
     "wof:id":101815251,
-    "wof:lastmodified":1470852438,
+    "wof:lastmodified":1477508558,
     "wof:name":"Askola",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

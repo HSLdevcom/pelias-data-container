@@ -51,9 +51,7 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":23701410,
@@ -61,17 +59,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"8e8628b8cc5a2ff9cd7e362396c698b5",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85907891
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907891,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852572,
+    "wof:lastmodified":1480370116,
     "wof:name":"Katu",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

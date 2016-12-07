@@ -96,6 +96,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":635130,
+        "gp:id":"573693",
         "qs:id":1242907,
         "wd:id":"Q807904"
     },
@@ -112,7 +113,7 @@
         }
     ],
     "wof:id":101846739,
-    "wof:lastmodified":1470852447,
+    "wof:lastmodified":1477508573,
     "wof:name":"Taivassalo",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

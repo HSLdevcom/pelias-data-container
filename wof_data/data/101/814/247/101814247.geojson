@@ -40,6 +40,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":649787,
+        "gp:id":"568459",
         "qs:id":6,
         "wd:id":"Q3366137",
         "wk:page":"Kvevlax"
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101814247,
-    "wof:lastmodified":1470852486,
+    "wof:lastmodified":1477508557,
     "wof:name":"Koivulahti",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

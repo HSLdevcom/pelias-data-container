@@ -42,6 +42,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":661601,
+        "gp:id":"25948950",
         "qs:id":845274,
         "wd:id":"Q575090",
         "wk:page":"Alah\u00e4rm\u00e4"
@@ -59,7 +60,7 @@
         }
     ],
     "wof:id":101846903,
-    "wof:lastmodified":1470852511,
+    "wof:lastmodified":1477508573,
     "wof:name":"Alah\u00e4rm\u00e4",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",
