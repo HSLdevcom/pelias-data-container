@@ -36,3 +36,5 @@ ENV ES_HEAP_SIZE 1g
 ENTRYPOINT ["elasticsearch"]
 
 USER 9999
+
+RUN pkill -SIGTERM -u elasticsearch
