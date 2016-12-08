@@ -28,6 +28,8 @@ RUN mkdir -p /mnt/tools/scripts
 ADD scripts/*.sh /mnt/tools/scripts/
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
+RUN pkill -SIGTERM -u elasticsearch
+
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
 
@@ -36,5 +38,3 @@ ENV ES_HEAP_SIZE 1g
 ENTRYPOINT ["elasticsearch"]
 
 USER 9999
-
-RUN pkill -SIGTERM -u elasticsearch
