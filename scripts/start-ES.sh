@@ -5,7 +5,7 @@ set -e
 
 cd /root
 
-#start elasticsearch, create index and run importers
+#start elasticsearch and create index
 gosu elasticsearch elasticsearch -d
 
 sleep 20
