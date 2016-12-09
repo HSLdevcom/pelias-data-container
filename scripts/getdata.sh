@@ -36,7 +36,7 @@ rm -rf /var/lib/apt/lists/*
 
 mkdir -p $TOOLS
 
-curl -sL https://deb.nodesource.com/setup_6.x | bash -
+curl -sL https://deb.nodesource.com/setup_4.x | bash -
 apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
