@@ -109,6 +109,10 @@ fi
 #cleanup
 #=======
 
+#shutdown ES in a friendly way
+pkill -SIGTERM -u elasticsearch
+sleep 3
+
 rm -r $DATA
 rm -r $TOOLS
 dpkg -r nodejs
