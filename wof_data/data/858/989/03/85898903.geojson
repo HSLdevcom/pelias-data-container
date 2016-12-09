@@ -85,9 +85,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":642,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":635080,
@@ -97,17 +95,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"8900b150f9c831810bcf5137237bce1b",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898903
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898903,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852571,
+    "wof:lastmodified":1480369792,
     "wof:name":"Taka-T\u00f6\u00f6l\u00f6",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

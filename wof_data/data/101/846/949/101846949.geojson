@@ -40,6 +40,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":644994,
+        "gp:id":"573817",
         "qs:id":6
     },
     "wof:country":"FI",
@@ -55,7 +56,7 @@
         }
     ],
     "wof:id":101846949,
-    "wof:lastmodified":1470852563,
+    "wof:lastmodified":1477508573,
     "wof:name":"Alaveteli",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

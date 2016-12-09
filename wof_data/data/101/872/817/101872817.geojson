@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":647416,
+        "gp:id":"569280",
         "qs:id":4
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872817,
-    "wof:lastmodified":1470852499,
+    "wof:lastmodified":1477508665,
     "wof:name":"Luoma-aho",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

@@ -108,6 +108,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":637067,
+        "gp:id":"12591021",
         "qs:id":276079,
         "wd:id":"Q986320"
     },
@@ -124,7 +125,7 @@
         }
     ],
     "wof:id":101815279,
-    "wof:lastmodified":1470852435,
+    "wof:lastmodified":1477508558,
     "wof:name":"Sipoo",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

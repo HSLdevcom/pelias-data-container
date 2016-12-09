@@ -40,7 +40,10 @@
         136253047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "gn:id":634294,
+        "gp:id":"25951132"
+    },
     "wof:country":"FI",
     "wof:geomhash":"755fefd7a88dad13f3508fff358aa22a",
     "wof:hierarchy":[
@@ -54,7 +57,7 @@
         }
     ],
     "wof:id":101846987,
-    "wof:lastmodified":1470852528,
+    "wof:lastmodified":1477508573,
     "wof:name":"Toivala",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

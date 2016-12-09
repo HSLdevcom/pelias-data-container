@@ -72,6 +72,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":646220,
+        "gp:id":"569697",
         "qs:id":126506,
         "wd:id":"Q1641630",
         "wk:page":"Mellil\u00e4"
@@ -89,7 +90,7 @@
         }
     ],
     "wof:id":101846725,
-    "wof:lastmodified":1470852482,
+    "wof:lastmodified":1477508573,
     "wof:name":"Mellil\u00e4",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

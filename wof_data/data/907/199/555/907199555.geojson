@@ -11,7 +11,7 @@
     "figov:national_code":"732",
     "figov:swe_type":"Kommun",
     "geom:area":1.207119,
-    "geom:area_square_m":5832924187.371555,
+    "geom:area_square_m":5832924187.371565,
     "geom:bbox":"27.8814516224,66.408146386,30.0170443393,67.8029592156",
     "geom:latitude":66.996169,
     "geom:longitude":28.908713,
@@ -38,7 +38,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"eec1fb445141d5f54e808300e7e51835",
+    "wof:geomhash":"14a9119e00f472ce76490a214b85da66",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +50,7 @@
         }
     ],
     "wof:id":907199555,
-    "wof:lastmodified":1470852351,
+    "wof:lastmodified":1479836597,
     "wof:name":"Salla",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",
@@ -60,7 +60,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.881451622382865,
+    27.88145162238287,
     66.4081463859626,
     30.01704433934021,
     67.80295921560882

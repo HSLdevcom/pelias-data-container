@@ -39,6 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"29305401",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101847091,
-    "wof:lastmodified":1470852524,
+    "wof:lastmodified":1477508573,
     "wof:name":"Sievin asema",
     "wof:parent_id":85683143,
     "wof:placetype":"locality",

@@ -73,6 +73,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":632539,
+        "gp:id":"574596",
         "qs:id":276070,
         "wd:id":"Q1234987",
         "wk:page":"Vampula"
@@ -90,7 +91,7 @@
         }
     ],
     "wof:id":101815469,
-    "wof:lastmodified":1470852477,
+    "wof:lastmodified":1477508558,
     "wof:name":"Vampula",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

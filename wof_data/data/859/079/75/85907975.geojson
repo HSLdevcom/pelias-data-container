@@ -76,9 +76,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":664,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":6545253,
@@ -89,17 +87,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"31cecf616d7fbb4c05eed8595be57992",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85907975
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907975,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852573,
+    "wof:lastmodified":1480370078,
     "wof:name":"Kaartinkaupunki",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

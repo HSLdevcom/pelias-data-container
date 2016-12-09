@@ -13,10 +13,14 @@ SCRIPTS=$TOOLS/scripts
 
 # param1: organization name
 # param2: git project name
+# param3: optional git commit id
 # note: changes cd to new project dir
 function install_node_project {
-    git clone --depth 1 --single-branch https://github.com/$1/$2 $TOOLS/$2
+    git clone --single-branch https://github.com/$1/$2 $TOOLS/$2
     cd $TOOLS/$2
+    if [ -n "$3" ]; then
+        git checkout $3
+    fi
     npm install
 
     #make the package locally available
@@ -31,12 +35,13 @@ apt-get install -y --no-install-recommends git unzip python python-pip python-de
 rm -rf /var/lib/apt/lists/*
 
 mkdir -p $TOOLS
-curl -sS https://deb.nodesource.com/node_0.12/pool/main/n/nodejs/nodejs_0.12.15-1nodesource1~jessie1_amd64.deb > $TOOLS/node.deb
-dpkg -i $TOOLS/node.deb
+
+curl -sL https://deb.nodesource.com/setup_4.x | bash -
+apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
 
-install_node_project pelias schema
+install_node_project pelias schema fedbfaed5c9eaa24ce316327ad46d5395ee76d65
 
 install_node_project HSLdevcom wof-pip-service
 
@@ -51,16 +56,18 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines
+install_node_project pelias polylines 29f0dd64a90aea78abdab7d63179e9d61b1e1e5d
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
 install_node_project HSLdevcom pelias-nlsfi-places-importer
 npm link pelias-dbclient
+npm link pelias-wof-admin-lookup
 
 install_node_project HSLdevcom pelias-gtfs
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
+
 
 #==============
 # Download data
@@ -101,6 +108,10 @@ fi
 #=======
 #cleanup
 #=======
+
+#shutdown ES in a friendly way
+pkill -SIGTERM -u elasticsearch
+sleep 3
 
 rm -r $DATA
 rm -r $TOOLS

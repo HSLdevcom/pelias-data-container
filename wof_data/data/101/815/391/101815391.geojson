@@ -83,6 +83,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":658670,
+        "gp:id":"565181",
         "qs:id":1242931,
         "wd:id":"Q1013639",
         "wk:page":"Hauho"
@@ -100,7 +101,7 @@
         }
     ],
     "wof:id":101815391,
-    "wof:lastmodified":1470852513,
+    "wof:lastmodified":1477508558,
     "wof:name":"Hauho",
     "wof:parent_id":85683077,
     "wof:placetype":"locality",

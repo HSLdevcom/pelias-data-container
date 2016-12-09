@@ -80,10 +80,7 @@
     "wk:latitude":60.180556,
     "wk:longitude":25.054167,
     "wk:wordcount":51,
-    "wof:belongsto":[
-        890537275,
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660407,
@@ -94,18 +91,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"c20658ab9c036b03b723fdbd4f287911",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "macrohood_id":890537275,
-            "neighbourhood_id":85898855
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898855,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852575,
+    "wof:lastmodified":1480380458,
     "wof:name":"Laajasalo",
     "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",

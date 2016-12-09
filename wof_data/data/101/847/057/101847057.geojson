@@ -102,6 +102,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":630952,
+        "gp:id":"575205",
         "qs:id":550561,
         "wd:id":"Q119845",
         "wk:page":"Yli-Ii"
@@ -119,7 +120,7 @@
         }
     ],
     "wof:id":101847057,
-    "wof:lastmodified":1470852533,
+    "wof:lastmodified":1477508573,
     "wof:name":"Yli-Ii",
     "wof:parent_id":85683143,
     "wof:placetype":"locality",

@@ -39,6 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"25945516",
         "qs:id":3
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101846807,
-    "wof:lastmodified":1470852453,
+    "wof:lastmodified":1477508573,
     "wof:name":"Heinolan kk.",
     "wof:parent_id":85683091,
     "wof:placetype":"locality",

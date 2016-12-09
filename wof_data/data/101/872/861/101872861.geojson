@@ -48,6 +48,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":651650,
+        "gp:id":"567790",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -63,7 +64,7 @@
         }
     ],
     "wof:id":101872861,
-    "wof:lastmodified":1470852536,
+    "wof:lastmodified":1477508666,
     "wof:name":"Kontiom\u00e4ki",
     "wof:parent_id":85683137,
     "wof:placetype":"locality",

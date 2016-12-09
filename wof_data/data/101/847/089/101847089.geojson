@@ -72,6 +72,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":640409,
+        "gp:id":"571821",
         "qs:id":126490,
         "wd:id":"Q368448",
         "wk:page":"Pyh\u00e4nt\u00e4"
@@ -89,7 +90,7 @@
         }
     ],
     "wof:id":101847089,
-    "wof:lastmodified":1470852537,
+    "wof:lastmodified":1477508573,
     "wof:name":"Pyh\u00e4nt\u00e4",
     "wof:parent_id":85683143,
     "wof:placetype":"locality",

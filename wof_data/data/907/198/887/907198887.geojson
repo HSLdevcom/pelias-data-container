@@ -11,7 +11,7 @@
     "figov:national_code":"405",
     "figov:swe_type":"Kommun",
     "geom:area":0.285693,
-    "geom:area_square_m":1713709742.69625,
+    "geom:area_square_m":1713709742.696263,
     "geom:bbox":"27.7104399779,60.6666580609,28.776648522,61.2846869295",
     "geom:latitude":60.980459,
     "geom:longitude":28.261483,
@@ -38,7 +38,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"bd34e772ffeaaf43f58ef963c8c840ce",
+    "wof:geomhash":"52ccfdbb7ab8bdd4597b2dfab7dce2c3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +50,7 @@
         }
     ],
     "wof:id":907198887,
-    "wof:lastmodified":1470852103,
+    "wof:lastmodified":1479833701,
     "wof:name":"Lappeenranta",
     "wof:parent_id":85683103,
     "wof:placetype":"localadmin",
@@ -60,8 +60,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.710439977852904,
-    60.666658060870226,
+    27.7104399778529,
+    60.66665806087023,
     28.77664852198369,
     61.28468692947974
 ],

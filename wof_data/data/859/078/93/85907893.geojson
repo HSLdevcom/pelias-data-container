@@ -51,9 +51,7 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":23701411,
@@ -61,17 +59,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"0f8174023e3e5233df65ea234672d90e",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85907893
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907893,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852573,
+    "wof:lastmodified":1480370116,
     "wof:name":"Erotta-Jankatu",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

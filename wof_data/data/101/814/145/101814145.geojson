@@ -93,6 +93,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":656517,
+        "gp:id":"566052",
         "qs:id":1030113,
         "wd:id":"Q5986"
     },
@@ -109,7 +110,7 @@
         }
     ],
     "wof:id":101814145,
-    "wof:lastmodified":1470852469,
+    "wof:lastmodified":1477508557,
     "wof:name":"Isojoki",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

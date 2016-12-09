@@ -40,6 +40,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":650111,
+        "gp:id":"91935157",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -55,7 +56,7 @@
         }
     ],
     "wof:id":101846883,
-    "wof:lastmodified":1470852498,
+    "wof:lastmodified":1477508573,
     "wof:name":"Kurejoki",
     "wof:parent_id":85683113,
     "wof:placetype":"locality",

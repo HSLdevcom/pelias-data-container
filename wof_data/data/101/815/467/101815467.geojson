@@ -78,6 +78,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":648886,
+        "gp:id":"29305668",
         "qs:id":1030076,
         "wd:id":"Q1544769",
         "wk:page":"Lappi, Finland"
@@ -95,7 +96,7 @@
         }
     ],
     "wof:id":101815467,
-    "wof:lastmodified":1470852450,
+    "wof:lastmodified":1477508558,
     "wof:name":"Lappi",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

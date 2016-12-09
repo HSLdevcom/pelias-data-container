@@ -1,8 +1,8 @@
 {
   "esclient": {
-    "apiVersion": "2.x",
+    "apiVersion": "2.3",
     "keepAlive": true,
-    "requestTimeout": "120000",
+    "requestTimeout": "20000",
     "hosts": [
       {
         "env": "dev",
@@ -54,7 +54,7 @@
     "wofPipNames": {
       "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred"],
       "region": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "neigbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"]
+      "neighbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"]
     }
   },
   "schema": {

@@ -41,6 +41,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":654047,
+        "gp:id":"564400",
         "qs:id":1027250,
         "wd:id":"Q990581",
         "wk:page":"Karis"
@@ -58,7 +59,7 @@
         }
     ],
     "wof:id":101815303,
-    "wof:lastmodified":1470852580,
+    "wof:lastmodified":1477508558,
     "wof:name":"Karjaa",
     "wof:parent_id":85683067,
     "wof:placetype":"locality",

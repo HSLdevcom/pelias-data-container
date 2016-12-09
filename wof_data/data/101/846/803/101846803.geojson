@@ -55,6 +55,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":648877,
+        "gp:id":"568796",
         "qs:id":1
     },
     "wof:country":"FI",
@@ -70,7 +71,7 @@
         }
     ],
     "wof:id":101846803,
-    "wof:lastmodified":1470852441,
+    "wof:lastmodified":1477508573,
     "wof:name":"Lappila",
     "wof:parent_id":85683091,
     "wof:placetype":"locality",

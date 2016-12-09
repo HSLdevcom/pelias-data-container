@@ -93,6 +93,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":631825,
+        "gp:id":"574878",
         "qs:id":81273,
         "wd:id":"Q675666"
     },
@@ -109,7 +110,7 @@
         }
     ],
     "wof:id":101814297,
-    "wof:lastmodified":1470852520,
+    "wof:lastmodified":1477508557,
     "wof:name":"Veteli",
     "wof:parent_id":85683125,
     "wof:placetype":"locality",

@@ -58,9 +58,7 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wof:belongsto":[
-        890536883
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gp:id":572778,
@@ -68,17 +66,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"e90c94bd343bf7937ef647472b3527dc",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536883,
-            "neighbourhood_id":85898887
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898887,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852572,
+    "wof:lastmodified":1480369814,
     "wof:name":"Santahamina",
     "wof:parent_id":890536883,
     "wof:placetype":"neighbourhood",

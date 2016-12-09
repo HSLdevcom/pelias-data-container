@@ -35,6 +35,7 @@
     "wof:belongsto":[
         85683137,
         102191581,
+        907199501,
         85633143,
         404227415,
         136253047
@@ -54,15 +55,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907199501,
             "locality_id":101814389,
             "macroregion_id":404227415,
             "region_id":85683137
         }
     ],
     "wof:id":101814389,
-    "wof:lastmodified":1470852538,
+    "wof:lastmodified":1479776096,
     "wof:name":"Suomussalmi",
-    "wof:parent_id":85683137,
+    "wof:parent_id":907199501,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

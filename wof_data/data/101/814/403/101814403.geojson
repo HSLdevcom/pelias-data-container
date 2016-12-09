@@ -113,6 +113,7 @@
     "wof:belongsto":[
         85683137,
         102191581,
+        907199507,
         85633143,
         404227415,
         136253047
@@ -132,15 +133,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907199507,
             "locality_id":101814403,
             "macroregion_id":404227415,
             "region_id":85683137
         }
     ],
     "wof:id":101814403,
-    "wof:lastmodified":1470852538,
+    "wof:lastmodified":1479836296,
     "wof:name":"Kuhmo",
-    "wof:parent_id":85683137,
+    "wof:parent_id":907199507,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

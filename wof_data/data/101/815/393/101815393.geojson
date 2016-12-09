@@ -83,6 +83,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":633619,
+        "gp:id":"573608",
         "qs:id":81299,
         "wd:id":"Q1013612",
         "wk:page":"Tuulos"
@@ -100,7 +101,7 @@
         }
     ],
     "wof:id":101815393,
-    "wof:lastmodified":1470852513,
+    "wof:lastmodified":1477508558,
     "wof:name":"Tuulos",
     "wof:parent_id":85683077,
     "wof:placetype":"locality",

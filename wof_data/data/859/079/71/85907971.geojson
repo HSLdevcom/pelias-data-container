@@ -70,10 +70,7 @@
     "wk:longitude":24.914,
     "wk:population":3026,
     "wk:wordcount":439,
-    "wof:belongsto":[
-        890537261,
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":6559359,
@@ -83,18 +80,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"86735e3a7f7f5cc48905d3ab9f330d8d",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "macrohood_id":890537261,
-            "neighbourhood_id":85907971
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85907971,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852576,
+    "wof:lastmodified":1480380651,
     "wof:name":"Ruoholahti",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

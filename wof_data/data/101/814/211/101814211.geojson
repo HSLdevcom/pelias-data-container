@@ -90,6 +90,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":651350,
+        "gp:id":"567907",
         "qs:id":126530,
         "wd:id":"Q999821",
         "wk:page":"Korpilahti"
@@ -107,7 +108,7 @@
         }
     ],
     "wof:id":101814211,
-    "wof:lastmodified":1470852516,
+    "wof:lastmodified":1477508557,
     "wof:name":"Korpilahti",
     "wof:parent_id":85683117,
     "wof:placetype":"locality",

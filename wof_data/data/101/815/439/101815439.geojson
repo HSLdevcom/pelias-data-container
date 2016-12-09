@@ -41,6 +41,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"25946117",
         "qs:id":1,
         "wd:id":"Q990557"
     },
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101815439,
-    "wof:lastmodified":1470852448,
+    "wof:lastmodified":1477508558,
     "wof:name":"Pyht\u00e4\u00e4",
     "wof:parent_id":85683081,
     "wof:placetype":"locality",

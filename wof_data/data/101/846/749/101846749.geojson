@@ -76,6 +76,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":652888,
+        "gp:id":"567359",
         "qs:id":276107,
         "wd:id":"Q1641643",
         "wk:page":"Kiikala"
@@ -93,7 +94,7 @@
         }
     ],
     "wof:id":101846749,
-    "wof:lastmodified":1470852478,
+    "wof:lastmodified":1477508573,
     "wof:name":"Kiikala",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

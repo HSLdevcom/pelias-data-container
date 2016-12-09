@@ -40,6 +40,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655848,
+        "gp:id":"566224",
         "qs:id":5,
         "wd:id":"Q3366120",
         "wk:page":"Jeppo (village)"
@@ -57,7 +58,7 @@
         }
     ],
     "wof:id":101846959,
-    "wof:lastmodified":1470852494,
+    "wof:lastmodified":1477508573,
     "wof:name":"Jepua",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

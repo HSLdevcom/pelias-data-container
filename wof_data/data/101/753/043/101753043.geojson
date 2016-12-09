@@ -117,6 +117,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":633395,
+        "gp:id":"23408827",
         "qs:id":1027210,
         "wd:id":"Q247128",
         "wk:page":"Ulvila"
@@ -134,7 +135,7 @@
         }
     ],
     "wof:id":101753043,
-    "wof:lastmodified":1470852472,
+    "wof:lastmodified":1477508535,
     "wof:name":"Ulvila",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

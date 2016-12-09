@@ -39,7 +39,9 @@
         136253047
     ],
     "wof:breaches":[],
-    "wof:concordances":{},
+    "wof:concordances":{
+        "gp:id":"25945558"
+    },
     "wof:country":"FI",
     "wof:geomhash":"55c573bab02d9cd1114b48be19bd9f70",
     "wof:hierarchy":[
@@ -53,7 +55,7 @@
         }
     ],
     "wof:id":101846801,
-    "wof:lastmodified":1470852441,
+    "wof:lastmodified":1477508573,
     "wof:name":"K\u00e4rk\u00f6l\u00e4n kk.",
     "wof:parent_id":85683091,
     "wof:placetype":"locality",

@@ -72,6 +72,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":639234,
+        "gp:id":"572271",
         "qs:id":369836,
         "wd:id":"Q985326"
     },
@@ -88,7 +89,7 @@
         }
     ],
     "wof:id":101847041,
-    "wof:lastmodified":1470852539,
+    "wof:lastmodified":1477508573,
     "wof:name":"Ristij\u00e4rvi",
     "wof:parent_id":85683137,
     "wof:placetype":"locality",

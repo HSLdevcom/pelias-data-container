@@ -71,6 +71,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":631254,
+        "gp:id":"575105",
         "qs:id":550579,
         "wd:id":"Q2156306",
         "wk:page":"V\u00f6r\u00e5"
@@ -88,7 +89,7 @@
         }
     ],
     "wof:id":101846935,
-    "wof:lastmodified":1470852583,
+    "wof:lastmodified":1477508573,
     "wof:name":"V\u00f6yri",
     "wof:parent_id":85683119,
     "wof:placetype":"locality",

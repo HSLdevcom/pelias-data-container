@@ -53,6 +53,7 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
+        "gp:id":"569691",
         "qs:id":5,
         "wd:id":"Q7333938"
     },
@@ -69,7 +70,7 @@
         }
     ],
     "wof:id":101846995,
-    "wof:lastmodified":1470852565,
+    "wof:lastmodified":1477508573,
     "wof:name":"Riistavesi",
     "wof:parent_id":85683131,
     "wof:placetype":"locality",

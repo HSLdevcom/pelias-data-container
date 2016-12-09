@@ -34,6 +34,7 @@
     "wof:belongsto":[
         85683103,
         102191581,
+        907198805,
         85633143,
         404227411,
         136253047
@@ -41,6 +42,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":636777,
+        "gp:id":"573105",
         "qs:id":1029981
     },
     "wof:country":"FI",
@@ -50,15 +52,16 @@
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
+            "localadmin_id":907198805,
             "locality_id":101814033,
             "macroregion_id":404227411,
             "region_id":85683103
         }
     ],
     "wof:id":101814033,
-    "wof:lastmodified":1470852462,
+    "wof:lastmodified":1479836382,
     "wof:name":"Simpele",
-    "wof:parent_id":85683103,
+    "wof:parent_id":907198805,
     "wof:placetype":"locality",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

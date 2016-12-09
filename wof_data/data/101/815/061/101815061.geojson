@@ -84,6 +84,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":655626,
+        "gp:id":"566313",
         "qs:id":845254,
         "wd:id":"Q1641672"
     },
@@ -100,7 +101,7 @@
         }
     ],
     "wof:id":101815061,
-    "wof:lastmodified":1470852469,
+    "wof:lastmodified":1477508558,
     "wof:name":"Joroinen",
     "wof:parent_id":85683109,
     "wof:placetype":"locality",

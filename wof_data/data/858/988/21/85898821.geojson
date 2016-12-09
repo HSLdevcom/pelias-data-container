@@ -62,9 +62,7 @@
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
     "wk:wordcount":642,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660083,
@@ -74,17 +72,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"85201aa379c39ddff0daffccc7d9588b",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898821
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898821,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852574,
+    "wof:lastmodified":1480369814,
     "wof:name":"Etu-T\u00f6\u00f6l\u00f6",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

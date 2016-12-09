@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660118,
+        "gp:id":"570078",
         "qs:id":7
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872795,
-    "wof:lastmodified":1470852514,
+    "wof:lastmodified":1477508665,
     "wof:name":"Etel\u00e4inen",
     "wof:parent_id":85683077,
     "wof:placetype":"locality",

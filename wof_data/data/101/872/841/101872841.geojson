@@ -39,6 +39,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":645806,
+        "gp:id":"29305902",
         "qs:id":6
     },
     "wof:country":"FI",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872841,
-    "wof:lastmodified":1470852499,
+    "wof:lastmodified":1477508665,
     "wof:name":"M\u00f6tt\u00f6nen",
     "wof:parent_id":85683125,
     "wof:placetype":"locality",

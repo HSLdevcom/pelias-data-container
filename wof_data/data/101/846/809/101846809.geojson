@@ -94,6 +94,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":660073,
+        "gp:id":"564638",
         "qs:id":1030120,
         "wd:id":"Q1001783",
         "wk:page":"Eurajoki"
@@ -111,7 +112,7 @@
         }
     ],
     "wof:id":101846809,
-    "wof:lastmodified":1470852451,
+    "wof:lastmodified":1477508573,
     "wof:name":"Eurajoki",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

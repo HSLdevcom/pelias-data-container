@@ -11,7 +11,7 @@
     "figov:national_code":"422",
     "figov:swe_type":"Kommun",
     "geom:area":0.728505,
-    "geom:area_square_m":4042500693.382784,
+    "geom:area_square_m":4042500693.382713,
     "geom:bbox":"29.4672867514,62.99840253,31.2408457826,63.757165328",
     "geom:latitude":63.335522,
     "geom:longitude":30.187315,
@@ -38,7 +38,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"f48741d688aa83834d8f3d586191ca05",
+    "wof:geomhash":"a460d1a1619c0f60dcd520dcf9d3d39c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +50,7 @@
         }
     ],
     "wof:id":907199605,
-    "wof:lastmodified":1470852371,
+    "wof:lastmodified":1479836295,
     "wof:name":"Lieksa",
     "wof:parent_id":85683133,
     "wof:placetype":"localadmin",
@@ -60,7 +60,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    29.467286751368405,
+    29.46728675136841,
     62.99840252998228,
     31.24084578255481,
     63.75716532802076

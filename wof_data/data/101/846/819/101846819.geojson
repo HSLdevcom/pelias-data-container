@@ -91,6 +91,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":653813,
+        "gp:id":"566972",
         "qs:id":1030089,
         "wd:id":"Q1010034",
         "wk:page":"Karvia"
@@ -108,7 +109,7 @@
         }
     ],
     "wof:id":101846819,
-    "wof:lastmodified":1470852500,
+    "wof:lastmodified":1477508573,
     "wof:name":"Karvia",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

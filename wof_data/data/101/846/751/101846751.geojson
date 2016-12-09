@@ -75,6 +75,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":642093,
+        "gp:id":"23416101",
         "qs:id":1027221,
         "wd:id":"Q121715",
         "wk:page":"Pertteli"
@@ -92,7 +93,7 @@
         }
     ],
     "wof:id":101846751,
-    "wof:lastmodified":1470852479,
+    "wof:lastmodified":1477508573,
     "wof:name":"Pertteli",
     "wof:parent_id":85683073,
     "wof:placetype":"locality",

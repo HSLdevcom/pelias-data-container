@@ -89,9 +89,7 @@
     "wk:longitude":24.931667,
     "wk:population":11545,
     "wk:wordcount":451,
-    "wof:belongsto":[
-        890536879
-    ],
+    "wof:belongsto":[],
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":654498,
@@ -102,17 +100,12 @@
     },
     "wof:country":"FI",
     "wof:geomhash":"f8cc8cffe170a8cd87ae1670a8ed189d",
-    "wof:hierarchy":[
-        {
-            "borough_id":890536879,
-            "neighbourhood_id":85898845
-        }
-    ],
+    "wof:hierarchy":[],
     "wof:id":85898845,
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1470852572,
+    "wof:lastmodified":1480369814,
     "wof:name":"Kamppi",
     "wof:parent_id":890536879,
     "wof:placetype":"neighbourhood",

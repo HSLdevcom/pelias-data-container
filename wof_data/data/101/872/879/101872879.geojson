@@ -39,7 +39,8 @@
     ],
     "wof:breaches":[],
     "wof:concordances":{
-        "gn:id":653565
+        "gn:id":653565,
+        "gp:id":"12590801"
     },
     "wof:country":"FI",
     "wof:geomhash":"3476e195fb18de99651f96787a06a086",
@@ -54,7 +55,7 @@
         }
     ],
     "wof:id":101872879,
-    "wof:lastmodified":1470852541,
+    "wof:lastmodified":1477508666,
     "wof:name":"Kaulinranta",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

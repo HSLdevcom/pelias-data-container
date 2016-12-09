@@ -89,6 +89,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":657479,
+        "gp:id":"565630",
         "qs:id":7,
         "wd:id":"Q579149"
     },
@@ -105,7 +106,7 @@
         }
     ],
     "wof:id":101813951,
-    "wof:lastmodified":1470852469,
+    "wof:lastmodified":1477508557,
     "wof:name":"Honkajoki",
     "wof:parent_id":85683095,
     "wof:placetype":"locality",

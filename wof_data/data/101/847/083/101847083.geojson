@@ -84,6 +84,7 @@
     "wof:breaches":[],
     "wof:concordances":{
         "gn:id":640718,
+        "gp:id":"571710",
         "qs:id":1030026,
         "wd:id":"Q541236",
         "wk:page":"Pulkkila"
@@ -101,7 +102,7 @@
         }
     ],
     "wof:id":101847083,
-    "wof:lastmodified":1470852582,
+    "wof:lastmodified":1477508573,
     "wof:name":"Pulkkila",
     "wof:parent_id":85683143,
     "wof:placetype":"locality",
