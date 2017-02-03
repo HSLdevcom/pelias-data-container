@@ -9,4 +9,5 @@ cd $DATA/openstreetmap
 # Download osm data
 curl -sS -O http://dev.hsl.fi/osm.finland/finland.osm.pbf
 
+echo '##### Loaded OSM data'
 echo 'OK' >> /tmp/loadresults
