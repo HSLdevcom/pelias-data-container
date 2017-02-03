@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Borgn\u00e4s"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"41adf710871daa798f35c64dd9ca2060",
+    "wof:geomhash":"1097a3cbc4b178b942aa971d1932724e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198545,
-    "wof:lastmodified":1470851997,
+    "wof:lastmodified":1481176827,
     "wof:name":"Pornainen",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    25.204082063024618,
-    60.400740521621266,
+    25.20408206302462,
+    60.40074052162127,
     25.5101962473581,
     60.55430049390508
 ],

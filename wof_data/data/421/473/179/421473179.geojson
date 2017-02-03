@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Tikkurila",
     "geom:area":0.000975,
+    "geom:area_square_m":5976824.681117,
     "geom:bbox":"24.9939256613,60.2814288905,25.0582878526,60.3089845965",
     "geom:latitude":60.294927,
     "geom:longitude":25.024829,
@@ -21,7 +22,8 @@
         102191581,
         85633143,
         404227411,
-        101748419
+        101748419,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -33,6 +35,7 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
             "locality_id":101748419,
             "macroregion_id":404227411,
             "postalcode_id":421473179,
@@ -40,7 +43,7 @@
         }
     ],
     "wof:id":421473179,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373931,
     "wof:name":"01300",
     "wof:parent_id":101748419,
     "wof:placetype":"postalcode",

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Valtimo"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683133,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"05b2e8395585a477fc15acbfbe4310de",
+    "wof:geomhash":"cd9494b2871f89e61ca1a2e4ef496256",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199405,
-    "wof:lastmodified":1470852284,
+    "wof:lastmodified":1481176879,
     "wof:name":"Valtimo",
     "wof:parent_id":85683133,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    28.359723421230587,
+    28.35972342123059,
     63.55808920413434,
     29.20486527801991,
     63.88241466808729

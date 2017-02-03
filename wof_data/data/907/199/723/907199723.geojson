@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Fredrikshamn"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683081,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"9f3b3a7370273226cf0e791402f0cf3a",
+    "wof:geomhash":"3562092390b92099ee2ef424d0d50463",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199723,
-    "wof:lastmodified":1470852409,
+    "wof:lastmodified":1481176896,
     "wof:name":"Hamina",
     "wof:parent_id":85683081,
     "wof:placetype":"localadmin",

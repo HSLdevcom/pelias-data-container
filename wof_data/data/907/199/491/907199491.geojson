@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Pyh\u00e4nt\u00e4"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683143,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"a2a8ffce535df86f122e899f0502fbc7",
+    "wof:geomhash":"456db15e215fb3ad2f43cbd7a7dfc415",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199491,
-    "wof:lastmodified":1470852322,
+    "wof:lastmodified":1481176884,
     "wof:name":"Pyhanta",
     "wof:parent_id":85683143,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.092875239394377,
+    26.09287523939438,
     63.84103548015963,
     26.87040219456655,
     64.28258343552262

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Harjavalta"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683095,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"dcb06f6a2f6bf6f183bddd1f7d63f012",
+    "wof:geomhash":"da73ad62cba7017ef60405adc28a3b5a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198927,
-    "wof:lastmodified":1470852116,
+    "wof:lastmodified":1481176849,
     "wof:name":"Harjavalta",
     "wof:parent_id":85683095,
     "wof:placetype":"localadmin",

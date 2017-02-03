@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Hujakkala",
     "geom:area":0.010867,
+    "geom:area_square_m":65728840.495454,
     "geom:bbox":"27.8710502775,60.6618654286,28.0849437367,60.7587275938",
     "geom:latitude":60.7152,
     "geom:longitude":27.971596,
@@ -17,10 +18,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683103,
-        404227411
+        102191581,
+        907198887,
+        85633143,
+        404227411,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,15 +35,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198887,
             "macroregion_id":404227411,
             "postalcode_id":421476379,
             "region_id":85683103
         }
     ],
     "wof:id":421476379,
-    "wof:lastmodified":1469577646,
+    "wof:lastmodified":1480781074,
     "wof:name":"54430",
-    "wof:parent_id":85683103,
+    "wof:parent_id":907198887,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

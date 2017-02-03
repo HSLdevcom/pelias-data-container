@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "P\u00e5mark"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683095,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"f6af3dbb4e6095453d250a636bb7c894",
+    "wof:geomhash":"6fc95148791bae7981e0ff0f5ceea015",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198823,
-    "wof:lastmodified":1470852078,
+    "wof:lastmodified":1481176842,
     "wof:name":"Pomarkku",
     "wof:parent_id":85683095,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.728052122713216,
+    21.72805212271322,
     61.61501172362419,
     22.38267739532197,
     61.78265935597186

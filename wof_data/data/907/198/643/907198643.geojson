@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Vehmaa"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"727b6993b2f27136f637c67a5da99459",
+    "wof:geomhash":"826b56b2310b486588f8360c6d253028",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198643,
-    "wof:lastmodified":1470852021,
+    "wof:lastmodified":1481176831,
     "wof:name":"Vehmaa",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.506004456443232,
+    21.50600445644323,
     60.571257484766,
     21.81537383085289,
     60.75929134760821

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Masku"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"9ae9447d1d9ccfe0e8435c65b08117f1",
+    "wof:geomhash":"7c9c78aaed9020e97b1694000d70a9e4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198919,
-    "wof:lastmodified":1470852113,
+    "wof:lastmodified":1481176848,
     "wof:name":"Masku",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.777310041516696,
+    21.7773100415167,
     60.47956348908077,
     22.41500366430425,
     60.73729290186384

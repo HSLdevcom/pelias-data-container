@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kinnula"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683117,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"a2f800c55216d74ead38041175f4ab8d",
+    "wof:geomhash":"4ccd8d8425083d58a96b4f35a1cd5e86",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199139,
-    "wof:lastmodified":1470852191,
+    "wof:lastmodified":1481176862,
     "wof:name":"Kinnula",
     "wof:parent_id":85683117,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.772920967196992,
+    24.77292096719699,
     63.23155976238185,
     25.33346942401561,
     63.46716818617797

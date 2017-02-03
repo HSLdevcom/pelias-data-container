@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Rovaniemi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"4565f3b9754cdc46c4223fa086a848cc",
+    "wof:geomhash":"42c6816ebbedf93c7fff67fb2bcd450d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199591,
-    "wof:lastmodified":1470852366,
+    "wof:lastmodified":1481176889,
     "wof:name":"Rovaniemi",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.736849152414027,
+    24.73684915241403,
     66.1553988751441,
     27.32664974950479,
     67.1797682760886

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Tavastkyro"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683099,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"a84352d8548df06442d77f9eff4b8915",
+    "wof:geomhash":"94dd145d878f6e27fe5580639f5f1eb5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199131,
-    "wof:lastmodified":1470852189,
+    "wof:lastmodified":1481176861,
     "wof:name":"Hameenkyro",
     "wof:parent_id":85683099,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    22.824068524860294,
+    22.82406852486029,
     61.51594201238537,
     23.50048253474644,
     61.73725966226221

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kuortane"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683113,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"72eddb2c9a8b43fd3c27f1611fb69d6d",
+    "wof:geomhash":"791ae28ca067af308b526ff0874b50d1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199291,
-    "wof:lastmodified":1470852242,
+    "wof:lastmodified":1481176871,
     "wof:name":"Kuortane",
     "wof:parent_id":85683113,
     "wof:placetype":"localadmin",

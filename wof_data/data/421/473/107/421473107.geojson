@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Tapanila",
     "geom:area":0.000588,
+    "geom:area_square_m":3604969.573817,
     "geom:bbox":"24.9974422591,60.2562266913,25.0461721375,60.2748408412",
     "geom:latitude":60.26527,
     "geom:longitude":25.023419,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473107,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473107,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373929,
     "wof:name":"00730",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

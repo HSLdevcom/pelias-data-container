@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Joensuu"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683133,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"7b302fd4a319eaf599ffdc1a63dfec59",
+    "wof:geomhash":"9e8356d5757d0447bc23fa594d0ecd59",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199609,
-    "wof:lastmodified":1470852373,
+    "wof:lastmodified":1481176890,
     "wof:name":"Joensuu",
     "wof:parent_id":85683133,
     "wof:placetype":"localadmin",
@@ -61,7 +62,7 @@
 },
   "bbox": [
     29.61309212920366,
-    62.250802945405134,
+    62.25080294540513,
     31.09352161631278,
     63.04758543825813
 ],

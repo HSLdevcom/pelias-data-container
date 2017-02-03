@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Pargas"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"97191302a5cd24828c81f40dc4ebed20",
+    "wof:geomhash":"af4b848e689d59f5cc038cd62d85e6f8",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199741,
-    "wof:lastmodified":1470852411,
+    "wof:lastmodified":1481176896,
     "wof:name":"Parainen",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.023829963645483,
-    59.475642938816065,
+    21.02382996364548,
+    59.47564293881607,
     22.54299911864057,
     60.49866215961113
 ],

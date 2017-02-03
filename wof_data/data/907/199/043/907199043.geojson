@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Malax"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683119,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"c9775c67672e8aebcd4ee4bd6c3c50ea",
+    "wof:geomhash":"73844bcee78241834844d0ddba36ba37",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199043,
-    "wof:lastmodified":1470852159,
+    "wof:lastmodified":1481176856,
     "wof:name":"Maalahti",
     "wof:parent_id":85683119,
     "wof:placetype":"localadmin",

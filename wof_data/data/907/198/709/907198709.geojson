@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Sjunde\u00e5"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"65d515aca1096c02f4ecd02192c92b74",
+    "wof:geomhash":"289cbac3c082f0fe73ccb493ac74b1da",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198709,
-    "wof:lastmodified":1470852037,
+    "wof:lastmodified":1481176834,
     "wof:name":"Siuntio",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.008262876686675,
-    60.022495565303224,
+    24.00826287668668,
+    60.02249556530322,
     24.36176824252651,
     60.29464546893563
 ],

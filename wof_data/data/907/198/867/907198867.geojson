@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Nyslott"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683109,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"ed098a74d710ce26519d5303884c6dd4",
+    "wof:geomhash":"cdbd63fcd47ce65024cb99421d874c4b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198867,
-    "wof:lastmodified":1470852095,
+    "wof:lastmodified":1481176845,
     "wof:name":"Savonlinna",
     "wof:parent_id":85683109,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    28.370214773592494,
-    61.533698403509526,
+    28.37021477359249,
+    61.53369840350953,
     29.69682562751909,
     62.41775699479728
 ],

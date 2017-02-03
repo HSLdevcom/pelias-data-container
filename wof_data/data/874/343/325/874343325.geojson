@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"J\u00e4tk\u00e4saari",
     "geom:area":0.000111,
+    "geom:area_square_m":681316.209449,
     "geom:bbox":"24.9070014949,60.1503709998,24.9243941678,60.1628362116",
     "geom:latitude":60.156119,
     "geom:longitude":24.917122,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:country":"FI",
@@ -30,6 +33,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":874343325,
@@ -37,7 +42,7 @@
         }
     ],
     "wof:id":874343325,
-    "wof:lastmodified":1469577668,
+    "wof:lastmodified":1485373932,
     "wof:name":"00220",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

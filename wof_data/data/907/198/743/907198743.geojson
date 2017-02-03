@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Pertunmaa"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683109,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"cc8dc459a598dd1867d6d67aa6230eba",
+    "wof:geomhash":"4a4288a7a0a0cc1519dd5df5908a3e0e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198743,
-    "wof:lastmodified":1470852049,
+    "wof:lastmodified":1481176837,
     "wof:name":"Pertunmaa",
     "wof:parent_id":85683109,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.234883201701823,
+    26.23488320170182,
     61.33983182816388,
     26.65574586624482,
     61.65780525358434

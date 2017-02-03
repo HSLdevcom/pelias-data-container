@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Liperi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683133,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"4d278a4b45555435261bbe4b786b0388",
+    "wof:geomhash":"6634d71514b714491e9bf9894d6768f4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198863,
-    "wof:lastmodified":1470852091,
+    "wof:lastmodified":1481176844,
     "wof:name":"Liperi",
     "wof:parent_id":85683133,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    28.941335709593446,
+    28.94133570959345,
     62.35974842085644,
     29.76332267548953,
     62.72234704686823

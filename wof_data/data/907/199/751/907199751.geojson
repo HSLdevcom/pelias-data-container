@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Sastamala"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683099,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"09dfa34fbbc0799ae9d85713ce812464",
+    "wof:geomhash":"f075ce486f2194382feab1f23b13f95e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199751,
-    "wof:lastmodified":1470852415,
+    "wof:lastmodified":1481176897,
     "wof:name":"Sastamala",
     "wof:parent_id":85683099,
     "wof:placetype":"localadmin",

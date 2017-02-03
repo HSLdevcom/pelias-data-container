@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Ing\u00e5"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"7007e8b5a9fd546e6e696bf5e67b6935",
+    "wof:geomhash":"2fa4fe40f18646fe5e8b888bb5f0445d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198509,
-    "wof:lastmodified":1470851989,
+    "wof:lastmodified":1481176826,
     "wof:name":"Inkoo",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.752657484400224,
+    23.75265748440022,
     59.75169602715319,
     24.31628364068774,
     60.15011723994576

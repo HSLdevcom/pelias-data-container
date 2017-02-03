@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Savukoski"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199579,
-    "wof:lastmodified":1479836596,
+    "wof:lastmodified":1481176889,
     "wof:name":"Savukoski",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",

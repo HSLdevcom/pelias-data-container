@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Villmanstrand"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683103,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198887,
-    "wof:lastmodified":1479833701,
+    "wof:lastmodified":1481176847,
     "wof:name":"Lappeenranta",
     "wof:parent_id":85683103,
     "wof:placetype":"localadmin",

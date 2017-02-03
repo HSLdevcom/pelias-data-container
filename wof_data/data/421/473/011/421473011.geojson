@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"L\u00e4nsi-Pasila",
     "geom:area":0.000381,
+    "geom:area_square_m":2340660.743408,
     "geom:bbox":"24.9100515927,60.1924321593,24.9348091447,60.2164673884",
     "geom:latitude":60.205062,
     "geom:longitude":24.923704,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473011,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473011,
-    "wof:lastmodified":1469577621,
+    "wof:lastmodified":1485373933,
     "wof:name":"00240",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Puolanka"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683137,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"331b7a0a15de1bb16079880d31a0964b",
+    "wof:geomhash":"37d4f936baafea2aeb41668dc458dd36",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199513,
-    "wof:lastmodified":1470852334,
+    "wof:lastmodified":1481176885,
     "wof:name":"Puolanka",
     "wof:parent_id":85683137,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.118442454248903,
+    27.1184424542489,
     64.50259251891636,
     28.29430134880324,
     65.22275874371022

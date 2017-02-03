@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Mellunm\u00e4ki",
     "geom:area":0.00056,
+    "geom:area_square_m":3436389.500818,
     "geom:bbox":"25.0992899587,60.2248652894,25.1510735533,60.2439894621",
     "geom:latitude":60.235263,
     "geom:longitude":25.125429,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473155,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473155,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373928,
     "wof:name":"00970",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

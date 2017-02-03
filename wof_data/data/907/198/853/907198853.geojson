@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Parikkala"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683103,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198853,
-    "wof:lastmodified":1479836381,
+    "wof:lastmodified":1481176844,
     "wof:name":"Parikkala",
     "wof:parent_id":85683103,
     "wof:placetype":"localadmin",

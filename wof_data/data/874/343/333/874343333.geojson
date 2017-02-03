@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"It\u00e4salmi",
     "geom:area":0.00442,
+    "geom:area_square_m":27112056.729434,
     "geom:bbox":"25.1382360632,60.2257273324,25.2489446245,60.3029819435",
     "geom:latitude":60.262641,
     "geom:longitude":25.196181,
@@ -16,10 +17,13 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683067,
-        404227411
+        102191581,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:country":"FI",
@@ -29,15 +33,18 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":874343333,
             "region_id":85683067
         }
     ],
     "wof:id":874343333,
-    "wof:lastmodified":1469577668,
+    "wof:lastmodified":1485373931,
     "wof:name":"00890",
-    "wof:parent_id":85683067,
+    "wof:parent_id":101748417,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

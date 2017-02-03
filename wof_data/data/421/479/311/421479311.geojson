@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Martti-Ruuvaoja",
     "geom:area":0.812182,
+    "geom:area_square_m":3795874619.6597,
     "geom:bbox":"28.1068719358,67.3567014191,29.503356243,68.2227212081",
     "geom:latitude":67.79111,
     "geom:longitude":28.764299,
@@ -17,10 +18,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683147,
-        404227409
+        102191581,
+        907199579,
+        85633143,
+        404227409,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,15 +35,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199579,
             "macroregion_id":404227409,
             "postalcode_id":421479311,
             "region_id":85683147
         }
     ],
     "wof:id":421479311,
-    "wof:lastmodified":1469577660,
+    "wof:lastmodified":1480781607,
     "wof:name":"98830",
-    "wof:parent_id":85683147,
+    "wof:parent_id":907199579,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kouvola"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683081,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"fa8c619d6b0f00d5b226897a2efa15a4",
+    "wof:geomhash":"cd13f2f516b0b09d013441a9ac6ac3f1",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198969,
-    "wof:lastmodified":1470852133,
+    "wof:lastmodified":1481176851,
     "wof:name":"Kouvola",
     "wof:parent_id":85683081,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.235392753603776,
+    26.23539275360378,
     60.57500644623542,
     27.42835969891218,
     61.29257864900661

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Uukuniemi",
     "geom:area":0.011781,
+    "geom:area_square_m":68835820.403673,
     "geom:bbox":"29.900228889,61.7307103934,30.143955961,61.8590626488",
     "geom:latitude":61.800866,
     "geom:longitude":30.00819,
@@ -16,10 +17,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683103,
-        404227411
+        102191581,
+        907198853,
+        85633143,
+        404227411,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -31,15 +34,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198853,
             "macroregion_id":404227411,
             "postalcode_id":421476625,
             "region_id":85683103
         }
     ],
     "wof:id":421476625,
-    "wof:lastmodified":1469577647,
+    "wof:lastmodified":1480781245,
     "wof:name":"59730",
-    "wof:parent_id":85683103,
+    "wof:parent_id":907198853,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

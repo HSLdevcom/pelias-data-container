@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Sievi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683143,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"b31e9f9e527f333f123d074a100f8461",
+    "wof:geomhash":"4a178aa19f4209442f296f7592011c1e",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199347,
-    "wof:lastmodified":1470852262,
+    "wof:lastmodified":1481176874,
     "wof:name":"Sievi",
     "wof:parent_id":85683143,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.127078414766835,
-    63.648658352650266,
+    24.12707841476684,
+    63.64865835265027,
     24.96876053886418,
     64.03021138390093
 ],

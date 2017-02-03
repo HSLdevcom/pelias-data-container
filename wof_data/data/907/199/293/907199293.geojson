@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Vetil"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683125,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"5c449716adb6f98ff44be12d6760db83",
+    "wof:geomhash":"d4d6a70e05cfa702479111116c59897b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199293,
-    "wof:lastmodified":1470852243,
+    "wof:lastmodified":1481176871,
     "wof:name":"Veteli",
     "wof:parent_id":85683125,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.657412399465613,
+    23.65741239946561,
     63.25814496233361,
     24.19786780659888,
     63.53742730654247

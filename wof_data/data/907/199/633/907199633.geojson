@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Grankulla"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"397302023cacf8b3fabd15e155246404",
+    "wof:geomhash":"8bdc02029ecaec140e61387b3a4b8890",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199633,
-    "wof:lastmodified":1470852379,
+    "wof:lastmodified":1481176891,
     "wof:name":"Kauniainen",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",
@@ -61,7 +62,7 @@
 },
   "bbox": [
     24.67528761776222,
-    60.202562647953705,
+    60.20256264795371,
     24.75091364361262,
     60.2259132354027
 ],

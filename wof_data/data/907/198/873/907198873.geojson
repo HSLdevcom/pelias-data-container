@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Honkajoki"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683095,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"2025da079c7250b2d6d7044e7903db86",
+    "wof:geomhash":"4d718763dd5f06395413ce59d9d7bdff",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198873,
-    "wof:lastmodified":1470852098,
+    "wof:lastmodified":1481176846,
     "wof:name":"Honkajoki",
     "wof:parent_id":85683095,
     "wof:placetype":"localadmin",

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kiuruvesi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683131,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"861a9244198e8caa2ca499d30a0694ee",
+    "wof:geomhash":"e20cf31404d0176e06e6ae6ad676d680",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199481,
-    "wof:lastmodified":1470852318,
+    "wof:lastmodified":1481176883,
     "wof:name":"Kiuruvesi",
     "wof:parent_id":85683131,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.165383130736338,
-    63.431634425653016,
+    26.16538313073634,
+    63.43163442565302,
     26.92490032779767,
     63.96548102417691
 ],

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Iitti"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683081,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"6d3ee7621e63f7cd2e90bc00d1085266",
+    "wof:geomhash":"6d6615233579f3e6b3d37e0843c97749",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198619,
-    "wof:lastmodified":1470852016,
+    "wof:lastmodified":1481176830,
     "wof:name":"Iitti",
     "wof:parent_id":85683081,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    25.991925703468144,
+    25.99192570346814,
     60.74784387556348,
     26.54496810305741,
     61.15548546302558

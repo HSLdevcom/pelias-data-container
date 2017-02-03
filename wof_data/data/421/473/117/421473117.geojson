@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Tapaninvainio",
     "geom:area":0.00037,
+    "geom:area_square_m":2271198.54565,
     "geom:bbox":"24.9704921284,60.249378306,25.0047952892,60.2659773511",
     "geom:latitude":60.257748,
     "geom:longitude":24.9865,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473117,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473117,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373931,
     "wof:name":"00780",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

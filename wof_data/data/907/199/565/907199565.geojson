@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kittil\u00e4"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"217d77b832a42100c478d2a81a76fce0",
+    "wof:geomhash":"5a256e8c3fce169ad21f46a616322c23",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199565,
-    "wof:lastmodified":1470852355,
+    "wof:lastmodified":1481176888,
     "wof:name":"Kittila",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.093238433863696,
+    24.0932384338637,
     67.15118860864268,
     26.00783951989144,
     68.39528875553565

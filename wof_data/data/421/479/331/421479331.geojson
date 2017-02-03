@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Kallunki-Niemel\u00e4",
     "geom:area":0.066925,
+    "geom:area_square_m":328086155.913336,
     "geom:bbox":"28.5777191975,66.5615520839,29.4190633351,66.7165190695",
     "geom:latitude":66.643378,
     "geom:longitude":29.015859,
@@ -17,10 +18,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683147,
-        404227409
+        102191581,
+        907199555,
+        85633143,
+        404227409,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,15 +35,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199555,
             "macroregion_id":404227409,
             "postalcode_id":421479331,
             "region_id":85683147
         }
     ],
     "wof:id":421479331,
-    "wof:lastmodified":1469577661,
+    "wof:lastmodified":1480781206,
     "wof:name":"98980",
-    "wof:parent_id":85683147,
+    "wof:parent_id":907199555,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

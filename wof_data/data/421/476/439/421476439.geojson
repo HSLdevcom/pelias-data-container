@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Rajapatsas-Teppanala",
     "geom:area":0.004189,
+    "geom:area_square_m":24993781.140831,
     "geom:bbox":"28.7898414342,61.1223553866,28.9481615132,61.1765031268",
     "geom:latitude":61.150256,
     "geom:longitude":28.850786,
@@ -16,10 +17,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683103,
-        404227411
+        102191581,
+        907198977,
+        85633143,
+        404227411,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -31,15 +34,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198977,
             "macroregion_id":404227411,
             "postalcode_id":421476439,
             "region_id":85683103
         }
     ],
     "wof:id":421476439,
-    "wof:lastmodified":1469577646,
+    "wof:lastmodified":1480781074,
     "wof:name":"55610",
-    "wof:parent_id":85683103,
+    "wof:parent_id":907198977,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

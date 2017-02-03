@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Posio"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"386226f170add826cbd485e9ed310c82",
+    "wof:geomhash":"6200e0bde49d3fdcfb49d834aa0f1ff6",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199533,
-    "wof:lastmodified":1470852344,
+    "wof:lastmodified":1481176886,
     "wof:name":"Posio",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.233935079197405,
+    27.2339350791974,
     65.80059489711729,
     28.7684252910372,
     66.49225416364995

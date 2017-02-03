@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Muonio"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"881cecebac27a9c66a0c0ce6dcb7dd92",
+    "wof:geomhash":"c50510c84ef5558f5b3032adea5d0088",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199587,
-    "wof:lastmodified":1470852365,
+    "wof:lastmodified":1481176889,
     "wof:name":"Muonio",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",

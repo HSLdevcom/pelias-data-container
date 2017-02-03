@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Myn\u00e4m\u00e4ki"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"794123dcad45a41a88f8f905932202f8",
+    "wof:geomhash":"9fe92691eb66f7a7499b709bd41af31c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198907,
-    "wof:lastmodified":1470852110,
+    "wof:lastmodified":1481176848,
     "wof:name":"Mynamaki",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -61,7 +62,7 @@
 },
   "bbox": [
     21.77063886703786,
-    60.557646056299916,
+    60.55764605629992,
     22.41500366430425,
     60.9042053837991
 ],

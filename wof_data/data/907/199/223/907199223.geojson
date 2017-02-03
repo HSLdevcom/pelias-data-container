@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Viitasaari"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683117,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"5fdfb408b7392eafa5cc59ad66c54e94",
+    "wof:geomhash":"a2d0bf2e41c2d0b00d6752a32fc56148",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199223,
-    "wof:lastmodified":1470852216,
+    "wof:lastmodified":1481176865,
     "wof:name":"Viitasaari",
     "wof:parent_id":85683117,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    25.309317624084763,
+    25.30931762408476,
     62.8683080341869,
     26.33427413384692,
     63.28983067238712

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Pohjois-Lepp\u00e4vaara",
     "geom:area":0.000419,
+    "geom:area_square_m":2572158.823828,
     "geom:bbox":"24.7927930919,60.2182807042,24.8375873571,60.2328296014",
     "geom:latitude":60.224703,
     "geom:longitude":24.816886,
@@ -21,7 +22,8 @@
         102191581,
         85633143,
         404227411,
-        101748415
+        101748415,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -33,6 +35,7 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
             "locality_id":101748415,
             "macroregion_id":404227411,
             "postalcode_id":421479581,
@@ -40,7 +43,7 @@
         }
     ],
     "wof:id":421479581,
-    "wof:lastmodified":1469577662,
+    "wof:lastmodified":1485373931,
     "wof:name":"02650",
     "wof:parent_id":101748415,
     "wof:placetype":"postalcode",

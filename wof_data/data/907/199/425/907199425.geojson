@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Siilinj\u00e4rvi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683131,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"d1b3ffeaae2ff89855f878b8405e9f99",
+    "wof:geomhash":"3b529d25460cdf1b242cc537ada60983",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199425,
-    "wof:lastmodified":1470852291,
+    "wof:lastmodified":1481176880,
     "wof:name":"Siilinjarvi",
     "wof:parent_id":85683131,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.337882233514563,
+    27.33788223351456,
     62.9518722353931,
     27.94916546668651,
     63.25183735593914

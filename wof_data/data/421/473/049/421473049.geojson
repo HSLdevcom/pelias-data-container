@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Malminkartano",
     "geom:area":0.000315,
+    "geom:area_square_m":1931925.237367,
     "geom:bbox":"24.8400402263,60.2405061289,24.8744431606,60.2550392706",
     "geom:latitude":60.248727,
     "geom:longitude":24.858141,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473049,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473049,
-    "wof:lastmodified":1469577621,
+    "wof:lastmodified":1485373930,
     "wof:name":"00410",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

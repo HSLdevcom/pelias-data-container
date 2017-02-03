@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Toholampi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683125,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"90bb5a77d9cec95696a761e9d10ce6b5",
+    "wof:geomhash":"17daa66af7fbc47a259b3dee8eaa9baa",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199309,
-    "wof:lastmodified":1470852250,
+    "wof:lastmodified":1481176872,
     "wof:name":"Toholampi",
     "wof:parent_id":85683125,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.975374040021748,
-    63.566004322704956,
+    23.97537404002175,
+    63.56600432270496,
     24.61503476417386,
     63.88622133729501
 ],

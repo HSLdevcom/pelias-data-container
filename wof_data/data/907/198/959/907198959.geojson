@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Lemi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683103,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"435c2cf5fa019ece93c821b38ee613a7",
+    "wof:geomhash":"63ba420a585d3eb0c1b75cacc693d851",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198959,
-    "wof:lastmodified":1470852126,
+    "wof:lastmodified":1481176850,
     "wof:name":"Lemi",
     "wof:parent_id":85683103,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    27.572788656323098,
-    60.993752369654956,
+    27.5727886563231,
+    60.99375236965496,
     27.99116878938899,
     61.16971720126859
 ],

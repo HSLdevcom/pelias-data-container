@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Akaa"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683099,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"856b27a3d154d14fc28887afa10bfc06",
+    "wof:geomhash":"5f7759070753f970ec886648952ed058",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199731,
-    "wof:lastmodified":1470852410,
+    "wof:lastmodified":1481176896,
     "wof:name":"Akaa",
     "wof:parent_id":85683099,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.493200114259526,
+    23.49320011425953,
     61.05735515180876,
     23.95859580501052,
     61.25897918229806

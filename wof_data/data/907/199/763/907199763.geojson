@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "V\u00f6r\u00e5"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683119,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"f7be7b74be1a56d0e05ef871bc803be7",
+    "wof:geomhash":"bc2de7032c32aeb95b4d5acc5366f409",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199763,
-    "wof:lastmodified":1470852417,
+    "wof:lastmodified":1481176897,
     "wof:name":"Voyri",
     "wof:parent_id":85683119,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.360586759706973,
+    21.36058675970697,
     63.05611353468176,
     22.65820208651854,
     63.67023225890499

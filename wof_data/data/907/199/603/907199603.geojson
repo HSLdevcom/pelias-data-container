@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Riihim\u00e4ki"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683077,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"20086054f5ad2c014bbf3743735d2a1c",
+    "wof:geomhash":"1b242651774e79819fe76e773616788b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199603,
-    "wof:lastmodified":1470852369,
+    "wof:lastmodified":1481176890,
     "wof:name":"Riihimaki",
     "wof:parent_id":85683077,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.605615800904285,
+    24.60561580090429,
     60.64749642339941,
     24.84473299316493,
     60.80031141638478

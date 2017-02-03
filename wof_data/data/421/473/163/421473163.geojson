@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"V\u00e4sterskog",
     "geom:area":0.004053,
+    "geom:area_square_m":24874682.008781,
     "geom:bbox":"25.2143496868,60.1208364402,25.3687411755,60.2926824691",
     "geom:latitude":60.240816,
     "geom:longitude":25.280861,
@@ -21,7 +22,8 @@
         102191581,
         85633143,
         404227411,
-        101815315
+        101815315,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -33,6 +35,7 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
             "locality_id":101815315,
             "macroregion_id":404227411,
             "postalcode_id":421473163,
@@ -40,7 +43,7 @@
         }
     ],
     "wof:id":421473163,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373932,
     "wof:name":"01120",
     "wof:parent_id":101815315,
     "wof:placetype":"postalcode",

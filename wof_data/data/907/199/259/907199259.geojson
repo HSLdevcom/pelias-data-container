@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Marttila"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"af7010a37b234baced16c4da2cd86dbf",
+    "wof:geomhash":"56aeab88ce9f6df48689e41cda97e6f5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199259,
-    "wof:lastmodified":1470852228,
+    "wof:lastmodified":1481176868,
     "wof:name":"Marttila",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",

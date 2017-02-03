@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kumo"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683095,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"55f8cc4f665b2c6e6872cffa6c9aac69",
+    "wof:geomhash":"9398b55165d972e7fee51a69b8ddf5bc",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198937,
-    "wof:lastmodified":1470852118,
+    "wof:lastmodified":1481176849,
     "wof:name":"Kokemaki",
     "wof:parent_id":85683095,
     "wof:placetype":"localadmin",

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Hautaj\u00e4rvi",
     "geom:area":0.090277,
+    "geom:area_square_m":444828776.023272,
     "geom:bbox":"28.8148484218,66.4168538402,29.5729280428,66.6321358591",
     "geom:latitude":66.516475,
     "geom:longitude":29.157977,
@@ -17,10 +18,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683147,
-        404227409
+        102191581,
+        907199555,
+        85633143,
+        404227409,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,15 +35,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199555,
             "macroregion_id":404227409,
             "postalcode_id":421479335,
             "region_id":85683147
         }
     ],
     "wof:id":421479335,
-    "wof:lastmodified":1469577661,
+    "wof:lastmodified":1480781206,
     "wof:name":"98995",
-    "wof:parent_id":85683147,
+    "wof:parent_id":907199555,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

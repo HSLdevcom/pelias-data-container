@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kempele"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683143,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"740af6904933c63685bccc8b23f13479",
+    "wof:geomhash":"9484ebf6dd39e003d26c75305bc88407",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199479,
-    "wof:lastmodified":1470852316,
+    "wof:lastmodified":1481176883,
     "wof:name":"Kempele",
     "wof:parent_id":85683143,
     "wof:placetype":"localadmin",

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Ivalo",
     "geom:area":1.85404,
+    "geom:area_square_m":8325418475.223319,
     "geom:bbox":"24.78025755,68.2097404184,29.1039900134,69.6537658296",
     "geom:latitude":68.705587,
     "geom:longitude":27.163584,
@@ -16,10 +17,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683147,
-        404227409
+        102191581,
+        907199567,
+        85633143,
+        404227409,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -31,15 +34,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199567,
             "macroregion_id":404227409,
             "postalcode_id":421479471,
             "region_id":85683147
         }
     ],
     "wof:id":421479471,
-    "wof:lastmodified":1469577662,
+    "wof:lastmodified":1480781607,
     "wof:name":"99800",
-    "wof:parent_id":85683147,
+    "wof:parent_id":907199567,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

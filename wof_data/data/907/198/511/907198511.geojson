@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kyrksl\u00e4tt"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"09ea035bed1ef9e594d4645d26b4abb1",
+    "wof:geomhash":"73456a3919ada353658ad3450a70fdf5",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198511,
-    "wof:lastmodified":1470851990,
+    "wof:lastmodified":1481176826,
     "wof:name":"Kirkkonummi",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.272065381415153,
-    59.791569874795094,
+    24.27206538141515,
+    59.79156987479509,
     24.83141252089247,
     60.29770679732645
 ],

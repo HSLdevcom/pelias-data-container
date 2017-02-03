@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Vapaala",
     "geom:area":0.000346,
+    "geom:area_square_m":2121878.365972,
     "geom:bbox":"24.810599439,60.2532450755,24.8388894073,60.2738880205",
     "geom:latitude":60.262295,
     "geom:longitude":24.826871,
@@ -21,7 +22,8 @@
         102191581,
         85633143,
         404227411,
-        101748419
+        101748419,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -33,6 +35,7 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
             "locality_id":101748419,
             "macroregion_id":404227411,
             "postalcode_id":421473219,
@@ -40,7 +43,7 @@
         }
     ],
     "wof:id":421473219,
-    "wof:lastmodified":1469577622,
+    "wof:lastmodified":1485373932,
     "wof:name":"01650",
     "wof:parent_id":101748419,
     "wof:placetype":"postalcode",

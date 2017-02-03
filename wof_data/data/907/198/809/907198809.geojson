@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Siikainen"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683095,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"3b6869c56d5692a50f00693652a4813f",
+    "wof:geomhash":"67212b8c9b60fe569568a1b357ecb990",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198809,
-    "wof:lastmodified":1470852074,
+    "wof:lastmodified":1481176841,
     "wof:name":"Siikainen",
     "wof:parent_id":85683095,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.678974361910257,
+    21.67897436191026,
     61.74653683977227,
     22.17543515800151,
     62.01586247023026

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Helsinki Keskusta - Etu-T\u00f6\u00f6l\u00f6",
     "geom:area":0.000381,
+    "geom:area_square_m":2341359.137103,
     "geom:bbox":"24.9029734656,60.1650917128,24.9512916306,60.1789510324",
     "geom:latitude":60.172204,
     "geom:longitude":24.92929,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421479569,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421479569,
-    "wof:lastmodified":1469577662,
+    "wof:lastmodified":1485373930,
     "wof:name":"00100",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

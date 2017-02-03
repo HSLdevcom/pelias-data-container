@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Etseri"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683113,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"a5b7cf8b75525cffa85e9647d8be5317",
+    "wof:geomhash":"789924a13e4dc8ba8741f65d09969e0a",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199089,
-    "wof:lastmodified":1470852177,
+    "wof:lastmodified":1481176859,
     "wof:name":"Ahtari",
     "wof:parent_id":85683113,
     "wof:placetype":"localadmin",

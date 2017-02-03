@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Polvij\u00e4rvi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683133,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"75ae6a840c34ee342d8fbb0e01c5bea2",
+    "wof:geomhash":"457af58e251df058b403e2e6d4ee0d31",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199399,
-    "wof:lastmodified":1470852283,
+    "wof:lastmodified":1481176879,
     "wof:name":"Polvijarvi",
     "wof:parent_id":85683133,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    28.930909910243994,
+    28.93090991024399,
     62.68085356590781,
     29.72325470709382,
     63.10957348200539

@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Kuhmo Keskus",
     "geom:area":0.750946,
+    "geom:area_square_m":4060269300.474649,
     "geom:bbox":"28.8535658658,63.7298702485,30.5535572195,64.3573787545",
     "geom:latitude":64.070405,
     "geom:longitude":29.724592,
@@ -16,10 +17,12 @@
     "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
-        102191581,
-        85633143,
         85683137,
-        404227415
+        102191581,
+        907199507,
+        85633143,
+        404227415,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -31,15 +34,17 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199507,
             "macroregion_id":404227415,
             "postalcode_id":421478527,
             "region_id":85683137
         }
     ],
     "wof:id":421478527,
-    "wof:lastmodified":1469577657,
+    "wof:lastmodified":1480781242,
     "wof:name":"88900",
-    "wof:parent_id":85683137,
+    "wof:parent_id":907199507,
     "wof:placetype":"postalcode",
     "wof:repo":"whosonfirst-data-postalcode-fi",
     "wof:superseded_by":[],

@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Hartola"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683091,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"57bf283c1bdb62c83b987f261d17d03f",
+    "wof:geomhash":"2974711766c5d4ab5e79c23c3538a75c",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198739,
-    "wof:lastmodified":1470852048,
+    "wof:lastmodified":1481176836,
     "wof:name":"Hartola",
     "wof:parent_id":85683091,
     "wof:placetype":"localadmin",
@@ -60,8 +61,8 @@
     "wof:tags":[]
 },
   "bbox": [
-    25.770850202990744,
-    61.392893831023876,
+    25.77085020299074,
+    61.39289383102388,
     26.34808216950394,
     61.80140787981895
 ],

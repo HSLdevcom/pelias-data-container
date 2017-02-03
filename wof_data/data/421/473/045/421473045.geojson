@@ -6,6 +6,7 @@
     "edtf:inception":"uuuu",
     "figov:nimi":"Konala",
     "geom:area":0.000524,
+    "geom:area_square_m":3216305.377154,
     "geom:bbox":"24.8268390165,60.229010987,24.8678291917,60.2555004099",
     "geom:latitude":60.240441,
     "geom:longitude":24.846309,
@@ -18,9 +19,11 @@
     "wof:belongsto":[
         85683067,
         102191581,
+        907199715,
         85633143,
         404227411,
-        101748417
+        101748417,
+        136253047
     ],
     "wof:breaches":[],
     "wof:concordances":{
@@ -32,6 +35,8 @@
         {
             "continent_id":102191581,
             "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
             "locality_id":101748417,
             "macroregion_id":404227411,
             "postalcode_id":421473045,
@@ -39,7 +44,7 @@
         }
     ],
     "wof:id":421473045,
-    "wof:lastmodified":1469577621,
+    "wof:lastmodified":1485373929,
     "wof:name":"00390",
     "wof:parent_id":101748417,
     "wof:placetype":"postalcode",

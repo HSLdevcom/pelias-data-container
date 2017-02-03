@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Muhos"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683143,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"aa005d5f1ba597080e9740272e654feb",
+    "wof:geomhash":"4c293e9f564e0042c366c732aa0174d4",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199477,
-    "wof:lastmodified":1470852315,
+    "wof:lastmodified":1481176882,
     "wof:name":"Muhos",
     "wof:parent_id":85683143,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    25.749989291020025,
+    25.74998929102003,
     64.47906385912783,
     26.73803446942461,
     64.98085556872847

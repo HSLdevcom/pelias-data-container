@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Pyttis"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683081,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"2d7780b884962ce9b4158a17e06899fb",
+    "wof:geomhash":"8568809c7add9857e7c6fd30a8fe3423",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198651,
-    "wof:lastmodified":1470852023,
+    "wof:lastmodified":1481176831,
     "wof:name":"Pyhtaa",
     "wof:parent_id":85683081,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.447839520056355,
+    26.44783952005636,
     60.17132863246899,
     26.87533645880259,
     60.65236751795714

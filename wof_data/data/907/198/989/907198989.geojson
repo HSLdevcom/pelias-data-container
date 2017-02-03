@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Laihela"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683119,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"ed0c20939441c709bdda2223f016ea7c",
+    "wof:geomhash":"5feab2c60c568f1cc381e2ee7b9e176b",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198989,
-    "wof:lastmodified":1470852137,
+    "wof:lastmodified":1481176852,
     "wof:name":"Laihia",
     "wof:parent_id":85683119,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    21.772061000517766,
+    21.77206100051777,
     62.75157420779532,
     22.29161449045756,
     63.04876461042723

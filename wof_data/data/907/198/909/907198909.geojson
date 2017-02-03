@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "\u00c5bo"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"6dc6cb543fdb9785367408a68b43ae0d",
+    "wof:geomhash":"24dad1d573dca7e8d90025bf478edf14",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198909,
-    "wof:lastmodified":1470852111,
+    "wof:lastmodified":1481176848,
     "wof:name":"Turku",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    22.066137064135166,
+    22.06613706413517,
     60.33351570174795,
     22.45816282618218,
     60.73729290186384

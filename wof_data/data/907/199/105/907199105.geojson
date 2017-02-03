@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Alaj\u00e4rvi"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683113,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"7f24bbf67050968ffd16609f59afdae2",
+    "wof:geomhash":"5a39ee0f41939f2f3a8168112a03a4e9",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199105,
-    "wof:lastmodified":1470852182,
+    "wof:lastmodified":1481176860,
     "wof:name":"Alajarvi",
     "wof:parent_id":85683113,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.457911963576507,
+    23.45791196357651,
     62.73008263669542,
     24.35734580606319,
     63.15857333521386

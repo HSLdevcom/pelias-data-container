@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Somero"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"e70b464b14276dbcad7bdc85471fd57e",
+    "wof:geomhash":"b851f0b7a0d154a09df2d25798b29ba3",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198549,
-    "wof:lastmodified":1470851998,
+    "wof:lastmodified":1481176827,
     "wof:name":"Somero",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",

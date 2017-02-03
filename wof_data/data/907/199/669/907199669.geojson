@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Kronoby"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683119,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"6e8af427334c115c194cc8cca8e9f488",
+    "wof:geomhash":"56d147f84be90face1673391a9da4c25",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199669,
-    "wof:lastmodified":1470852391,
+    "wof:lastmodified":1481176893,
     "wof:name":"Kruunupyy",
     "wof:parent_id":85683119,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    22.829676855898807,
+    22.82967685589881,
     63.38032068320174,
     23.83597464212926,
     63.79171025378636

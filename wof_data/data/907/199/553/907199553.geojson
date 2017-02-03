@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Pello"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683147,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"e34641c7af93a356cafab9e57b7b6f72",
+    "wof:geomhash":"d89655e971014c21b7ee47fe21b949db",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199553,
-    "wof:lastmodified":1470852349,
+    "wof:lastmodified":1481176887,
     "wof:name":"Pello",
     "wof:parent_id":85683147,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    23.777881957828154,
+    23.77788195782815,
     66.46542107496228,
     24.98805198380683,
     67.01492454597238

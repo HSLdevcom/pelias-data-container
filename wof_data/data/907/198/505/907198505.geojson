@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Hang\u00f6"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683067,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"db42b75842d4fdecf4648f5ed1aefa55",
+    "wof:geomhash":"80269e86e429de886a913d18dae49606",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198505,
-    "wof:lastmodified":1470851988,
+    "wof:lastmodified":1481176826,
     "wof:name":"Hanko",
     "wof:parent_id":85683067,
     "wof:placetype":"localadmin",

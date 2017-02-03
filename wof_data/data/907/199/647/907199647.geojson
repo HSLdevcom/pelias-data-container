@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Koski Tl"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"dfdb2a364c11cce48f21f3bc9e12ff70",
+    "wof:geomhash":"1882877109b5532c1a2805ff9dc6656d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199647,
-    "wof:lastmodified":1470852383,
+    "wof:lastmodified":1481176892,
     "wof:name":"Koski Tl",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    22.925429511025456,
+    22.92542951102546,
     60.57116448846727,
     23.25769556878213,
     60.77416824648042

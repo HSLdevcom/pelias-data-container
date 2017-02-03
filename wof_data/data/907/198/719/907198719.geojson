@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Virolahti"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683081,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198719,
-    "wof:lastmodified":1479833701,
+    "wof:lastmodified":1481176835,
     "wof:name":"Virolahti",
     "wof:parent_id":85683081,
     "wof:placetype":"localadmin",

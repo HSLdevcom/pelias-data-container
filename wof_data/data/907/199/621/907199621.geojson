@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Vaala"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683143,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"c0dfb58b805bcc32442cf080ba4b02ef",
+    "wof:geomhash":"d6ef1451838da28d084e985be1957d34",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907199621,
-    "wof:lastmodified":1470852377,
+    "wof:lastmodified":1481176891,
     "wof:name":"Vaala",
     "wof:parent_id":85683143,
     "wof:placetype":"localadmin",
@@ -60,7 +61,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    26.291105954354364,
+    26.29110595435436,
     64.25818916860992,
     27.39697819598903,
     64.83528737661618

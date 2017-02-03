@@ -28,6 +28,7 @@
     "name:swe_x_preferred":[
         "Rusko"
     ],
+    "src:geom":"figov",
     "src:lbl:centroid":"mapshaper",
     "wof:belongsto":[
         85683073,
@@ -38,7 +39,7 @@
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"27da94c0eb9375911e210a9818a6c809",
+    "wof:geomhash":"f56f63a486a125f8ddb6d9b0bf93d17d",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -50,7 +51,7 @@
         }
     ],
     "wof:id":907198981,
-    "wof:lastmodified":1470852135,
+    "wof:lastmodified":1481176852,
     "wof:name":"Rusko",
     "wof:parent_id":85683073,
     "wof:placetype":"localadmin",
@@ -61,7 +62,7 @@
 },
   "bbox": [
     22.14383721950463,
-    60.503798120187085,
+    60.50379812018708,
     22.41500366430425,
     60.73729290186384
 ],
