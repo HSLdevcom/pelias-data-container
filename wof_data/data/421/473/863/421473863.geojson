@@ -1,0 +1,58 @@
+{
+  "id": 421473863,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Katuma",
+    "geom:area":0.000233,
+    "geom:bbox":"24.499233845,60.9775506186,24.5308240951,60.9919365824",
+    "geom:latitude":60.98537,
+    "geom:longitude":24.513771,
+    "iso:country":"FI",
+    "lbl:latitude":60.985428,
+    "lbl:longitude":24.513532,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683077,
+        102191581,
+        85633143,
+        404227411,
+        101815409
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12828398"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"01aacb94e6e4f7237943e1b200667d2b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "locality_id":101815409,
+            "macroregion_id":404227411,
+            "postalcode_id":421473863,
+            "region_id":85683077
+        }
+    ],
+    "wof:id":421473863,
+    "wof:lastmodified":1469577628,
+    "wof:name":"13250",
+    "wof:parent_id":101815409,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.49923384503519,
+    60.97755061864343,
+    24.53082409506459,
+    60.99193658241526
+],
+  "geometry": {"coordinates":[[[[24.51390531591365,60.99153389180611],[24.53082409506459,60.98275141558576],[24.52038286736082,60.98157496806137],[24.51984371520509,60.98135956891439],[24.52292075820194,60.97914906273936],[24.52063831587736,60.97790469537106],[24.51647835296213,60.97755061864343],[24.51358160786803,60.97930079987086],[24.51031810675864,60.98000851846273],[24.51029788416013,60.98001959745581],[24.50315800614206,60.98587197646627],[24.49923384503519,60.99193658241526],[24.51390531591365,60.99153389180611]]]],"type":"MultiPolygon"}
+}

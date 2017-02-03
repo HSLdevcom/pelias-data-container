@@ -1,0 +1,132 @@
+{
+  "id": 101846729,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000154,
+    "geom:area_square_m":934686.309194,
+    "geom:bbox":"21.6419329326,60.674166723,21.6742476806,60.689374683",
+    "geom:latitude":60.6827,
+    "geom:longitude":21.661378,
+    "gn:population":2435,
+    "iso:country":"FI",
+    "lbl:latitude":60.684461,
+    "lbl:longitude":21.662724,
+    "mps:latitude":60.684461,
+    "mps:longitude":21.662724,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:deu_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:fas_x_preferred":[
+        "\u0648\u0647\u0645\u0627"
+    ],
+    "name:fin_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:fra_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:ita_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:koi_x_preferred":[
+        "\u0412\u0435\u0445\u043c\u0430"
+    ],
+    "name:lat_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:nld_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:nor_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:pol_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:ron_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:rus_x_preferred":[
+        "\u0412\u0435\u0445\u043c\u0430\u0430"
+    ],
+    "name:sme_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:sqi_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:swe_x_preferred":[
+        "Vemo"
+    ],
+    "name:vie_x_preferred":[
+        "Vehmaa"
+    ],
+    "name:zho_x_preferred":[
+        "\u97cb\u8d6b\u99ac"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"0Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Vehmaa",
+    "qs:la_lc":"*FI202918",
+    "qs:level":"locality",
+    "qs:loc":"Vehmaa",
+    "qs:loc_alt":"Vehmaa",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":294,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":632062,
+        "gp:id":12590986,
+        "qs:id":245059,
+        "wd:id":"Q807905"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"5b8eddb0be2fada937d9c4535a73dc2c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846729,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101846729,
+    "wof:lastmodified":1470852448,
+    "wof:name":"Vehmaa",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    21.6419329325883,
+    60.67416672295587,
+    21.67424768061687,
+    60.68937468296917
+],
+  "geometry": {"coordinates":[[[21.66725309271936,60.68819322789176],[21.66630038800724,60.68553575919776],[21.6717038887931,60.68509219411106],[21.67043333139299,60.68154894973401],[21.67223428075812,60.68140106753543],[21.67064629517472,60.67697202377775],[21.67424768061687,60.67667623660009],[21.67361243779567,60.67490463371701],[21.67181184618528,60.67505252960507],[21.67149430117843,60.67416672295587],[21.66969374108703,60.6743145917934],[21.67001123934847,60.67520040293238],[21.66640998000423,60.67549608190359],[21.66736231288024,60.67815353939233],[21.66556152011151,60.67830135850113],[21.66587895717481,60.67918718119932],[21.66407810242185,60.6793349822326],[21.66503039191338,60.68199246093371],[21.65782625945405,60.68258349326436],[21.65719175420571,60.68081180537337],[21.65358978376895,60.68110716818973],[21.65390693296456,60.68199302134371],[21.64850372289942,60.68243590976459],[21.64882075150138,60.68332177589616],[21.64521844185595,60.68361693096472],[21.64553539662666,60.68450280558801],[21.6419329325883,60.68479787933921],[21.64256671417513,60.68656964509341],[21.6587781655158,60.68524102153555],[21.65909550706027,60.68612686334188],[21.66089675013728,60.68597912116087],[21.66121415823636,60.6868649580037],[21.66301543287585,60.68671718876368],[21.6639679161791,60.68937468296917],[21.6657693159658,60.68922687768895],[21.66545175496145,60.6883410512533],[21.66725309271936,60.68819322789176]]],"type":"Polygon"}
+}

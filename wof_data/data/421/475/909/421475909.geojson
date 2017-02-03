@@ -1,0 +1,57 @@
+{
+  "id": 421475909,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Savero",
+    "geom:area":0.006626,
+    "geom:bbox":"26.9034079782,60.8023479775,27.0541387674,60.8623190684",
+    "geom:latitude":60.831689,
+    "geom:longitude":26.97995,
+    "gp:parent_id":"12590761",
+    "iso:country":"FI",
+    "lbl:latitude":60.830819,
+    "lbl:longitude":26.981495,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683081,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12829451"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"4914d461854d7e523d8e19f3062f7692",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "postalcode_id":421475909,
+            "region_id":85683081
+        }
+    ],
+    "wof:id":421475909,
+    "wof:lastmodified":1469577643,
+    "wof:name":"45460",
+    "wof:parent_id":85683081,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.9034079781646,
+    60.80234797746364,
+    27.05413876744815,
+    60.86231906837788
+],
+  "geometry": {"coordinates":[[[[27.00801608474751,60.80702619503189],[26.99011545288312,60.80234797746364],[26.91898532539545,60.80745805484281],[26.9034079781646,60.80980498135517],[26.91365323024819,60.8437458255065],[26.91343005133366,60.84400342412007],[26.91369694504398,60.84421161698045],[26.9921162183123,60.86100684030021],[27.03358218455729,60.86231906837788],[27.04223533660747,60.85569405095226],[27.05413876744815,60.84206226901384],[27.05225218718064,60.8377403083145],[27.03325755075467,60.81517504669119],[27.00801608474751,60.80702619503189]]]],"type":"MultiPolygon"}
+}

@@ -1,0 +1,109 @@
+{
+  "id": 101814485,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000325,
+    "geom:area_square_m":1479497.465957,
+    "geom:bbox":"27.4020306877,68.4112187979,27.431684543,68.430010588",
+    "geom:latitude":68.421024,
+    "geom:longitude":27.417943,
+    "iso:country":"FI",
+    "lbl:latitude":68.421958,
+    "lbl:longitude":27.416708,
+    "mps:latitude":68.421959,
+    "mps:longitude":27.416708,
+    "mz:hierarchy_label":1,
+    "name:deu_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:eus_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:fin_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:fra_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:lit_x_preferred":[
+        "Sariselk\u0117"
+    ],
+    "name:nor_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:pol_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "name:rus_x_preferred":[
+        "\u0421\u0430\u0430\u0440\u0438\u0441\u0435\u043b\u044c\u043a\u044f"
+    ],
+    "name:sme_x_preferred":[
+        "Suolo\u010dielgi"
+    ],
+    "name:spa_x_preferred":[
+        "Saariselk\u00e4"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Lappi#Lappland",
+    "qs:a1r":"0Lapin AVI#Lapplands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Inari#Enare",
+    "qs:la_lc":"*FI519148",
+    "qs:level":"locality",
+    "qs:loc":"Saariselk\u00e4",
+    "qs:loc_alt":"Saariselka",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":314,
+    "wof:belongsto":[
+        85683147,
+        102191581,
+        907199567,
+        85633143,
+        404227409,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":7116868,
+        "gp:id":15000137,
+        "qs:id":1163752,
+        "wd:id":"Q1815690"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"5fe166c73ccf4afd9df40d01471e508e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199567,
+            "locality_id":101814485,
+            "macroregion_id":404227409,
+            "region_id":85683147
+        }
+    ],
+    "wof:id":101814485,
+    "wof:lastmodified":1479836425,
+    "wof:name":"Saariselk\u00e4",
+    "wof:parent_id":907199567,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.40203068774912,
+    68.41121879790916,
+    27.43168454300348,
+    68.43001058804737
+],
+  "geometry": {"coordinates":[[[27.41605382009124,68.43001058804737],[27.42771370216724,68.42887765364986],[27.42704429213529,68.42800605445098],[27.4293760586803,68.42777938844074],[27.42602943995951,68.42342140898648],[27.43069204454974,68.42296808219527],[27.42935346532806,68.42122491374602],[27.43168454300348,68.42099822485545],[27.42700070064222,68.41489713719955],[27.42233961917373,68.41535035435049],[27.42167087972018,68.4144787435888],[27.41934035386771,68.41470529857793],[27.41666626808933,68.41121879790916],[27.40967538838555,68.41189817367103],[27.41034358758679,68.41276982993588],[27.40801312811266,68.41299623891723],[27.41068615838839,68.41648288126146],[27.40835533647441,68.41670929818525],[27.40902365241141,68.41758096309371],[27.40203068774912,68.41826006500139],[27.40336700646066,68.42000344491953],[27.40569819760407,68.41977708839488],[27.41238390769342,68.42849377356976],[27.41005191781079,68.42872022370324],[27.41072071323498,68.42959189050032],[27.41538480950118,68.42913894199887],[27.41605382009124,68.43001058804737]]],"type":"Polygon"}
+}

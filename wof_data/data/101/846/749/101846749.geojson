@@ -1,0 +1,113 @@
+{
+  "id": 101846749,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000132,
+    "geom:area_square_m":805466.498735,
+    "geom:bbox":"23.5303678281,60.4556538004,23.5621051219,60.4635561676",
+    "geom:latitude":60.459811,
+    "geom:longitude":23.546254,
+    "gn:population":1771,
+    "iso:country":"FI",
+    "lbl:latitude":60.45911,
+    "lbl:longitude":23.546254,
+    "mps:latitude":60.45911,
+    "mps:longitude":23.546254,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Kiikala"
+    ],
+    "name:deu_x_preferred":[
+        "Kiikala"
+    ],
+    "name:fin_x_preferred":[
+        "Kiikala"
+    ],
+    "name:fra_x_preferred":[
+        "Kiikala"
+    ],
+    "name:ita_x_preferred":[
+        "Kiikala"
+    ],
+    "name:nld_x_preferred":[
+        "Kiikala"
+    ],
+    "name:nor_x_preferred":[
+        "Kiikala"
+    ],
+    "name:ron_x_preferred":[
+        "Kiikala"
+    ],
+    "name:sme_x_preferred":[
+        "Kiikala"
+    ],
+    "name:swe_x_preferred":[
+        "Kiikala"
+    ],
+    "name:vie_x_preferred":[
+        "Kiikala"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"0Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Kiikala",
+    "qs:la_lc":"*FI202252",
+    "qs:level":"locality",
+    "qs:loc":"Kiikala",
+    "qs:loc_alt":"Kiikala",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":103,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":652888,
+        "gp:id":"567359",
+        "qs:id":276107,
+        "wd:id":"Q1641643",
+        "wk:page":"Kiikala"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"ab5338707f6f09c9b6abd18cb96abb9c",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846749,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101846749,
+    "wof:lastmodified":1477508573,
+    "wof:name":"Kiikala",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    23.53036782809289,
+    60.45565380039801,
+    23.56210512192553,
+    60.46355616759365
+],
+  "geometry": {"coordinates":[[[23.54429452704306,60.46250416496304],[23.55141897237098,60.4618189855272],[23.55178408743609,60.46269972309028],[23.55712737505894,60.46218559017979],[23.55676212493404,60.46130486802559],[23.56210512192553,60.46079055088433],[23.56137441896908,60.45902913502101],[23.55959352728058,60.45920058597312],[23.55922825449665,60.45831987171232],[23.5538856107479,60.45883407607641],[23.55315540257146,60.45707261435643],[23.55137457677853,60.45724396118067],[23.55100955135919,60.45636322399702],[23.54922875329873,60.45653454350759],[23.54886379532093,60.45565380039801],[23.53995977104358,60.45651003959262],[23.54032450397807,60.4573908083604],[23.53854360232384,60.45756199478825],[23.53927304542765,60.45932354021227],[23.53036782809289,60.46017919090554],[23.53146148550871,60.46282158005192],[23.54214850502694,60.46179464033838],[23.54287826245923,60.46355616759365],[23.544659462006,60.46338492306273],[23.54429452704306,60.46250416496304]]],"type":"Polygon"}
+}

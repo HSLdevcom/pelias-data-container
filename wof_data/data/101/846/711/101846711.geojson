@@ -1,0 +1,75 @@
+{
+  "id": 101846711,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000083,
+    "geom:area_square_m":507155.229994,
+    "geom:bbox":"23.8960853807,60.3783752207,23.9139305439,60.3873477875",
+    "geom:latitude":60.382884,
+    "geom:longitude":23.906373,
+    "iso:country":"FI",
+    "lbl:latitude":60.382415,
+    "lbl:longitude":23.905021,
+    "mps:latitude":60.382415,
+    "mps:longitude":23.905021,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Nummi-Pusula",
+    "qs:la_lc":"*FI101540",
+    "qs:level":"locality",
+    "qs:loc":"Nummi",
+    "qs:loc_alt":"Nummi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":644289,
+        "gp:id":"91933999",
+        "qs:id":1
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fbcb40dc31762fdf27c3e16ab3dc571e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846711,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101846711,
+    "wof:lastmodified":1477508573,
+    "wof:name":"Nummi",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    23.89608538070314,
+    60.37837522068736,
+    23.91393054394945,
+    60.38734778752263
+],
+  "geometry": {"coordinates":[[[23.91393054394945,60.38611650322571],[23.91206258989791,60.3817181510675],[23.91383774734561,60.38154234121691],[23.91346418062267,60.38066267345994],[23.91168906773169,60.38083847806269],[23.91131556844152,60.37995880420021],[23.9095404824991,60.38013458147736],[23.90879364164471,60.37837522068736],[23.90524359516905,60.37872668802385],[23.90561691505462,60.3796063793381],[23.90029157969957,60.3801334304884],[23.90141127549464,60.38277254649233],[23.89608538070314,60.38329944611013],[23.89645852464361,60.38417916546348],[23.90000922791154,60.38382791064731],[23.90150238890942,60.38734673756107],[23.90327789245521,60.38717105605053],[23.90290452332334,60.38629135585052],[23.9046799646847,60.38611565750114],[23.90430657384877,60.38523596169091],[23.90963265857317,60.38470874988354],[23.91075330088523,60.38734778752263],[23.91252876095984,60.38717199034477],[23.91215514606438,60.38629231723741],[23.91393054394945,60.38611650322571]]],"type":"Polygon"}
+}

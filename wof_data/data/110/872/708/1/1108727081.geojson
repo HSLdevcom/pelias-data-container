@@ -1,0 +1,75 @@
+{
+  "id": 1108727081,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000051,
+    "geom:area_square_m":316064.342513,
+    "geom:bbox":"24.9654337725,60.1955918034,24.9840767063,60.2012285675",
+    "geom:latitude":60.198972,
+    "geom:longitude":24.974622,
+    "hkigis:aluejako":"OSA-ALUE",
+    "hkigis:kokotunnus":"0913303213",
+    "hkigis:tunnus":"213",
+    "iso:country":"FI",
+    "lbl:latitude":60.198542,
+    "lbl:longitude":24.974481,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Kyl\u00e4saari"
+    ],
+    "name:swe_x_preferred":[
+        "Byholmen"
+    ],
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        1108727355,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047,
+        890536885
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"d03f89af59eb933b763d578e31f37915",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536885,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":1108727355,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727081,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108727081,
+    "wof:lastmodified":1485376902,
+    "wof:name":"Kylasaari",
+    "wof:parent_id":1108727355,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.96543377254392,
+    60.19559180338814,
+    24.98407670627907,
+    60.20122856746956
+],
+  "geometry": {"coordinates":[[[[24.96777187661079,60.20033536448953],[24.96543377254392,60.20071821646402],[24.9678056524891,60.19903827740718],[24.96850105437269,60.1986405366614],[24.96883967083109,60.19844847391728],[24.9690668325099,60.19831692083423],[24.96950556508918,60.19806596767547],[24.96993166911868,60.19782223657894],[24.97032226688033,60.19759880965847],[24.97071284312285,60.19737539145856],[24.97104005507384,60.19718821421638],[24.97255129302784,60.19632369859825],[24.9738306141495,60.19559180338814],[24.97913133489572,60.19788811503039],[24.98407670627907,60.20003000562682],[24.9746230707475,60.20122856746956],[24.96777187661079,60.20033536448953]]]],"type":"MultiPolygon"}
+}

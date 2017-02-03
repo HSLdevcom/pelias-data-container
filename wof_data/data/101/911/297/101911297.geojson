@@ -1,0 +1,96 @@
+{
+  "id": 101911297,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000059,
+    "geom:area_square_m":347975.02191,
+    "geom:bbox":"22.0865787738,61.4389114457,22.103832647,61.4458750006",
+    "geom:latitude":61.443236,
+    "geom:longitude":22.097006,
+    "iso:country":"FI",
+    "lbl:latitude":61.443393,
+    "lbl:longitude":22.097006,
+    "mps:latitude":61.443393,
+    "mps:longitude":22.097006,
+    "mz:hierarchy_label":1,
+    "name:ara_x_preferred":[
+        "\u0623\u0646\u062a\u064a \u0623\u0647\u0644\u0633\u062a\u0631\u0648\u0645"
+    ],
+    "name:eng_x_preferred":[
+        "Current Island Settlement"
+    ],
+    "name:eng_x_variant":[
+        "Bar Bay Settlement"
+    ],
+    "name:fin_x_preferred":[
+        "Antti Ahlstr\u00f6m"
+    ],
+    "name:rus_x_preferred":[
+        "\u0410\u043b\u044c\u0441\u0442\u0440\u0451\u043c"
+    ],
+    "name:swe_x_preferred":[
+        "Antti Ahlstr\u00f6m"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Satakunta",
+    "qs:a1r":"2Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Ulvila#Ulvsby",
+    "qs:la_lc":"*FI204886",
+    "qs:level":"locality",
+    "qs:loc":"Leineperi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet perfect local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683095,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":648443,
+        "gp:id":568922,
+        "qs:id":470721
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"3217fdbd6961c233cca5434bcc846efa",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101911297,
+            "macroregion_id":404227405,
+            "region_id":85683095
+        }
+    ],
+    "wof:id":101911297,
+    "wof:lang":[
+        "eng"
+    ],
+    "wof:lastmodified":1470852472,
+    "wof:name":"Leineperi",
+    "wof:parent_id":85683095,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.08657877377618,
+    61.43891144571904,
+    22.1038326470217,
+    61.44587500058384
+],
+  "geometry": {"coordinates":[[[22.1038326470217,61.44510645863824],[22.10145615514978,61.43891144571904],[22.09961482670218,61.43906516673718],[22.09995421144845,61.43995017497309],[22.09811281719379,61.44010387768003],[22.09845217450243,61.44098889018471],[22.09292774417571,61.44144987403263],[22.0936062291417,61.44321992623981],[22.08808135379678,61.44368073085172],[22.08842048141787,61.44456577055087],[22.08657877377618,61.44471933065415],[22.08691787392502,61.44560437462059],[22.09428480072677,61.44498997633139],[22.09462411900637,61.44587500058384],[22.1038326470217,61.44510645863824]]],"type":"Polygon"}
+}

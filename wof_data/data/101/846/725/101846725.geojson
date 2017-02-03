@@ -1,0 +1,109 @@
+{
+  "id": 101846725,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000161,
+    "geom:area_square_m":974452.207944,
+    "geom:bbox":"22.9125669986,60.7752627462,22.940251419,60.7859176742",
+    "geom:latitude":60.780936,
+    "geom:longitude":22.924838,
+    "gn:population":1141,
+    "iso:country":"FI",
+    "lbl:latitude":60.780377,
+    "lbl:longitude":22.924629,
+    "mps:latitude":60.780377,
+    "mps:longitude":22.924629,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:deu_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:fin_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:fra_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:ita_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:nld_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:nor_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:ron_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "name:rus_x_preferred":[
+        "\u041c\u0435\u043b\u043b\u0438\u043b\u044f"
+    ],
+    "name:sme_x_preferred":[
+        "Mellil\u00e4"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"0Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Mellil\u00e4",
+    "qs:la_lc":"*FI202482",
+    "qs:level":"locality",
+    "qs:loc":"Mellil\u00e4",
+    "qs:loc_alt":"Mellila",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":117,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":646220,
+        "gp:id":"569697",
+        "qs:id":126506,
+        "wd:id":"Q1641630",
+        "wk:page":"Mellil\u00e4"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"b392671a9839d1c7549e9c876d6604ca",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846725,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101846725,
+    "wof:lastmodified":1477508573,
+    "wof:name":"Mellil\u00e4",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.912566998579,
+    60.77526274623648,
+    22.940251418976,
+    60.78591767415531
+],
+  "geometry": {"coordinates":[[[22.93951010545521,60.7854261513682],[22.93845034125422,60.78277850810821],[22.940251418976,60.78261463711709],[22.93989816183193,60.7817320929787],[22.93449501703248,60.78222362352176],[22.93378884707602,60.78045850333092],[22.93198785772529,60.7806222918959],[22.93128186847014,60.77885715902829],[22.92948095497303,60.779020915145],[22.92877514638531,60.77725576960472],[22.92697430873937,60.77741949327685],[22.92662148378093,60.77653691451246],[22.92121900848753,60.77702793563702],[22.92051370275851,60.77526274623648],[22.91331053670285,60.77591708636652],[22.91436797153733,60.77856492908722],[22.912566998579,60.77872847278547],[22.91291947434524,60.77961109063875],[22.91472049370378,60.77944754197171],[22.91613080186312,60.78297798672918],[22.91432959687779,60.78314155527528],[22.91468218238771,60.78402416973984],[22.91648343378642,60.78386059622329],[22.91683608766675,60.78474320503921],[22.92584232292813,60.78392497507508],[22.92619523083727,60.78480755834784],[22.93159890809488,60.78431633543255],[22.93195197720928,60.78519890309786],[22.93375321550008,60.78503511214819],[22.93410635300864,60.78591767415531],[22.93951010545521,60.7854261513682]]],"type":"Polygon"}
+}

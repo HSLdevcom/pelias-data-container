@@ -1,0 +1,98 @@
+{
+  "id": 101814045,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000132,
+    "geom:area_square_m":755462.757584,
+    "geom:bbox":"27.4178530772,62.3747707196,27.4426388801,62.3839309274",
+    "geom:latitude":62.37969,
+    "geom:longitude":27.430948,
+    "gn:population":1501,
+    "iso:country":"FI",
+    "lbl:latitude":62.379715,
+    "lbl:longitude":27.430948,
+    "mps:latitude":62.379715,
+    "mps:longitude":27.430949,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "name:fin_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "name:nld_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "name:nor_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "name:ron_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "name:swe_x_preferred":[
+        "J\u00e4ppil\u00e4"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Savo#S\u00f6dra Savolax",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Pieks\u00e4nmaa",
+    "qs:la_lc":"*FI310640",
+    "qs:level":"locality",
+    "qs:loc":"J\u00e4ppil\u00e4",
+    "qs:loc_alt":"Jappila",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":76,
+    "wof:belongsto":[
+        85683109,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":656015,
+        "gp:id":566162,
+        "qs:id":1246313,
+        "wd:id":"Q2925272",
+        "wk:page":"J\u00e4ppil\u00e4"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"2240ab47de3c5784d2d41b0ce217e151",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814045,
+            "macroregion_id":404227407,
+            "region_id":85683109
+        }
+    ],
+    "wof:id":101814045,
+    "wof:lastmodified":1470852491,
+    "wof:name":"J\u00e4ppil\u00e4",
+    "wof:parent_id":85683109,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.41785307715759,
+    62.37477071961916,
+    27.44263888007237,
+    62.38393092744485
+],
+  "geometry": {"coordinates":[[[27.41886432937162,62.38393092744485],[27.42820361493767,62.38282515286096],[27.42870953308665,62.38369369085484],[27.43431294606756,62.38302992770053],[27.43481904271272,62.3838984429409],[27.43668684491394,62.38367713530164],[27.43516850758931,62.38107160581632],[27.44263888007237,62.38018622873449],[27.43960192490573,62.37497529474297],[27.43400005747185,62.37563923545071],[27.43349415858654,62.37477071961916],[27.43162686731563,62.37499197995066],[27.43213271765518,62.37586050282152],[27.42653054621752,62.37652416633199],[27.42703628364916,62.3773927086886],[27.42516879395578,62.3776138906934],[27.42567451557397,62.37848243845923],[27.42380695199057,62.37870360439865],[27.42431265779027,62.37957215757359],[27.41870966937324,62.3802355378761],[27.4197208877722,62.38197268156387],[27.41785307715759,62.38219377619163],[27.41886432937162,62.38393092744485]]],"type":"Polygon"}
+}
