@@ -41,7 +41,7 @@ apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
 
-install_node_project pelias schema fedbfaed5c9eaa24ce316327ad46d5395ee76d65
+install_node_project pelias schema 1aa457cb0b520bdcf4bd93d57125bf1bf4c74bfa
 
 install_node_project HSLdevcom wof-pip-service
 
@@ -56,7 +56,7 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines 29f0dd64a90aea78abdab7d63179e9d61b1e1e5d
+install_node_project pelias polylines c1a17d9537652aee12e166d3aafee03bf120331d
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
@@ -87,6 +87,7 @@ wait
 
 ok_count=$(cat /tmp/loadresults | grep 'OK' | wc -l )
 if [ $ok_count -ne 5 ]; then
+    echo 'Data loading failed'
     exit 1;
 fi
 
@@ -102,6 +103,7 @@ wait
 
 ok_count=$(cat /tmp/indexresults | grep 'OK' | wc -l )
 if [ $ok_count -ne 2 ]; then
+    echo 'Indexing failed'
     exit 1;
 fi
 
