@@ -3,13 +3,18 @@
 # errors should break the execution
 set -e
 
-NAME=paikat_2017_01.zip
-
 mkdir -p $DATA/nls-places
 cd $DATA/nls-places
 
+URL='http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/'
+
+# find out latest zip filename
+NAME=$(curl -Ss $URL | grep -o 'href=".*zip"' | sort -r | head -1 | sed 's/\(href=\|"\)//g')
+
+echo 'Loading nlsfi data from' $URL$NAME
+
 # Download nls paikat data
-curl -sS -O http://kartat.kapsi.fi/files/nimisto/paikat/etrs89/gml/$NAME
+curl -sS -O $URL$NAME
 unzip $NAME
 rm $NAME
 
