@@ -31,7 +31,7 @@ RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
 
-ENV ES_HEAP_SIZE 1g
+ENV ES_HEAP_SIZE 2g
 
 ENTRYPOINT ["elasticsearch"]
 
