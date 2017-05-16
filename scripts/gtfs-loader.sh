@@ -10,5 +10,9 @@ cd $DATA
 curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/$NAME
 unzip $NAME
 
+NAME=router-waltti.zip
+curl -sS -O http://dev-api.digitransit.fi/routing-data/v1/$NAME
+unzip $NAME
+
 echo '##### Loaded GTFS data'
 echo 'OK' >> /tmp/loadresults
