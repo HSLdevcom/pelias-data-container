@@ -3,10 +3,11 @@
 # errors should break the execution
 set -e
 
-NAME="finland/router-finland.zip"
-PATH="http://dev-api.digitransit.fi/routing-data/v1/"
-
 # Download gtfs stop data
+
+PATH="http://dev-api.digitransit.fi/routing-data/v2/"
+
+NAME="finland/router-finland.zip"
 cd $DATA
 curl -sS -O $PATH$NAME
 unzip $NAME
