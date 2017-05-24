@@ -6,14 +6,15 @@ set -e
 # Download gtfs stop data
 
 URL="http://dev-api.digitransit.fi/routing-data/v2/"
-
-NAME="finland/router-finland.zip"
+SERVICE="finland/"
+NAME="router-finland.zip"
 cd $DATA
-curl -sS -O $URL$NAME
+curl -sS -O $URL$SERVICE$NAME
 unzip $NAME
 
-NAME="waltti/router-waltti.zip"
-curl -sS -O $URL$NAME
+SERVICE="waltti/"
+NAME="router-waltti.zip"
+curl -sS -O $URL$SERVICE$NAME
 unzip $NAME
 
 echo '##### Loaded GTFS data'
