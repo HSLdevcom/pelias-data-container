@@ -54,7 +54,6 @@ npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
 install_node_project pelias polylines 11a4b8c6dba2bc4e5150698ac7f177de107a3272
-
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 

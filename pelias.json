@@ -24,7 +24,8 @@
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "adminLookup": {
       "enabled": true,
-      "maxConcurrentReqs": 4
+      "maxConcurrentReqs": 4,
+      "localizedNames": true
     },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
