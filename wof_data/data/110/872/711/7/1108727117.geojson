@@ -9,6 +9,8 @@
     "geom:bbox":"24.9069940455,60.2173272456,24.9347742484,60.2309530527",
     "geom:latitude":60.223565,
     "geom:longitude":24.921046,
+    "hkigis:KOKOTUNNUS":"0914401286",
+    "hkigis:TUNNUS":"286",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914401286",
     "hkigis:tunnus":"286",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "M\u00e5nsasparken"
     ],
+    "reversegeo:latitude":60.224877,
+    "reversegeo:longitude":24.916676,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727377,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"97b36f29378c25cbd7f50ec6f68b5942",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727117,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Maunulanpuisto",
     "wof:parent_id":1108727377,
     "wof:placetype":"neighbourhood",

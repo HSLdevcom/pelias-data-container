@@ -9,6 +9,8 @@
     "geom:bbox":"25.0013083526,60.2205840256,25.0272258418,60.232404942",
     "geom:latitude":60.226871,
     "geom:longitude":25.01612,
+    "hkigis:KOKOTUNNUS":"0915501363",
+    "hkigis:TUNNUS":"363",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915501363",
     "hkigis:tunnus":"363",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Viks forskarpark"
     ],
+    "reversegeo:latitude":60.226072,
+    "reversegeo:longitude":25.017383,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727359,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"c3b3469720f9226c49ef829c34e2e1de",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727247,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Viikin tiedepuisto",
     "wof:parent_id":1108727359,
     "wof:placetype":"neighbourhood",

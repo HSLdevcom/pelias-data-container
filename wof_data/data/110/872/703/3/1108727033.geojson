@@ -9,6 +9,8 @@
     "geom:bbox":"24.8647212508,60.2347061748,24.8989488436,60.2476885969",
     "geom:latitude":60.240204,
     "geom:longitude":24.881177,
+    "hkigis:KOKOTUNNUS":"0912205331",
+    "hkigis:TUNNUS":"331",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912205331",
     "hkigis:tunnus":"331",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gamlas"
     ],
+    "reversegeo:latitude":60.241094,
+    "reversegeo:longitude":24.881177,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537241,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"ba3821c4413ab57a2c45d00df4d82350",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727033,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kannelmaki",
     "wof:parent_id":890537241,
     "wof:placetype":"neighbourhood",

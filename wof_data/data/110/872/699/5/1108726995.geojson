@@ -9,6 +9,8 @@
     "geom:bbox":"24.9166471275,60.1426497175,24.9385789921,60.1607332645",
     "geom:latitude":60.149519,
     "geom:longitude":24.928531,
+    "hkigis:KOKOTUNNUS":"0911102204",
+    "hkigis:TUNNUS":"204",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911102204",
     "hkigis:tunnus":"204",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00c4rtholmen"
     ],
+    "reversegeo:latitude":60.149401,
+    "reversegeo:longitude":24.929418,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727335,
         907199715,
@@ -37,9 +41,12 @@
         101748417,
         136253047,
         890536879,
-        890537243
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
     "wof:geomhash":"308e199e6ce09691a22a7bd37ab4667f",
     "wof:hierarchy":[
@@ -54,22 +61,10 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108726995,
             "region_id":85683067
-        },
-        {
-            "borough_id":890536879,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537243,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108726995,
-            "region_id":85683067
         }
     ],
     "wof:id":1108726995,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Hernesaari",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",

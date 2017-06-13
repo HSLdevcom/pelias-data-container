@@ -9,6 +9,8 @@
     "geom:bbox":"24.87702457,60.2563731863,24.9032220465,60.2689375508",
     "geom:latitude":60.26178,
     "geom:longitude":24.891037,
+    "hkigis:KOKOTUNNUS":"0912205335",
+    "hkigis:TUNNUS":"335",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912205335",
     "hkigis:tunnus":"335",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kungseken"
     ],
+    "reversegeo:latitude":60.261681,
+    "reversegeo:longitude":24.891235,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537241,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"02ff1a44ccf9b3e79b5992c46470ba3c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727075,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kuninkaantammi",
     "wof:parent_id":890537241,
     "wof:placetype":"neighbourhood",

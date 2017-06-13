@@ -9,6 +9,8 @@
     "geom:bbox":"25.0871908077,60.2104971487,25.1247052684,60.2285058067",
     "geom:latitude":60.220666,
     "geom:longitude":25.107727,
+    "hkigis:KOKOTUNNUS":"0917701451",
+    "hkigis:TUNNUS":"451",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917701451",
     "hkigis:tunnus":"451",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Botby\u00e5sen"
     ],
+    "reversegeo:latitude":60.220591,
+    "reversegeo:longitude":25.108077,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537287,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"f909062a40992e4721c6ce6a8a791b2c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727237,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vartioharju",
     "wof:parent_id":890537287,
     "wof:placetype":"neighbourhood",

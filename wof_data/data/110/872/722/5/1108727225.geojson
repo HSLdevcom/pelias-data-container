@@ -9,6 +9,8 @@
     "geom:bbox":"24.9475059134,60.2504891634,24.9783500635,60.2657497532",
     "geom:latitude":60.256089,
     "geom:longitude":24.96518,
+    "hkigis:KOKOTUNNUS":"0914405353",
+    "hkigis:TUNNUS":"353",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914405353",
     "hkigis:tunnus":"353",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Domarg\u00e5rd"
     ],
+    "reversegeo:latitude":60.257338,
+    "reversegeo:longitude":24.967511,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727383,
         907199715,
@@ -36,11 +40,14 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067,
+        890537257
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"767188a4f92b9a41502d1d526b8b8c54",
+    "wof:geomhash":"3fc4deccecaf5427cb47d571fa968746",
     "wof:hierarchy":[
         {
             "borough_id":890536895,
@@ -53,12 +60,24 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108727225,
             "region_id":85683067
+        },
+        {
+            "borough_id":890536895,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":890537257,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727225,
+            "region_id":85683067
         }
     ],
     "wof:id":1108727225,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tuomarinkartano",
-    "wof:parent_id":1108727383,
+    "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

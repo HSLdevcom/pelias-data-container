@@ -9,6 +9,8 @@
     "geom:bbox":"24.8877203737,60.2350028249,24.9142976081,60.2563505907",
     "geom:latitude":60.244744,
     "geom:longitude":24.902326,
+    "hkigis:KOKOTUNNUS":"0912205332",
+    "hkigis:TUNNUS":"332",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912205332",
     "hkigis:tunnus":"332",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Magnusk\u00e4rr"
     ],
+    "reversegeo:latitude":60.244521,
+    "reversegeo:longitude":24.902527,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537241,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"2ac144499cacf82852ca3b9e4a326535",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727119,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Maununneva",
     "wof:parent_id":890537241,
     "wof:placetype":"neighbourhood",

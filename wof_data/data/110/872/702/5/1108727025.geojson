@@ -9,6 +9,8 @@
     "geom:bbox":"24.9500858334,60.1515733545,25.0051951499,60.1637374263",
     "geom:latitude":60.158364,
     "geom:longitude":24.975162,
+    "hkigis:KOKOTUNNUS":"0911102090",
+    "hkigis:TUNNUS":"090",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911102090",
     "hkigis:tunnus":"090",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Brunnsparken"
     ],
+    "reversegeo:latitude":60.158179,
+    "reversegeo:longitude":24.974641,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727335,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"04b2051a0641639a15f6ccb8f736ee86",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727025,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kaivopuisto",
     "wof:parent_id":1108727335,
     "wof:placetype":"neighbourhood",

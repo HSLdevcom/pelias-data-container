@@ -527,6 +527,8 @@
     "qs:pop":0,
     "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
     "qs:type":"urban core",
+    "reversegeo:latitude":60.20787,
+    "reversegeo:longitude":24.99935,
     "src:geom":"hkigis",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
@@ -568,7 +570,7 @@
         }
     ],
     "wof:id":101748417,
-    "wof:lastmodified":1485373925,
+    "wof:lastmodified":1492124069,
     "wof:megacity":"1",
     "wof:name":"Helsinki",
     "wof:parent_id":907199715,

@@ -9,6 +9,8 @@
     "geom:bbox":"24.9191090111,60.1922252935,24.9357709861,60.2085273529",
     "geom:latitude":60.200702,
     "geom:longitude":24.930003,
+    "hkigis:KOKOTUNNUS":"0913304174",
+    "hkigis:TUNNUS":"174",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913304174",
     "hkigis:tunnus":"174",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Mellersta B\u00f6le"
     ],
+    "reversegeo:latitude":60.20074,
+    "reversegeo:longitude":24.930128,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537255,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"9288697ad540775c0778a249a8a4596c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727043,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Keski-Pasila",
     "wof:parent_id":890537255,
     "wof:placetype":"neighbourhood",

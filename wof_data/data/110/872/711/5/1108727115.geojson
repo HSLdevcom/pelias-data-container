@@ -9,6 +9,8 @@
     "geom:bbox":"24.9204653407,60.2238905714,24.9474351382,60.2379960925",
     "geom:latitude":60.230707,
     "geom:longitude":24.93264,
+    "hkigis:KOKOTUNNUS":"0914401282",
+    "hkigis:TUNNUS":"282",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914401282",
     "hkigis:tunnus":"282",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "M\u00e5nsas"
     ],
+    "reversegeo:latitude":60.229438,
+    "reversegeo:longitude":24.930586,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727377,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"33cc99379eff1d38014e1fe0c792628a",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727115,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Maunula",
     "wof:parent_id":1108727377,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.950375229,60.1679723117,24.9785984003,60.1773156331",
     "geom:latitude":60.172951,
     "geom:longitude":24.962473,
+    "hkigis:KOKOTUNNUS":"0911101010",
+    "hkigis:TUNNUS":"010",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911101010",
     "hkigis:tunnus":"010",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kronohagen"
     ],
+    "reversegeo:latitude":60.1733,
+    "reversegeo:longitude":24.961331,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727331,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"1d30d08316fb16670d63417880ade6cb",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727065,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kruununhaka",
     "wof:parent_id":1108727331,
     "wof:placetype":"neighbourhood",

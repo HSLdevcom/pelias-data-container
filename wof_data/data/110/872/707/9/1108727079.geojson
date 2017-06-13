@@ -9,6 +9,8 @@
     "geom:bbox":"24.842796877,60.1776737877,24.8766651399,60.1960233313",
     "geom:latitude":60.187932,
     "geom:longitude":24.858595,
+    "hkigis:KOKOTUNNUS":"0912202302",
+    "hkigis:TUNNUS":"302",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202302",
     "hkigis:tunnus":"302",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gran\u00f6"
     ],
+    "reversegeo:latitude":60.188404,
+    "reversegeo:longitude":24.858595,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537235,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"f5ea6bfb1b2ed734987df653ed091c6e",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727079,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kuusisaari",
     "wof:parent_id":890537235,
     "wof:placetype":"neighbourhood",

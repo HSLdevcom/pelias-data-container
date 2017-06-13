@@ -9,6 +9,8 @@
     "geom:bbox":"25.1494829365,60.1979747137,25.2204044875,60.2364312664",
     "geom:latitude":60.21765,
     "geom:longitude":25.184356,
+    "hkigis:KOKOTUNNUS":"0917704548",
+    "hkigis:TUNNUS":"548",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917704548",
     "hkigis:tunnus":"548",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Bast\u00f6"
     ],
+    "reversegeo:latitude":60.216483,
+    "reversegeo:longitude":25.187298,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537281,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"f144718f001fbee069b94ab04fad6195",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727143,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Niinisaari",
     "wof:parent_id":890537281,
     "wof:placetype":"neighbourhood",

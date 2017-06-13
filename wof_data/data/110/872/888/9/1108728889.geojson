@@ -1,0 +1,71 @@
+{
+  "id": 1108728889,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000806,
+    "geom:area_square_m":4214226.735882,
+    "geom:bbox":"25.613301412,64.9754790151,25.6811088097,65.0023058969",
+    "geom:latitude":64.989101,
+    "geom:longitude":25.64576,
+    "iso:country":"FI",
+    "lbl:latitude":64.991827,
+    "lbl:longitude":25.649091,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Puolukkakangas"
+    ],
+    "oulugov:AJ_KAUPU00":"Puolukkakangas",
+    "oulugov:AJ_KAUPUNG":"46",
+    "oulugov:ID":"35",
+    "oulugov:TEKSTI":"564117046",
+    "reversegeo:latitude":64.991827,
+    "reversegeo:longitude":25.649091,
+    "src:geom":"oulugov",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        907199459,
+        85633143,
+        404227415,
+        101748443,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"1102ada1c48acd5a207a14f17865f264",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199459,
+            "locality_id":101748443,
+            "macroregion_id":404227415,
+            "neighbourhood_id":1108728889,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":1108728889,
+    "wof:lastmodified":1492019384,
+    "wof:name":"Puolukkakangas",
+    "wof:parent_id":101748443,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.613301412,
+    64.9754790151,
+    25.6811088097,
+    65.0023058969
+],
+  "geometry": {"coordinates":[[[[25.613301412,64.9859729169],[25.6376229148,64.9949083874],[25.6439546985,64.99961306660001],[25.6483032153,65.0023058969],[25.6699227812,64.9960882149],[25.6811088097,64.9910891641],[25.6738752209,64.98967046999999],[25.6661897329,64.9881790946],[25.6633206644,64.9857171796],[25.6550539554,64.9842075885],[25.6352887232,64.97547901510001],[25.6275473011,64.9789702117],[25.6262913592,64.979434379],[25.6263262717,64.9796495937],[25.6241277369,64.98071325310001],[25.6210743306,64.98218594940001],[25.6188670215,64.9832473565],[25.6186360099,64.9833200607],[25.6181009702,64.983536512],[25.6169640911,64.98410488099999],[25.6153542948,64.9849137058],[25.6153940806,64.9849422467],[25.6141875111,64.9855237821],[25.613301412,64.9859729169]]]],"type":"MultiPolygon"}
+}

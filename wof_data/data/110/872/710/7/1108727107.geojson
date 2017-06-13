@@ -9,6 +9,8 @@
     "geom:bbox":"24.8386510037,60.2350495565,24.879049563,60.2544456988",
     "geom:latitude":60.24742,
     "geom:longitude":24.859287,
+    "hkigis:KOKOTUNNUS":"0912205333",
+    "hkigis:TUNNUS":"333",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912205333",
     "hkigis:tunnus":"333",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Malmg\u00e5rd"
     ],
+    "reversegeo:latitude":60.246234,
+    "reversegeo:longitude":24.859594,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537241,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"37634f0aec65cc9984d3af3ef3af505a",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727107,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Malminkartano",
     "wof:parent_id":890537241,
     "wof:placetype":"neighbourhood",

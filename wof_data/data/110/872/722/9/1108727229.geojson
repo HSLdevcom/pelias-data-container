@@ -9,6 +9,8 @@
     "geom:bbox":"24.8429309797,60.1859228028,24.8911825015,60.2059387325",
     "geom:latitude":60.1976,
     "geom:longitude":24.868357,
+    "hkigis:KOKOTUNNUS":"0912202301",
+    "hkigis:TUNNUS":"301",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202301",
     "hkigis:tunnus":"301",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gamla Munksn\u00e4s"
     ],
+    "reversegeo:latitude":60.196186,
+    "reversegeo:longitude":24.874747,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537235,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"79222a2f3381d09f7de5acc48d1f5f57",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727229,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vanha Munkkiniemi",
     "wof:parent_id":890537235,
     "wof:placetype":"neighbourhood",

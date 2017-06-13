@@ -9,6 +9,8 @@
     "geom:bbox":"24.8674308351,60.1397303362,24.8972207122,60.1576470665",
     "geom:latitude":60.148223,
     "geom:longitude":24.884372,
+    "hkigis:KOKOTUNNUS":"0911105312",
+    "hkigis:TUNNUS":"312",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911105312",
     "hkigis:tunnus":"312",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Hallonn\u00e4s"
     ],
+    "reversegeo:latitude":60.148531,
+    "reversegeo:longitude":24.884372,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537261,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"aa0e067a0ae263b55736e147be427381",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727241,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vattuniemi",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

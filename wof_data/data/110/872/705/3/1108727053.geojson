@@ -9,6 +9,8 @@
     "geom:bbox":"24.8413405988,60.157601222,24.8573664463,60.1735654728",
     "geom:latitude":60.165911,
     "geom:longitude":24.848846,
+    "hkigis:KOKOTUNNUS":"0911105314",
+    "hkigis:TUNNUS":"314",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911105314",
     "hkigis:tunnus":"314",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Bj\u00f6rkholmen"
     ],
+    "reversegeo:latitude":60.166035,
+    "reversegeo:longitude":24.848999,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537261,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"ea8f2d46abf71e5e4a90c7cc131f7fb6",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727053,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Koivusaari",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.9792905311,60.2201357619,25.0025535784,60.2313774551",
     "geom:latitude":60.226845,
     "geom:longitude":24.99094,
+    "hkigis:KOKOTUNNUS":"0915501364",
+    "hkigis:TUNNUS":"364",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915501364",
     "hkigis:tunnus":"364",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Viksbacka"
     ],
+    "reversegeo:latitude":60.227668,
+    "reversegeo:longitude":24.991735,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727359,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"1d64c29375478ea9e81ee79b34ab1a8e",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727249,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Viikinmaki",
     "wof:parent_id":1108727359,
     "wof:placetype":"neighbourhood",

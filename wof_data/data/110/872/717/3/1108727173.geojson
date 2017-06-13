@@ -9,6 +9,8 @@
     "geom:bbox":"25.0440364134,60.1898419063,25.0764833297,60.2077410467",
     "geom:latitude":60.198963,
     "geom:longitude":25.058633,
+    "hkigis:KOKOTUNNUS":"0916602432",
+    "hkigis:TUNNUS":"432",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916602432",
     "hkigis:tunnus":"432",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kasberget"
     ],
+    "reversegeo:latitude":60.199323,
+    "reversegeo:longitude":25.05618,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537227,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"253e00a934d48a5cd313ca7440681e54",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727173,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124070,
     "wof:name":"Roihuvuori",
     "wof:parent_id":890537227,
     "wof:placetype":"neighbourhood",

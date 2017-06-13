@@ -9,6 +9,8 @@
     "geom:bbox":"24.8459394708,60.2053414497,24.8684774054,60.220668084",
     "geom:latitude":60.213568,
     "geom:longitude":24.854963,
+    "hkigis:KOKOTUNNUS":"0912204462",
+    "hkigis:TUNNUS":"462",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204462",
     "hkigis:tunnus":"462",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Tali"
     ],
+    "reversegeo:latitude":60.212557,
+    "reversegeo:longitude":24.854184,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537259,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"981575008d9a86f99cfe01215ce88e01",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727203,
-    "wof:lastmodified":1485376906,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tali",
     "wof:parent_id":890537259,
     "wof:placetype":"neighbourhood",

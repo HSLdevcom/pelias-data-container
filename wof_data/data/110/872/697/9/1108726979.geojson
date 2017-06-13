@@ -9,6 +9,8 @@
     "geom:bbox":"24.867875243,60.2472505142,24.905645736,60.2607408476",
     "geom:latitude":60.253561,
     "geom:longitude":24.887268,
+    "hkigis:KOKOTUNNUS":"0912205334",
+    "hkigis:TUNNUS":"334",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912205334",
     "hkigis:tunnus":"334",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "H\u00e5kans\u00e5ker"
     ],
+    "reversegeo:latitude":60.25263,
+    "reversegeo:longitude":24.885996,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537241,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"5995b5f88d97c0bacd503aed42cfe7e8",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726979,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Hakuninmaa",
     "wof:parent_id":890537241,
     "wof:placetype":"neighbourhood",

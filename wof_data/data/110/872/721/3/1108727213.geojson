@@ -9,6 +9,8 @@
     "geom:bbox":"25.0080260563,60.2667670857,25.0404659574,60.2893181068",
     "geom:latitude":60.278542,
     "geom:longitude":25.026499,
+    "hkigis:KOKOTUNNUS":"0915505402",
+    "hkigis:TUNNUS":"402",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915505402",
     "hkigis:tunnus":"402",
@@ -26,22 +28,39 @@
     "name:swe_x_preferred":[
         "Stapelstaden"
     ],
+    "reversegeo:latitude":60.276973,
+    "reversegeo:longitude":25.027602,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
-        1108727369,
+        890537277,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067,
+        1108727369
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"3e07a61c68f3c567307eb73451a142da",
+    "wof:geomhash":"6392a7ea657ea148d2d11b221194a2e1",
     "wof:hierarchy":[
+        {
+            "borough_id":890536891,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":890537277,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727213,
+            "region_id":85683067
+        },
         {
             "borough_id":890536891,
             "continent_id":102191581,
@@ -56,9 +75,9 @@
         }
     ],
     "wof:id":1108727213,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tapulikaupunki",
-    "wof:parent_id":1108727369,
+    "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

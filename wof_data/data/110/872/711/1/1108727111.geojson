@@ -9,6 +9,8 @@
     "geom:bbox":"25.0698249284,60.1915747637,25.1061591775,60.2086726866",
     "geom:latitude":60.200324,
     "geom:longitude":25.087816,
+    "hkigis:KOKOTUNNUS":"0917701455",
+    "hkigis:TUNNUS":"455",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917701455",
     "hkigis:tunnus":"455",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Marudd"
     ],
+    "reversegeo:latitude":60.199125,
+    "reversegeo:longitude":25.089054,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537287,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"160dbb98792fcb7d836cd79dbc7d03be",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727111,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Marjaniemi",
     "wof:parent_id":890537287,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.9708545397,60.2101735888,24.9878198872,60.2175795273",
     "geom:latitude":60.213993,
     "geom:longitude":24.97899,
+    "hkigis:KOKOTUNNUS":"0913305270",
+    "hkigis:TUNNUS":"270",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913305270",
     "hkigis:tunnus":"270",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gammelstaden"
     ],
+    "reversegeo:latitude":60.214464,
+    "reversegeo:longitude":24.979119,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727357,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"3277fb7095d711af485caa441187abde",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727233,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vanhakaupunki",
     "wof:parent_id":1108727357,
     "wof:placetype":"neighbourhood",

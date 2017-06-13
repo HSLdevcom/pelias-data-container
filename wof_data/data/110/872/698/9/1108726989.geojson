@@ -9,6 +9,8 @@
     "geom:bbox":"25.0594687291,60.2629401654,25.0842236861,60.2763752885",
     "geom:latitude":60.270332,
     "geom:longitude":25.071746,
+    "hkigis:KOKOTUNNUS":"0915505412",
+    "hkigis:TUNNUS":"412",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915505412",
     "hkigis:tunnus":"412",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Henriksdal"
     ],
+    "reversegeo:latitude":60.269146,
+    "reversegeo:longitude":25.070902,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727369,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"f312fcb9b45ec9ce695e446af1499d48",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726989,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Heikinlaakso",
     "wof:parent_id":1108727369,
     "wof:placetype":"neighbourhood",

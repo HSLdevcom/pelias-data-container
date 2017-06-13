@@ -9,6 +9,8 @@
     "geom:bbox":"24.9768204445,60.1685581323,25.003712473,60.1860558467",
     "geom:latitude":60.175974,
     "geom:longitude":24.990489,
+    "hkigis:KOKOTUNNUS":"0916601190",
+    "hkigis:TUNNUS":"190",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916601190",
     "hkigis:tunnus":"190",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Bl\u00e5b\u00e4rslandet-H\u00f6gholmen"
     ],
+    "reversegeo:latitude":60.176833,
+    "reversegeo:longitude":24.990233,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727349,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"931b43eebc006012e4133a90fd1fa530",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727137,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Mustikkamaa-Korkeasaari",
     "wof:parent_id":1108727349,
     "wof:placetype":"neighbourhood",

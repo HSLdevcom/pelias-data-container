@@ -9,6 +9,8 @@
     "geom:bbox":"24.8666375156,60.2232837868,24.8900111061,60.2350495568",
     "geom:latitude":60.23013,
     "geom:longitude":24.879054,
+    "hkigis:KOKOTUNNUS":"0912203294",
+    "hkigis:TUNNUS":"294",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912203294",
     "hkigis:tunnus":"294",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Lassas"
     ],
+    "reversegeo:latitude":60.229109,
+    "reversegeo:longitude":24.880003,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537273,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"1f837fceaf149fa9e4fe985ef6d84008",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727097,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Lassila",
     "wof:parent_id":890537273,
     "wof:placetype":"neighbourhood",

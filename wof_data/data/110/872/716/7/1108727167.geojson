@@ -9,6 +9,8 @@
     "geom:bbox":"25.065709922,60.2079316409,25.0968287728,60.2225822531",
     "geom:latitude":60.215487,
     "geom:longitude":25.083288,
+    "hkigis:KOKOTUNNUS":"0917701453",
+    "hkigis:TUNNUS":"453",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917701453",
     "hkigis:tunnus":"453",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Botbyh\u00f6jden"
     ],
+    "reversegeo:latitude":60.217413,
+    "reversegeo:longitude":25.088245,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537287,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"094b2c96bbece3e8232497f3ce708dc0",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727167,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124069,
     "wof:name":"Puotinharju",
     "wof:parent_id":890537287,
     "wof:placetype":"neighbourhood",

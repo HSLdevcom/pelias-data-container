@@ -9,6 +9,8 @@
     "geom:bbox":"24.8777009909,60.2068055855,24.9074504196,60.2237381662",
     "geom:latitude":60.215605,
     "geom:longitude":24.891778,
+    "hkigis:KOKOTUNNUS":"0912203291",
+    "hkigis:TUNNUS":"291",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912203291",
     "hkigis:tunnus":"291",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "S\u00f6dra Haga"
     ],
+    "reversegeo:latitude":60.215661,
+    "reversegeo:longitude":24.891798,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537273,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"5609d0e9223598a3c470af01daa2ebcd",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726975,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Etela-Haaga",
     "wof:parent_id":890537273,
     "wof:placetype":"neighbourhood",

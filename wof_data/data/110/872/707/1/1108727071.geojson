@@ -9,6 +9,8 @@
     "geom:bbox":"24.9448485444,60.1997382272,24.9764769949,60.217017597",
     "geom:latitude":60.207556,
     "geom:longitude":24.959557,
+    "hkigis:KOKOTUNNUS":"0913305240",
+    "hkigis:TUNNUS":"240",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913305240",
     "hkigis:tunnus":"240",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gumt\u00e4kt"
     ],
+    "reversegeo:latitude":60.207061,
+    "reversegeo:longitude":24.960628,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727357,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"4bbc0fc5d65fa466c18c1382406a1441",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727071,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kumpula",
     "wof:parent_id":1108727357,
     "wof:placetype":"neighbourhood",

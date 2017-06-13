@@ -9,6 +9,8 @@
     "geom:bbox":"24.8796573512,60.2001834701,24.891393405,60.2101677894",
     "geom:latitude":60.204633,
     "geom:longitude":24.884668,
+    "hkigis:KOKOTUNNUS":"0912202305",
+    "hkigis:TUNNUS":"305",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202305",
     "hkigis:tunnus":"305",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "N\u00e4sh\u00f6jden"
     ],
+    "reversegeo:latitude":60.204511,
+    "reversegeo:longitude":24.884091,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537235,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"7e508ebab3c2c4cec8f331954b542509",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727141,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Niemenmaki",
     "wof:parent_id":890537235,
     "wof:placetype":"neighbourhood",

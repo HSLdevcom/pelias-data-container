@@ -9,6 +9,8 @@
     "geom:bbox":"25.1011313255,60.1646032477,25.1801987033,60.20691752",
     "geom:latitude":60.181801,
     "geom:longitude":25.140505,
+    "hkigis:KOKOTUNNUS":"0917704545",
+    "hkigis:TUNNUS":"545",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917704545",
     "hkigis:tunnus":"545",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kallvik"
     ],
+    "reversegeo:latitude":60.182291,
+    "reversegeo:longitude":25.140505,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537281,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"2200a46073a7b5f24684395ad68d7c97",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727029,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kallahti",
     "wof:parent_id":890537281,
     "wof:placetype":"neighbourhood",

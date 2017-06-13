@@ -9,6 +9,8 @@
     "geom:bbox":"24.9334540848,60.1797264778,24.9565747169,60.186450215",
     "geom:latitude":60.182971,
     "geom:longitude":24.944011,
+    "hkigis:KOKOTUNNUS":"0913301112",
+    "hkigis:TUNNUS":"112",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301112",
     "hkigis:tunnus":"112",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Linjerna"
     ],
+    "reversegeo:latitude":60.183018,
+    "reversegeo:longitude":24.944009,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"d64a11cab80f204d45254ce00e05cfcf",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727103,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Linjat",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

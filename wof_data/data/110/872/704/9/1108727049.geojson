@@ -9,6 +9,8 @@
     "geom:bbox":"25.0351764467,60.2299016065,25.0824042268,60.2508252232",
     "geom:latitude":60.240705,
     "geom:longitude":25.059901,
+    "hkigis:KOKOTUNNUS":"0917703474",
+    "hkigis:TUNNUS":"474",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917703474",
     "hkigis:tunnus":"474",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Stensb\u00f6le"
     ],
+    "reversegeo:latitude":60.238234,
+    "reversegeo:longitude":25.058296,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537253,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"07817f221628e4acea29a7aefc4830e1",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727049,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kivikko",
     "wof:parent_id":890537253,
     "wof:placetype":"neighbourhood",

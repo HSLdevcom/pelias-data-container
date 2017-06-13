@@ -9,6 +9,8 @@
     "geom:bbox":"24.8979133887,60.2448391389,24.9684024941,60.2785109373",
     "geom:latitude":60.26518,
     "geom:longitude":24.928771,
+    "hkigis:KOKOTUNNUS":"0914403354",
+    "hkigis:TUNNUS":"354",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914403354",
     "hkigis:tunnus":"354",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Tomtbacka"
     ],
+    "reversegeo:latitude":60.26538,
+    "reversegeo:longitude":24.928771,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537257,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"7c9a60d0dc15d1c7d997cda1d8dc25e5",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726981,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Haltiala",
     "wof:parent_id":890537257,
     "wof:placetype":"neighbourhood",

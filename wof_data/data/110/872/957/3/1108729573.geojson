@@ -1,0 +1,77 @@
+{
+  "id": 1108729573,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000146,
+    "geom:area_square_m":895592.578355,
+    "geom:bbox":"25.0902020797,60.3352472733,25.1137982421,60.3453733365",
+    "geom:latitude":60.340167,
+    "geom:longitude":25.102231,
+    "hkigis:ID1":"112",
+    "hkigis:KOKOTUN":"0926082000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"MIKKOLA",
+    "hkigis:Nimi":"Mikkola",
+    "hkigis:SUUR":"6",
+    "hkigis:TILA":"82",
+    "iso:country":"FI",
+    "lbl:latitude":60.339944,
+    "lbl:longitude":25.10341,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Mikkola"
+    ],
+    "reversegeo:latitude":60.339944,
+    "reversegeo:longitude":25.10341,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729497
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"13a929564146171271b03dad399f4e4f",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729497,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729573,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729573,
+    "wof:lastmodified":1492536881,
+    "wof:name":"Mikkola",
+    "wof:parent_id":1108729497,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0902020797162,
+    60.3352472732913,
+    25.1137982420616,
+    60.3453733365265
+],
+  "geometry": {"coordinates":[[[25.0932735122052,60.3453733365265],[25.0957282870096,60.345125101711],[25.0982983067374,60.3446481863192],[25.1047861350061,60.3446021969416],[25.1099581799743,60.3412902299614],[25.1106015570193,60.3406461594344],[25.1137982420616,60.3355242738734],[25.1021809287294,60.3352472732913],[25.0930736985485,60.3402300983436],[25.0902020797162,60.3404129306176],[25.0930302453382,60.344336304003],[25.0932735122052,60.3453733365265]]],"type":"Polygon"}
+}

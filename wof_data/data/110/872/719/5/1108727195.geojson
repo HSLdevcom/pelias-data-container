@@ -9,6 +9,8 @@
     "geom:bbox":"24.9664858426,60.1749973165,24.9826935968,60.1833316262",
     "geom:latitude":60.179014,
     "geom:longitude":24.974782,
+    "hkigis:KOKOTUNNUS":"0913301103",
+    "hkigis:TUNNUS":"103",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301103",
     "hkigis:tunnus":"103",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Sumparn"
     ],
+    "reversegeo:latitude":60.17874,
+    "reversegeo:longitude":24.974905,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"63be19a7318ba21ef932ac6f2b83f58c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727195,
-    "wof:lastmodified":1485376906,
+    "wof:lastmodified":1492124070,
     "wof:name":"Sompasaari",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

@@ -142,10 +142,6 @@
     "src:geom":"quattroshapes",
     "src:geom_alt":[],
     "src:lbl:centroid":"mapshaper",
-    "wk:latitude":65.848611,
-    "wk:longitude":24.147222,
-    "wk:population":22377,
-    "wk:wordcount":1278,
     "wof:belongsto":[
         85683147,
         102191581,
@@ -161,7 +157,7 @@
         "wd:id":"Q214021"
     },
     "wof:country":"FI",
-    "wof:geomhash":"69862da57c9f7819fc3e5c6b1aabdc64",
+    "wof:geomhash":"1d1bc058cfeecef858d47f6d3da6cb93",
     "wof:hierarchy":[
         {
             "continent_id":102191581,
@@ -173,7 +169,7 @@
         }
     ],
     "wof:id":101839179,
-    "wof:lastmodified":1470852543,
+    "wof:lastmodified":1496767863,
     "wof:name":"Tornio",
     "wof:parent_id":85683147,
     "wof:placetype":"locality",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.8616606807,60.2026984731,24.8822857365,60.2161299514",
     "geom:latitude":60.208525,
     "geom:longitude":24.871174,
+    "hkigis:KOKOTUNNUS":"0912202304",
+    "hkigis:TUNNUS":"304",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202304",
     "hkigis:tunnus":"304",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Munksh\u00f6jden"
     ],
+    "reversegeo:latitude":60.208322,
+    "reversegeo:longitude":24.871168,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537235,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"da81faf15124c3955f5ec40a6fbdc4b3",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727133,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Munkkivuori",
     "wof:parent_id":890537235,
     "wof:placetype":"neighbourhood",

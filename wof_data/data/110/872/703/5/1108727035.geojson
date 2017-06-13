@@ -9,6 +9,8 @@
     "geom:bbox":"24.9337285665,60.2045851652,24.9635392286,60.2235412273",
     "geom:latitude":60.2146,
     "geom:longitude":24.94918,
+    "hkigis:KOKOTUNNUS":"0913305250",
+    "hkigis:TUNNUS":"250",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913305250",
     "hkigis:tunnus":"250",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kottby"
     ],
+    "reversegeo:latitude":60.21532,
+    "reversegeo:longitude":24.949405,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727357,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"e502efa597a1f702aacfd71a7c6dad90",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727035,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kapyla",
     "wof:parent_id":1108727357,
     "wof:placetype":"neighbourhood",

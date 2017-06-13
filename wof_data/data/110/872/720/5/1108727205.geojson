@@ -9,6 +9,8 @@
     "geom:bbox":"24.8496577055,60.2028793979,24.8667658006,60.2108477117",
     "geom:latitude":60.20652,
     "geom:longitude":24.857806,
+    "hkigis:KOKOTUNNUS":"0912202306",
+    "hkigis:TUNNUS":"306",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202306",
     "hkigis:tunnus":"306",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Talistranden"
     ],
+    "reversegeo:latitude":60.206753,
+    "reversegeo:longitude":24.859102,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537235,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"9a8704275a36a0498958e6035af0b795",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727205,
-    "wof:lastmodified":1485376906,
+    "wof:lastmodified":1492124070,
     "wof:name":"Talinranta",
     "wof:parent_id":890537235,
     "wof:placetype":"neighbourhood",

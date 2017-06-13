@@ -9,6 +9,8 @@
     "geom:bbox":"24.8379633673,60.2211992944,24.868023345,60.2359109148",
     "geom:latitude":60.228591,
     "geom:longitude":24.853644,
+    "hkigis:KOKOTUNNUS":"0912204463",
+    "hkigis:TUNNUS":"463",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204463",
     "hkigis:tunnus":"463",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Reimars"
     ],
+    "reversegeo:latitude":60.228899,
+    "reversegeo:longitude":24.857628,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537259,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"cf4bcb6e406861c87f910e1674d65642",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727171,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124070,
     "wof:name":"Reimarla",
     "wof:parent_id":890537259,
     "wof:placetype":"neighbourhood",

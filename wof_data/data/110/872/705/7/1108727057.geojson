@@ -9,6 +9,8 @@
     "geom:bbox":"24.8314029763,60.2295833784,24.8660550233,60.2546674503",
     "geom:latitude":60.239926,
     "geom:longitude":24.845162,
+    "hkigis:KOKOTUNNUS":"0912204320",
+    "hkigis:TUNNUS":"320",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204320",
     "hkigis:tunnus":"320",
@@ -26,19 +28,22 @@
     "name:swe_x_preferred":[
         "K\u00e5nala"
     ],
+    "reversegeo:latitude":60.238059,
+    "reversegeo:longitude":24.844909,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
-        890537259,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"60b80c0ba74dbd55b1488920a18638ef",
     "wof:hierarchy":[
@@ -49,16 +54,15 @@
             "empire_id":136253047,
             "localadmin_id":907199715,
             "locality_id":101748417,
-            "macrohood_id":890537259,
             "macroregion_id":404227411,
             "neighbourhood_id":1108727057,
             "region_id":85683067
         }
     ],
     "wof:id":1108727057,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Konala",
-    "wof:parent_id":890537259,
+    "wof:parent_id":890536889,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

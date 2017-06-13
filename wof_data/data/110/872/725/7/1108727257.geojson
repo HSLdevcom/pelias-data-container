@@ -9,6 +9,8 @@
     "geom:bbox":"25.0917912315,60.1506130763,25.160859456,60.1676344042",
     "geom:latitude":60.158423,
     "geom:longitude":25.126671,
+    "hkigis:KOKOTUNNUS":"0916603500",
+    "hkigis:TUNNUS":"500",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603500",
     "hkigis:tunnus":"500",
@@ -26,18 +28,23 @@
     "name:swe_x_preferred":[
         "Villinge"
     ],
+    "reversegeo:latitude":60.158136,
+    "reversegeo:longitude":25.126671,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
+        890537275,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"ce668a5c82ea30dd558b368182b2bb64",
     "wof:hierarchy":[
@@ -48,15 +55,16 @@
             "empire_id":136253047,
             "localadmin_id":907199715,
             "locality_id":101748417,
+            "macrohood_id":890537275,
             "macroregion_id":404227411,
             "neighbourhood_id":1108727257,
             "region_id":85683067
         }
     ],
     "wof:id":1108727257,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Villinki",
-    "wof:parent_id":890536883,
+    "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

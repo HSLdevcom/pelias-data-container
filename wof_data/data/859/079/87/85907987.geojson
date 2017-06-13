@@ -5,18 +5,20 @@
     "edtf:cessation":"uuuu",
     "edtf:inception":"uuuu",
     "geom:area":0.000459,
-    "geom:area_square_m":2820144.810582,
+    "geom:area_square_m":2820144.810583,
     "geom:bbox":"24.9423346521,60.2199065382,24.9839808086,60.2413814625",
     "geom:latitude":60.232363,
     "geom:longitude":24.959081,
     "gn:latitude":60.23265,
     "gn:longitude":24.95373,
+    "hkigis:KOKOTUNNUS":"0914404284",
+    "hkigis:TUNNUS":"284",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914404284",
     "hkigis:tunnus":"284",
     "iso:country":"FI",
-    "lbl:latitude":60.231865,
-    "lbl:longitude":24.957349,
+    "lbl:latitude":60.229388,
+    "lbl:longitude":24.954561,
     "misc:gn_adm0_cc":"FI",
     "misc:gn_fcode":"PPL",
     "misc:gn_local":658225,
@@ -49,19 +51,22 @@
     "mz:is_landuse_aoi":0,
     "mz:is_official":0,
     "mz:max_zoom":18,
-    "mz:min_zoom":15,
+    "mz:min_zoom":14,
     "mz:tier_locality":5,
+    "mz:tier_metro":30,
     "name:fin_x_preferred":[
         "Patola"
     ],
     "name:swe_x_preferred":[
         "Dammen"
     ],
+    "reversegeo:latitude":60.231865,
+    "reversegeo:longitude":24.957349,
     "src:geom":"hkigis",
     "src:geom_alt":[
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl:centroid":"mz",
     "wk:wordcount":42,
     "wof:belongsto":[
         102191581,
@@ -81,8 +86,9 @@
         "qs:id":1251602,
         "wd:id":"Q7145169"
     },
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"3b68d0721f28c75797a1e0bcec16bb8b",
+    "wof:geomhash":"a85018568a4e6fd6310c2b18c0fca4e0",
     "wof:hierarchy":[
         {
             "borough_id":890536895,
@@ -101,7 +107,7 @@
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1485483081,
+    "wof:lastmodified":1492125294,
     "wof:name":"Patola",
     "wof:parent_id":890537237,
     "wof:placetype":"neighbourhood",
@@ -111,7 +117,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.942334652102502,
+    24.9423346521025,
     60.21990653822223,
     24.98398080861094,
     60.24138146247321

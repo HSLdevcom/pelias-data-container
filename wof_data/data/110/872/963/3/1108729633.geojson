@@ -1,0 +1,77 @@
+{
+  "id": 1108729633,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000263,
+    "geom:area_square_m":1608138.423774,
+    "geom:bbox":"25.0211535089,60.3495517709,25.055461829,60.3705280329",
+    "geom:latitude":60.360735,
+    "geom:longitude":25.039529,
+    "hkigis:ID1":"103",
+    "hkigis:KOKOTUN":"0926087000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"VIERUM\u00c4KI",
+    "hkigis:Nimi":"Vierum\u00e4ki",
+    "hkigis:SUUR":"6",
+    "hkigis:TILA":"87",
+    "iso:country":"FI",
+    "lbl:latitude":60.360798,
+    "lbl:longitude":25.039529,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Vierum\u00e4ki"
+    ],
+    "reversegeo:latitude":60.360798,
+    "reversegeo:longitude":25.039529,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729497
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"06e9807f311e498d50b12b9cee79f84a",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729497,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729633,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729633,
+    "wof:lastmodified":1492536883,
+    "wof:name":"Vierumaki",
+    "wof:parent_id":1108729497,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0211535088743,
+    60.349551770861,
+    25.0554618289796,
+    60.3705280329005
+],
+  "geometry": {"coordinates":[[[25.0283609333298,60.3705280329005],[25.0328933467549,60.3674958404034],[25.0361272888334,60.3679653945953],[25.0554618289796,60.3575975531522],[25.0531291322529,60.3565242181534],[25.0516295344009,60.3541371576498],[25.0502468075713,60.351445881846],[25.0481660487016,60.349551770861],[25.0288310511973,60.3627649484807],[25.0211535088743,60.3678594277279],[25.0283609333298,60.3705280329005]]],"type":"Polygon"}
+}

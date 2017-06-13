@@ -9,6 +9,8 @@
     "geom:bbox":"24.9333412411,60.1532133061,24.9437070152,60.1579724218",
     "geom:latitude":60.155594,
     "geom:longitude":24.938911,
+    "hkigis:KOKOTUNNUS":"0911102060",
+    "hkigis:TUNNUS":"060",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911102060",
     "hkigis:tunnus":"060",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Eira"
     ],
+    "reversegeo:latitude":60.155538,
+    "reversegeo:longitude":24.938913,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727335,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"8dbd380f5fbd254d1aaf47651fd8758d",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726973,
-    "wof:lastmodified":1485376898,
+    "wof:lastmodified":1492124069,
     "wof:name":"Eira",
     "wof:parent_id":1108727335,
     "wof:placetype":"neighbourhood",
