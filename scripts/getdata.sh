@@ -41,12 +41,9 @@ apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
 
-install_node_project pelias schema 1aa457cb0b520bdcf4bd93d57125bf1bf4c74bfa
-
-install_node_project HSLdevcom wof-pip-service
+install_node_project pelias schema 6565d7d0b8b686e2e408693c3f4bc4889c3d56af
 
 install_node_project HSLdevcom wof-admin-lookup
-npm link pelias-wof-pip-service
 
 install_node_project HSLdevcom openstreetmap
 npm link pelias-dbclient
@@ -56,7 +53,7 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines c1a17d9537652aee12e166d3aafee03bf120331d
+install_node_project pelias polylines 11a4b8c6dba2bc4e5150698ac7f177de107a3272
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 

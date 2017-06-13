@@ -3,7 +3,8 @@
 # errors should break the execution
 set -e
 
-# param: zip name containing gtfs data
+# param1: zip name containing gtfs data
+# param2: import folder name
 function import_gtfs {
     unzip -o $1
 
@@ -11,7 +12,7 @@ function import_gtfs {
     index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
     prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
     prefix=${prefix^^}
-    node $TOOLS/pelias-gtfs/import -d $DATA/router-finland --prefix=$prefix
+    node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
 }
 
 function import_router {
@@ -19,7 +20,7 @@ function import_router {
     targets=(`ls *.zip`)
     for target in "${targets[@]}"
     do
-        import_gtfs $target
+        import_gtfs $target $1
     done
 }
 
