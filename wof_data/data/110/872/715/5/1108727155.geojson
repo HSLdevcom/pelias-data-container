@@ -9,6 +9,8 @@
     "geom:bbox":"24.8476170705,60.2125786304,24.8839980213,60.2276796539",
     "geom:latitude":60.220237,
     "geom:longitude":24.869472,
+    "hkigis:KOKOTUNNUS":"0912204465",
+    "hkigis:TUNNUS":"465",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204465",
     "hkigis:tunnus":"465",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Sockenbacka f\u00f6retagsomr\u00e5de"
     ],
+    "reversegeo:latitude":60.220012,
+    "reversegeo:longitude":24.873739,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537259,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"fe28c2c97f9a89d0cbb29dd2e689498f",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727155,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124069,
     "wof:name":"Pitajanmaen yritysalue",
     "wof:parent_id":890537259,
     "wof:placetype":"neighbourhood",

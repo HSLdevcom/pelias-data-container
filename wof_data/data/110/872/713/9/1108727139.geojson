@@ -9,6 +9,8 @@
     "geom:bbox":"24.8380222426,60.1412990055,24.8766883628,60.1718945588",
     "geom:latitude":60.155023,
     "geom:longitude":24.858577,
+    "hkigis:KOKOTUNNUS":"0911105313",
+    "hkigis:TUNNUS":"313",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911105313",
     "hkigis:tunnus":"313",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kvarnberget"
     ],
+    "reversegeo:latitude":60.153197,
+    "reversegeo:longitude":24.860881,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537261,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"8efc1c412353f8900b09501f97476ac6",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727139,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Myllykallio",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

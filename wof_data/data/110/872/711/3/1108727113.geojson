@@ -9,6 +9,8 @@
     "geom:bbox":"24.8618426826,60.2237489731,24.8736183717,60.2331543646",
     "geom:latitude":60.228034,
     "geom:longitude":24.867226,
+    "hkigis:KOKOTUNNUS":"0912204464",
+    "hkigis:TUNNUS":"464",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204464",
     "hkigis:tunnus":"464",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Martas"
     ],
+    "reversegeo:latitude":60.228024,
+    "reversegeo:longitude":24.867318,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537259,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"87fec07448e66310ac239d9850dd88f7",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727113,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Marttila",
     "wof:parent_id":890537259,
     "wof:placetype":"neighbourhood",

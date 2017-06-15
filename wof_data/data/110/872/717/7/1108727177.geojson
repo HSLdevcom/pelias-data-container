@@ -9,6 +9,8 @@
     "geom:bbox":"25.1389867276,60.2269339646,25.1986835997,60.2501912481",
     "geom:latitude":60.23849,
     "geom:longitude":25.169348,
+    "hkigis:KOKOTUNNUS":"0918801560",
+    "hkigis:TUNNUS":"560",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801560",
     "hkigis:tunnus":"560",
@@ -26,23 +28,39 @@
     "name:swe_x_preferred":[
         "Sundberg"
     ],
+    "reversegeo:latitude":60.240784,
+    "reversegeo:longitude":25.166846,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727375,
-        907199715,
         85633143,
         404227411,
-        101748417,
+        101872781,
         136253047,
         890536893,
-        101872781
+        85683067,
+        101872781,
+        907199715,
+        101748417
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"961afa879672a17c19ade20daca677f6",
+    "wof:geomhash":"7497e0bab759a43e61afad7d020c0d62",
     "wof:hierarchy":[
+        {
+            "borough_id":890536893,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101872781,
+            "macrohood_id":1108727375,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727177,
+            "region_id":85683067
+        },
         {
             "borough_id":890536893,
             "continent_id":102191581,
@@ -54,21 +72,10 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108727177,
             "region_id":85683067
-        },
-        {
-            "borough_id":890536893,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "locality_id":101872781,
-            "macrohood_id":1108727375,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727177,
-            "region_id":85683067
         }
     ],
     "wof:id":1108727177,
-    "wof:lastmodified":1485483072,
+    "wof:lastmodified":1492124070,
     "wof:name":"Salmenkallio",
     "wof:parent_id":1108727375,
     "wof:placetype":"neighbourhood",

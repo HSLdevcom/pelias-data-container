@@ -9,6 +9,8 @@
     "geom:bbox":"24.9434427555,60.176359596,24.9586588806,60.1813202235",
     "geom:latitude":60.178698,
     "geom:longitude":24.950776,
+    "hkigis:KOKOTUNNUS":"0913301111",
+    "hkigis:TUNNUS":"111",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301111",
     "hkigis:tunnus":"111",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Broholmen"
     ],
+    "reversegeo:latitude":60.178725,
+    "reversegeo:longitude":24.950015,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"c61db9cefe7023cb01981439b5f7c8c0",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727193,
-    "wof:lastmodified":1485376906,
+    "wof:lastmodified":1492124070,
     "wof:name":"Siltasaari",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

@@ -1,0 +1,77 @@
+{
+  "id": 1108729505,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000546,
+    "geom:area_square_m":3341095.351418,
+    "geom:bbox":"25.0372865446,60.3233229139,25.0732384964,60.3444343373",
+    "geom:latitude":60.334707,
+    "geom:longitude":25.053779,
+    "hkigis:ID1":"113",
+    "hkigis:KOKOTUN":"0925072000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"ASOLA",
+    "hkigis:Nimi":"Asola",
+    "hkigis:SUUR":"5",
+    "hkigis:TILA":"72",
+    "iso:country":"FI",
+    "lbl:latitude":60.334124,
+    "lbl:longitude":25.055577,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Asola"
+    ],
+    "reversegeo:latitude":60.334124,
+    "reversegeo:longitude":25.055577,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729493
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"01425f3a1b16eb18538ffae01466aaa5",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729493,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729505,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729505,
+    "wof:lastmodified":1492536879,
+    "wof:name":"Asola",
+    "wof:parent_id":1108729493,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0372865445717,
+    60.323322913872,
+    25.0732384964357,
+    60.3444343372921
+],
+  "geometry": {"coordinates":[[[25.0442012820069,60.3415170260119],[25.0498579864178,60.3421026778168],[25.0528938751019,60.3444343372921],[25.071282164756,60.3429447174805],[25.0707919106519,60.3423773019181],[25.0732384964357,60.3420271980628],[25.0701276824093,60.3359934275752],[25.0676797303772,60.3319984767399],[25.0619725260829,60.3260064319664],[25.059719584567,60.3236629074966],[25.0595705983793,60.3236914775012],[25.0592118059752,60.323322913872],[25.0372865445717,60.3275917503978],[25.0376383284367,60.3423026792851],[25.0382678154657,60.3425870393605],[25.0442012820069,60.3415170260119]]],"type":"Polygon"}
+}

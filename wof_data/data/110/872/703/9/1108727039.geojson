@@ -9,6 +9,8 @@
     "geom:bbox":"25.1997224523,60.2428366507,25.240914851,60.256954458",
     "geom:latitude":60.250761,
     "geom:longitude":25.223249,
+    "hkigis:KOKOTUNNUS":"0918801580",
+    "hkigis:TUNNUS":"580",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801580",
     "hkigis:tunnus":"580",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Bj\u00f6rns\u00f6"
     ],
+    "reversegeo:latitude":60.249861,
+    "reversegeo:longitude":25.223639,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727375,
         907199715,
@@ -37,9 +41,11 @@
         101748417,
         136253047,
         890536893,
+        85683067,
         101872781
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"eab242ba4616442ec956131390a2018c",
     "wof:hierarchy":[
@@ -68,7 +74,7 @@
         }
     ],
     "wof:id":1108727039,
-    "wof:lastmodified":1485483073,
+    "wof:lastmodified":1492124069,
     "wof:name":"Karhusaari",
     "wof:parent_id":1108727375,
     "wof:placetype":"neighbourhood",

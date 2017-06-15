@@ -9,6 +9,8 @@
     "geom:bbox":"24.9918822957,60.2642123082,25.0165180723,60.2757273457",
     "geom:latitude":60.270522,
     "geom:longitude":25.003035,
+    "hkigis:KOKOTUNNUS":"0915504403",
+    "hkigis:TUNNUS":"403",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915504403",
     "hkigis:tunnus":"403",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Lidmalmen"
     ],
+    "reversegeo:latitude":60.271067,
+    "reversegeo:longitude":25.004268,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537277,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"11a14252a737b84da13b143c3d4518ba",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727221,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Toyrynummi",
     "wof:parent_id":890537277,
     "wof:placetype":"neighbourhood",

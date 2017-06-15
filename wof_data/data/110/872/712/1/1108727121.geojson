@@ -9,6 +9,8 @@
     "geom:bbox":"24.868815151,60.1721116939,24.9162623656,60.197453646",
     "geom:latitude":60.185249,
     "geom:longitude":24.890466,
+    "hkigis:KOKOTUNNUS":"0912201150",
+    "hkigis:TUNNUS":"150",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912201150",
     "hkigis:tunnus":"150",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Mejlans"
     ],
+    "reversegeo:latitude":60.185865,
+    "reversegeo:longitude":24.888859,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727373,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"39a6bf06e90dc5ba5e53c1dc385ec8a9",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727121,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Meilahti",
     "wof:parent_id":1108727373,
     "wof:placetype":"neighbourhood",

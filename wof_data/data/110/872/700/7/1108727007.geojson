@@ -9,6 +9,8 @@
     "geom:bbox":"25.0643185418,60.202402049,25.0944447448,60.2147736715",
     "geom:latitude":60.208001,
     "geom:longitude":25.078657,
+    "hkigis:KOKOTUNNUS":"0917701457",
+    "hkigis:TUNNUS":"457",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917701457",
     "hkigis:tunnus":"457",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00d6stra centrum"
     ],
+    "reversegeo:latitude":60.210249,
+    "reversegeo:longitude":25.082422,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537287,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"81b54ac5eeda28b398a367b8b9573a84",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727007,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Itakeskus",
     "wof:parent_id":890537287,
     "wof:placetype":"neighbourhood",

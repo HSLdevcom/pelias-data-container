@@ -9,6 +9,8 @@
     "geom:bbox":"25.0320774633,60.1578310545,25.0585474902,60.1684275313",
     "geom:latitude":60.162174,
     "geom:longitude":25.046078,
+    "hkigis:KOKOTUNNUS":"0916603495",
+    "hkigis:TUNNUS":"495",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603495",
     "hkigis:tunnus":"495",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "H\u00e4stn\u00e4ssund"
     ],
+    "reversegeo:latitude":60.161468,
+    "reversegeo:longitude":25.045827,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537275,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"aace3929083516fa64c8317a96999b0c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727003,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Hevossalmi",
     "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",

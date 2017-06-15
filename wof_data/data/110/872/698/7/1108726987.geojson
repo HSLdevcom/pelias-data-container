@@ -9,6 +9,8 @@
     "geom:bbox":"24.9400679636,60.1857183291,24.9642108896,60.1904601272",
     "geom:latitude":60.18804,
     "geom:longitude":24.952636,
+    "hkigis:KOKOTUNNUS":"0913302121",
+    "hkigis:TUNNUS":"121",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913302121",
     "hkigis:tunnus":"121",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00c5s"
     ],
+    "reversegeo:latitude":60.188371,
+    "reversegeo:longitude":24.949621,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537245,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"b2fc8d78524c7aadfadbfa7a5c90eeff",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726987,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Harju",
     "wof:parent_id":890537245,
     "wof:placetype":"neighbourhood",

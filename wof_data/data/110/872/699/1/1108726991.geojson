@@ -9,6 +9,8 @@
     "geom:bbox":"24.962273963,60.1886433248,24.9782037414,60.2010258288",
     "geom:latitude":60.194091,
     "geom:longitude":24.969168,
+    "hkigis:KOKOTUNNUS":"0913303211",
+    "hkigis:TUNNUS":"211",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913303211",
     "hkigis:tunnus":"211",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Hermanstadsbacken"
     ],
+    "reversegeo:latitude":60.193904,
+    "reversegeo:longitude":24.969047,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727355,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"c9f17c34a785b71386382bf49586aa67",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726991,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Hermanninmaki",
     "wof:parent_id":1108727355,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.8433862772,60.1688706661,24.8822267349,60.1854253324",
     "geom:latitude":60.176217,
     "geom:longitude":24.859472,
+    "hkigis:KOKOTUNNUS":"0912202303",
+    "hkigis:TUNNUS":"303",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912202303",
     "hkigis:tunnus":"303",
@@ -26,36 +28,28 @@
     "name:swe_x_preferred":[
         "L\u00f6v\u00f6"
     ],
+    "reversegeo:latitude":60.176193,
+    "reversegeo:longitude":24.860796,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
-        890537235,
+        890537261,
         907199715,
         85633143,
-        404227411,
         101748417,
         136253047,
         890536889,
-        890537261,
+        85683067,
         890536879
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
-    "wof:geomhash":"69589c0dffc91a6c18c76c5018cbdbf8",
+    "wof:geomhash":"630db8ed5eec3e899ac74bdc5eb4bc82",
     "wof:hierarchy":[
-        {
-            "borough_id":890536889,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537235,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727101,
-            "region_id":85683067
-        },
         {
             "borough_id":890536879,
             "continent_id":102191581,
@@ -64,15 +58,14 @@
             "localadmin_id":907199715,
             "locality_id":101748417,
             "macrohood_id":890537261,
-            "macroregion_id":404227411,
             "neighbourhood_id":1108727101,
             "region_id":85683067
         }
     ],
     "wof:id":1108727101,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Lehtisaari",
-    "wof:parent_id":-3,
+    "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

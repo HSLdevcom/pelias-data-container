@@ -9,6 +9,8 @@
     "geom:bbox":"25.0595761267,60.2269115804,25.080085116,60.2351900482",
     "geom:latitude":60.230994,
     "geom:longitude":25.070827,
+    "hkigis:KOKOTUNNUS":"0917703475",
+    "hkigis:TUNNUS":"475",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917703475",
     "hkigis:tunnus":"475",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Tranbacka"
     ],
+    "reversegeo:latitude":60.231251,
+    "reversegeo:longitude":25.070663,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537253,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"4fbb4376d52a0bcbe8b15eddccb1b32c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727077,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kurkimaki",
     "wof:parent_id":890537253,
     "wof:placetype":"neighbourhood",

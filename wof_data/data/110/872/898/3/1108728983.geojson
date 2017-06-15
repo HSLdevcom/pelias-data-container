@@ -1,0 +1,71 @@
+{
+  "id": 1108728983,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00065,
+    "geom:area_square_m":3397317.717437,
+    "geom:bbox":"25.3511846998,65.0003924947,25.4386661443,65.0138029763",
+    "geom:latitude":65.007465,
+    "geom:longitude":25.394204,
+    "iso:country":"FI",
+    "lbl:latitude":65.00879,
+    "lbl:longitude":25.40868,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Vihre\u00e4saari"
+    ],
+    "oulugov:AJ_KAUPU00":"Vihre\u00e4saari",
+    "oulugov:AJ_KAUPUNG":"54",
+    "oulugov:ID":"79",
+    "oulugov:TEKSTI":"564108054",
+    "reversegeo:latitude":65.00879,
+    "reversegeo:longitude":25.40868,
+    "src:geom":"oulugov",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        907199459,
+        85633143,
+        404227415,
+        101748443,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"6773b4df6808d15b1104a7da84e3b346",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199459,
+            "locality_id":101748443,
+            "macroregion_id":404227415,
+            "neighbourhood_id":1108728983,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":1108728983,
+    "wof:lastmodified":1492019426,
+    "wof:name":"Vihreasaari",
+    "wof:parent_id":101748443,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.3511846998,
+    65.0003924947,
+    25.4386661443,
+    65.0138029763
+],
+  "geometry": {"coordinates":[[[[25.3694917278,65.00039249469999],[25.3511846998,65.0095927138],[25.4071959616,65.0125792978],[25.4158123933,65.0129544018],[25.4210636477,65.01322468399999],[25.4222737501,65.0134373198],[25.4243451255,65.0134736612],[25.4286091233,65.01309672399999],[25.4306998128,65.0134903755],[25.4318103223,65.0136597617],[25.4324567166,65.0138029763],[25.4341103701,65.0130525229],[25.4386661443,65.0130007137],[25.4365773545,65.011898992],[25.4253044062,65.0081591094],[25.4183046038,65.0046552159],[25.4127662359,65.0018950738],[25.4073689328,65.0012089919],[25.4057327757,65.0012024931],[25.3890402297,65.0036240722],[25.3694917278,65.00039249469999]]]],"type":"MultiPolygon"}
+}

@@ -9,6 +9,8 @@
     "geom:bbox":"24.9336690615,60.2182153651,24.9448222863,60.2290037703",
     "geom:latitude":60.223129,
     "geom:longitude":24.939185,
+    "hkigis:KOKOTUNNUS":"0914401283",
+    "hkigis:TUNNUS":"283",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914401283",
     "hkigis:tunnus":"283",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kr\u00e4mertsskog"
     ],
+    "reversegeo:latitude":60.223042,
+    "reversegeo:longitude":24.938521,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727377,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"c3c84ef2d5b0608af7fb8a33b2083c46",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727131,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Metsala",
     "wof:parent_id":1108727377,
     "wof:placetype":"neighbourhood",

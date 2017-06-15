@@ -9,6 +9,8 @@
     "geom:bbox":"25.0068041545,60.1900193677,25.0536269708,60.2193429526",
     "geom:latitude":60.20495,
     "geom:longitude":25.029208,
+    "hkigis:KOKOTUNNUS":"0916602431",
+    "hkigis:TUNNUS":"431",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916602431",
     "hkigis:tunnus":"431",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "V\u00e4stra Herton\u00e4s"
     ],
+    "reversegeo:latitude":60.203208,
+    "reversegeo:longitude":25.028855,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537227,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"80e137a933f1f615da2fabfb5d36800a",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727087,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Lansi-Herttoniemi",
     "wof:parent_id":890537227,
     "wof:placetype":"neighbourhood",

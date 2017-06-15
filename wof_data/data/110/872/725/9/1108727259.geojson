@@ -9,6 +9,8 @@
     "geom:bbox":"24.9926091228,60.246968349,25.0158806703,60.25890234",
     "geom:latitude":60.253461,
     "geom:longitude":25.004029,
+    "hkigis:KOKOTUNNUS":"0915503381",
+    "hkigis:TUNNUS":"381",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915503381",
     "hkigis:tunnus":"381",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00d6vre Malm"
     ],
+    "reversegeo:latitude":60.253158,
+    "reversegeo:longitude":25.002276,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537239,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"ea9f0bf58342325cd98f922fc0fa400c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727259,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Yla-Malmi",
     "wof:parent_id":890537239,
     "wof:placetype":"neighbourhood",

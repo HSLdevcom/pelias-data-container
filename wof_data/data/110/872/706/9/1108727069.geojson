@@ -2,7 +2,7 @@
   "id": 1108727069,
   "type": "Feature",
   "properties": {
-    "edtf:cessation":"uuuu",
+    "edtf:cessation":"2017-03-07",
     "edtf:inception":"uuuu",
     "geom:area":0.000628,
     "geom:area_square_m":3857973.778503,
@@ -16,6 +16,7 @@
     "lbl:latitude":60.190779,
     "lbl:longitude":25.004776,
     "mz:hierarchy_label":1,
+    "mz:is_current":0,
     "mz:is_funky":0,
     "mz:is_landuse_aoi":0,
     "mz:max_zoom":18,
@@ -28,7 +29,6 @@
     ],
     "src:geom":"hkigis",
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727349,
         907199715,
@@ -36,11 +36,12 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"acfa5f553d38bb7e86ad69db37bbd62e",
+    "wof:geomhash":"b305cd07fec701d1042ea73e7791daf6",
     "wof:hierarchy":[
         {
             "borough_id":890536883,
@@ -56,12 +57,14 @@
         }
     ],
     "wof:id":1108727069,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492096548,
     "wof:name":"Kulosaari",
     "wof:parent_id":1108727349,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
-    "wof:superseded_by":[],
+    "wof:superseded_by":[
+        85898851
+    ],
     "wof:supersedes":[],
     "wof:tags":[]
 },

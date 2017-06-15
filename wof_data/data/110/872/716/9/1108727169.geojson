@@ -9,6 +9,8 @@
     "geom:bbox":"25.2015435148,60.2716838965,25.2544966694,60.2978394115",
     "geom:latitude":60.285346,
     "geom:longitude":25.231737,
+    "hkigis:KOKOTUNNUS":"0918801592",
+    "hkigis:TUNNUS":"592",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801592",
     "hkigis:tunnus":"592",
@@ -26,47 +28,29 @@
     "name:swe_x_preferred":[
         "B\u00e4ck\u00e4ngen"
     ],
+    "reversegeo:latitude":60.284856,
+    "reversegeo:longitude":25.232136,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
-        890537267,
+        1108727375,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
         890536893,
-        101872781,
-        1108727375
+        85683067,
+        101872781
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
     "wof:geomhash":"1a216551ab9a77afb4fd904bd1dabcf1",
     "wof:hierarchy":[
-        {
-            "borough_id":890536893,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537267,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727169,
-            "region_id":85683067
-        },
-        {
-            "borough_id":890536893,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "locality_id":101872781,
-            "macrohood_id":890537267,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727169,
-            "region_id":85683067
-        },
         {
             "borough_id":890536893,
             "continent_id":102191581,
@@ -92,7 +76,7 @@
         }
     ],
     "wof:id":1108727169,
-    "wof:lastmodified":1485483073,
+    "wof:lastmodified":1492124070,
     "wof:name":"Puroniitty",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"25.0803490503,60.2286292067,25.1108075326,60.2496974102",
     "geom:latitude":60.238698,
     "geom:longitude":25.098134,
+    "hkigis:KOKOTUNNUS":"0917703472",
+    "hkigis:TUNNUS":"472",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917703472",
     "hkigis:tunnus":"472",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00c4rvings"
     ],
+    "reversegeo:latitude":60.236376,
+    "reversegeo:longitude":25.10216,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537253,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"00bd50dde526d721bccf274f9429a163",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727245,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vesala",
     "wof:parent_id":890537253,
     "wof:placetype":"neighbourhood",

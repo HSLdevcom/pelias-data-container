@@ -9,6 +9,8 @@
     "geom:bbox":"24.8995103438,60.2077589733,24.9146377366,60.2184950094",
     "geom:latitude":60.212947,
     "geom:longitude":24.906742,
+    "hkigis:KOKOTUNNUS":"0912203292",
+    "hkigis:TUNNUS":"292",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912203292",
     "hkigis:tunnus":"292",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Stenhagen"
     ],
+    "reversegeo:latitude":60.212417,
+    "reversegeo:longitude":24.90662,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537273,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a339c28ed3d92e044a8538c706cc8ae8",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727047,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kivihaka",
     "wof:parent_id":890537273,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"25.1226718929,60.2055614327,25.1585365879,60.2279378644",
     "geom:latitude":60.216387,
     "geom:longitude":25.140251,
+    "hkigis:KOKOTUNNUS":"0917704541",
+    "hkigis:TUNNUS":"541",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917704541",
     "hkigis:tunnus":"541",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Mellersta Nordsj\u00f6"
     ],
+    "reversegeo:latitude":60.217094,
+    "reversegeo:longitude":25.140251,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537281,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"2e3e7f3e866d9ddc515640eb6aa38aa8",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727045,
-    "wof:lastmodified":1485376901,
+    "wof:lastmodified":1492124069,
     "wof:name":"Keski-Vuosaari",
     "wof:parent_id":890537281,
     "wof:placetype":"neighbourhood",

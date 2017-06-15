@@ -9,6 +9,8 @@
     "geom:bbox":"24.9738306137,60.192207105,24.997972871,60.2000300047",
     "geom:latitude":60.196286,
     "geom:longitude":24.984921,
+    "hkigis:KOKOTUNNUS":"0913303212",
+    "hkigis:TUNNUS":"212",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913303212",
     "hkigis:tunnus":"212",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Hermanstadsstranden"
     ],
+    "reversegeo:latitude":60.196502,
+    "reversegeo:longitude":24.984738,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727355,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"1e124b92a65b51032a9e8fb0b862e5f6",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726993,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Hermanninranta",
     "wof:parent_id":1108727355,
     "wof:placetype":"neighbourhood",

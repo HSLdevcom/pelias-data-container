@@ -9,6 +9,8 @@
     "geom:bbox":"25.0660622539,60.2222499461,25.1098461762,60.2478427961",
     "geom:latitude":60.234326,
     "geom:longitude":25.085074,
+    "hkigis:KOKOTUNNUS":"0917703471",
+    "hkigis:TUNNUS":"471",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917703471",
     "hkigis:tunnus":"471",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "G\u00e5rdsbacka"
     ],
+    "reversegeo:latitude":60.230535,
+    "reversegeo:longitude":25.086897,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537253,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"0e9566aadb7b2a610c08d9a4a3e020f7",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727059,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kontula",
     "wof:parent_id":890537253,
     "wof:placetype":"neighbourhood",

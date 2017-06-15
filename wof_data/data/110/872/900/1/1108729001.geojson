@@ -1,0 +1,71 @@
+{
+  "id": 1108729001,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000106,
+    "geom:area_square_m":551573.177562,
+    "geom:bbox":"25.4447931251,65.0137493074,25.4619084299,65.0234339947",
+    "geom:latitude":65.018628,
+    "geom:longitude":25.451923,
+    "iso:country":"FI",
+    "lbl:latitude":65.018901,
+    "lbl:longitude":25.450904,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Pikisaari"
+    ],
+    "oulugov:AJ_KAUPU00":"Pikisaari",
+    "oulugov:AJ_KAUPUNG":"50",
+    "oulugov:ID":"87",
+    "oulugov:TEKSTI":"564108050",
+    "reversegeo:latitude":65.018901,
+    "reversegeo:longitude":25.450904,
+    "src:geom":"oulugov",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        907199459,
+        85633143,
+        404227415,
+        101748443,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"2e45df0be4527c8f0b8629db831385d0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199459,
+            "locality_id":101748443,
+            "macroregion_id":404227415,
+            "neighbourhood_id":1108729001,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":1108729001,
+    "wof:lastmodified":1492019433,
+    "wof:name":"Pikisaari",
+    "wof:parent_id":101748443,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.4447931251,
+    65.0137493074,
+    25.4619084299,
+    65.0234339947
+],
+  "geometry": {"coordinates":[[[[25.4447931251,65.0169503921],[25.4450335223,65.0207014322],[25.4451553238,65.02259786019999],[25.4454018905,65.0234339947],[25.4542879296,65.0231357458],[25.454189262,65.0224910739],[25.4540064621,65.0212961599],[25.4568815638,65.0199901088],[25.4586252725,65.01908953500001],[25.4619084299,65.01735200500001],[25.4612799091,65.0169350922],[25.4589536916,65.015391807],[25.4577951549,65.01509407099999],[25.4529506156,65.0137493074],[25.4447931251,65.0169503921]]]],"type":"MultiPolygon"}
+}

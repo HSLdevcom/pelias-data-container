@@ -9,6 +9,8 @@
     "geom:bbox":"24.9010622295,60.1895652531,24.9244095968,60.1975032617",
     "geom:latitude":60.193945,
     "geom:longitude":24.913389,
+    "hkigis:KOKOTUNNUS":"0912201180",
+    "hkigis:TUNNUS":"180",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912201180",
     "hkigis:tunnus":"180",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Dal"
     ],
+    "reversegeo:latitude":60.193966,
+    "reversegeo:longitude":24.913386,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727373,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a4aa32942ef6b34bc47d87e8403b7798",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727083,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Laakso",
     "wof:parent_id":1108727373,
     "wof:placetype":"neighbourhood",

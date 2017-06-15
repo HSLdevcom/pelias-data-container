@@ -883,6 +883,7 @@
         "fb:id":"en.finland",
         "gn:id":660013,
         "gp:id":23424812,
+        "hasc:id":"FI",
         "mzb:id":"finland",
         "nyt:id":"66705302046967300161",
         "qs:id":1030142,
@@ -910,7 +911,7 @@
         "fin",
         "swe"
     ],
-    "wof:lastmodified":1477614059,
+    "wof:lastmodified":1493230197,
     "wof:name":"Finland",
     "wof:parent_id":102191581,
     "wof:placetype":"country",

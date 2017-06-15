@@ -1,0 +1,70 @@
+{
+  "id": 1108938445,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.0,
+    "geom:area_square_m":0.0,
+    "geom:bbox":"24.9275953616,60.2288725426,24.9275953616,60.2288725426",
+    "geom:latitude":60.228873,
+    "geom:longitude":24.927595,
+    "iso:country":"FI",
+    "lbl:latitude":60.228873,
+    "lbl:longitude":24.927595,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_hard_boundary":0,
+    "mz:is_landuse_aoi":0,
+    "mz:is_official":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":13,
+    "mz:tier_metro":30,
+    "src:lbl:centroid":"mz",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        1108727377,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047,
+        890536895
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:created":1491360392,
+    "wof:geomhash":"fe9de89f9d7b4aa7694338475c7246d8",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536895,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":1108727377,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108938445,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108938445,
+    "wof:lastmodified":1492123471,
+    "wof:name":"Maunula",
+    "wof:parent_id":1108727377,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.9275953616053,
+    60.22887254264831,
+    24.9275953616053,
+    60.22887254264831
+],
+  "geometry": {"coordinates":[24.9275953616053,60.22887254264831],"type":"Point"}
+}

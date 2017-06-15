@@ -9,6 +9,8 @@
     "geom:bbox":"24.9535641012,60.176279042,24.9700655466,60.1892107832",
     "geom:latitude":60.182403,
     "geom:longitude":24.962107,
+    "hkigis:KOKOTUNNUS":"0913301101",
+    "hkigis:TUNNUS":"101",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301101",
     "hkigis:tunnus":"101",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Vilhemsberg"
     ],
+    "reversegeo:latitude":60.179685,
+    "reversegeo:longitude":24.961299,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"2515dafade01cb252d8fd9076931e923",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727255,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vilhonvuori",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

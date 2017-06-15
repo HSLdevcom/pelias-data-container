@@ -9,6 +9,8 @@
     "geom:bbox":"25.0621323145,60.1676344042,25.1125648416,60.1944749656",
     "geom:latitude":60.180594,
     "geom:longitude":25.087042,
+    "hkigis:KOKOTUNNUS":"0916603480",
+    "hkigis:TUNNUS":"480",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603480",
     "hkigis:tunnus":"480",
@@ -26,18 +28,23 @@
     "name:swe_x_preferred":[
         "V\u00e5rd\u00f6"
     ],
+    "reversegeo:latitude":60.181739,
+    "reversegeo:longitude":25.081121,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
+        890537275,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a45b7f0e558b20315fcfd37c7fb72847",
     "wof:hierarchy":[
@@ -48,15 +55,16 @@
             "empire_id":136253047,
             "localadmin_id":907199715,
             "locality_id":101748417,
+            "macrohood_id":890537275,
             "macroregion_id":404227411,
             "neighbourhood_id":1108727239,
             "region_id":85683067
         }
     ],
     "wof:id":1108727239,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vartiosaari",
-    "wof:parent_id":890536883,
+    "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

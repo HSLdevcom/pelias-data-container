@@ -9,6 +9,8 @@
     "geom:bbox":"24.9654337725,60.1955918034,24.9840767063,60.2012285675",
     "geom:latitude":60.198972,
     "geom:longitude":24.974622,
+    "hkigis:KOKOTUNNUS":"0913303213",
+    "hkigis:TUNNUS":"213",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913303213",
     "hkigis:tunnus":"213",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Byholmen"
     ],
+    "reversegeo:latitude":60.198542,
+    "reversegeo:longitude":24.974481,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727355,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"d03f89af59eb933b763d578e31f37915",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727081,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kylasaari",
     "wof:parent_id":1108727355,
     "wof:placetype":"neighbourhood",

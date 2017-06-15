@@ -9,6 +9,8 @@
     "geom:bbox":"24.9075397193,60.1911399592,24.9299307886,60.2128036588",
     "geom:latitude":60.201908,
     "geom:longitude":24.920465,
+    "hkigis:KOKOTUNNUS":"0913304171",
+    "hkigis:TUNNUS":"171",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913304171",
     "hkigis:tunnus":"171",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "V\u00e4stra B\u00f6le"
     ],
+    "reversegeo:latitude":60.20153,
+    "reversegeo:longitude":24.921569,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537255,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"dbcd5b4e8844858997695d51fd49a622",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727089,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Lansi-Pasila",
     "wof:parent_id":890537255,
     "wof:placetype":"neighbourhood",

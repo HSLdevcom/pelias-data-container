@@ -9,6 +9,8 @@
     "geom:bbox":"24.7828044421,60.0275584506,25.0103583631,60.14662619",
     "geom:latitude":60.091899,
     "geom:longitude":24.89696,
+    "hkigis:KOKOTUNNUS":"0911102531",
+    "hkigis:TUNNUS":"531",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911102531",
     "hkigis:tunnus":"531",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "V\u00e4stra holmarna"
     ],
+    "reversegeo:latitude":60.09995,
+    "reversegeo:longitude":24.91555,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727335,
         907199715,
@@ -37,9 +41,12 @@
         101748417,
         136253047,
         890536879,
-        890537269
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
     "wof:geomhash":"f8aab81c121592a827c59f0545144ee2",
     "wof:hierarchy":[
@@ -54,22 +61,10 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108727093,
             "region_id":85683067
-        },
-        {
-            "borough_id":890536879,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537269,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727093,
-            "region_id":85683067
         }
     ],
     "wof:id":1108727093,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Lansisaaret",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",

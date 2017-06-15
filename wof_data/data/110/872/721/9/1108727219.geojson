@@ -9,6 +9,8 @@
     "geom:bbox":"24.9515630515,60.1821406516,24.9619298439,60.1875094233",
     "geom:latitude":60.185192,
     "geom:longitude":24.95652,
+    "hkigis:KOKOTUNNUS":"0913301113",
+    "hkigis:TUNNUS":"113",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301113",
     "hkigis:tunnus":"113",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Torkelsbacken"
     ],
+    "reversegeo:latitude":60.18466,
+    "reversegeo:longitude":24.956422,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"af88d7f900b6e58a3041b4de642384ff",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727219,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Torkkelinmaki",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

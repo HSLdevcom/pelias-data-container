@@ -11,12 +11,14 @@
     "geom:longitude":24.894338,
     "gn:latitude":60.20499,
     "gn:longitude":24.89545,
+    "hkigis:KOKOTUNNUS":"0912201162",
+    "hkigis:TUNNUS":"162",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912201162",
     "hkigis:tunnus":"162",
     "iso:country":"FI",
-    "lbl:latitude":60.20343,
-    "lbl:longitude":24.895191,
+    "lbl:latitude":60.204328,
+    "lbl:longitude":24.89397,
     "misc:gn_adm0_cc":"FI",
     "misc:gn_fcode":"PPLX",
     "misc:gn_local":658225,
@@ -51,6 +53,7 @@
     "mz:max_zoom":18,
     "mz:min_zoom":15,
     "mz:tier_locality":5,
+    "mz:tier_metro":30,
     "name:fin_x_preferred":[
         "Pikku Huopalahti"
     ],
@@ -63,11 +66,13 @@
     "name:swe_x_preferred":[
         "Lillhoplax"
     ],
+    "reversegeo:latitude":60.20343,
+    "reversegeo:longitude":24.895191,
     "src:geom":"hkigis",
     "src:geom_alt":[
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl:centroid":"mz",
     "wk:wordcount":480,
     "wof:belongsto":[
         102191581,
@@ -88,8 +93,9 @@
         "wd:id":"Q3135412",
         "wk:page":"Pikku Huopalahti"
     },
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"c40b1d0dd6c9e2a98e18aae1c5d78cc8",
+    "wof:geomhash":"b4e103597bdcf7b780bf5c0dbfe29870",
     "wof:hierarchy":[
         {
             "borough_id":890536889,
@@ -108,7 +114,7 @@
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1485483077,
+    "wof:lastmodified":1492125294,
     "wof:name":"Pikku Huopalahti",
     "wof:parent_id":1108727373,
     "wof:placetype":"neighbourhood",

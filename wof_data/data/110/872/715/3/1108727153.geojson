@@ -9,6 +9,8 @@
     "geom:bbox":"24.8994443712,60.2276710353,24.9315123838,60.2386195887",
     "geom:latitude":60.233249,
     "geom:longitude":24.912714,
+    "hkigis:KOKOTUNNUS":"0914401281",
+    "hkigis:TUNNUS":"281",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914401281",
     "hkigis:tunnus":"281",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Britas"
     ],
+    "reversegeo:latitude":60.233379,
+    "reversegeo:longitude":24.911136,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727377,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"4fe6fb3a51d6b8c2fcf5f41bbe657f76",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727153,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124069,
     "wof:name":"Pirkkola",
     "wof:parent_id":1108727377,
     "wof:placetype":"neighbourhood",

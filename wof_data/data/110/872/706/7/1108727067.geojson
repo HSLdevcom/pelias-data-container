@@ -9,6 +9,8 @@
     "geom:bbox":"25.0020456555,60.1578310545,25.0375335646,60.1782624079",
     "geom:latitude":60.166829,
     "geom:longitude":25.018181,
+    "hkigis:KOKOTUNNUS":"0916603494",
+    "hkigis:TUNNUS":"494",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603494",
     "hkigis:tunnus":"494",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Kronbergsstranden"
     ],
+    "reversegeo:latitude":60.1681,
+    "reversegeo:longitude":25.016069,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537275,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"fc8723fec48f41f91573d6a81192c175",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727067,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kruunuvuorenranta",
     "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",

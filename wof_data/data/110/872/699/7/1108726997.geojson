@@ -9,6 +9,8 @@
     "geom:bbox":"25.0320965015,60.1925166354,25.0572528941,60.2077625331",
     "geom:latitude":60.198983,
     "geom:longitude":25.043594,
+    "hkigis:KOKOTUNNUS":"0916602433",
+    "hkigis:TUNNUS":"433",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916602433",
     "hkigis:tunnus":"433",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Herton\u00e4s f\u00f6retagsomr\u00e5de"
     ],
+    "reversegeo:latitude":60.197371,
+    "reversegeo:longitude":25.042733,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537227,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"56c9d50413c20d853330390a780722ae",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726997,
-    "wof:lastmodified":1485376899,
+    "wof:lastmodified":1492124069,
     "wof:name":"Herttoniemen yritysalue",
     "wof:parent_id":890537227,
     "wof:placetype":"neighbourhood",

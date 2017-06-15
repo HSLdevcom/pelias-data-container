@@ -9,6 +9,8 @@
     "geom:bbox":"25.0274272566,60.2441358527,25.0596001591,60.265432427",
     "geom:latitude":60.253616,
     "geom:longitude":25.041001,
+    "hkigis:KOKOTUNNUS":"0915503385",
+    "hkigis:TUNNUS":"385",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915503385",
     "hkigis:tunnus":"385",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Malms flygf\u00e4lt"
     ],
+    "reversegeo:latitude":60.254766,
+    "reversegeo:longitude":25.038075,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537239,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"ce61202ff767afb6aa63a09b76a75a47",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727105,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Malmin lentokentta",
     "wof:parent_id":890537239,
     "wof:placetype":"neighbourhood",

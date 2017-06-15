@@ -9,6 +9,8 @@
     "geom:bbox":"25.0182325835,60.1702437069,25.0406026599,60.1850324179",
     "geom:latitude":60.178723,
     "geom:longitude":25.030543,
+    "hkigis:KOKOTUNNUS":"0916603493",
+    "hkigis:TUNNUS":"493",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603493",
     "hkigis:tunnus":"493",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Turholm"
     ],
+    "reversegeo:latitude":60.17847,
+    "reversegeo:longitude":25.030544,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537275,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"3a309194175b3f60a2165a1673cd597a",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727223,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tullisaari",
     "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",

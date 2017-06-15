@@ -9,6 +9,8 @@
     "geom:bbox":"25.0210222597,60.218926204,25.0505698346,60.2362753433",
     "geom:latitude":60.22813,
     "geom:longitude":25.036637,
+    "hkigis:KOKOTUNNUS":"0915501362",
+    "hkigis:TUNNUS":"362",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915501362",
     "hkigis:tunnus":"362",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Ladug\u00e5rden"
     ],
+    "reversegeo:latitude":60.228089,
+    "reversegeo:longitude":25.036637,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727359,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"e55e15ab1e388d6b7224417f59e14eb2",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727099,
-    "wof:lastmodified":1485376903,
+    "wof:lastmodified":1492124069,
     "wof:name":"Latokartano",
     "wof:parent_id":1108727359,
     "wof:placetype":"neighbourhood",

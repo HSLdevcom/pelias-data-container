@@ -1,0 +1,70 @@
+{
+  "id": 1108728541,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00001,
+    "geom:area_square_m":58554.385236,
+    "geom:bbox":"22.2398359805,60.4284754549,22.2458582887,60.4309880635",
+    "geom:latitude":60.429737,
+    "geom:longitude":22.242736,
+    "iso:country":"FI",
+    "lbl:latitude":60.429721,
+    "lbl:longitude":22.242735,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Korppolainen"
+    ],
+    "reversegeo:latitude":60.429721,
+    "reversegeo:longitude":22.242735,
+    "src:geom":"tkugov",
+    "tkugov:ID":"0",
+    "tkugov:NIMI":"Korppolainen",
+    "tkugov:PIENALUE":"853312057",
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        907198909,
+        85633143,
+        404227405,
+        101748421,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"e7b34da881ea1c7c999c19bf9dfaf648",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198909,
+            "locality_id":101748421,
+            "macroregion_id":404227405,
+            "neighbourhood_id":1108728541,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":1108728541,
+    "wof:lastmodified":1492536499,
+    "wof:name":"Korppolainen",
+    "wof:parent_id":101748421,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.239835980492,
+    60.42847545489278,
+    22.24585828873778,
+    60.43098806346902
+],
+  "geometry": {"coordinates":[[[22.2399111903452,60.43008395058173],[22.23986199161223,60.43009129932542],[22.23986416770211,60.43022365509929],[22.24548053671038,60.43093545628571],[22.24585828873778,60.43098806346902],[22.24541365712695,60.42984877468773],[22.24516235590681,60.42917492633491],[22.24511503278784,60.42916414797288],[22.239835980492,60.42847545489278],[22.24002671959076,60.42923410120288],[22.24004773341685,60.42934512223032],[22.24006153682877,60.42943055777742],[22.24006069043994,60.42946682292996],[22.24005971253089,60.42965654130627],[22.24002691147092,60.42979380480003],[22.2399111903452,60.43008395058173]]],"type":"Polygon"}
+}

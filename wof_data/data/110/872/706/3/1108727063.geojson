@@ -9,6 +9,8 @@
     "geom:bbox":"24.8725432652,60.1545355125,24.8972195941,60.1721116939",
     "geom:latitude":60.162919,
     "geom:longitude":24.884923,
+    "hkigis:KOKOTUNNUS":"0911105311",
+    "hkigis:TUNNUS":"311",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911105311",
     "hkigis:tunnus":"311",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "\u00d6rnberget"
     ],
+    "reversegeo:latitude":60.163877,
+    "reversegeo:longitude":24.883453,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537261,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536879
+        890536879,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"74c6edb1c5b19584a42833a6ad4262cb",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727063,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kotkavuori",
     "wof:parent_id":890537261,
     "wof:placetype":"neighbourhood",

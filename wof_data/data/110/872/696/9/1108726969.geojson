@@ -9,6 +9,8 @@
     "geom:bbox":"25.0617131045,60.2518073412,25.0729236691,60.2635339419",
     "geom:latitude":60.259147,
     "geom:longitude":25.066643,
+    "hkigis:KOKOTUNNUS":"0915505415",
+    "hkigis:TUNNUS":"415",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915505415",
     "hkigis:tunnus":"415",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Alpbyn"
     ],
+    "reversegeo:latitude":60.259901,
+    "reversegeo:longitude":25.067195,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727369,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"9e6ce6701be8941a9cfb3462f89062c9",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726969,
-    "wof:lastmodified":1485376898,
+    "wof:lastmodified":1492124069,
     "wof:name":"Alppikyla",
     "wof:parent_id":1108727369,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"24.8506510707,60.2163410597,24.8619303836,60.2216453702",
     "geom:latitude":60.219305,
     "geom:longitude":24.856098,
+    "hkigis:KOKOTUNNUS":"0912204461",
+    "hkigis:TUNNUS":"461",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912204461",
     "hkigis:tunnus":"461",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Smedjebacka"
     ],
+    "reversegeo:latitude":60.219003,
+    "reversegeo:longitude":24.855643,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537259,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"e6a348301409ef4a308e68c03f3bca7e",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727151,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124069,
     "wof:name":"Pajamaki",
     "wof:parent_id":890537259,
     "wof:placetype":"neighbourhood",

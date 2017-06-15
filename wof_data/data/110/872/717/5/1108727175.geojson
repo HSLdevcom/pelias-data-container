@@ -2,7 +2,7 @@
   "id": 1108727175,
   "type": "Feature",
   "properties": {
-    "edtf:cessation":"uuuu",
+    "edtf:cessation":"2017-03-07",
     "edtf:inception":"uuuu",
     "geom:area":0.000153,
     "geom:area_square_m":939912.250287,
@@ -16,6 +16,7 @@
     "lbl:latitude":60.164165,
     "lbl:longitude":24.902536,
     "mz:hierarchy_label":1,
+    "mz:is_current":0,
     "mz:is_funky":0,
     "mz:is_landuse_aoi":0,
     "mz:max_zoom":18,
@@ -28,7 +29,6 @@
     ],
     "src:geom":"hkigis",
     "wof:belongsto":[
-        85683067,
         102191581,
         890537243,
         907199715,
@@ -37,11 +37,12 @@
         101748417,
         136253047,
         890536879,
+        85683067,
         1108727337
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"7a49f585be68c273791327f99fc95f51",
+    "wof:geomhash":"17c571d0dc177fdde1227d4031403170",
     "wof:hierarchy":[
         {
             "borough_id":890536879,
@@ -69,12 +70,14 @@
         }
     ],
     "wof:id":1108727175,
-    "wof:lastmodified":1485483069,
+    "wof:lastmodified":1492096548,
     "wof:name":"Ruoholahti",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
-    "wof:superseded_by":[],
+    "wof:superseded_by":[
+        85907971
+    ],
     "wof:supersedes":[],
     "wof:tags":[]
 },

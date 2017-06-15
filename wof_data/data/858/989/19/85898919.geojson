@@ -10,12 +10,14 @@
     "geom:latitude":60.195138,
     "geom:longitude":24.953849,
     "gn:id":"",
+    "hkigis:KOKOTUNNUS":"0913303220",
+    "hkigis:TUNNUS":"220",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913303220",
     "hkigis:tunnus":"220",
     "iso:country":"FI",
-    "lbl:latitude":60.195196,
-    "lbl:longitude":24.95385,
+    "lbl:latitude":60.195354,
+    "lbl:longitude":24.954566,
     "misc:gn_adm0_cc":"FI",
     "misc:gn_id":0,
     "misc:gn_local":658225,
@@ -46,8 +48,9 @@
     "mz:is_landuse_aoi":0,
     "mz:is_official":0,
     "mz:max_zoom":18,
-    "mz:min_zoom":15,
+    "mz:min_zoom":12,
     "mz:tier_locality":5,
+    "mz:tier_metro":30,
     "name:fin_x_colloquial":[
         "Vallgard"
     ],
@@ -58,14 +61,19 @@
         "Vallila",
         "Vallilan"
     ],
+    "name:sw_x_preferred_x_variant":[
+        "Vallg\u00e5rd"
+    ],
     "name:swe_x_preferred":[
         "Vallg\u00e5rd"
     ],
+    "reversegeo:latitude":60.195196,
+    "reversegeo:longitude":24.95385,
     "src:geom":"hkigis",
     "src:geom_alt":[
         "quattroshapes"
     ],
-    "src:lbl:centroid":"mapshaper",
+    "src:lbl:centroid":"mz",
     "wof:belongsto":[
         102191581,
         1108727355,
@@ -82,8 +90,9 @@
         "gp:id":574579,
         "qs:id":1140634
     },
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"ffb8cf15a2edd914374344411b48a6a4",
+    "wof:geomhash":"faf1b7ea96930fa98bd07501c2818c8a",
     "wof:hierarchy":[
         {
             "borough_id":890536885,
@@ -102,7 +111,7 @@
     "wof:lang":[
         "fin"
     ],
-    "wof:lastmodified":1485483076,
+    "wof:lastmodified":1492125294,
     "wof:name":"Vallila",
     "wof:parent_id":1108727355,
     "wof:placetype":"neighbourhood",
@@ -112,7 +121,7 @@
     "wof:tags":[]
 },
   "bbox": [
-    24.936149167702713,
+    24.93614916770271,
     60.18896327935087,
     24.96493085456251,
     60.2014331030159

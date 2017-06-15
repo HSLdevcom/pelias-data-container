@@ -9,6 +9,8 @@
     "geom:bbox":"24.9583884005,60.2147220526,24.9801260621,60.2239981388",
     "geom:latitude":60.219386,
     "geom:longitude":24.968505,
+    "hkigis:KOKOTUNNUS":"0913305260",
+    "hkigis:TUNNUS":"260",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913305260",
     "hkigis:tunnus":"260",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Forsby"
     ],
+    "reversegeo:latitude":60.219714,
+    "reversegeo:longitude":24.967629,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727357,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"e12cf877cbbed74c8372bee74f9ddbd2",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727061,
-    "wof:lastmodified":1485376902,
+    "wof:lastmodified":1492124069,
     "wof:name":"Koskela",
     "wof:parent_id":1108727357,
     "wof:placetype":"neighbourhood",

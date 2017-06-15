@@ -9,6 +9,8 @@
     "geom:bbox":"24.8480890646,59.9224907195,25.1767852816,60.0934942306",
     "geom:latitude":60.003654,
     "geom:longitude":25.035693,
+    "hkigis:KOKOTUNNUS":"0916603533",
+    "hkigis:TUNNUS":"533",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0916603533",
     "hkigis:tunnus":"533",
@@ -26,18 +28,23 @@
     "name:swe_x_preferred":[
         "Territorialhavet"
     ],
+    "reversegeo:latitude":60.000454,
+    "reversegeo:longitude":25.038572,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
+        890537275,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"b1438abe7041298d4eee46b51a6c3677",
     "wof:hierarchy":[
@@ -48,15 +55,16 @@
             "empire_id":136253047,
             "localadmin_id":907199715,
             "locality_id":101748417,
+            "macrohood_id":890537275,
             "macroregion_id":404227411,
             "neighbourhood_id":1108726971,
             "region_id":85683067
         }
     ],
     "wof:id":1108726971,
-    "wof:lastmodified":1485376898,
+    "wof:lastmodified":1492124069,
     "wof:name":"Aluemeri",
-    "wof:parent_id":890536883,
+    "wof:parent_id":890537275,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
     "wof:superseded_by":[],

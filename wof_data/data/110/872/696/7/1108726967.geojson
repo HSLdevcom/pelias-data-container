@@ -9,6 +9,8 @@
     "geom:bbox":"24.9931972315,60.2306460863,25.04065107,60.2590256511",
     "geom:latitude":60.245066,
     "geom:longitude":25.020463,
+    "hkigis:KOKOTUNNUS":"0915503382",
+    "hkigis:TUNNUS":"382",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915503382",
     "hkigis:tunnus":"382",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Nedre Malm"
     ],
+    "reversegeo:latitude":60.249083,
+    "reversegeo:longitude":25.02047,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537239,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"adb0de4a18f36c2102c005c9d6a2d56f",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108726967,
-    "wof:lastmodified":1485376898,
+    "wof:lastmodified":1492124069,
     "wof:name":"Ala-Malmi",
     "wof:parent_id":890537239,
     "wof:placetype":"neighbourhood",

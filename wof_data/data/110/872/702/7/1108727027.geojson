@@ -9,6 +9,8 @@
     "geom:bbox":"24.9680683062,60.1822357493,24.997972871,60.1982668223",
     "geom:latitude":60.188729,
     "geom:longitude":24.981866,
+    "hkigis:KOKOTUNNUS":"0913301102",
+    "hkigis:TUNNUS":"102",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0913301102",
     "hkigis:tunnus":"102",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Fiskehamnen"
     ],
+    "reversegeo:latitude":60.187498,
+    "reversegeo:longitude":24.980846,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537285,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536885
+        890536885,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a9c0a626d9c8972de4a286afd8402991",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727027,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Kalasatama",
     "wof:parent_id":890537285,
     "wof:placetype":"neighbourhood",

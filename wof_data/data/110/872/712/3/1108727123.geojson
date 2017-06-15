@@ -9,6 +9,8 @@
     "geom:bbox":"25.1067865527,60.2216089144,25.1374597655,60.2419943801",
     "geom:latitude":60.232633,
     "geom:longitude":25.122365,
+    "hkigis:KOKOTUNNUS":"0917703473",
+    "hkigis:TUNNUS":"473",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917703473",
     "hkigis:tunnus":"473",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Mellungsbacka"
     ],
+    "reversegeo:latitude":60.232523,
+    "reversegeo:longitude":25.123605,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537253,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"0c1301ba88d3eae2d05310c75e963af1",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727123,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Mellunmaki",
     "wof:parent_id":890537253,
     "wof:placetype":"neighbourhood",

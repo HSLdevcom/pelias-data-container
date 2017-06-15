@@ -9,6 +9,8 @@
     "geom:bbox":"24.8993574619,60.196570588,24.9178831453,60.2083033496",
     "geom:latitude":60.202341,
     "geom:longitude":24.908193,
+    "hkigis:KOKOTUNNUS":"0912201161",
+    "hkigis:TUNNUS":"161",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0912201161",
     "hkigis:tunnus":"161",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Gamla Brunak\u00e4rr"
     ],
+    "reversegeo:latitude":60.202775,
+    "reversegeo:longitude":24.908193,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727373,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536889
+        890536889,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a9ec06c2751eb6a54fc4f301017d680c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727231,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Vanha Ruskeasuo",
     "wof:parent_id":1108727373,
     "wof:placetype":"neighbourhood",

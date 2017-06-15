@@ -9,6 +9,8 @@
     "geom:bbox":"25.1417434461,60.2613146528,25.2263564875,60.2863895539",
     "geom:latitude":60.272167,
     "geom:longitude":25.185994,
+    "hkigis:KOKOTUNNUS":"0918801591",
+    "hkigis:TUNNUS":"591",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801591",
     "hkigis:tunnus":"591",
@@ -26,43 +28,37 @@
     "name:swe_x_preferred":[
         "Landbo"
     ],
+    "reversegeo:latitude":60.27203,
+    "reversegeo:longitude":25.18601,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
-        890537267,
-        907199715,
+        1108727375,
         85633143,
         404227411,
-        101748417,
+        101872781,
         136253047,
         890536893,
-        101872781,
-        1108727375
+        85683067,
+        907199715,
+        101748417,
+        890537267
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
-    "wof:geomhash":"6a05e28b883209141e4ffa167f76d334",
+    "wof:geomhash":"fba7866d08e3a71fe73953c63fa6af38",
     "wof:hierarchy":[
         {
             "borough_id":890536893,
             "continent_id":102191581,
             "country_id":85633143,
             "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537267,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727085,
-            "region_id":85683067
-        },
-        {
-            "borough_id":890536893,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
             "locality_id":101872781,
-            "macrohood_id":890537267,
+            "macrohood_id":1108727375,
             "macroregion_id":404227411,
             "neighbourhood_id":1108727085,
             "region_id":85683067
@@ -85,14 +81,26 @@
             "country_id":85633143,
             "empire_id":136253047,
             "locality_id":101872781,
-            "macrohood_id":1108727375,
+            "macrohood_id":890537267,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727085,
+            "region_id":85683067
+        },
+        {
+            "borough_id":890536893,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":890537267,
             "macroregion_id":404227411,
             "neighbourhood_id":1108727085,
             "region_id":85683067
         }
     ],
     "wof:id":1108727085,
-    "wof:lastmodified":1485483072,
+    "wof:lastmodified":1492540144,
     "wof:name":"Landbo",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",

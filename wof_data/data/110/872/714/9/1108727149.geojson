@@ -9,6 +9,8 @@
     "geom:bbox":"25.1440204493,60.2438118561,25.2521133706,60.275467159",
     "geom:latitude":60.258437,
     "geom:longitude":25.193763,
+    "hkigis:KOKOTUNNUS":"0918801550",
+    "hkigis:TUNNUS":"550",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801550",
     "hkigis:tunnus":"550",
@@ -26,23 +28,39 @@
     "name:swe_x_preferred":[
         "\u00d6stersundom"
     ],
+    "reversegeo:latitude":60.256034,
+    "reversegeo:longitude":25.190067,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727375,
-        907199715,
         85633143,
         404227411,
-        101748417,
+        101872781,
         136253047,
         890536893,
-        101872781
+        85683067,
+        101872781,
+        907199715,
+        101748417
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
-    "wof:geomhash":"60d877d368a2e0ca31cc14de79325dfe",
+    "wof:geomhash":"3b9c785fdecbea0cc1135b166135465e",
     "wof:hierarchy":[
+        {
+            "borough_id":890536893,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101872781,
+            "macrohood_id":1108727375,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727149,
+            "region_id":85683067
+        },
         {
             "borough_id":890536893,
             "continent_id":102191581,
@@ -54,21 +72,10 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108727149,
             "region_id":85683067
-        },
-        {
-            "borough_id":890536893,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "locality_id":101872781,
-            "macrohood_id":1108727375,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727149,
-            "region_id":85683067
         }
     ],
     "wof:id":1108727149,
-    "wof:lastmodified":1485483072,
+    "wof:lastmodified":1492124069,
     "wof:name":"Ostersundom",
     "wof:parent_id":1108727375,
     "wof:placetype":"neighbourhood",

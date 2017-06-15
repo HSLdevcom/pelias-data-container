@@ -9,6 +9,8 @@
     "geom:bbox":"25.180194142,60.2291949409,25.2266305506,60.2471081106",
     "geom:latitude":60.23972,
     "geom:longitude":25.203453,
+    "hkigis:KOKOTUNNUS":"0918801570",
+    "hkigis:TUNNUS":"570",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0918801570",
     "hkigis:tunnus":"570",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Hus\u00f6"
     ],
+    "reversegeo:latitude":60.238668,
+    "reversegeo:longitude":25.203896,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727375,
         907199715,
@@ -37,9 +41,11 @@
         101748417,
         136253047,
         890536893,
+        85683067,
         101872781
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"aee3fa6ce124c3a5c667c02504908aa8",
     "wof:hierarchy":[
@@ -68,7 +74,7 @@
         }
     ],
     "wof:id":1108727207,
-    "wof:lastmodified":1485483073,
+    "wof:lastmodified":1492124070,
     "wof:name":"Talosaari",
     "wof:parent_id":1108727375,
     "wof:placetype":"neighbourhood",

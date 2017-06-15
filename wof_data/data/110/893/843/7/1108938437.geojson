@@ -1,0 +1,73 @@
+{
+  "id": 1108938437,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.0,
+    "geom:area_square_m":0.0,
+    "geom:bbox":"25.0772841576,60.2575561706,25.0772841576,60.2575561706",
+    "geom:latitude":60.257556,
+    "geom:longitude":25.077284,
+    "iso:country":"FI",
+    "lbl:latitude":60.257556,
+    "lbl:longitude":25.077284,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_hard_boundary":0,
+    "mz:is_landuse_aoi":0,
+    "mz:is_official":0,
+    "mz:max_zoom":16,
+    "mz:min_zoom":13,
+    "mz:tier_metro":30,
+    "name:fi_x_preferred_x_variant":[
+        "Jakom\u00e4ki"
+    ],
+    "src:lbl:centroid":"mz",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        1108727371,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047,
+        890536891
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:created":1491360377,
+    "wof:geomhash":"fef2f7aa708d26cbce1cce2c1bb8429f",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536891,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":1108727371,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108938437,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108938437,
+    "wof:lastmodified":1492123470,
+    "wof:name":"Jakomaki",
+    "wof:parent_id":1108727371,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.07728415762467,
+    60.25755617058223,
+    25.07728415762467,
+    60.25755617058223
+],
+  "geometry": {"coordinates":[25.07728415762467,60.25755617058223],"type":"Point"}
+}

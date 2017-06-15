@@ -1,0 +1,77 @@
+{
+  "id": 1108729597,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00026,
+    "geom:area_square_m":1592095.948019,
+    "geom:bbox":"25.0619725261,60.3214548338,25.0930356692,60.3359934276",
+    "geom:latitude":60.328847,
+    "geom:longitude":25.077993,
+    "hkigis:ID1":"115",
+    "hkigis:KOKOTUN":"0925073000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"REKOLA",
+    "hkigis:Nimi":"Rekola",
+    "hkigis:SUUR":"5",
+    "hkigis:TILA":"73",
+    "iso:country":"FI",
+    "lbl:latitude":60.329079,
+    "lbl:longitude":25.077993,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Rekola"
+    ],
+    "reversegeo:latitude":60.329079,
+    "reversegeo:longitude":25.077993,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729493
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"be79f4f4541f26542e1f79053492f8bc",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729493,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729597,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729597,
+    "wof:lastmodified":1492536882,
+    "wof:name":"Rekola",
+    "wof:parent_id":1108729493,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0619725260829,
+    60.3214548338391,
+    25.0930356692013,
+    60.3359934275752
+],
+  "geometry": {"coordinates":[[[25.0701276824093,60.3359934275752],[25.0851159429045,60.3331644146185],[25.0854112855539,60.3335486904199],[25.0893678541675,60.3327915492472],[25.0888356125755,60.3322328919189],[25.0930356692013,60.3316629047994],[25.090886247776,60.3296542868367],[25.0920939743764,60.3284153671912],[25.0881538238943,60.3273278234411],[25.0896393518686,60.3259913953061],[25.0861851624371,60.3214548338391],[25.0852573407138,60.3215256139091],[25.0738958435577,60.3248464399676],[25.0692325575327,60.3245443702245],[25.068177999535,60.324720553681],[25.0619725260829,60.3260064319664],[25.0676797303772,60.3319984767399],[25.0701276824093,60.3359934275752]]],"type":"Polygon"}
+}

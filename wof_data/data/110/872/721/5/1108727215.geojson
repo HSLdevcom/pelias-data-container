@@ -9,6 +9,8 @@
     "geom:bbox":"25.0384324704,60.2401039195,25.0619408802,60.2509671196",
     "geom:latitude":60.244617,
     "geom:longitude":25.049226,
+    "hkigis:KOKOTUNNUS":"0915503384",
+    "hkigis:TUNNUS":"384",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915503384",
     "hkigis:tunnus":"384",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Tattar\u00e5sen"
     ],
+    "reversegeo:latitude":60.244054,
+    "reversegeo:longitude":25.048424,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537239,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"8823ad0f05edd7a4243d5eeb9acfd84c",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727215,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tattariharju",
     "wof:parent_id":890537239,
     "wof:placetype":"neighbourhood",

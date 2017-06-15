@@ -9,6 +9,8 @@
     "geom:bbox":"25.1350996117,60.2208901611,25.1595615905,60.2415970806",
     "geom:latitude":60.23123,
     "geom:longitude":25.144064,
+    "hkigis:KOKOTUNNUS":"0917704549",
+    "hkigis:TUNNUS":"549",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917704549",
     "hkigis:tunnus":"549",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Svarta backen"
     ],
+    "reversegeo:latitude":60.230593,
+    "reversegeo:longitude":25.143878,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537281,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"a7aafd3c8306c8ccdafcc88982a18c36",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727135,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Mustavuori",
     "wof:parent_id":890537281,
     "wof:placetype":"neighbourhood",

@@ -9,6 +9,8 @@
     "geom:bbox":"25.0875753414,60.2031664607,25.1159645772,60.216962971",
     "geom:latitude":60.210368,
     "geom:longitude":25.101898,
+    "hkigis:KOKOTUNNUS":"0917701452",
+    "hkigis:TUNNUS":"452",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917701452",
     "hkigis:tunnus":"452",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Botby g\u00e5rd"
     ],
+    "reversegeo:latitude":60.210036,
+    "reversegeo:longitude":25.101684,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537287,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"d299bf80e614707b0889584692d0cebb",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727165,
-    "wof:lastmodified":1485376905,
+    "wof:lastmodified":1492124069,
     "wof:name":"Puotila",
     "wof:parent_id":890537287,
     "wof:placetype":"neighbourhood",

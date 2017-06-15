@@ -9,6 +9,8 @@
     "geom:bbox":"25.1471188609,60.2055990773,25.175001234,60.2212945585",
     "geom:latitude":60.213095,
     "geom:longitude":25.161029,
+    "hkigis:KOKOTUNNUS":"0917704542",
+    "hkigis:TUNNUS":"542",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0917704542",
     "hkigis:tunnus":"542",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Nordsj\u00f6 g\u00e5rd"
     ],
+    "reversegeo:latitude":60.214662,
+    "reversegeo:longitude":25.158706,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537281,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536881
+        890536881,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"7a857d2bfc13ae134c5f621f112aee18",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727147,
-    "wof:lastmodified":1485376904,
+    "wof:lastmodified":1492124069,
     "wof:name":"Nordsjon kartano",
     "wof:parent_id":890537281,
     "wof:placetype":"neighbourhood",

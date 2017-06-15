@@ -9,6 +9,8 @@
     "geom:bbox":"25.0112351094,60.2544625981,25.0354957537,60.2697241654",
     "geom:latitude":60.262806,
     "geom:longitude":25.022541,
+    "hkigis:KOKOTUNNUS":"0915503392",
+    "hkigis:TUNNUS":"392",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915503392",
     "hkigis:tunnus":"392",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Mosabacka"
     ],
+    "reversegeo:latitude":60.264334,
+    "reversegeo:longitude":25.022774,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537239,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"de43f107a69347b9c7b7cfc6b01a30de",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727211,
-    "wof:lastmodified":1485376907,
+    "wof:lastmodified":1492124070,
     "wof:name":"Tapanila",
     "wof:parent_id":890537239,
     "wof:placetype":"neighbourhood",

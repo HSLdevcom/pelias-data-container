@@ -1,0 +1,77 @@
+{
+  "id": 1108729571,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000293,
+    "geom:area_square_m":1790904.595434,
+    "geom:bbox":"25.0759310817,60.3446021969,25.1102194175,60.3592534213",
+    "geom:latitude":60.3504,
+    "geom:longitude":25.092426,
+    "hkigis:ID1":"109",
+    "hkigis:KOKOTUN":"0926083000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"METSOLA",
+    "hkigis:Nimi":"Metsola",
+    "hkigis:SUUR":"6",
+    "hkigis:TILA":"83",
+    "iso:country":"FI",
+    "lbl:latitude":60.3522,
+    "lbl:longitude":25.085542,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Metsola"
+    ],
+    "reversegeo:latitude":60.3522,
+    "reversegeo:longitude":25.085542,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729497
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"ff6f73626ab2bef8eef1fdbf542a841a",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729497,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729571,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729571,
+    "wof:lastmodified":1492536881,
+    "wof:name":"Metsola",
+    "wof:parent_id":1108729497,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0759310816998,
+    60.3446021969416,
+    25.1102194174544,
+    60.3592534212983
+],
+  "geometry": {"coordinates":[[[25.0823634122751,60.3592534212983],[25.0882661431655,60.3578044464692],[25.0918660779887,60.356067069257],[25.0921578736888,60.3524919506722],[25.1051581376744,60.3527837005198],[25.105355848927,60.3530440385716],[25.1102194174544,60.3531765609538],[25.1094229642948,60.3492543060257],[25.1085171519179,60.3464939123141],[25.1060614199006,60.3446613617588],[25.1047861350061,60.3446021969416],[25.0982983067374,60.3446481863192],[25.0957282870096,60.345125101711],[25.0932735122052,60.3453733365265],[25.0886185473234,60.3453117557005],[25.0802614682952,60.3469824455896],[25.0759310816998,60.3470004719271],[25.0787584974908,60.3523795733834],[25.0803682469869,60.3559382447336],[25.0823634122751,60.3592534212983]]],"type":"Polygon"}
+}

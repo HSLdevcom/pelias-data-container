@@ -9,6 +9,8 @@
     "geom:bbox":"25.0619408802,60.2496674712,25.0891139784,60.2727001365",
     "geom:latitude":60.259101,
     "geom:longitude":25.078313,
+    "hkigis:KOKOTUNNUS":"0915506414",
+    "hkigis:TUNNUS":"414",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915506414",
     "hkigis:tunnus":"414",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Jakobacka"
     ],
+    "reversegeo:latitude":60.258074,
+    "reversegeo:longitude":25.078517,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727371,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"daddeabb56fa9e65749cbcee5a756c15",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727013,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Jakomaki",
     "wof:parent_id":1108727371,
     "wof:placetype":"neighbourhood",

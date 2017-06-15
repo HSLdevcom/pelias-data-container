@@ -2,7 +2,7 @@
   "id": 1108727185,
   "type": "Feature",
   "properties": {
-    "edtf:cessation":"uuuu",
+    "edtf:cessation":"2017-03-07",
     "edtf:inception":"uuuu",
     "geom:area":0.003026,
     "geom:area_square_m":18627630.414644,
@@ -16,6 +16,7 @@
     "lbl:latitude":60.13976,
     "lbl:longitude":25.06511,
     "mz:hierarchy_label":1,
+    "mz:is_current":0,
     "mz:is_funky":0,
     "mz:is_landuse_aoi":0,
     "mz:max_zoom":18,
@@ -28,18 +29,18 @@
     ],
     "src:geom":"hkigis",
     "wof:belongsto":[
-        85683067,
         102191581,
         907199715,
         85633143,
         404227411,
         101748417,
         136253047,
-        890536883
+        890536883,
+        85683067
     ],
     "wof:breaches":[],
     "wof:country":"FI",
-    "wof:geomhash":"3018c78deac73065748841bf27b00e54",
+    "wof:geomhash":"bf19ed3cdacded4c384d3a11e32ade93",
     "wof:hierarchy":[
         {
             "borough_id":890536883,
@@ -54,12 +55,14 @@
         }
     ],
     "wof:id":1108727185,
-    "wof:lastmodified":1485376906,
+    "wof:lastmodified":1492096548,
     "wof:name":"Santahamina",
     "wof:parent_id":890536883,
     "wof:placetype":"neighbourhood",
     "wof:repo":"whosonfirst-data",
-    "wof:superseded_by":[],
+    "wof:superseded_by":[
+        85898887
+    ],
     "wof:supersedes":[],
     "wof:tags":[]
 },

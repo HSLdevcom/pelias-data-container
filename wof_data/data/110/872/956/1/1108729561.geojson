@@ -1,0 +1,77 @@
+{
+  "id": 1108729561,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000338,
+    "geom:area_square_m":2064915.739847,
+    "geom:bbox":"25.0823634123,60.3524919507,25.1157446545,60.3664946163",
+    "geom:latitude":60.359951,
+    "geom:longitude":25.10007,
+    "hkigis:ID1":"104",
+    "hkigis:KOKOTUN":"0926084000",
+    "hkigis:KUNTA":"092",
+    "hkigis:Mtryhm":"50",
+    "hkigis:NIMI_ISO":"LEPP\u00c4KORPI",
+    "hkigis:Nimi":"Lepp\u00e4korpi",
+    "hkigis:SUUR":"6",
+    "hkigis:TILA":"84",
+    "iso:country":"FI",
+    "lbl:latitude":60.359362,
+    "lbl:longitude":25.10007,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Lepp\u00e4korpi"
+    ],
+    "reversegeo:latitude":60.359362,
+    "reversegeo:longitude":25.10007,
+    "src:geom":"hkigis",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199651,
+        85633143,
+        404227411,
+        101748419,
+        136253047,
+        1108729497
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"ff0b50fc83c7cec4f5c8c168190ef021",
+    "wof:hierarchy":[
+        {
+            "borough_id":1108729497,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199651,
+            "locality_id":101748419,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108729561,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108729561,
+    "wof:lastmodified":1492536881,
+    "wof:name":"Leppakorpi",
+    "wof:parent_id":1108729497,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0823634122751,
+    60.3524919506722,
+    25.1157446544519,
+    60.3664946162999
+],
+  "geometry": {"coordinates":[[[25.089169505177,60.3664946162999],[25.0903715878326,60.3662980325417],[25.1146173797657,60.3656886345887],[25.1151402738884,60.3645303937639],[25.1157446544519,60.3645986800659],[25.1154805422232,60.3638170182221],[25.1102194174544,60.3531765609538],[25.105355848927,60.3530440385716],[25.1051581376744,60.3527837005198],[25.0921578736888,60.3524919506722],[25.0918660779887,60.356067069257],[25.0882661431655,60.3578044464692],[25.0823634122751,60.3592534212983],[25.0826064128207,60.3595811181445],[25.0834947498246,60.3607115852706],[25.089169505177,60.3664946162999]]],"type":"Polygon"}
+}

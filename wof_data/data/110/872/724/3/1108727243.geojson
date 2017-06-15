@@ -9,6 +9,8 @@
     "geom:bbox":"24.9768853765,60.2310467643,24.9899233233,60.237868832",
     "geom:latitude":60.233759,
     "geom:longitude":24.98385,
+    "hkigis:KOKOTUNNUS":"0914404287",
+    "hkigis:TUNNUS":"287",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0914404287",
     "hkigis:tunnus":"287",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Grinddal"
     ],
+    "reversegeo:latitude":60.234387,
+    "reversegeo:longitude":24.984373,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         890537237,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536895
+        890536895,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"e5b7cd1e8022f9d8eb4104f014950fe9",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727243,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Verajalaakso",
     "wof:parent_id":890537237,
     "wof:placetype":"neighbourhood",

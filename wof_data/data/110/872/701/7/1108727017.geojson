@@ -9,6 +9,8 @@
     "geom:bbox":"24.8972194974,60.1426407286,24.9250150388,60.1621463632",
     "geom:latitude":60.152424,
     "geom:longitude":24.910005,
+    "hkigis:KOKOTUNNUS":"0911103203",
+    "hkigis:TUNNUS":"203",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0911103203",
     "hkigis:tunnus":"203",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Busholmen"
     ],
+    "reversegeo:latitude":60.151689,
+    "reversegeo:longitude":24.90974,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727337,
         907199715,
@@ -37,9 +41,12 @@
         101748417,
         136253047,
         890536879,
-        890537243
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
     "wof:country":"FI",
     "wof:geomhash":"ecd0a5493e79b15b1232f7f74e2ada78",
     "wof:hierarchy":[
@@ -54,22 +61,10 @@
             "macroregion_id":404227411,
             "neighbourhood_id":1108727017,
             "region_id":85683067
-        },
-        {
-            "borough_id":890536879,
-            "continent_id":102191581,
-            "country_id":85633143,
-            "empire_id":136253047,
-            "localadmin_id":907199715,
-            "locality_id":101748417,
-            "macrohood_id":890537243,
-            "macroregion_id":404227411,
-            "neighbourhood_id":1108727017,
-            "region_id":85683067
         }
     ],
     "wof:id":1108727017,
-    "wof:lastmodified":1485376900,
+    "wof:lastmodified":1492124069,
     "wof:name":"Jatkasaari",
     "wof:parent_id":-3,
     "wof:placetype":"neighbourhood",

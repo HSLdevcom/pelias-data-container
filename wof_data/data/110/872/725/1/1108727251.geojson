@@ -9,6 +9,8 @@
     "geom:bbox":"24.9791902393,60.1982668223,25.042267739,60.2278810043",
     "geom:latitude":60.215065,
     "geom:longitude":25.005489,
+    "hkigis:KOKOTUNNUS":"0915501361",
+    "hkigis:TUNNUS":"361",
     "hkigis:aluejako":"OSA-ALUE",
     "hkigis:kokotunnus":"0915501361",
     "hkigis:tunnus":"361",
@@ -26,9 +28,11 @@
     "name:swe_x_preferred":[
         "Viksstranden"
     ],
+    "reversegeo:latitude":60.215325,
+    "reversegeo:longitude":25.000714,
     "src:geom":"hkigis",
+    "src:geom_alt":[],
     "wof:belongsto":[
-        85683067,
         102191581,
         1108727359,
         907199715,
@@ -36,9 +40,11 @@
         404227411,
         101748417,
         136253047,
-        890536891
+        890536891,
+        85683067
     ],
     "wof:breaches":[],
+    "wof:controlled":[],
     "wof:country":"FI",
     "wof:geomhash":"9725f15e850f30015fc482bf3bb2d41d",
     "wof:hierarchy":[
@@ -56,7 +62,7 @@
         }
     ],
     "wof:id":1108727251,
-    "wof:lastmodified":1485376908,
+    "wof:lastmodified":1492124070,
     "wof:name":"Viikinranta",
     "wof:parent_id":1108727359,
     "wof:placetype":"neighbourhood",
