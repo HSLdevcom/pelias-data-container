@@ -1,7 +1,11 @@
 # Dockerfile which loads and indexes new data into empty data container image
 MAINTAINER Reittiopas version: 0.1
 
+ENV DOCKER_USER
+ENV DOCKER_AUTH
+ENV DOCKER_TAG
 ENV ORG="hsldevcom"
+
 FROM ${ORG}/pelias-data-container-base
 
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
