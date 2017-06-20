@@ -1,3 +1,5 @@
+# Dockerfile which provides the search engine with data indexing tools
+
 FROM elasticsearch:2.3
 MAINTAINER Reittiopas version: 0.1
 
@@ -26,7 +28,7 @@ ADD wof_data /mnt/data/whosonfirst/wof_data
 # Download and index data and do cleanup for temp data + packages
 RUN mkdir -p /mnt/tools/scripts
 ADD scripts/*.sh /mnt/tools/scripts/
-RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
+RUN /bin/bash -c "source /mnt/tools/scripts/install-tools.sh"
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
