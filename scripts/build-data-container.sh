@@ -9,11 +9,13 @@ set -e
 set -x
 
 ORG=${ORG:-hsldevcom}
+BUILD_INTERVAL=${BUILD_INTERVAL:-7}
 DOCKER_IMAGE=pelias-data-container
-DOCKER_TAG=$(date +%s)
-DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
 TEST_PORT=3101
 WORKDIR=/mnt
+
+#to seconds
+BUILD_INTERVAL=$(echo "$BUILD_INTERVAL*24*3600" | bc -l)
 
 cd $WORKDIR
 
@@ -43,16 +45,20 @@ npm link pelias-fuzzy-tester
 
 cd $WORKDIR
 
-# Build image
-echo "Building $DOCKER_TAGGED_IMAGE"
-docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
+
+function build() {
+    DOCKER_TAGGED_IMAGE=$1
+    echo "Building $DOCKER_TAGGED_IMAGE"
+    docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
+}
 
 function deploy() {
+    DOCKER_TAGGED_IMAGE=$1
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
-    docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
-    docker tag -f $ORG/$DOCKER_IMAGE:$DOCKER_TAG $ORG/$DOCKER_IMAGE:latest
+    docker push $DOCKER_TAGGED_IMAGE
+    docker tag -f $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
     docker push $ORG/$DOCKER_IMAGE:latest
-    docker tag -f $ORG/$DOCKER_IMAGE:$DOCKER_TAG $ORG/$DOCKER_IMAGE:prod
+    docker tag -f $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
     docker push $ORG/$DOCKER_IMAGE:prod
 }
 
@@ -64,46 +70,62 @@ function shutdown() {
     echo shutting down
 }
 
+function test() {
+    DOCKER_TAGGED_IMAGE=$1
+    echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
 
-# Test
-echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
+    docker run --name pelias-data $DOCKER_TAGGED_IMAGE &
+    docker pull $ORG/pelias-api:prod
+    sleep 30
+    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data:pelias-data $ORG/pelias-api:prod &
+    sleep 60
 
-docker run --name pelias-data $DOCKER_TAGGED_IMAGE &
-sleep 30
-docker run --name pelias-api -p $TEST_PORT:3100 --link pelias-data:pelias-data $ORG/pelias-api:prod &
+    MAX_WAIT=3
+    ITERATIONS=$(($MAX_WAIT * 6))
+    echo "max wait (minutes): $MAX_WAIT"
 
-MAX_WAIT=3
-ITERATIONS=$(($MAX_WAIT * 6))
-echo "max wait (minutes): $MAX_WAIT"
+    for (( c=1; c<=$ITERATIONS; c++ ));do
+        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:$TEST_PORT/v1/search?text=helsinki)
 
-for (( c=1; c<=$ITERATIONS; c++ ));do
-    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:$TEST_PORT/v1/search?text=helsinki)
-
-    if [ $STATUS_CODE = 200 ]; then
-        echo "Pelias API started"
-        cd $WORKDIR/tests
-        set +e
-        # run tests with 5% regression threshold
-        export PELIAS_CONFIG=$WORKDIR/pelias.json
-        ./run_tests.sh local 5
-        RESULT=$?
-        set -e
-        if [ $RESULT -ne 0 ]; then
-            echo "ERROR: Tests did not pass, aborting the build"
-            shutdown
-            exit 1
+        if [ $STATUS_CODE = 200 ]; then
+            echo "Pelias API started"
+            cd $WORKDIR/tests
+            set +e
+            # run tests with 5% regression threshold
+            export PELIAS_CONFIG=$WORKDIR/pelias.json
+            ./run_tests.sh local 5
+            RESULT=$?
+            set -e
+            if [ $RESULT -ne 0 ]; then
+                echo "ERROR: Tests did not pass"
+                return 1
+            else
+                echo -e "\nTests passed\n"
+                deploy
+                return 0
+            fi
         else
-            echo -e "\nTests passed\n"
-            shutdown
-            deploy
-            exit 0
+            echo "waiting for service ..."
+            sleep 10
         fi
-    else
-        echo "waiting for service ..."
-        sleep 10
-    fi
-done
-shutdown
+    done
 
-exit 1
+    return 1
+}
+
+# run data build loop forever
+while true; do
+    DOCKER_TAG=$(date +%s)
+    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+
+    build $DOCKER_TAGGED_IMAGE
+    test $DOCKER_TAGGED_IMAGE
+    shutdown
+
+    if [ $? -eq 0 ]; then
+        deploy $DOCKER_TAGGED_IMAGE
+    fi
+
+    sleep $BUILD_INTERVAL
+done
 
