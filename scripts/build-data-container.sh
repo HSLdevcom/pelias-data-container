@@ -3,6 +3,7 @@
 # Set these environment variables
 #DOCKER_USER // dockerhub credentials
 #DOCKER_AUTH
+#ORG // optional
 
 set -e
 set -x
@@ -33,13 +34,7 @@ function install_node_project {
     npm link
 }
 
-apt-get update
-echo 'APT::Acquire::Retries "20";' >> /etc/apt/apt.conf
-apt-get install -y --no-install-recommends git
-rm -rf /var/lib/apt/lists/*
-
-curl -sL https://deb.nodesource.com/setup_4.x | bash -
-apt-get install -y --no-install-recommends nodejs
+apk update && apk add nodejs
 
 # Install test tools
 install_node_project HSLdevcom fuzzy-tester
@@ -49,7 +44,8 @@ npm link pelias-fuzzy-tester
 cd $WORKDIR
 
 # Build image
-docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader
+echo "Building $DOCKER_TAGGED_IMAGE"
+docker build -t="$DOCKER_TAGGED_IMAGE " --build-arg ORG=$ORG -f Dockerfile.loader .
 
 function deploy() {
     docker login -u $DOCKER_USER -p $DOCKER_AUTH

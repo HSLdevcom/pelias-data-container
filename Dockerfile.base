@@ -14,8 +14,6 @@ RUN /usr/share/elasticsearch/bin/plugin install analysis-icu
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
   && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
 
-ENV ES_HEAP_SIZE 4g
-
 # Copy pelias config file
 ADD pelias.json /root/pelias.json
 
