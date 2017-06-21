@@ -34,5 +34,3 @@ RUN chmod -R a+rwX /var/lib/elasticsearch/ \
 ENV ES_HEAP_SIZE 2g
 
 ENTRYPOINT ["elasticsearch"]
-
-USER 9999
