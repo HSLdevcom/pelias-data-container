@@ -45,7 +45,7 @@ cd $WORKDIR
 
 # Build image
 echo "Building $DOCKER_TAGGED_IMAGE"
-docker build -t="$DOCKER_TAGGED_IMAGE " --build-arg ORG=$ORG -f Dockerfile.loader .
+docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
 
 function deploy() {
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
