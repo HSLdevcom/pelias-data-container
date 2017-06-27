@@ -6,14 +6,14 @@
 #ORG // optional
 
 set -e
-set -x
 
 ORG=${ORG:-hsldevcom}
-BUILD_INTERVAL=${BUILD_INTERVAL:-7}
 DOCKER_IMAGE=pelias-data-container
 TEST_PORT=3101
 WORKDIR=/mnt
 
+#how often data is built (default every 7 days)
+BUILD_INTERVAL=${BUILD_INTERVAL:-7}
 #to seconds
 BUILD_INTERVAL=$(echo "$BUILD_INTERVAL*24*3600" | bc -l)
 
@@ -45,6 +45,7 @@ npm link pelias-fuzzy-tester
 
 cd $WORKDIR
 
+set +e
 
 function build() {
     DOCKER_TAGGED_IMAGE=$1
@@ -113,17 +114,36 @@ function test() {
     return 1
 }
 
+echo "Launching geocoding data builder service" | tee log.txt
+
 # run data build loop forever
 while true; do
     DOCKER_TAG=$(date +%s)
     DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
-    build $DOCKER_TAGGED_IMAGE
-    test $DOCKER_TAGGED_IMAGE
-    shutdown
+    # rotate log
+    mv log.txt _log.txt
 
+    SUCCESS=0
+    build $DOCKER_TAGGED_IMAGE 2>&1 | tee log.txt
     if [ $? -eq 0 ]; then
-        deploy $DOCKER_TAGGED_IMAGE
+        test $DOCKER_TAGGED_IMAGE 2>&1 | tee -a log.txt
+        RESULT=$?
+        shutdown
+
+        if [ $RESULT -eq 0 ]; then
+            deploy $DOCKER_TAGGED_IMAGE 2>&1 | tee -a log.txt
+            if [ $? -eq 0 ]; then
+                SUCCESS=1
+            fi
+        fi
+    fi
+
+    if [ $SUCCESS -eq 0 ]; then
+        #extract log end which most likely contains info about failure
+        ERRDESC=$(tail -30 log.txt)
+        curl -X POST -H 'Content-type: application/json'  --data '{"channel": "@vesameskaneen", "text":"Geocoding data build failed:\n...\n$ERRDESC"}' \
+             https://hooks.slack.com/services/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
     fi
 
     sleep $BUILD_INTERVAL
