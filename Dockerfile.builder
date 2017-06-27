@@ -8,6 +8,6 @@ ADD Dockerfile.loader ${WORKDIR}
 ADD scripts/build-data-container.sh ${WORKDIR}
 ADD pelias.json ${WORKDIR}
 
-RUN apk add --no-cache bash git python alpine-sdk
+RUN apk add --no-cache bash git python curl alpine-sdk
 
 ENTRYPOINT ["/mnt/build-data-container.sh" ]
