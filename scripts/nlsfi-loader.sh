@@ -19,4 +19,3 @@ unzip $NAME
 rm $NAME
 
 echo '##### Loaded nlsfi data'
-echo 'OK' >> /tmp/loadresults
