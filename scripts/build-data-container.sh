@@ -57,9 +57,9 @@ function deploy() {
     DOCKER_TAGGED_IMAGE=$1
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
     docker push $DOCKER_TAGGED_IMAGE
-    docker tag -f $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
+    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
     docker push $ORG/$DOCKER_IMAGE:latest
-    docker tag -f $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
+    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
     docker push $ORG/$DOCKER_IMAGE:prod
 }
 
