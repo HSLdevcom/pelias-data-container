@@ -5,6 +5,5 @@ MAINTAINER Reittiopas version: 0.1
 
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
-#entrypoint (elasticsearch) comes from base image
-
-USER 9999
+USER elasticsearch
+ENTRYPOINT ["elasticsearch"]
