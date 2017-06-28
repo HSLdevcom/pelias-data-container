@@ -75,10 +75,10 @@ function test() {
     DOCKER_TAGGED_IMAGE=$1
     echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
 
-    docker run --name pelias-data $DOCKER_TAGGED_IMAGE &
+    docker run --name pelias-data-container $DOCKER_TAGGED_IMAGE &
     docker pull $ORG/pelias-api:prod
     sleep 30
-    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data:pelias-data $ORG/pelias-api:prod &
+    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data-container:pelias-data-container $ORG/pelias-api:prod &
     sleep 60
 
     MAX_WAIT=3
@@ -102,7 +102,6 @@ function test() {
                 return 1
             else
                 echo -e "\nTests passed\n"
-                deploy
                 return 0
             fi
         else
