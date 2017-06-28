@@ -90,7 +90,7 @@ function test() {
 
         if [ $STATUS_CODE = 200 ]; then
             echo "Pelias API started"
-            cd $WORKDIR/tests
+            cd $WORKDIR/pelias-fuzzy-tests
             set +e
             # run tests with 5% regression threshold
             export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -141,8 +141,7 @@ while true; do
 
     if [ $SUCCESS -eq 0 ]; then
         #extract log end which most likely contains info about failure
-        ERRDESC=$(tail -30 log.txt)
-        curl -X POST -H 'Content-type: application/json'  --data '{"channel": "@vesameskaneen", "text":"Geocoding data build failed:\n...\n$ERRDESC"}' \
+        { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{"channel": "@vesameskanen", text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
              https://hooks.slack.com/services/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
     fi
 
