@@ -87,18 +87,17 @@ function test_container {
     ITERATIONS=$(($MAX_WAIT * 6))
     echo "Waiting service for max $MAX_WAIT minutes..."
 
+    set +e
     for (( c=1; c<=$ITERATIONS; c++ ));do
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:$TEST_PORT/v1/search?text=helsinki)
 
         if [ $STATUS_CODE = 200 ]; then
             echo "Pelias API started"
             cd $WORKDIR/pelias-fuzzy-tests
-            set +e
             # run tests with 5% regression threshold
             export PELIAS_CONFIG=$WORKDIR/pelias.json
             ./run_tests.sh local 5
             RESULT=$?
-            set -e
             if [ $RESULT -ne 0 ]; then
                 echo "ERROR: Tests did not pass"
                 return 1
