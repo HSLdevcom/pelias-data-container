@@ -9,7 +9,6 @@ set -e
 
 ORG=${ORG:-hsldevcom}
 DOCKER_IMAGE=pelias-data-container
-TEST_PORT=3101
 WORKDIR=/mnt
 
 #how often data is built (default every 7 days)
@@ -18,6 +17,7 @@ BUILD_INTERVAL=${BUILD_INTERVAL:-7}
 BUILD_INTERVAL=$(echo "$BUILD_INTERVAL*24*3600" | bc -l)
 
 cd $WORKDIR
+export PELIAS_CONFIG=$WORKDIR/pelias.json
 
 # param1: organization name
 # param2: git project name
@@ -80,7 +80,7 @@ function test_container {
     docker run --name pelias-data-container --rm $DOCKER_TAGGED_IMAGE &
     docker pull $ORG/pelias-api:prod
     sleep 30
-    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
+    docker run --name pelias-api -p 8080:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
     sleep 30
 
     MAX_WAIT=3
@@ -91,13 +91,11 @@ function test_container {
 
     #find api's current IP
     HOST=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' pelias-api)
-    #remove old hostname def
-    sed -i '/testhost/d' /etc/hosts
-    #add new one
-    echo "$HOST testhost" >> /etc/hosts
+    ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
+    sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
     for (( c=1; c<=$ITERATIONS; c++ ));do
-        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:$TEST_PORT/v1/search?text=helsinki)
+        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
 
         if [ $STATUS_CODE = 200 ]; then
             echo "Pelias API started"
