@@ -88,6 +88,14 @@ function test_container {
     echo "Waiting service for max $MAX_WAIT minutes..."
 
     set +e
+
+    #find api's current IP
+    HOST=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' pelias-api)
+    #remove old hostname def
+    sed -i '/testhost/d' /etc/hosts
+    #add new one
+    echo "$HOST testhost" >> /etc/hosts
+
     for (( c=1; c<=$ITERATIONS; c++ ));do
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://127.0.0.1:$TEST_PORT/v1/search?text=helsinki)
 
