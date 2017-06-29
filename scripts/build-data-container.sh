@@ -48,12 +48,14 @@ cd $WORKDIR
 set +e
 
 function build {
+    set -e
     DOCKER_TAGGED_IMAGE=$1
     echo "Building $DOCKER_TAGGED_IMAGE"
     docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
 }
 
 function deploy {
+    set -e
     DOCKER_TAGGED_IMAGE=$1
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
     docker push $DOCKER_TAGGED_IMAGE
@@ -64,6 +66,7 @@ function deploy {
 }
 
 function shutdown {
+    echo "Shutting down the test services..."
     docker stop pelias-data
     docker stop pelias-api
     docker rm pelias-data
@@ -72,14 +75,15 @@ function shutdown {
 }
 
 function test_container {
+    set -e
     DOCKER_TAGGED_IMAGE=$1
     echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
 
-    docker run --name pelias-data-container $DOCKER_TAGGED_IMAGE &
+    docker run --name pelias-data-container --rm $DOCKER_TAGGED_IMAGE &
     docker pull $ORG/pelias-api:prod
     sleep 30
-    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data-container:pelias-data-container $ORG/pelias-api:prod &
-    sleep 60
+    docker run --name pelias-api -p $TEST_PORT:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
+    sleep 30
 
     MAX_WAIT=3
     ITERATIONS=$(($MAX_WAIT * 6))
@@ -115,6 +119,9 @@ function test_container {
 
 echo "Launching geocoding data builder service" | tee log.txt
 
+#build errors should not stop the continuous build loop
+set +e
+
 # run data build loop forever
 while true; do
     DOCKER_TAG=$(date +%s)
@@ -149,7 +156,7 @@ while true; do
     if [ $SUCCESS -eq 0 ]; then
         echo "ERROR: Build failed"
         #extract log end which most likely contains info about failure
-        { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{"channel": "@vesameskanen", text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
+        { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
              https://hooks.slack.com/services/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
     fi
     echo "Sleeping $BUILD_INTERVAL seconds until the next build ..."
