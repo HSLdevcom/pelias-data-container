@@ -67,10 +67,8 @@ function deploy {
 
 function shutdown {
     echo "Shutting down the test services..."
-    docker stop pelias-data
+    docker stop pelias-data-container
     docker stop pelias-api
-    docker rm pelias-data
-    docker rm pelias-api
     echo shutting down
 }
 
