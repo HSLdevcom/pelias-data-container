@@ -11,10 +11,13 @@ ORG=${ORG:-hsldevcom}
 DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
 
+#Threshold value for regression testing, as %
+THRESHOLD=${THRESHOLD:-2}
 #how often data is built (default every 7 days)
 BUILD_INTERVAL=${BUILD_INTERVAL:-7}
 #to seconds
 BUILD_INTERVAL=$(echo "$BUILD_INTERVAL*24*3600" | bc -l)
+
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -100,10 +103,12 @@ function test_container {
         if [ $STATUS_CODE = 200 ]; then
             echo "Pelias API started"
             cd $WORKDIR/pelias-fuzzy-tests
-            # run tests with 5% regression threshold
+
+            # run tests with a given  % regression threshold
             export PELIAS_CONFIG=$WORKDIR/pelias.json
-            ./run_tests.sh local 2
+            ./run_tests.sh local $THRESHOLD
             RESULT=$?
+
             if [ $RESULT -ne 0 ]; then
                 echo "ERROR: Tests did not pass"
                 return 1
