@@ -80,7 +80,7 @@ function test_container {
     docker run --name pelias-data-container --rm $DOCKER_TAGGED_IMAGE &
     docker pull $ORG/pelias-api:prod
     sleep 30
-    docker run --name pelias-api -p 8080:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
+    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
     sleep 30
 
     MAX_WAIT=3
@@ -102,7 +102,7 @@ function test_container {
             cd $WORKDIR/pelias-fuzzy-tests
             # run tests with 5% regression threshold
             export PELIAS_CONFIG=$WORKDIR/pelias.json
-            ./run_tests.sh local 5
+            ./run_tests.sh local 2
             RESULT=$?
             if [ $RESULT -ne 0 ]; then
                 echo "ERROR: Tests did not pass"
