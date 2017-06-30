@@ -168,7 +168,7 @@ while true; do
         echo "ERROR: Build failed"
         #extract log end which most likely contains info about failure
         { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
-             https://hooks.slack.com/services/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
+              $SLACK_WEBHOOK_URL
     fi
     echo "Sleeping $BUILD_INTERVAL seconds until the next build ..."
     sleep $BUILD_INTERVAL
