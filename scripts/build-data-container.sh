@@ -52,6 +52,9 @@ set +e
 
 function build {
     set -e
+    #make sure latest base  image is used
+    docker pull $ORG/pelias-data-container-base:latest
+
     DOCKER_TAGGED_IMAGE=$1
     echo "Building $DOCKER_TAGGED_IMAGE"
     docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
