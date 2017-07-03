@@ -1,0 +1,18 @@
+sudo: required
+
+branches:
+  only:
+    - master
+
+services: docker
+
+install: true
+
+language: C
+
+jobs:
+  include:
+   - stage: build
+     script: scripts/build-base.sh
+   - stage: build
+     script: scripts/build-builder.sh

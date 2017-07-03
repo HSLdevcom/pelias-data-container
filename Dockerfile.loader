@@ -1,0 +1,9 @@
+FROM hsldevcom/pelias-data-container-base
+
+# Dockerfile which loads and indexes new data into empty data container image
+MAINTAINER Reittiopas version: 0.1
+
+RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
+
+USER elasticsearch
+ENTRYPOINT ["elasticsearch"]

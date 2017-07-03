@@ -20,6 +20,10 @@
     "level": "info",
     "suspectFile": false
   },
+  "acceptance-tests": {
+    "endpoints": { "local": "http://localhost:3100/v1/" }
+  },
+
   "imports": {
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "adminLookup": {

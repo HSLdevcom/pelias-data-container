@@ -27,4 +27,3 @@ rm -f fi/pohjois-pohjanmaa-sv.csv
 rm -f fi/pohjois-savo-sv.csv
 
 echo '##### Loaded OpenAddresses data'
-echo 'OK' >> /tmp/loadresults

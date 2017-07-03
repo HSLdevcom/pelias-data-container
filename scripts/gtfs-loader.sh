@@ -18,4 +18,3 @@ curl -sS -O $URL$SERVICE$NAME
 unzip $NAME
 
 echo '##### Loaded GTFS data'
-echo 'OK' >> /tmp/loadresults
