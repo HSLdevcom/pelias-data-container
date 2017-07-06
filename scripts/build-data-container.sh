@@ -143,16 +143,16 @@ while true; do
 
     SUCCESS=0
     echo "Building new container..."
-    ( build $DOCKER_TAGGED_IMAGE &> log.txt )
+    ( build $DOCKER_TAGGED_IMAGE 2>&1 |tee log.txt )
     if [ $? -eq 0 ]; then
         echo "New container built. Testing next... "
-        ( test_container $DOCKER_TAGGED_IMAGE &>> log.txt )
+        ( test_container $DOCKER_TAGGED_IMAGE 2>&1 |tee -a log.txt )
         RESULT=$?
         shutdown
 
         if [ $RESULT -eq 0 ]; then
             echo "Container passed tests. Deploying ..."
-            ( deploy $DOCKER_TAGGED_IMAGE &>> log.txt )
+            ( deploy $DOCKER_TAGGED_IMAGE 2>&1 |tee log.txt )
             if [ $? -eq 0 ]; then
                 echo "Container deployed"
                 SUCCESS=1
