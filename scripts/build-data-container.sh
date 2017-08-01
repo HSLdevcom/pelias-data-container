@@ -169,6 +169,8 @@ while true; do
         #extract log end which most likely contains info about failure
         { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
               $SLACK_WEBHOOK_URL
+    else
+        echo "Build for $DOCKER_TAGGED_IMAGE finished successfully"
     fi
     echo "Sleeping $BUILD_INTERVAL seconds until the next build ..."
     sleep $BUILD_INTERVAL
