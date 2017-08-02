@@ -100,6 +100,8 @@ function test_container {
     ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
     sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
+    RESULT=1
+
     for (( c=1; c<=$ITERATIONS; c++ ));do
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
 
@@ -114,18 +116,19 @@ function test_container {
 
             if [ $RESULT -ne 0 ]; then
                 echo "ERROR: Tests did not pass"
-                return 1
             else
                 echo -e "\nTests passed\n"
-                return 0
             fi
+            break
         else
             echo "waiting for service ..."
             sleep 10
         fi
     done
 
-    return 1
+    shutdown
+
+    return $RESULT
 }
 
 echo "Launching geocoding data builder service" | tee log.txt
@@ -148,7 +151,6 @@ while true; do
         echo "New container built. Testing next... "
         ( test_container $DOCKER_TAGGED_IMAGE 2>&1 |tee -a log.txt )
         RESULT=$?
-        shutdown
 
         if [ $RESULT -eq 0 ]; then
             echo "Container passed tests. Deploying ..."
@@ -169,6 +171,8 @@ while true; do
         #extract log end which most likely contains info about failure
         { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{text: .}' | curl -X POST -H 'Content-type: application/json' -d@- \
               $SLACK_WEBHOOK_URL
+    else
+        echo "Build for $DOCKER_TAGGED_IMAGE finished successfully"
     fi
     echo "Sleeping $BUILD_INTERVAL seconds until the next build ..."
     sleep $BUILD_INTERVAL
