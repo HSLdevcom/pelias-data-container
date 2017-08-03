@@ -110,7 +110,6 @@ function test_container {
             cd $WORKDIR/pelias-fuzzy-tests
 
             # run tests with a given  % regression threshold
-            export PELIAS_CONFIG=$WORKDIR/pelias.json
             ./run_tests.sh local $THRESHOLD
             RESULT=$?
 
