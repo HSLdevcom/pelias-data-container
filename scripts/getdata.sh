@@ -16,7 +16,7 @@ gosu elasticsearch elasticsearch -d
 sleep 20
 
 # download and index
-$SCRIPTS/dl-and-index.sh
+$TOOLS/scripts/dl-and-index.sh
 
 #shutdown ES in a friendly way
 pkill -SIGTERM -u elasticsearch
