@@ -6,7 +6,7 @@
 #   TOOLS - path to data indexing tool folder. All required git projects must be pre-installed.
 #   DATA - data dir path.
 # Also, a valid pelias.json configuration must be present. It's data paths must match the DATA env variable.
-# Note: WOF admin data must be preloaded and its path defined in pelias.json
+# Note: WOF admin data and street polylines must be preloaded and their paths defined in pelias.json
 
 # errors should break the execution
 set -e
