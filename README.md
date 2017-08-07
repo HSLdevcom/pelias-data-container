@@ -33,6 +33,18 @@ Data builder needs an access to host environment's docker service. The following
 shows how to accomplish this:
 
 ```bash
-docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> -e hsldevcom/pelias-data-container-builder
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> hsldevcom/pelias-data-container-builder
 ```
 
+# Usage in a local system
+
+Builder app can be run locally as defined above to get the data-container image.
+
+Another alternative is to install required components locally:
+- Git projects for pelias dataloading (NLSFI, OpenAddresses, OSM, GTFS, etc.)
+- pelias/schema git project
+- WOF admin data and street polylines, both available as a part of this git project
+- Properly configured pelias.json config file
+- Install and start ElasticSearch
+- Export two env. vars, DATA for a data folder path and TOOLS path to the parent dir of dataloading and schema tools
+- Run the script scripts/dl-and-index.sh
