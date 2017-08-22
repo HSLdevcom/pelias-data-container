@@ -13,8 +13,8 @@ WORKDIR=/mnt
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
-#how often data is built (default every 7 days)
-BUILD_INTERVAL=${BUILD_INTERVAL:-7}
+#how often data is built (default once a day)
+BUILD_INTERVAL=${BUILD_INTERVAL:-1}
 #Substract one day, because first wait hours are computer before each build
 BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
 #start build at this time (GMT):
