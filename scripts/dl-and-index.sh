@@ -11,7 +11,6 @@
 
 # errors should break the execution
 
-set -e
 SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir

@@ -15,7 +15,7 @@ echo 'Loading nlsfi data from' $URL$NAME
 
 # Download nls paikat data
 curl -sS -O $URL$NAME
-unzip $NAME
+unzip -o $NAME
 rm $NAME
 
 echo '##### Loaded nlsfi data'
