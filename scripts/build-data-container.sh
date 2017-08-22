@@ -15,9 +15,10 @@ WORKDIR=/mnt
 THRESHOLD=${THRESHOLD:-2}
 #how often data is built (default every 7 days)
 BUILD_INTERVAL=${BUILD_INTERVAL:-7}
-#to seconds
-BUILD_INTERVAL=$(echo "$BUILD_INTERVAL*24*3600" | bc -l)
-
+#Substract one day, because first wait hours are computer before each build
+BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
+#start build at this time (GMT):
+BUILD_TIME=${BUILD_TIME:-23:59:59}
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -137,6 +138,16 @@ set +e
 
 # run data build loop forever
 while true; do
+    SLEEP=$(($(date -u -d $BUILD_TIME +%s) - $(date -u +%s) + 1))
+    if [[ "$SLEEP" -le 0 ]]; then
+        #today's build time is gone, start counting from tomorrow
+        SLEEP=$(($SLEEP + 24*3600))
+    fi
+    SLEEP=$(($SLEEP + $BUILD_INTERVAL_SECONDS))
+
+    echo "Sleeping $SLEEP seconds until the next build ..."
+    sleep $SLEEP
+
     DOCKER_TAG=$(date +%s)
     DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
@@ -173,6 +184,4 @@ while true; do
     else
         echo "Build for $DOCKER_TAGGED_IMAGE finished successfully"
     fi
-    echo "Sleeping $BUILD_INTERVAL seconds until the next build ..."
-    sleep $BUILD_INTERVAL
 done
