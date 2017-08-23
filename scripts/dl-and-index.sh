@@ -5,13 +5,13 @@
 # Set these env variables before running this script locally:
 #   TOOLS - path to data indexing tool folder. All required git projects must be pre-installed.
 #   DATA - data dir path.
+#   SCRIPTS - path to pelias-data-container scripts
 # Also, a valid pelias.json configuration must be present. It's data paths must match the DATA env variable.
 # Note: WOF admin data and street polylines must be preloaded and their paths defined in pelias.json
 
 # errors should break the execution
-set -e
 
-SCRIPTS=$TOOLS/scripts
+SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir
 cd $TOOLS/schema/

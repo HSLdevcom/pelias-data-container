@@ -10,11 +10,11 @@ SERVICE="finland/"
 NAME="router-finland.zip"
 cd $DATA
 curl -sS -O $URL$SERVICE$NAME
-unzip $NAME
+unzip -o $NAME
 
 SERVICE="waltti/"
 NAME="router-waltti.zip"
 curl -sS -O $URL$SERVICE$NAME
-unzip $NAME
+unzip -o $NAME
 
 echo '##### Loaded GTFS data'
