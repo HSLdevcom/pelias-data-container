@@ -176,6 +176,8 @@ while true; do
         fi
     fi
 
+    docker rmi $DOCKER_TAGGED_IMAGE
+
     if [ $SUCCESS -eq 0 ]; then
         echo "ERROR: Build failed"
         #extract log end which most likely contains info about failure
