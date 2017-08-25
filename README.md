@@ -46,5 +46,6 @@ Another alternative is to install required components locally:
 - WOF admin data and street polylines, both available as a part of this git project
 - Properly configured pelias.json config file
 - Install and start ElasticSearch
-- Export two env. vars, DATA for a data folder path and TOOLS path to the parent dir of dataloading and schema tools
+- Export three env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project
+and TOOLS path to the parent dir of dataloading and schema tools
 - Run the script scripts/dl-and-index.sh
