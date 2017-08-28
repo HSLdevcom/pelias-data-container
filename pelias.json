@@ -29,7 +29,8 @@
     "adminLookup": {
       "enabled": true,
       "maxConcurrentReqs": 4,
-      "localizedNames": true
+      "localizedNames": true,
+      "dropUnmapped": true
     },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
