@@ -58,7 +58,7 @@ function build {
 
     DOCKER_TAGGED_IMAGE=$1
     echo "Building $DOCKER_TAGGED_IMAGE"
-    docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
+    docker build --no-cache -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
 }
 
 function deploy {
