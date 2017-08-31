@@ -70,9 +70,9 @@ echo '###### gtfs done'
 cd  $TOOLS/openaddresses
 
 # first import swedish OA docs
-bin/parallel 2 --language=sv
+node import.js 2 --language=sv
 echo '###### openaddresses/sv done'
 
 # then import and merge fi data with sv docs
-bin/parallel 2 --language=fi --merge --merge-fields=name
+node import.js --language=fi --merge --merge-fields=name
 echo '###### openaddresses/fi done'
