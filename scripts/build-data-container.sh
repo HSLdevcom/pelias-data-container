@@ -69,7 +69,7 @@ function deploy {
     docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
     docker push $ORG/$DOCKER_IMAGE:latest
     docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
-    #docker push $ORG/$DOCKER_IMAGE:prod
+    docker push $ORG/$DOCKER_IMAGE:prod
 }
 
 function shutdown {
