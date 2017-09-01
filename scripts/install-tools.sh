@@ -41,7 +41,7 @@ apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
 
-install_node_project pelias schema 105fca5108c1d3ce805a82187a2e168fcab6d6db
+install_node_project hsldevcom schema
 
 install_node_project HSLdevcom wof-admin-lookup
 
