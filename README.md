@@ -28,6 +28,7 @@ Data builder obeys the following environment variables, which can pe passed to t
  * ORG - optional, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
+ * PROD_DEPLOY - optional switch to prevent production deployment, default = 1 (deploys to prod)
 
 Data builder needs an access to host environment's docker service. The following example call to launch the builder container
 shows how to accomplish this:
@@ -36,7 +37,8 @@ shows how to accomplish this:
 docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> hsldevcom/pelias-data-container-builder
 ```
 
-# Usage in a local system
+
+## Usage in a local system
 
 Builder app can be run locally as defined above to get the data-container image.
 
@@ -49,3 +51,15 @@ Another alternative is to install required components locally:
 - Export three env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project
 and TOOLS path to the parent dir of dataloading and schema tools
 - Run the script scripts/dl-and-index.sh
+
+
+## Data deployments
+
+Pelias api updates are sometimes backward incompatible with old data containers.
+Builder application handles breaking changes by testing the data with development api version,
+and by running a single compatibility ensuring test with the production api version.
+Based on these tests, builder deploys selectively to dev and prod. Furthermore,
+setting an environment variable PROD_DEPLOY=0 prevents production deployments regardless of the tests.
+This can be useful when the current api and the new container are compatible, but perform poorly together.
+Using the switch, data can be let automatically build into dev and later be updated by
+manually tagging a properly compatible api and the new data container into production simultaneously.
