@@ -10,6 +10,8 @@ set -e
 ORG=${ORG:-hsldevcom}
 DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
+#deploy to production by default
+PROD_DEPLOY=${PROD_DEPLOY:-1}
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
@@ -61,23 +63,24 @@ function build {
     docker build --no-cache -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
 }
 
+# if $1 != 0 don't deploy to prod
 function deploy {
     set -e
     DOCKER_TAGGED_IMAGE=$1
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
     docker push $DOCKER_TAGGED_IMAGE
+
+    echo "Deploying development image"
     docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
     docker push $ORG/$DOCKER_IMAGE:latest
-    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
-#    docker push $ORG/$DOCKER_IMAGE:prod
+
+    if [ "$1" = 0 ]; then
+        echo "Deploying production image"
+        docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
+        #docker push $ORG/$DOCKER_IMAGE:prod
+    fi
 }
 
-function shutdown {
-    echo "Shutting down the test services..."
-    docker stop pelias-data-container
-    docker stop pelias-api
-    echo shutting down
-}
 
 function test_container {
     set -e
@@ -85,9 +88,9 @@ function test_container {
     echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
 
     docker run --name pelias-data-container --rm $DOCKER_TAGGED_IMAGE &
-    docker pull $ORG/pelias-api:prod
+    docker pull $ORG/pelias-api:latest
     sleep 30
-    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
+    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:latest &
     sleep 30
 
     MAX_WAIT=3
@@ -101,13 +104,15 @@ function test_container {
     ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
     sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
-    RESULT=1
+    # default result 2 = dev and prod tests failed
+    RESULT=2
 
+    # run the full fuzzy testbench
     for (( c=1; c<=$ITERATIONS; c++ ));do
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
 
         if [ $STATUS_CODE = 200 ]; then
-            echo "Pelias API started"
+            echo "Development API started"
             cd $WORKDIR/pelias-fuzzy-tests
 
             # run tests with a given  % regression threshold
@@ -115,9 +120,10 @@ function test_container {
             RESULT=$?
 
             if [ $RESULT -ne 0 ]; then
-                echo "ERROR: Tests did not pass"
+                echo -e "\nERROR: Fuzzy tests did not pass"
+                RESULT=2
             else
-                echo -e "\nTests passed\n"
+                echo -e "\nFuzzy tests passed\n"
             fi
             break
         else
@@ -126,7 +132,43 @@ function test_container {
         fi
     done
 
-    shutdown
+    if [ $RESULT = 0 ]; then
+        # quick check for prod compatibility
+        echo "Shutting down api dev version ..."
+        docker stop pelias-api
+
+        echo "Launching api prod version ..."
+        docker pull $ORG/pelias-api:prod
+        docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
+        sleep 10
+
+        # default result 1 = prod test failed
+        RESULT=1
+
+        for (( c=1; c<=$ITERATIONS; c++ ));do
+            STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
+
+            if [ $STATUS_CODE = 200 ]; then
+                echo "Production API started"
+                STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1/search?text=Opastinsilta)
+
+                if [ $STATUS_CODE = 200 ]; then
+                    echo -e "\nProduction API test passed\n"
+                    $RESULT = 0 #success!
+                else
+                    echo "WARN: data container is not compatible with production api"
+                fi
+                break
+            else
+                echo "waiting for service ..."
+                sleep 10
+            fi
+        done
+    fi
+
+    echo "Shutting down the test services..."
+    docker stop pelias-api
+    docker stop pelias-data-container
 
     return $RESULT
 }
@@ -162,9 +204,11 @@ while true; do
         ( test_container $DOCKER_TAGGED_IMAGE 2>&1 | tee -a log.txt )
         RESULT=$?
 
-        if [ $RESULT -eq 0 ]; then
+        if [ $RESULT != 2 ]; then
             echo "Container passed tests. Deploying ..."
-            ( deploy $DOCKER_TAGGED_IMAGE 2>&1 | tee -a log.txt )
+            [ $RESULT = 0 ] && [ $PROD_DEPLOY = 1 ]
+            TO_PRODUCTION=$?
+            ( deploy $DOCKER_TAGGED_IMAGE $TO_PRODUCTION 2>&1 | tee -a log.txt )
             if [ $? -eq 0 ]; then
                 echo "Container deployed"
                 SUCCESS=1
