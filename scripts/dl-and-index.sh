@@ -14,7 +14,7 @@
 SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir
-cd $TOOLS/schema/
+cd $TOOLS/pelias-schema/
 node scripts/create_index
 
 
