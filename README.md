@@ -40,7 +40,13 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom
 
 ## Usage in a local system
 
-Builder app can be run locally as defined above to get the data-container image.
+Builder app can be run locally to get the data-container image:
+
+```bash
+#leave dockerhub credentials unset to skip deployment
+export BUILD_INTERVAL=0 #run only once
+docker run -v /var/run/docker.sock:/var/run/docker.sock hsldevcom/pelias-data-container-builder
+```
 
 Another alternative is to install required components locally:
 - Git projects for pelias dataloading (NLSFI, OpenAddresses, OSM, GTFS, etc.)
