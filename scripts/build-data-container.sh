@@ -20,7 +20,7 @@ BUILD_INTERVAL=${BUILD_INTERVAL:-1}
 #Substract one day, because first wait hours are computer before each build
 BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
 #start build at this time (GMT):
-BUILD_TIME=${BUILD_TIME:-23:59:59}
+BUILD_TIME=${BUILD_TIME:-23:00:00}
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
