@@ -233,6 +233,8 @@ while true; do
                 else
                     echo "Deployment failed"
                 fi
+            else
+                SUCCESS=1
             fi
         else
             echo "Test failed"
