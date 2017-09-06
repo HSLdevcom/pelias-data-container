@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # This script downloads new data and indexes it into ES
@@ -70,7 +71,7 @@ echo '###### gtfs done'
 cd  $TOOLS/openaddresses
 
 # first import swedish OA docs
-node import.js 2 --language=sv
+node import.js --language=sv
 echo '###### openaddresses/sv done'
 
 # then import and merge fi data with sv docs
