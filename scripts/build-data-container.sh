@@ -114,9 +114,6 @@ function test_container {
     ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
     sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
-    # default result 2 = dev and prod tests failed
-    DEV_OK=2
-
     # run the full fuzzy testbench
     for (( c=1; c<=$ITERATIONS; c++ ));do
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
@@ -151,9 +148,6 @@ function test_container {
         docker pull $ORG/pelias-api:prod
         docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
         sleep 10
-
-        # default result 1 = prod test failed
-        DEV_OK=1
 
         for (( c=1; c<=$ITERATIONS; c++ ));do
             STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
