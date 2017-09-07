@@ -1,6 +1,6 @@
 {
   "esclient": {
-    "apiVersion": "2.3",
+    "apiVersion": "2.4",
     "keepAlive": true,
     "requestTimeout": "20000",
     "hosts": [
@@ -29,7 +29,8 @@
     "adminLookup": {
       "enabled": true,
       "maxConcurrentReqs": 4,
-      "localizedNames": true
+      "localizedNames": true,
+      "dropUnmapped": true
     },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",

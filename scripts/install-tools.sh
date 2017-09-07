@@ -41,7 +41,7 @@ apt-get install -y --no-install-recommends nodejs
 
 install_node_project HSLdevcom dbclient
 
-install_node_project pelias schema 6565d7d0b8b686e2e408693c3f4bc4889c3d56af
+install_node_project hsldevcom pelias-schema
 
 install_node_project HSLdevcom wof-admin-lookup
 
@@ -53,7 +53,7 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines 11a4b8c6dba2bc4e5150698ac7f177de107a3272
+install_node_project pelias polylines 83eae364aa3412502ccfaddb82c40baf3e2d492d
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 

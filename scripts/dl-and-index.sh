@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # This script downloads new data and indexes it into ES
@@ -14,7 +15,7 @@
 SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir
-cd $TOOLS/schema/
+cd $TOOLS/pelias-schema/
 node scripts/create_index
 
 
@@ -70,9 +71,9 @@ echo '###### gtfs done'
 cd  $TOOLS/openaddresses
 
 # first import swedish OA docs
-bin/parallel 2 --language=sv
+node import.js --language=sv
 echo '###### openaddresses/sv done'
 
 # then import and merge fi data with sv docs
-bin/parallel 2 --language=fi --merge --merge-fields=name
+node import.js --language=fi --merge --merge-fields=name
 echo '###### openaddresses/fi done'
