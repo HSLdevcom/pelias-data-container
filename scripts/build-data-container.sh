@@ -80,7 +80,7 @@ function deploy {
     if [ "$2" = 0 ]; then
         echo "Deploying production image"
         docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
-        #docker push $ORG/$DOCKER_IMAGE:prod
+        docker push $ORG/$DOCKER_IMAGE:prod
     fi
     echo 0 >/tmp/deploy_ok
 }
