@@ -14,7 +14,7 @@ NAME=$(curl -Ss $URL | grep -o 'href=".*zip"' | sort -r | head -1 | sed 's/\(hre
 echo 'Loading nlsfi data from' $URL$NAME
 
 # Download nls paikat data
-curl -sS -O $URL$NAME
+curl -sS -O --fail $URL$NAME
 unzip -o $NAME
 rm $NAME
 
