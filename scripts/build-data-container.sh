@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # Set these environment variables
@@ -204,6 +205,11 @@ while true; do
 
     SUCCESS=0
     echo "Building new container..."
+    if [ -v SLACK_WEBHOOK_URL ]; then
+        curl -X POST -H 'Content-type: application/json' \
+             --data '{"text":"Geocoding data build started\n"}' $SLACK_WEBHOOK_URL
+    fi
+
     ( build $DOCKER_TAGGED_IMAGE 2>&1 | tee log.txt )
     read BUILD_OK </tmp/build_ok
 
@@ -243,7 +249,11 @@ while true; do
                 curl -X POST -H 'Content-type: application/json' -d@- $SLACK_WEBHOOK_URL
         fi
     else
-        echo "Build for $DOCKER_TAGGED_IMAGE finished successfully"
+        echo "Build finished successfully"
+        if [ -v SLACK_WEBHOOK_URL ]; then
+            curl -X POST -H 'Content-type: application/json' \
+                 --data '{"text":"Geocoding data build finished\n"}' $SLACK_WEBHOOK_URL
+        fi
     fi
 
     if [[ "$BUILD_INTERVAL" -le 0 ]]; then
