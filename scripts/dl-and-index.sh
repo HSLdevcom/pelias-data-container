@@ -14,7 +14,7 @@
 
 set -e
 
-SCRIPTS=${SCRIPTS:-$TOOLS/pelias-data-container/scripts}
+SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir
 cd $TOOLS/pelias-schema/
