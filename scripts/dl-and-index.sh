@@ -52,7 +52,6 @@ function import_gtfs {
     # extract feed id
     index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
     prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
-    prefix=${prefix^^}
     node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
 }
 
