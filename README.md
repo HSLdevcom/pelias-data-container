@@ -15,7 +15,7 @@ pelias-data-container-base is the base image for the running geocoding data serv
 contains all tools for loading and adding address data into the ES index.
 
 pelias-data-container-builder is the data builder application, which builds the final geocoding data container using the base image.
-It tests built containers thoroughly using hsldevcom/pelias-fuzzy-tests project and a defined regression threshold (currently 2%).
+It tests built containers thoroughly using hsldevcom/pelias-fuzzy-tests project and a defined regression threshold (currently 3%).
 If the tests pass, the new container is deployed to dockerhub.
 
 
@@ -27,7 +27,7 @@ Data builder obeys the following environment variables, which can pe passed to t
  * DOCKER_AUTH
  * ORG - optional, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
- * THRESHOLD - optional regression limit, as %, defaults to 2%
+ * THRESHOLD - optional regression limit, as %, defaults to 3%
  * PROD_DEPLOY - optional switch to prevent production deployment, default = 1 (deploys to prod)
 
 Data builder needs an access to host environment's docker service. The following example call to launch the builder container
