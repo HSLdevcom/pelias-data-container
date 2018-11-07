@@ -25,6 +25,7 @@ Data builder obeys the following environment variables, which can pe passed to t
 
  * DOCKER_USER - mandatory dockerhub credentials for image deployment
  * DOCKER_AUTH
+ * MMLAPIKEY - needed for loading nlsfi data
  * ORG - optional, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
@@ -34,7 +35,7 @@ Data builder needs an access to host environment's docker service. The following
 shows how to accomplish this:
 
 ```bash
-docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> hsldevcom/pelias-data-container-builder
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> -e MMLAPIKEY=<secret> hsldevcom/pelias-data-container-builder
 ```
 
 
@@ -45,7 +46,7 @@ Builder app can be run locally to get the data-container image:
 ```bash
 #leave dockerhub credentials unset to skip deployment
 #runs immediately and once if BUILD_INTERVAL=0
-docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 hsldevcom/pelias-data-container-builder
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 -e MMLAPIKEY=<secret> hsldevcom/pelias-data-container-builder
 ```
 
 Another alternative is to install required components locally:
@@ -54,8 +55,8 @@ Another alternative is to install required components locally:
 - WOF admin data and street polylines, both available as a part of this git project
 - Properly configured pelias.json config file
 - Install and start ElasticSearch
-- Export three env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project
-and TOOLS path to the parent dir of dataloading and schema tools
+- Export four env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project, 
+TOOLS path to the parent dir of dataloading and schema tools and MMLAPIKEY for accessing nlsfi data
 - Run the script scripts/dl-and-index.sh
 
 
