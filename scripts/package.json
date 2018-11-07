@@ -1,0 +1,14 @@
+{
+  "name": "nlsfi_nodejs_loading",
+  "description": "tools for parsing nlsfi atom feed",
+  "author": "digitransit",
+  "version": "0.0.0",
+  "dependencies": {
+    "request": "2.88.0",
+    "feedparser": "2.2.9"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "*"
+  }
+}
