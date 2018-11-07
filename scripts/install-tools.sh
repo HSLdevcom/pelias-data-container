@@ -34,11 +34,17 @@ echo 'APT::Acquire::Retries "20";' >> /etc/apt/apt.conf
 apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap
 rm -rf /var/lib/apt/lists/*
 
-mkdir -p $TOOLS
+mkdir -p $SCRIPTS
 
 curl -sL https://deb.nodesource.com/setup_4.x | bash -
 apt-get install -y --no-install-recommends nodejs
 
+cd $SCRIPTS
+
+#install npm packaged deps
+npm install
+
+#install source repo deps
 install_node_project HSLdevcom dbclient
 
 install_node_project hsldevcom pelias-schema
