@@ -8,6 +8,7 @@ set -e
 # main Docker script has already created these:
 export TOOLS=/mnt/tools
 export DATA=/mnt/data
+export SCRIPTS=$TOOLS/scripts
 
 # Launch Elasticsearch
 cd /root
@@ -16,7 +17,7 @@ gosu elasticsearch elasticsearch -d
 sleep 20
 
 # download and index
-$TOOLS/scripts/dl-and-index.sh
+$SCRIPTS/dl-and-index.sh
 
 #shutdown ES in a friendly way
 pkill -SIGTERM -u elasticsearch

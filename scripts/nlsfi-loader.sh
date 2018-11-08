@@ -3,7 +3,7 @@
 # errors should break the execution
 set -e
 
-URL=$(node $TOOLS/parse_nlsfi_url.js)
+URL=$(node $SCRIPTS/parse_nlsfi_url.js)
 
 mkdir -p $DATA/nls-places
 cd $DATA/nls-places
