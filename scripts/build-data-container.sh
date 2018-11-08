@@ -42,7 +42,7 @@ function install_node_project {
     npm link
 }
 
-apk update && apk add nodejs
+apk update && apk add nodejs && apk add nodejs-npm
 
 # Install test tools
 install_node_project HSLdevcom fuzzy-tester
