@@ -1,6 +1,8 @@
 # Dockerfile for image which runs the data loader and builds and deploys the final image
 
-FROM docker:1.11.0
+FROM docker:18.06
+
+ENV DOCKER_API_VERSION ${DOCKER_API_VERSION:-1.23}
 
 WORKDIR /mnt
 

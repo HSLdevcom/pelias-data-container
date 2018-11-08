@@ -42,7 +42,7 @@ function install_node_project {
     npm link
 }
 
-apk update && apk add nodejs
+apk update && apk add nodejs && apk add nodejs-npm
 
 # Install test tools
 install_node_project HSLdevcom fuzzy-tester
@@ -61,7 +61,7 @@ function build {
 
     DOCKER_TAGGED_IMAGE=$1
     echo "Building $DOCKER_TAGGED_IMAGE"
-    docker build --no-cache -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
+    docker build --no-cache --build-arg MMLAPIKEY -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 

@@ -38,6 +38,9 @@ shows how to accomplish this:
 docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> -e MMLAPIKEY=<secret> hsldevcom/pelias-data-container-builder
 ```
 
+Note: the builder image does not include a tool or script for relaunching the data build immediately from within the container. If an immediate build is needed,
+rerun the docker image with an environment variable BUILD_INTERVAL=0. The image then executes the build immediately and exits, after which it should be relaunched
+with normal (= run forever) settings again.
 
 ## Usage in a local system
 
