@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#vTODO: this script is outdated. Wof data has been moved and can be downloaded
+# using pelias/whosonfirst download script. Unfortunately data fetched with the
+# new tool seems to be broken. For example, localadmin mapping does not work. 
+
 # path where to find wof cloning tool
 TOOLS=../
 
