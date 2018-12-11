@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Note: a valid MMLAPIKEY env var must be set when calling this script
 # errors should break the execution
 set -e
 

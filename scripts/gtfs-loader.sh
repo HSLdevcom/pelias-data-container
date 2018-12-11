@@ -5,7 +5,7 @@ set -e
 
 # Download gtfs stop data
 
-URL="http://dev-api.digitransit.fi/routing-data/v2/"
+URL="http://api.digitransit.fi/routing-data/v2/"
 SERVICE="finland/"
 NAME="router-finland.zip"
 cd $DATA

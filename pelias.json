@@ -36,7 +36,8 @@
       "datapath": "/mnt/data/openstreetmap/",
       "leveldbpath": "/tmp",
       "import": [{
-        "filename": "finland.osm.pbf"
+        "filename": "finland.osm.pbf",
+        "importVenues": true
       }]
     },
     "openaddresses": {
