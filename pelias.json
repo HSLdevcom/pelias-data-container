@@ -26,6 +26,10 @@
 
   "imports": {
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
+    "defaultCountry": {
+      "name": "Suomi",
+      "abbr": "FIN"
+    },
     "adminLookup": {
       "enabled": true,
       "maxConcurrentReqs": 4,
