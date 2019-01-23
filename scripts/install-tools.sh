@@ -36,7 +36,7 @@ rm -rf /var/lib/apt/lists/*
 
 mkdir -p $SCRIPTS
 
-curl -sL https://deb.nodesource.com/setup_4.x | bash -
+curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get install -y --no-install-recommends nodejs
 
 cd $SCRIPTS
@@ -59,7 +59,7 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines 83eae364aa3412502ccfaddb82c40baf3e2d492d
+install_node_project pelias polylines 8c3222fd48fecfa75b6276f79fa5d354c584b336
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
