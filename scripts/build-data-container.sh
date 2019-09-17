@@ -12,6 +12,8 @@ DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
 #deploy to production by default
 PROD_DEPLOY=${PROD_DEPLOY:-1}
+#which tag is used for pushing images
+DOCKER_TAG=${DOCKER_TAG:-latest}
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
@@ -74,10 +76,11 @@ function deploy {
     docker push $DOCKER_TAGGED_IMAGE
 
     echo "Deploying development image"
-    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
-    docker push $ORG/$DOCKER_IMAGE:latest
+    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:$DOCKER_TAG
+    docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
-    if [ "$2" = 0 ]; then
+    # dont push prod tag unless we are building latest tag
+    if [ "$2" = 0 ] && ["$DOCKER_TAG" = latest]; then
         echo "Deploying production image"
         docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
         docker push $ORG/$DOCKER_IMAGE:prod
@@ -196,8 +199,8 @@ while true; do
         sleep $SLEEP
     fi
 
-    DOCKER_TAG=$(date +%s)
-    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+    BUILD_TAG=$DOCKER_TAG-$(date +%s)
+    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 
     # rotate log
     mv log.txt _log.txt

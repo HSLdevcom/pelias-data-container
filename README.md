@@ -25,6 +25,7 @@ Data builder obeys the following environment variables, which can pe passed to t
 
  * DOCKER_USER - mandatory dockerhub credentials for image deployment
  * DOCKER_AUTH
+ * DOCKER_TAG - optional, default 'latest' when pushing new image. If given, prod image will not be pushed
  * MMLAPIKEY - needed for loading nlsfi data
  * ORG - optional, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
