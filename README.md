@@ -31,6 +31,7 @@ Data builder obeys the following environment variables, which can pe passed to t
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
  * PROD_DEPLOY - optional switch to prevent production deployment, default = 1 (deploys to prod)
+ * BUILDER_TYPE - optional, changes username for slack messages, default prod
 
 Data builder needs an access to host environment's docker service. The following example call to launch the builder container
 shows how to accomplish this:
