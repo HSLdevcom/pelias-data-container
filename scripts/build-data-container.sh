@@ -12,6 +12,8 @@ DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
 #deploy to production by default
 PROD_DEPLOY=${PROD_DEPLOY:-1}
+#which tag is used for pushing images
+DOCKER_TAG=${DOCKER_TAG:-latest}
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
@@ -21,6 +23,8 @@ BUILD_INTERVAL=${BUILD_INTERVAL:-1}
 BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
 #start build at this time (GMT):
 BUILD_TIME=${BUILD_TIME:-23:00:00}
+#for slackhook to differentiate builds
+BUILDER_TYPE=${BUILDER_TYPE:-prod}
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -74,10 +78,11 @@ function deploy {
     docker push $DOCKER_TAGGED_IMAGE
 
     echo "Deploying development image"
-    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:latest
-    docker push $ORG/$DOCKER_IMAGE:latest
+    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:$DOCKER_TAG
+    docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
-    if [ "$2" = 0 ]; then
+    # dont push prod tag unless we are building latest tag
+    if [ "$2" = 0 ] && ["$DOCKER_TAG" = latest]; then
         echo "Deploying production image"
         docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
         docker push $ORG/$DOCKER_IMAGE:prod
@@ -196,8 +201,8 @@ while true; do
         sleep $SLEEP
     fi
 
-    DOCKER_TAG=$(date +%s)
-    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+    BUILD_TAG=$DOCKER_TAG-$(date +%s)
+    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 
     # rotate log
     mv log.txt _log.txt
@@ -206,7 +211,7 @@ while true; do
     echo "Building new container..."
     if [ -v SLACK_WEBHOOK_URL ]; then
         curl -X POST -H 'Content-type: application/json' \
-             --data '{"text":"Geocoding data build started\n"}' $SLACK_WEBHOOK_URL
+             --data '{"username":"Pelias data builder '$BUILDER_TYPE'","text":"Geocoding data build started\n"}' $SLACK_WEBHOOK_URL
     fi
 
     ( build $DOCKER_TAGGED_IMAGE 2>&1 | tee log.txt )
@@ -244,14 +249,14 @@ while true; do
         echo "ERROR: Build failed"
         if [ -v SLACK_WEBHOOK_URL ]; then
             #extract log end which most likely contains info about failure
-            { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{text: .}' | \
+            { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{"username":"Pelias data builder '$BUILDER_TYPE'",text: .}' | \
                 curl -X POST -H 'Content-type: application/json' -d@- $SLACK_WEBHOOK_URL
         fi
     else
         echo "Build finished successfully"
         if [ -v SLACK_WEBHOOK_URL ]; then
             curl -X POST -H 'Content-type: application/json' \
-                 --data '{"text":"Geocoding data build finished\n"}' $SLACK_WEBHOOK_URL
+                 --data '{"username":"Pelias data builder '$BUILDER_TYPE'","text":"Geocoding data build finished\n"}' $SLACK_WEBHOOK_URL
         fi
     fi
 
