@@ -128,7 +128,7 @@ function test_container {
             cd $WORKDIR/pelias-fuzzy-tests
 
             # run tests with a given  % regression threshold
-            ./run_tests.sh local $THRESHOLD
+            SILENT_TEST_LOG=1 ./run_tests.sh local $THRESHOLD
             DEV_OK=$?
 
             if [ $DEV_OK -ne 0 ]; then
