@@ -82,7 +82,7 @@ function deploy {
     docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
     # dont push prod tag unless we are building latest tag
-    if [ "$2" = 0 ] && ["$DOCKER_TAG" = latest]; then
+    if [ "$2" = 0 ] && [ "$DOCKER_TAG" = latest ]; then
         echo "Deploying production image"
         docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
         docker push $ORG/$DOCKER_IMAGE:prod
