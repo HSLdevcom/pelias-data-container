@@ -6,6 +6,8 @@ set -e
 mkdir -p $DATA/openstreetmap
 cd $DATA/openstreetmap
 
+echo 'Loading OSM data...'
+
 # Download osm data
 curl -sS -O -L --fail https://karttapalvelu.storage.hsldev.com/finland.osm/finland.osm.pbf
 

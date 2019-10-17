@@ -5,6 +5,8 @@ set -e
 
 # Download gtfs stop data
 
+echo 'Loading GTFS data from api.digitransit.fi...'
+
 URL="http://api.digitransit.fi/routing-data/v2/"
 SERVICE="finland/"
 NAME="router-finland.zip"
