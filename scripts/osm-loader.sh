@@ -5,6 +5,8 @@ set -e
 mkdir -p $DATA/openstreetmap
 cd $DATA/openstreetmap
 
+echo 'Loading OSM data...'
+
 # allow failures so that curl can be retried many times
 set +e
 for i in $(seq 0 10)
@@ -20,5 +22,3 @@ done
 
 # exit with an error
 exit 1
-
-

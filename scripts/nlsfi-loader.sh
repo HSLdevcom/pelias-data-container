@@ -3,6 +3,7 @@
 # errors should break the execution
 set -e
 
+echo 'Extracting nlsfi data address...'
 NAME=paikat.zip
 URL=$(node $SCRIPTS/parse_nlsfi_url.js)
 
@@ -10,7 +11,7 @@ mkdir -p $DATA/nls-places
 cd $DATA/nls-places
 
 # Download nls paikat data
-echo 'Loading nlsfi data'
+echo 'Loading nlsfi data...'
 
 wget -O $NAME $URL
 unzip -o $NAME
