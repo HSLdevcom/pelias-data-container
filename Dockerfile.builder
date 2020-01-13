@@ -2,8 +2,6 @@
 
 FROM docker:18.06
 
-ENV DOCKER_API_VERSION ${DOCKER_API_VERSION:-1.23}
-
 WORKDIR /mnt
 
 ADD Dockerfile.loader ${WORKDIR}

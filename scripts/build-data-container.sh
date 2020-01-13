@@ -262,6 +262,10 @@ while true; do
 
     if [[ "$BUILD_INTERVAL" -le 0 ]]; then
         #run only once
-        exit 0
+        if [ $SUCCESS = 1 ]; then
+            exit 0
+        else
+            exit 1
+        fi
     fi
 done
