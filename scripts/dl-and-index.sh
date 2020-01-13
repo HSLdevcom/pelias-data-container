@@ -79,4 +79,10 @@ echo '###### openaddresses/sv done'
 node import.js --language=fi --merge --merge-fields=name
 echo '###### openaddresses/fi done'
 
-rm -rf $DATA/*
+#cleanup
+rm -rf $DATA/openaddresses
+rm -rf $DATA/openstreetmap
+rm -rf $DATA/nls-places
+rm -rf $DATA/router-waltti
+rm -rf $DATA/router-finland
+
