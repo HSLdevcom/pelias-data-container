@@ -78,3 +78,11 @@ echo '###### openaddresses/sv done'
 # then import and merge fi data with sv docs
 node import.js --language=fi --merge --merge-fields=name
 echo '###### openaddresses/fi done'
+
+#cleanup
+rm -rf $DATA/openaddresses
+rm -rf $DATA/openstreetmap
+rm -rf $DATA/nls-places
+rm -rf $DATA/router-waltti
+rm -rf $DATA/router-finland
+
