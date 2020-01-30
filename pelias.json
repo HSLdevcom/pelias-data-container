@@ -1,6 +1,6 @@
 {
   "esclient": {
-    "apiVersion": "2.4",
+    "apiVersion": "6.8",
     "keepAlive": true,
     "requestTimeout": "20000",
     "hosts": [
@@ -16,6 +16,15 @@
       "level": [ "error", "warning" ]
     }]
   },
+  "elasticsearch": {
+    "settings": {
+      "index": {
+        "number_of_replicas": "0",
+        "number_of_shards": "1",
+        "refresh_interval": "1m"
+      }
+    }
+   },
   "logger": {
     "level": "info",
     "suspectFile": false
