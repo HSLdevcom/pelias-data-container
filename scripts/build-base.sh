@@ -8,18 +8,30 @@
 set -e
 
 ORG=${ORG:-hsldevcom}
-DOCKER_IMAGE=pelias-data-container-base
-BUILD_TAG=$TRAVIS_BUILD_ID
-DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
+DOCKER_TAG=${TRAVIS_COMMIT:-latest}
+DOCKER_IMAGE=$ORG/pelias-data-container-base
+DOCKER_IMAGE_COMMIT=$DOCKER_IMAGE:$DOCKER_TAG
+DOCKER_IMAGE_LATEST=$DOCKER_IMAGE:latest
+DOCKER_IMAGE_PROD=$DOCKER_IMAGE:prod
 
-# Build image
-docker build -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.base .
-
-if [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
-    docker login -u $DOCKER_USER -p $DOCKER_AUTH
-    docker push $ORG/$DOCKER_IMAGE:$BUILD_TAG
-    docker tag $ORG/$DOCKER_IMAGE:$BUILD_TAG $ORG/$DOCKER_IMAGE:latest
-    docker push $ORG/$DOCKER_IMAGE:latest
+if [ -z $TRAVIS_TAG ]; then
+  # Build image
+  docker build --tag="$DOCKER_IMAGE_COMMIT" -f Dockerfile.base .
 fi
 
-echo "$DOCKER_IMAGE built and deployed"
+if [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
+  docker login -u $DOCKER_USER -p $DOCKER_AUTH
+  if [ "$TRAVIS_TAG" ];then
+    echo "processing release $TRAVIS_TAG"
+    docker pull $DOCKER_IMAGE_COMMIT
+    docker tag $DOCKER_IMAGE_COMMIT $DOCKER_IMAGE_PROD
+    docker push $DOCKER_IMAGE_PROD
+  else
+    echo "Pushing latest image"
+    docker push $DOCKER_IMAGE_COMMIT
+    docker tag $DOCKER_IMAGE_COMMIT $DOCKER_IMAGE_LATEST
+    docker push $DOCKER_IMAGE_LATEST
+  fi
+fi
+
+echo Build completed
