@@ -10,10 +10,18 @@ set -e
 ORG=${ORG:-hsldevcom}
 DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
-#deploy to production by default
-PROD_DEPLOY=${PROD_DEPLOY:-1}
+
+BUILDER_TYPE=${BUILDER_TYPE:-dev}
+
 #which tag is used for pushing images
-DOCKER_TAG=${DOCKER_TAG:-latest}
+if  [ "$BUILDER_TYPE" = prod ]; then
+    DOCKER_TAG=prod
+else
+    DOCKER_TAG=latest
+fi
+
+API_IMAGE=$ORG/pelias-api:$DOCKER_TAG
+DATA_CONTAINER_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
@@ -23,8 +31,6 @@ BUILD_INTERVAL=${BUILD_INTERVAL:-1}
 BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
 #start build at this time (GMT):
 BUILD_TIME=${BUILD_TIME:-23:00:00}
-#for slackhook to differentiate builds
-BUILDER_TYPE=${BUILDER_TYPE:-prod}
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -61,51 +67,42 @@ function build {
     set -e
     echo 1 >/tmp/build_ok
     #make sure latest base  image is used
-    docker pull $ORG/pelias-data-container-base:latest
+    docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
 
-    DOCKER_TAGGED_IMAGE=$1
-    echo "Building $DOCKER_TAGGED_IMAGE"
-    docker build --no-cache --build-arg MMLAPIKEY -t="$DOCKER_TAGGED_IMAGE" -f Dockerfile.loader .
+    BUILD_IMAGE=$1
+    echo "Building $BUILD_IMAGE"
+    docker build --no-cache --build-arg MMLAPIKEY --build-arg DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 
-# if $2 != 0 don't deploy to prod
 function deploy {
     set -e
     echo 1 >/tmp/deploy_ok
-    DOCKER_TAGGED_IMAGE=$1
+    BUILD_IMAGE=$1
     docker login -u $DOCKER_USER -p $DOCKER_AUTH
-    docker push $DOCKER_TAGGED_IMAGE
+    docker push $BUILD_IMAGE
 
-    echo "Deploying development image"
-    docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:$DOCKER_TAG
-    docker push $ORG/$DOCKER_IMAGE:$DOCKER_TAG
+    echo "Deploying image"
+    docker tag $BUILD_IMAGE $DATA_CONTAINER_IMAGE
+    docker push $DATA_CONTAINER_IMAGE
 
-    # dont push prod tag unless we are building latest tag
-    if [ "$2" = 0 ] && [ "$DOCKER_TAG" = latest ]; then
-        echo "Deploying production image"
-        docker tag $DOCKER_TAGGED_IMAGE $ORG/$DOCKER_IMAGE:prod
-        docker push $ORG/$DOCKER_IMAGE:prod
-    fi
     echo 0 >/tmp/deploy_ok
 }
-
 
 function test_container {
     set -e
 
     #assume failure until success is realized.
-    DEV_OK=1
-    echo 1 >/tmp/dev_ok
-    echo 1 >/tmp/prod_ok
+    TESTS_PASSED=1
+    echo 1 >/tmp/tests_passed
 
-    DOCKER_TAGGED_IMAGE=$1
-    echo -e "\n##### Testing $DOCKER_TAGGED_IMAGE #####\n"
+    BUILD_IMAGE=$1
+    echo -e "\n##### Testing $BUILD_IMAGE #####\n"
 
-    docker run --name pelias-data-container --rm $DOCKER_TAGGED_IMAGE &
-    docker pull $ORG/pelias-api:latest
+    docker run --name pelias-data-container --rm $BUILD_IMAGE &
+    docker pull $API_IMAGE
     sleep 30
-    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:latest &
+    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $API_IMAGE &
     sleep 30
 
     MAX_WAIT=3
@@ -124,18 +121,18 @@ function test_container {
         STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
 
         if [ $STATUS_CODE = 200 ]; then
-            echo "Development API started"
+            echo "Pelias API started"
             cd $WORKDIR/pelias-fuzzy-tests
 
             # run tests with a given  % regression threshold
             SILENT_TEST_LOG=1 ./run_tests.sh local $THRESHOLD
-            DEV_OK=$?
+            TESTS_PASSED=$?
 
-            if [ $DEV_OK -ne 0 ]; then
+            if [ $TESTS_PASSED -ne 0 ]; then
                 echo -e "\nERROR: Fuzzy tests did not pass"
             else
                 echo -e "\nFuzzy tests passed\n"
-                echo 0 >/tmp/dev_ok #success!
+                echo 0 >/tmp/tests_passed #success!
             fi
             break
         else
@@ -144,42 +141,11 @@ function test_container {
         fi
     done
 
-    if [ $DEV_OK = 0 ] && [ $PROD_DEPLOY = 1 ] ; then
-        # quick check for prod compatibility
-        echo "Shutting down api dev version ..."
-        docker stop pelias-api
-
-        echo "Launching api prod version ..."
-        docker pull $ORG/pelias-api:prod
-        docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $ORG/pelias-api:prod &
-        sleep 10
-
-        for (( c=1; c<=$ITERATIONS; c++ ));do
-            STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1)
-
-            if [ $STATUS_CODE = 200 ]; then
-                echo "Production API started"
-                STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" http://$HOST:8080/v1/search?text=Opastinsilta)
-
-                if [ $STATUS_CODE = 200 ]; then
-                    echo -e "\nProduction API test passed\n"
-                    echo 0 >/tmp/prod_ok #success!
-                else
-                    echo "WARN: data container is not compatible with production api"
-                fi
-                break
-            else
-                echo "waiting for service ..."
-                sleep 10
-            fi
-        done
-    fi
-
     echo "Shutting down the test services..."
     docker stop pelias-api
     docker stop pelias-data-container
 
-    return $DEV_OK
+    return $TESTS_PASSED
 }
 
 echo "Launching geocoding data builder service" | tee log.txt
@@ -202,7 +168,7 @@ while true; do
     fi
 
     BUILD_TAG=$DOCKER_TAG-$(date +%s)
-    DOCKER_TAGGED_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
+    BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 
     # rotate log
     mv log.txt _log.txt
@@ -214,21 +180,20 @@ while true; do
              --data '{"username":"Pelias data builder '$BUILDER_TYPE'","text":"Geocoding data build started\n"}' $SLACK_WEBHOOK_URL
     fi
 
-    ( build $DOCKER_TAGGED_IMAGE 2>&1 | tee log.txt )
+    ( build $BUILD_IMAGE 2>&1 | tee log.txt )
     read BUILD_OK </tmp/build_ok
 
     if [ $BUILD_OK = 0 ]; then
         echo "New container built. Testing next... "
-        ( test_container $DOCKER_TAGGED_IMAGE 2>&1 | tee -a log.txt )
-        read DEV_OK </tmp/dev_ok #get dev test return val
+        ( test_container $BUILD_IMAGE 2>&1 | tee -a log.txt )
+        read TESTS_PASSED </tmp/tests_passed #get test return val
 
-        if [ $DEV_OK = 0 ]; then
+        if [ $TESTS_PASSED = 0 ]; then
             echo "Container passed tests"
             if [[ -v DOCKER_USER && -v DOCKER_AUTH ]]; then
                 echo "Deploying ..."
 
-                read PROD_OK </tmp/prod_ok #get prod test return val
-                ( deploy $DOCKER_TAGGED_IMAGE $PROD_OK 2>&1 | tee -a log.txt )
+                ( deploy $BUILD_IMAGE 2>&1 | tee -a log.txt )
                 read DEPLOY_OK </tmp/deploy_ok
 
                 if [ $DEPLOY_OK = 0 ]; then
