@@ -1,4 +1,5 @@
-FROM hsldevcom/pelias-data-container-base
+ARG DOCKER_TAG=latest
+FROM hsldevcom/pelias-data-container-base:$DOCKER_TAG
 
 ARG MMLAPIKEY
 
