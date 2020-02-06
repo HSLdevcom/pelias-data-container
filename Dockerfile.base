@@ -1,6 +1,6 @@
 # Dockerfile which provides the search engine with data indexing tools
 
-FROM elasticsearch:7.5.2
+FROM bitnami/elasticsearch:7.5.2
 MAINTAINER Reittiopas version: 0.1
 
 # Finalize elasticsearch installation
