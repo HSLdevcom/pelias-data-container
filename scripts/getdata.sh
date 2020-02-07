@@ -13,12 +13,13 @@ export SCRIPTS=$TOOLS/scripts
 # Launch Elasticsearch
 cd /root
 
-gosu elasticsearch elasticsearch -d
+service elasticsearch start
 sleep 20
 
 # download and index
 $SCRIPTS/dl-and-index.sh
 
 #shutdown ES in a friendly way
-pkill -SIGTERM -u elasticsearch
+service elasticsearch stop
+
 sleep 3
