@@ -10,8 +10,9 @@ RUN /bin/bash -c "source /mnt/tools/scripts/install-tools.sh"
 RUN curl -sS -O -L --fail https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.2-amd64.deb \
  && curl -sS -O -L --fail https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-7.5.2-amd64.deb.sha512 \
  && shasum -a 512 -c elasticsearch-7.5.2-amd64.deb.sha512 \
- && dpkg -i elasticsearch-7.5.2-amd64.deb
- && rm elasticsearch-7.5.2-amd64.deb
+ && dpkg -i elasticsearch-7.5.2-amd64.deb \
+ && rm elasticsearch-7.5.2-amd64.deb \
+ && rm elasticsearch-7.5.2-amd64.deb.sha512
 
 # Finalize elasticsearch installation
 ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
