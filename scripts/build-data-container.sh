@@ -67,7 +67,7 @@ function build {
     set -e
     echo 1 >/tmp/build_ok
     #make sure latest base  image is used
-    docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
+    #docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
@@ -106,7 +106,7 @@ function test_container {
     sleep 30
 
     MAX_WAIT=3
-    ITERATIONS=$(($MAX_WAIT * 6))
+    ITERATIONS=$(($MAX_WAIT * 3))
     echo "Waiting service for max $MAX_WAIT minutes..."
 
     set +e
@@ -137,7 +137,7 @@ function test_container {
             break
         else
             echo "waiting for service ..."
-            sleep 10
+            sleep 20
         fi
     done
 
