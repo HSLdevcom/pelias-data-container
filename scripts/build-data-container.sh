@@ -105,7 +105,7 @@ function test_container {
     docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $API_IMAGE &
     sleep 30
 
-    MAX_WAIT=3
+    MAX_WAIT=2
     ITERATIONS=$(($MAX_WAIT * 3))
     echo "Waiting service for max $MAX_WAIT minutes..."
 
