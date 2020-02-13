@@ -15,7 +15,7 @@ RUN curl -sS -O -L --fail https://artifacts.elastic.co/downloads/elasticsearch/e
  && rm elasticsearch-7.5.2-amd64.deb.sha512
 
 # Finalize elasticsearch installation
-ADD config/elasticsearch.yml /usr/share/elasticsearch/config/
+ADD config/elasticsearch.yml /etc/elasticsearch/
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
