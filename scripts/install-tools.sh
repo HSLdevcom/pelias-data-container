@@ -59,7 +59,7 @@ install_node_project HSLdevcom openaddresses
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project pelias polylines 8c3222fd48fecfa75b6276f79fa5d354c584b336
+install_node_project pelias polylines
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
