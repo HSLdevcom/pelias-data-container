@@ -8,5 +8,7 @@ MAINTAINER Reittiopas version: 0.1
 
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
-ENTRYPOINT ["service elasticsearch && sleep 10000d"]
+EXPOSE 9200
+EXPOSE 9300
 
+CMD /etc/init.d/elasticsearch start && sleep 10000d
