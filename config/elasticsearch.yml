@@ -1,5 +1,4 @@
-discovery.zen.ping.multicast.enabled: false
-
 network.host: 0.0.0.0
-
+path.logs: /var/log/elasticsearch
 path.data: /var/lib/elasticsearch/pelias_data
+discovery.type: single-node
