@@ -14,7 +14,7 @@ export SCRIPTS=$TOOLS/scripts
 cd /root
 
 service elasticsearch start
-sleep 20
+sleep 60
 
 # download and index
 $SCRIPTS/dl-and-index.sh
@@ -22,4 +22,4 @@ $SCRIPTS/dl-and-index.sh
 #shutdown ES in a friendly way
 service elasticsearch stop
 
-sleep 3
+sleep 5
