@@ -67,7 +67,7 @@ function build {
     set -e
     echo 1 >/tmp/build_ok
     #make sure latest base  image is used
-    #docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
+    docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
