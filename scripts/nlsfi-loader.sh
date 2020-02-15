@@ -13,7 +13,7 @@ cd $DATA/nls-places
 # Download nls paikat data
 echo 'Loading nlsfi data...'
 
-wget -O $NAME $URL
+curl -sS -o $NAME -L --fail $URL
 unzip -o $NAME
 rm $NAME
 
