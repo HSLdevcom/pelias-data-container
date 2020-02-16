@@ -35,32 +35,6 @@ BUILD_TIME=${BUILD_TIME:-23:00:00}
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
 
-# param1: organization name
-# param2: git project name
-# param3: optional git commit id
-# note: changes cd to new project dir
-function install_node_project {
-    cd $WORKDIR
-    git clone --single-branch https://github.com/$1/$2
-    cd $2
-    if [ -n "$3" ]; then
-        git checkout $3
-    fi
-    npm install
-
-    #make the package locally available
-    npm link
-}
-
-apk update && apk add nodejs && apk add nodejs-npm
-
-# Install test tools
-install_node_project HSLdevcom fuzzy-tester
-install_node_project HSLdevcom pelias-fuzzy-tests
-npm link pelias-fuzzy-tester
-
-cd $WORKDIR
-
 set +e
 
 function build {
