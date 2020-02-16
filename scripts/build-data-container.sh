@@ -24,7 +24,7 @@ API_IMAGE=$ORG/pelias-api:$DOCKER_TAG
 DATA_CONTAINER_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
-THRESHOLD=${THRESHOLD:-10}
+THRESHOLD=${THRESHOLD:-20}
 #how often data is built (default once a day)
 BUILD_INTERVAL=${BUILD_INTERVAL:-1}
 #Substract one day, because first wait hours are computed before each build
