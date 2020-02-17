@@ -73,10 +73,12 @@ function test_container {
     BUILD_IMAGE=$1
     echo -e "\n##### Testing $BUILD_IMAGE #####\n"
 
-    docker run --name pelias-data-container --rm $BUILD_IMAGE &
+    DATACONT=pelias-test-data-container
+    API=pelias-test-api
+    docker run --name $DATACONT --rm $BUILD_IMAGE &
     docker pull $API_IMAGE
     sleep 60
-    docker run --name pelias-api -p 3100:8080 --link pelias-data-container:pelias-data-container --rm $API_IMAGE &
+    docker run --name $API -p 3100:8080 --link $DATACONT:pelias-data-container --rm $API_IMAGE &
     sleep 60
 
     MAX_WAIT=2
@@ -86,7 +88,7 @@ function test_container {
     set +e
 
     #find api's current IP
-    HOST=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' pelias-api)
+    HOST=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' $API)
     ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
     sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
@@ -116,8 +118,8 @@ function test_container {
     done
 
     echo "Shutting down the test services..."
-    docker stop pelias-api
-    docker stop pelias-data-container
+    docker stop $API
+    docker stop $DATACONT
 
     return $TESTS_PASSED
 }
