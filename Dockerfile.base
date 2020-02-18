@@ -23,12 +23,7 @@ RUN mkdir -p /var/lib/elasticsearch/pelias_data \
 
 # Copy pelias config file
 ADD pelias.json /root/pelias.json
-
 RUN mkdir -p /mnt/data
-ADD finland.polylines /mnt/data/finland.polylines
-
-RUN mkdir -p /mnt/data/whosonfirst
-ADD wof_data /mnt/data/whosonfirst/wof_data
 
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/

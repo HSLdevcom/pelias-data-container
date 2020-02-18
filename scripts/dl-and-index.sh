@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # This script downloads new data and indexes it into ES
@@ -44,6 +43,12 @@ echo '###### polylines done'
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
 
+cd $TOOLS
+git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
+mv tpdc/wof_data $DATA/
+mv tpdc/polylines $DATA/
+rm -rf tpdc
+
 # param1: zip name containing gtfs data
 # param2: import folder name
 function import_gtfs {
@@ -85,4 +90,5 @@ rm -rf $DATA/openstreetmap
 rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
 rm -rf $DATA/router-finland
-
+rm -rf $DATA/wof_data
+rm $DATA/polylines

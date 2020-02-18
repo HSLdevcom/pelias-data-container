@@ -64,7 +64,7 @@
       ]
     },
     "whosonfirst": {
-      "datapath": "/mnt/data/whosonfirst/wof_data"
+      "datapath": "/mnt/data/wof_data"
     },
     "wofPipNames": {
       "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred"],
