@@ -110,7 +110,6 @@ function test_container {
                 echo -e "\nERROR: Fuzzy tests did not pass"
             else
                 echo -e "\nFuzzy tests passed\n"
-                echo 0 >/tmp/tests_passed #success!
             fi
             break
         else
@@ -118,6 +117,18 @@ function test_container {
             sleep 20
         fi
     done
+
+    if [ $TESTS_PASSED = 0 ]; then
+        echo "Test reverse geocoding"
+        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
+        if [ $STATUS_CODE = 200 ]; then
+            echo 0 >/tmp/tests_passed #success!
+            echo "Reverse geocoding OK"
+        else
+            TESTS_PASSED=1
+            echo "Reverse geocoding failed"
+        fi
+    fi
 
     echo "Shutting down the test services..."
     docker stop $API
