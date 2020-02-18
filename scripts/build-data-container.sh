@@ -73,8 +73,8 @@ function test_container {
     BUILD_IMAGE=$1
     echo -e "\n##### Testing $BUILD_IMAGE #####\n"
 
-    DATACONT=pelias-test-data-container
-    API=pelias-test-api
+    DATACONT=pelias-test-"$BUILDER_TYPE"-data-container
+    API=pelias-test-"$BUILDER_TYPE"-api
     docker run --name $DATACONT --rm $BUILD_IMAGE &
     docker pull $API_IMAGE
     sleep 60
