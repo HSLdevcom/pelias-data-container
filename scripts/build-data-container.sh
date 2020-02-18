@@ -22,6 +22,7 @@ fi
 
 API_IMAGE=$ORG/pelias-api:$DOCKER_TAG
 DATA_CONTAINER_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+BASE_IMAGE=$ORG/pelias-data-container-base:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-20}
@@ -41,7 +42,7 @@ function build {
     set -e
     echo 1 >/tmp/build_ok
     #make sure latest base  image is used
-    docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
+    docker pull $BASE_IMAGE
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
@@ -60,6 +61,7 @@ function deploy {
     docker tag $BUILD_IMAGE $DATA_CONTAINER_IMAGE
     docker push $DATA_CONTAINER_IMAGE
 
+    docker rmi $DATA_CONTAINER_IMAGE
     echo 0 >/tmp/deploy_ok
 }
 
@@ -120,7 +122,7 @@ function test_container {
     echo "Shutting down the test services..."
     docker stop $API
     docker stop $DATACONT
-
+    docker rmi $API_IMAGE
     return $TESTS_PASSED
 }
 
@@ -185,6 +187,9 @@ while true; do
             echo "Test failed"
         fi
     fi
+
+    docker rmi $BUILD_IMAGE
+    docker rmi $BASE_IMAGE
 
     if [ $SUCCESS = 0 ]; then
         echo "ERROR: Build failed"
