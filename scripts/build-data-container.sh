@@ -22,6 +22,7 @@ fi
 
 API_IMAGE=$ORG/pelias-api:$DOCKER_TAG
 DATA_CONTAINER_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+BASE_IMAGE=$ORG/pelias-data-container-base:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-20}
@@ -41,7 +42,7 @@ function build {
     set -e
     echo 1 >/tmp/build_ok
     #make sure latest base  image is used
-    docker pull $ORG/pelias-data-container-base:$DOCKER_TAG
+    docker pull $BASE_IMAGE
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
@@ -60,6 +61,7 @@ function deploy {
     docker tag $BUILD_IMAGE $DATA_CONTAINER_IMAGE
     docker push $DATA_CONTAINER_IMAGE
 
+    docker rmi $DATA_CONTAINER_IMAGE
     echo 0 >/tmp/deploy_ok
 }
 
@@ -73,8 +75,8 @@ function test_container {
     BUILD_IMAGE=$1
     echo -e "\n##### Testing $BUILD_IMAGE #####\n"
 
-    DATACONT=pelias-test-data-container
-    API=pelias-test-api
+    DATACONT=pelias-test-"$BUILDER_TYPE"-data-container
+    API=pelias-test-"$BUILDER_TYPE"-api
     docker run --name $DATACONT --rm $BUILD_IMAGE &
     docker pull $API_IMAGE
     sleep 60
@@ -108,7 +110,6 @@ function test_container {
                 echo -e "\nERROR: Fuzzy tests did not pass"
             else
                 echo -e "\nFuzzy tests passed\n"
-                echo 0 >/tmp/tests_passed #success!
             fi
             break
         else
@@ -117,10 +118,22 @@ function test_container {
         fi
     done
 
+    if [ $TESTS_PASSED = 0 ]; then
+        echo "Test reverse geocoding"
+        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
+        if [ $STATUS_CODE = 200 ]; then
+            echo 0 >/tmp/tests_passed #success!
+            echo "Reverse geocoding OK"
+        else
+            TESTS_PASSED=1
+            echo "Reverse geocoding failed"
+        fi
+    fi
+
     echo "Shutting down the test services..."
     docker stop $API
     docker stop $DATACONT
-
+    docker rmi $API_IMAGE
     return $TESTS_PASSED
 }
 
@@ -185,6 +198,9 @@ while true; do
             echo "Test failed"
         fi
     fi
+
+    docker rmi $BUILD_IMAGE
+    docker rmi $BASE_IMAGE
 
     if [ $SUCCESS = 0 ]; then
         echo "ERROR: Build failed"
