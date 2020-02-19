@@ -29,6 +29,11 @@ $SCRIPTS/osm-loader.sh
 $SCRIPTS/nlsfi-loader.sh
 $SCRIPTS/gtfs-loader.sh
 
+cd $TOOLS
+git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
+mv tpdc/wof_data $DATA/
+mv tpdc/finland.polylines $DATA/
+rm -rf tpdc
 
 #=================
 # Index everything
@@ -43,11 +48,6 @@ echo '###### polylines done'
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
 
-cd $TOOLS
-git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
-mv tpdc/wof_data $DATA/
-mv tpdc/polylines $DATA/
-rm -rf tpdc
 
 # param1: zip name containing gtfs data
 # param2: import folder name
@@ -91,4 +91,4 @@ rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
 rm -rf $DATA/router-finland
 rm -rf $DATA/wof_data
-rm $DATA/polylines
+rm $DATA/finland.polylines
