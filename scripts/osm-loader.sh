@@ -6,6 +6,7 @@ mkdir -p $DATA/openstreetmap
 cd $DATA/openstreetmap
 
 echo 'Loading OSM data...'
+curl -sS -O -L --fail  https://geocoding.blob.core.windows.net/vrk/hsl_geocode_appendix.osm.pbf
 
 # allow failures so that curl can be retried many times
 set +e

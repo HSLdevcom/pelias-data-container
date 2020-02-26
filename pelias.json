@@ -48,10 +48,16 @@
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
       "leveldbpath": "/tmp",
-      "import": [{
-        "filename": "finland.osm.pbf",
-        "importVenues": true
-      }]
+      "import": [
+        {
+          "filename": "finland.osm.pbf",
+          "importVenues": true
+        },
+        {
+          "filename": "hsl_geocode_appendix.osm.pbf",
+          "importVenues": true
+        }
+      ]
     },
     "openaddresses": {
       "datapath": "/mnt/data/openaddresses/",
