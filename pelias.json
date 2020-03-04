@@ -63,12 +63,6 @@
       "datapath": "/mnt/data/openaddresses/",
       "adminLayers": ["localadmin", "locality", "neighbourhood", "region"]
     },
-    "polyline": {
-      "datapath": "/mnt/data/",
-      "files": [
-        "finland.polylines"
-      ]
-    },
     "whosonfirst": {
       "datapath": "/mnt/data/wof_data"
     },
