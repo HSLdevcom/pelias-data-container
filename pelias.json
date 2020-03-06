@@ -74,5 +74,23 @@
   },
   "schema": {
     "indexName": "pelias"
+  },
+  "api" : {
+    "languages": [
+      "fi",
+      "default",
+      "sv",
+      "en",
+      "se",
+      "local",
+      "alternative",
+      "international",
+      "national",
+      "official",
+      "old",
+      "regional",
+      "short",
+      "sorting"
+    ]
   }
 }
