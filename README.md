@@ -1,4 +1,4 @@
-'# pelias-data-container
+# pelias-data-container
 
 [![Build](https://api.travis-ci.org/HSLdevcom/pelias-data-container.svg?branch=master)](https://travis-ci.org/HSLdevcom/pelias-data-container)
 
