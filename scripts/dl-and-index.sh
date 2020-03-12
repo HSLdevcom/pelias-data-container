@@ -7,7 +7,7 @@
 #   DATA - data dir path.
 #   SCRIPTS - path to pelias-data-container scripts
 # Also, a valid pelias.json configuration must be present. It's data paths must match the DATA env variable.
-# Note: WOF admin data  must be preloaded and its path defined in pelias.json
+# Note: WOF admin data and street polylines must be preloaded and their paths defined in pelias.json
 
 # errors should break the execution
 
@@ -16,23 +16,24 @@ set -e
 export SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 
 #schema script runs only from current dir
-cd $TOOLS/pelias-schema/
-node scripts/create_index
+#cd $TOOLS/pelias-schema/
+#node scripts/create_index
 
 
 #==============
 # Download data
 #==============
 
-$SCRIPTS/oa-loader.sh
+#$SCRIPTS/oa-loader.sh
 $SCRIPTS/osm-loader.sh
-$SCRIPTS/nlsfi-loader.sh
-$SCRIPTS/gtfs-loader.sh
+#$SCRIPTS/nlsfi-loader.sh
+#$SCRIPTS/gtfs-loader.sh
 
 cd $TOOLS
-git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
-mv tpdc/wof_data $DATA/
-rm -rf tpdc
+#git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
+#mv tpdc/wof_data $DATA/
+#mv tpdc/finland.polylines $DATA/
+#rm -rf tpdc
 
 #=================
 # Index everything
@@ -81,9 +82,10 @@ node import.js --language=fi --merge --merge-fields=name
 echo '###### openaddresses/fi done'
 
 #cleanup
-rm -rf $DATA/openaddresses
-rm -rf $DATA/openstreetmap
-rm -rf $DATA/nls-places
-rm -rf $DATA/router-waltti
-rm -rf $DATA/router-finland
-rm -rf $DATA/wof_data
+#rm -rf $DATA/openaddresses
+#rm -rf $DATA/openstreetmap
+#rm -rf $DATA/nls-places
+#rm -rf $DATA/router-waltti
+#rm -rf $DATA/router-finland
+#rm -rf $DATA/wof_data
+#rm $DATA/finland.polylines
