@@ -133,7 +133,7 @@ function test_container {
     echo "Shutting down the test services..."
     docker stop $API
     docker stop $DATACONT
-    docker rmi $API_IMAGE
+    docker rmi $API_IMAGE > /dev/null 2>&1
     return $TESTS_PASSED
 }
 
