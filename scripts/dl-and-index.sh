@@ -24,7 +24,7 @@ node scripts/create_index
 # Download data
 #==============
 
-$SCRIPTS/oa-loader.sh
+$SCRIPTS/vrk-loader.sh
 $SCRIPTS/osm-loader.sh
 $SCRIPTS/nlsfi-loader.sh
 $SCRIPTS/gtfs-loader.sh
@@ -43,7 +43,6 @@ echo '###### nlsfi places done'
 
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
-
 
 # param1: zip name containing gtfs data
 # param2: import folder name
@@ -69,19 +68,14 @@ import_router router-finland
 import_router router-waltti
 echo '###### gtfs done'
 
-#import openaddresses data
-cd  $TOOLS/openaddresses
+#import vrk address data
+cd  $TOOLS/pelias-vrk
 
-# first import swedish OA docs
-node import.js --language=sv
-echo '###### openaddresses/sv done'
-
-# then import and merge fi data with sv docs
-node import.js --language=fi --merge --merge-fields=name
-echo '###### openaddresses/fi done'
+node import.js $DATA/vrk/vrk.txt
+echo '###### VRK done'
 
 #cleanup
-rm -rf $DATA/openaddresses
+rm -rf $DATA/vrk
 rm -rf $DATA/openstreetmap
 rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti

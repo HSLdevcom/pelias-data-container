@@ -55,7 +55,7 @@ install_node_project HSLdevcom openstreetmap
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
-install_node_project HSLdevcom openaddresses
+install_node_project HSLdevcom pelias-vrk
 npm link pelias-dbclient
 npm link pelias-wof-admin-lookup
 
