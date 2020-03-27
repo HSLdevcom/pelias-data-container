@@ -118,16 +118,35 @@ function test_container {
         fi
     done
 
+    echo "Test reverse geocoding"
+    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
+    if [ $STATUS_CODE = 200 ]; then
+        echo "Reverse geocoding OK"
+    else
+        TESTS_PASSED=1
+        echo "Reverse geocoding failed"
+    fi
+
+    echo "Test autocomplete"
+    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/autocomplete?text=helsi")
+    if [ $STATUS_CODE = 200 ]; then
+        echo "Autocomplete OK"
+    else
+        TESTS_PASSED=1
+        echo "Autocomplete failed"
+    fi
+
+    echo "Test place endpoint"
+    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/place?ids=openstreetmap%3Avenue%3Anode%3A5995720648")
+    if [ $STATUS_CODE = 200 ]; then
+        echo "Place endpoint OK"
+    else
+        TESTS_PASSED=1
+        echo "Place endpoint failed"
+    fi
+
     if [ $TESTS_PASSED = 0 ]; then
-        echo "Test reverse geocoding"
-        STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
-        if [ $STATUS_CODE = 200 ]; then
-            echo 0 >/tmp/tests_passed #success!
-            echo "Reverse geocoding OK"
-        else
-            TESTS_PASSED=1
-            echo "Reverse geocoding failed"
-        fi
+        echo 0 >/tmp/tests_passed #success!
     fi
 
     echo "Shutting down the test services..."
