@@ -38,12 +38,6 @@ rm -rf tpdc
 # Index everything
 #=================
 
-node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
-echo '###### nlsfi places done'
-
-node $TOOLS/openstreetmap/index
-echo '###### openstreetmap done'
-
 # param1: zip name containing gtfs data
 # param2: import folder name
 function import_gtfs {
@@ -68,9 +62,14 @@ import_router router-finland
 import_router router-waltti
 echo '###### gtfs done'
 
+node $TOOLS/openstreetmap/index
+echo '###### openstreetmap done'
+
+node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
+echo '###### nlsfi places done'
+
 #import vrk address data
 cd  $TOOLS/pelias-vrk
-
 node import.js $DATA/vrk/vrk.txt
 echo '###### VRK done'
 
