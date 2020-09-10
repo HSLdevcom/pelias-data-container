@@ -34,6 +34,7 @@
   },
 
   "imports": {
+    "blacklist": ["nlsfi:station:mml-10012934"],
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "defaultCountry": {
       "name": "Suomi",
