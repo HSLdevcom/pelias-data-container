@@ -34,7 +34,7 @@
   },
 
   "imports": {
-    "blacklist": ["nlsfi:station:mml-10012934"],
+    "blacklist": ["mml-10012934"],
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
     "defaultCountry": {
       "name": "Suomi",
@@ -59,10 +59,6 @@
           "importVenues": true
         }
       ]
-    },
-    "openaddresses": {
-      "datapath": "/mnt/data/openaddresses/",
-      "adminLayers": ["localadmin", "locality", "neighbourhood", "region"]
     },
     "whosonfirst": {
       "datapath": "/mnt/data/wof_data"
