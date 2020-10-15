@@ -60,6 +60,7 @@ function import_router {
 
 import_router router-finland
 import_router router-waltti
+import_router router-hsl
 echo '###### gtfs done'
 
 node $TOOLS/openstreetmap/index
@@ -79,4 +80,5 @@ rm -rf $DATA/openstreetmap
 rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
 rm -rf $DATA/router-finland
+rm -rf $DATA/router-hsl
 rm -rf $DATA/wof_data
