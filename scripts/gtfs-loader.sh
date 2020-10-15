@@ -19,4 +19,9 @@ NAME="router-waltti.zip"
 curl -sS -O --fail $URL$SERVICE$NAME
 unzip -o $NAME && rm $NAME
 
+SERVICE="hsl/"
+NAME="router-hsl.zip"
+curl -sS -O --fail $URL$SERVICE$NAME
+unzip -o $NAME && rm $NAME
+
 echo '##### Loaded GTFS data'
