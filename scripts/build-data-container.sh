@@ -8,8 +8,8 @@
 set -e
 
 ORG=${ORG:-hsldevcom}
-DOCKER_IMAGE=pelias-data-container
-WORKDIR=/mnt
+DOCKER_IMAGE=$ORG/pelias-data-container
+DOCKER_TAG="latest"
 
 BUILDER_TYPE=${BUILDER_TYPE:-dev}
 
@@ -20,8 +20,17 @@ else
     DOCKER_TAG=latest
 fi
 
+DOCKER_TAG_LONG=$DOCKER_TAG-$(date +"%Y-%m-%dT%H.%M.%S")-${TRAVIS_COMMIT:0:7}
+DOCKER_IMAGE_LATEST=$DOCKER_IMAGE:latest
+DOCKER_IMAGE_TAG=$DOCKER_IMAGE:$DOCKER_TAG
+DOCKER_IMAGE_TAG_LONG=$DOCKER_IMAGE:$DOCKER_TAG_LONG
+
+
+WORKDIR=/mnt
+
+
 API_IMAGE=$ORG/pelias-api:$DOCKER_TAG
-DATA_CONTAINER_IMAGE=$ORG/$DOCKER_IMAGE:$DOCKER_TAG
+DATA_CONTAINER_IMAGE=$DOCKER_IMAGE:$DOCKER_TAG
 BASE_IMAGE=$ORG/pelias-data-container-base:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
@@ -58,8 +67,10 @@ function deploy {
     docker push $BUILD_IMAGE
 
     echo "Deploying image"
-    docker tag $BUILD_IMAGE $DATA_CONTAINER_IMAGE
-    docker push $DATA_CONTAINER_IMAGE
+    docker tag $BUILD_IMAGE $DOCKER_IMAGE_TAG_LONG
+    docker tag $BUILD_IMAGE $DOCKER_IMAGE_TAG
+    docker push $DOCKER_IMAGE_TAG_LONG
+    docker push $DOCKER_IMAGE_TAG
 
     docker rmi $DATA_CONTAINER_IMAGE
     echo 0 >/tmp/deploy_ok
@@ -176,7 +187,7 @@ while true; do
     fi
 
     BUILD_TAG=$DOCKER_TAG-$(date +%s)
-    BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
+    BUILD_IMAGE=$DOCKER_IMAGE:$BUILD_TAG
 
     # rotate log
     mv log.txt _log.txt
