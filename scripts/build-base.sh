@@ -22,6 +22,7 @@ DOCKER_IMAGE_LATEST=$DOCKER_IMAGE:latest
 DOCKER_IMAGE_TAG=$DOCKER_IMAGE:$DOCKER_TAG
 DOCKER_IMAGE_TAG_LONG=$DOCKER_IMAGE:$DOCKER_TAG_LONG
 
+docker login -u $DOCKER_USER -p $DOCKER_AUTH
 
 if [ -z $TRAVIS_TAG ]; then
   # Build image
@@ -29,7 +30,6 @@ if [ -z $TRAVIS_TAG ]; then
 fi
 
 if [ "${TRAVIS_PULL_REQUEST}" == "false" ]; then
-  docker login -u $DOCKER_USER -p $DOCKER_AUTH
   if [ "$TRAVIS_TAG" ];then
     echo "processing release $TRAVIS_TAG"
     docker pull $DOCKER_IMAGE_LATEST
