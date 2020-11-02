@@ -175,7 +175,7 @@ while true; do
         sleep $SLEEP
     fi
 
-    BUILD_TAG=$DOCKER_TAG-$(date +%s)
+    BUILD_TAG=$DOCKER_TAG-$(date +"%Y-%m-%dT%H.%M.%S")
     BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 
     # rotate log
