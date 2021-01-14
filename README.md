@@ -1,6 +1,6 @@
 # pelias-data-container
 
-[![Build](https://api.travis-ci.org/HSLdevcom/pelias-data-container.svg?branch=master)](https://travis-ci.org/HSLdevcom/pelias-data-container)
+[![Build](https://github.com/hsldevcom/pelias-data-container/workflows/Process%20master%20push%20or%20pr/badge.svg?branch=master)](https://github.com/HSLdevcom/pelias-data-container/actions)
 
 Geocoding data build tools
 
@@ -58,7 +58,7 @@ Another alternative is to install required components locally:
 - WOF admin data is available as a part of this git project
 - Properly configured pelias.json config file
 - Install and start ElasticSearch
-- Export four env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project, 
+- Export four env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project,
 TOOLS path to the parent dir of dataloading and schema tools and MMLAPIKEY for accessing nlsfi data
 - Run the script scripts/dl-and-index.sh
 
