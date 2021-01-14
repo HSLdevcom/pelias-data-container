@@ -10,9 +10,6 @@ jobs:
   docker-push:
     if: github.ref == 'refs/heads/master'
     runs-on: ubuntu-18.04
-    strategy:
-      matrix:
-        node-version: [10.x]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -20,11 +17,7 @@ jobs:
         uses: zcong1993/setup-timezone@master
         with:
           timezone: "Europe/Helsinki"
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-      - name: Build docker images from master and push it
+      - name: Build docker images from master and push them
         run: ./.github/workflows/scripts/build_and_push_dev.sh
         env:
           DOCKER_USER: ${{ secrets.DOCKER_USER }}
