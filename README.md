@@ -4,7 +4,7 @@
 
 Geocoding data build tools
 
-## Travis build
+## github actions build
 
 Creates and pushes to dockerhub/hsldevcom two docker containers:
 
