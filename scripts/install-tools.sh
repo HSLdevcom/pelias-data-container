@@ -22,9 +22,6 @@ function install_node_project {
         git checkout $3
     fi
     npm install
-
-    #make the package locally available
-    npm link
 }
 
 set -x
@@ -45,24 +42,9 @@ cd $SCRIPTS
 npm install
 
 #install source repo deps
-install_node_project HSLdevcom dbclient
-
 install_node_project hsldevcom pelias-schema
-
-install_node_project HSLdevcom wof-admin-lookup
-
 install_node_project HSLdevcom openstreetmap
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
-
 install_node_project HSLdevcom pelias-vrk
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
-
 install_node_project HSLdevcom pelias-nlsfi-places-importer
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
-
 install_node_project HSLdevcom pelias-gtfs
-npm link pelias-dbclient
-npm link pelias-wof-admin-lookup
+install_node_project HSLdevcom bikes-pelias
