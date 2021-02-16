@@ -63,6 +63,9 @@ import_router router-waltti
 import_router router-hsl
 echo '###### gtfs done'
 
+node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
+echo '###### city bike station loading from OTP finland done'
+
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
 
