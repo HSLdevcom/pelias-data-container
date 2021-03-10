@@ -225,7 +225,7 @@ while true; do
         echo "ERROR: Build failed"
         if [ -v SLACK_WEBHOOK_URL ]; then
             #extract log end which most likely contains info about failure
-            { echo -e "Geocoding data build failed:\n..."; tail -n 20 log.txt; } | jq -R -s '{"username":"Pelias data builder '$BUILDER_TYPE'",text: .}' | \
+            { echo -e "Geocoding data build failed :boom: \n..."; tail -n 20 log.txt; } | jq -R -s '{"username":"Pelias data builder '$BUILDER_TYPE'",text: .}' | \
                 curl -X POST -H 'Content-type: application/json' -d@- $SLACK_WEBHOOK_URL
         fi
     else
