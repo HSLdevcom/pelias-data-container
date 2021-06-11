@@ -14,5 +14,5 @@ RUN git clone --single-branch https://github.com/hsldevcom/pelias-fuzzy-tests \
   && cd pelias-fuzzy-tests \
   && npm install
 
-CMD ( dockerd-entrypoint.sh & ) && sleep 20 && unset DOCKER_HOST && /bin/bash /mnt/build-data-container.sh
+CMD ( dockerd-entrypoint.sh & ) && sleep 40 && unset DOCKER_HOST && /bin/bash /mnt/build-data-container.sh
 
