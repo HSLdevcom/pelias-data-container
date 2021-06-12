@@ -47,6 +47,8 @@ function import_gtfs {
     index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
     prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
     node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
+    # remove already parsed gtfs files
+    rm *.txt
 }
 
 function import_router {
@@ -58,9 +60,7 @@ function import_router {
     done
 }
 
-import_router router-finland
-import_router router-waltti
-import_router router-hsl
+import_router gtfs
 echo '###### gtfs done'
 
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
