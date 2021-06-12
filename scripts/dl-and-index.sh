@@ -84,4 +84,5 @@ rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
 rm -rf $DATA/router-finland
 rm -rf $DATA/router-hsl
+rm -rf $DATA/gtfs
 rm -rf $DATA/wof_data
