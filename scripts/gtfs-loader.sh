@@ -9,13 +9,16 @@ echo 'Loading GTFS data from api.digitransit.fi...'
 
 cd $DATA
 mkdir -p gtfs
+mkdir -p openstreetmap
 
 URL="http://api.digitransit.fi/routing-data/v2/"
 SERVICE="finland/"
 NAME="router-finland.zip"
 curl -sS -O --fail $URL$SERVICE$NAME
-unzip -o $NAME *.zip && rm $NAME
+unzip -o $NAME *.zip *.pbf && rm $NAME
 mv router-finland/*.zip gtfs/
+# use already validated osm data from our own data api
+mv router-finland/*.pbf openstreetmap/
 
 SERVICE="waltti/"
 NAME="router-waltti.zip"
