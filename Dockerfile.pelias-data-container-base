@@ -1,7 +1,6 @@
 # Dockerfile which provides the search engine with data indexing tools
 
 FROM debian:buster-slim
-MAINTAINER Reittiopas version: 0.1
 
 RUN mkdir -p /mnt/tools/scripts
 ADD scripts/* /mnt/tools/scripts/
