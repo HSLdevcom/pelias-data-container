@@ -64,7 +64,8 @@ import_router gtfs
 echo '###### gtfs done'
 
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
-echo '###### city bike station loading from OTP finland done'
+node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/waltti/index/graphql
+echo '###### city bike station loading done'
 
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
