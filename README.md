@@ -26,7 +26,7 @@ Data builder obeys the following environment variables, which can pe passed to t
  * DOCKER_USER - dockerhub credentials for image deployment
  * DOCKER_AUTH
  * MMLAPIKEY - needed for loading nlsfi data
- * ORG - optional, default 'hsldevcom'
+ * ORG - optional, for dockerhub image pushing, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
  * BUILDER_TYPE - optional, prod or dev, default dev. Controls slack messages and data image tagging (dev->latest, prod->prod)
@@ -53,10 +53,10 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 -e M
 ```
 
 Another alternative is to install required components locally:
-- Git projects for pelias dataloading (NLSFI, OpenAddresses, OSM, GTFS, etc.)
+- Git projects for pelias dataloading (NLSFI, VRK, OSM, GTFS, bikes, etc.)
 - hsldevcom/pelias-schema git project
 - WOF admin data is available as a part of this git project
-- Properly configured pelias.json config file
+- Properly configured pelias.json config file found in user's home path ̃
 - Install and start ElasticSearch
 - Export four env. vars, DATA for a data folder path, SCRIPTS for data container scripts of this project,
 TOOLS path to the parent dir of dataloading and schema tools and MMLAPIKEY for accessing nlsfi data
