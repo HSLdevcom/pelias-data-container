@@ -17,8 +17,6 @@ NAME="router-finland.zip"
 curl -sS -O --fail $URL$SERVICE$NAME
 unzip -o $NAME && rm $NAME
 mv router-finland/*.zip gtfs/
-# use already validated osm data from our own data api
-mv router-finland/*.pbf openstreetmap/
 
 SERVICE="waltti/"
 NAME="router-waltti.zip"
