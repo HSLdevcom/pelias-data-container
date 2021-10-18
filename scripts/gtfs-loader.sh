@@ -9,7 +9,6 @@ echo 'Loading GTFS data from api.digitransit.fi...'
 
 cd $DATA
 mkdir -p gtfs
-mkdir -p openstreetmap
 
 URL="http://api.digitransit.fi/routing-data/v2/"
 SERVICE="finland/"
