@@ -8,6 +8,9 @@ cd $DATA/openstreetmap
 echo 'Loading OSM data...'
 curl -sS -O -L --fail  https://geocoding.blob.core.windows.net/vrk/hsl_geocode_appendix.osm.pbf
 
+# Do not load OSM from unreliable karttapalvelu data service
+exit 0
+
 # allow failures so that curl can be retried many times
 set +e
 for i in $(seq 0 4)
