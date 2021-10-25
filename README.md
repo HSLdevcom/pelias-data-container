@@ -53,7 +53,7 @@ docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 -e M
 ```
 
 Another alternative is to install required components locally:
-- Git projects for pelias dataloading (NLSFI, VRK, OSM, GTFS, bikes, etc.)
+- Git projects for pelias dataloading (NLSFI, DVV, OSM, GTFS, bikes, etc.)
 - hsldevcom/pelias-schema git project
 - WOF admin data is available as a part of this git project
 - Properly configured pelias.json config file found in user's home path ̃

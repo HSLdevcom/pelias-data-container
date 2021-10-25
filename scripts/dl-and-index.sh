@@ -73,10 +73,10 @@ echo '###### openstreetmap done'
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 echo '###### nlsfi places done'
 
-#import vrk address data
+#import dvv address data
 cd  $TOOLS/pelias-vrk
 node import.js $DATA/vrk/vrk.txt
-echo '###### VRK done'
+echo '###### DVV done'
 
 #cleanup
 rm -rf $DATA/vrk
