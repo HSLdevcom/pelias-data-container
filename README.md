@@ -26,6 +26,7 @@ Data builder obeys the following environment variables, which can pe passed to t
  * DOCKER_USER - dockerhub credentials for image deployment
  * DOCKER_AUTH
  * MMLAPIKEY - needed for loading nlsfi data
+ * GTFS_AUTH - string of form user:passwd, for loading private gtfs packages from digitransit api
  * ORG - optional, for dockerhub image pushing, default 'hsldevcom'
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
