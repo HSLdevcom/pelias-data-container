@@ -31,7 +31,8 @@ load_gtfs waltti
 load_gtfs hsl
 
 if [[ -v GTFS_AUTH ]]; then
-    load_gtfs next-waltti "-u $GTFS_AUTH"
+    URL="http://dev-api.digitransit.fi/routing-data/v2/"
+    load_gtfs waltti "-u $GTFS_AUTH"
 fi
 
 echo '##### Loaded GTFS data'
