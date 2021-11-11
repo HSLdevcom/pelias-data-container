@@ -23,12 +23,12 @@ function load_gtfs {
     mv $NAME/*.zip gtfs/
 }
 
-#load_gtfs finland
+load_gtfs finland
 # use already validated osm data from our own data api
-#mv router-finland/*.pbf openstreetmap/
+mv router-finland/*.pbf openstreetmap/
 
-#load_gtfs waltti
-#load_gtfs hsl
+load_gtfs waltti
+load_gtfs hsl
 
 if [[ -v GTFS_AUTH ]]; then
     load_gtfs next-waltti "-u $GTFS_AUTH"
