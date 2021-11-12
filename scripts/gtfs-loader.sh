@@ -12,24 +12,27 @@ mkdir -p gtfs
 mkdir -p openstreetmap
 
 URL="http://api.digitransit.fi/routing-data/v2/"
-SERVICE="finland/"
-NAME="router-finland.zip"
-curl -sS -O --fail $URL$SERVICE$NAME
-unzip -o $NAME && rm $NAME
-mv router-finland/*.zip gtfs/
+
+# param1: service name
+# param2: optional basic auth string
+function load_gtfs {
+    NAME="router-"$1
+    ZIPNAME=$NAME.zip
+    curl -sS -O --fail $2 $URL$1/$ZIPNAME
+    unzip -o $ZIPNAME && rm $ZIPNAME
+    mv $NAME/*.zip gtfs/
+}
+
+load_gtfs finland
 # use already validated osm data from our own data api
 mv router-finland/*.pbf openstreetmap/
 
-SERVICE="waltti/"
-NAME="router-waltti.zip"
-curl -sS -O --fail $URL$SERVICE$NAME
-unzip -o $NAME && rm $NAME
-mv router-waltti/*.zip gtfs/
+load_gtfs waltti
+load_gtfs hsl
 
-SERVICE="hsl/"
-NAME="router-hsl.zip"
-curl -sS -O --fail $URL$SERVICE$NAME
-unzip -o $NAME && rm $NAME
-mv router-hsl/*.zip gtfs/
+if [[ -v GTFS_AUTH ]]; then
+    URL="http://dev-api.digitransit.fi/routing-data/v2/"
+    load_gtfs waltti "-u $GTFS_AUTH"
+fi
 
 echo '##### Loaded GTFS data'
