@@ -31,8 +31,11 @@ load_gtfs waltti
 load_gtfs hsl
 
 if [[ -v GTFS_AUTH ]]; then
-    URL="http://dev-api.digitransit.fi/routing-data/v2/"
-    load_gtfs waltti "-u $GTFS_AUTH"
+    NAME="router-waltti"
+    ZIPNAME=$NAME.zip
+    curl -sS -O --fail -u $GTFS_AUTH "http://dev-api.digitransit.fi/routing-data/v2/next-waltti/$ZIPNAME"
+    unzip -o $ZIPNAME && rm $ZIPNAME
+    mv $NAME/*.zip gtfs/
 fi
 
 echo '##### Loaded GTFS data'
