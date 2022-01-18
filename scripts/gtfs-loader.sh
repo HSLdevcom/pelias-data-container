@@ -31,7 +31,7 @@ load_gtfs waltti
 load_gtfs hsl
 
 if [[ -v GTFS_AUTH ]]; then
-    NAME="router-waltti"
+    NAME="router-waltti-alt"
     ZIPNAME=$NAME.zip
     curl -sS -O --fail -u $GTFS_AUTH "http://dev-api.digitransit.fi/routing-data/v2/next-waltti/$ZIPNAME"
     unzip -o $ZIPNAME && rm $ZIPNAME
