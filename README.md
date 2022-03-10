@@ -30,6 +30,9 @@ Data builder obeys the following environment variables, which can pe passed to t
  * BUILD_INTERVAL - optional, as days, defaults to 7
  * THRESHOLD - optional regression limit, as %, defaults to 2%
  * BUILDER_TYPE - optional, prod or dev, default dev. Controls slack messages and data image tagging (dev->latest, prod->prod)
+ * OSM_VENUE_FILTERS and OSM_ADDRESS_FILTERS - json array for adding additional key - value pairs to remove undesired content
+
+An example venue filter: '[{ "name": "some ugly word" }]'
 
 Data builder needs an access to host environment's docker service. The following example call to launch the builder container
 shows how to accomplish this:
