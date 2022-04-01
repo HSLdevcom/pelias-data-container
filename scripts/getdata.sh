@@ -15,6 +15,11 @@ cd /root
 
 service elasticsearch start
 sleep 60
+service elasticsearch status &> /dev/null
+if [ $? -ne 0 ]; then
+    cat  /var/log/elasticsearch/elasticsearch.log
+    exit 1
+fi
 
 # download and index
 $SCRIPTS/dl-and-index.sh
