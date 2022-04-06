@@ -7,7 +7,6 @@
 #   DATA - data dir path.
 #   SCRIPTS - path to pelias-data-container scripts
 # Also, a valid pelias.json configuration must be present. It's data paths must match the DATA env variable.
-# Note: WOF admin data  must be preloaded and its path defined in pelias.json
 
 # errors should break the execution
 
