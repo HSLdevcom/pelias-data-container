@@ -21,6 +21,12 @@ if [ $? -ne 0 ]; then
     exit 1
 fi
 
+curl localhost:9200 &> /dev/null
+if [ $? -ne 0 ]; then
+    echo 'curl cound not connect with elastic'
+    cat /var/log/elasticsearch/elasticsearch.log
+fi
+
 # download and index
 $SCRIPTS/dl-and-index.sh
 
