@@ -14,7 +14,6 @@
 set -e
 
 export SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
-
 #schema script runs only from current dir
 cd $TOOLS/pelias-schema/
 node scripts/create_index
@@ -66,6 +65,10 @@ echo '###### gtfs done'
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/waltti/index/graphql
 echo '###### city bike station loading done'
+
+node $TOOLS/parking-areas-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql carPark liipi
+node $TOOLS/parking-areas-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql	bikePark liipi
+echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'

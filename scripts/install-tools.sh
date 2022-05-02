@@ -48,3 +48,4 @@ install_node_project HSLdevcom pelias-vrk
 install_node_project HSLdevcom pelias-nlsfi-places-importer
 install_node_project HSLdevcom pelias-gtfs
 install_node_project HSLdevcom bikes-pelias
+install_node_project HSLdevcom parking-areas-pelias
