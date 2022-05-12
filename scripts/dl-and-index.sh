@@ -63,6 +63,7 @@ echo '###### gtfs done'
 
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
 node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/waltti/index/graphql
+node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql
 echo '###### city bike station loading done'
 
 node $TOOLS/parking-areas-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql carPark liipi
