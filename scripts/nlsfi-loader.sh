@@ -5,7 +5,8 @@ set -e
 
 echo 'Extracting nlsfi data address...'
 NAME=paikat.zip
-URL=$(node $SCRIPTS/parse_nlsfi_url.js)
+#URL=$(node $SCRIPTS/parse_nlsfi_url.js)
+URL="https://tiedostopalvelu.maanmittauslaitos.fi/tp/tilauslataus/tuotteet/nimisto/paikat/etrs89/gml/paikat_2022_01.zip?api_key=$MMLAPIKEY"
 
 mkdir -p $DATA/nls-places
 cd $DATA/nls-places
