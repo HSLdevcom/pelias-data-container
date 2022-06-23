@@ -24,7 +24,7 @@ node scripts/create_index
 
 $SCRIPTS/vrk-loader.sh
 $SCRIPTS/osm-loader.sh
-#$SCRIPTS/nlsfi-loader.sh
+$SCRIPTS/nlsfi-loader.sh
 $SCRIPTS/gtfs-loader.sh
 
 cd $TOOLS
@@ -72,8 +72,8 @@ echo '###### park & ride location loading done'
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
 
-#node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
-#echo '###### nlsfi places done'
+node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
+echo '###### nlsfi places done'
 
 #import dvv address data
 cd  $TOOLS/pelias-vrk
