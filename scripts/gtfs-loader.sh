@@ -11,15 +11,15 @@ cd $DATA
 mkdir -p gtfs
 mkdir -p openstreetmap
 
-DATA_API="http://api.digitransit.fi/routing-data/"
-DEV_DATA_API="http://dev-api.digitransit.fi/routing-data/"
+DATA_API="https://api.digitransit.fi/routing-data/"
+DEV_DATA_API="https://dev-api.digitransit.fi/routing-data/"
 
 if [ $BUILDER_TYPE = "dev" ]; then
     URL=$DEV_DATA_API
-    WALTTI_ALT_URL=$DEV_DATA_API"v3/waltti-alt/"
+    WALTTI_ALT_URL="$DEV_DATA_API"v3/waltti-alt/
 else
     URL=$DATA_API
-    WALTTI_ALT_URL=$DATA_API"v3/waltti-alt/"
+    WALTTI_ALT_URL="$DATA_API"v3/waltti-alt/
 fi
 
 # param1: data version, v2 or v3

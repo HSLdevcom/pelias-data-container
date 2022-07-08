@@ -17,6 +17,13 @@ export SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 cd $TOOLS/pelias-schema/
 node scripts/create_index
 
+if [ $BUILDER_TYPE = "dev" ]; then
+    APIURL="https://dev-api.digitransit.fi/"
+else
+    APIURL="https://api.digitransit.fi/"
+fi
+
+echo "###### Using $APIURL data"
 
 #==============
 # Download data
@@ -61,12 +68,12 @@ function import_router {
 import_router gtfs
 echo '###### gtfs done'
 
-node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/finland/index/graphql
-node $TOOLS/bikes-pelias/import https://api.digitransit.fi/routing/v1/routers/waltti/index/graphql
+node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/finland/index/graphql
+node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/waltti/index/graphql
 echo '###### city bike station loading done'
 
-node $TOOLS/parking-areas-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql carPark liipi
-node $TOOLS/parking-areas-pelias/import https://api.digitransit.fi/routing/v1/routers/hsl/index/graphql	bikePark liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql carPark liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql bikePark liipi
 echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
