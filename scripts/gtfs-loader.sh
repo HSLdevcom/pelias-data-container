@@ -43,7 +43,7 @@ load_gtfs v3 varely
 if [[ -v GTFS_AUTH ]]; then
     NAME="router-waltti-alt"
     ZIPNAME=$NAME.zip
-    curl -sS -O --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME"
+    curl -sS -O --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 fi
