@@ -5,7 +5,7 @@ set -e
 
 # Download gtfs stop data
 
-echo 'Loading GTFS data from digitransit api...'
+echo 'Loading GTFS data'
 
 cd $DATA
 mkdir -p gtfs
@@ -14,7 +14,7 @@ mkdir -p openstreetmap
 DATA_API="https://api.digitransit.fi/routing-data/"
 DEV_DATA_API="https://dev-api.digitransit.fi/routing-data/"
 
-if [ $BUILDER_TYPE = "dev" ]; then
+if [ "$BUILDER_TYPE" = "dev" ]; then
     URL=$DEV_DATA_API
     WALTTI_ALT_URL="$DEV_DATA_API"v3/waltti-alt/
 else
@@ -27,7 +27,9 @@ fi
 function load_gtfs {
     NAME="router-"$2
     ZIPNAME=$NAME.zip
-    curl -sS -O --fail $URL$1/$2/$ZIPNAME
+    DATAURL=$URL$1/$2/$ZIPNAME
+    echo Loading GTFS from "$DATAURL"
+    curl -sS -O --fail $DATAURL
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 }
