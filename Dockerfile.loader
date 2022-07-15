@@ -5,6 +5,7 @@ ARG MMLAPIKEY
 ARG GTFS_AUTH
 ARG OSM_VENUE_FILTERS
 ARG OSM_ADDRESS_FILTERS
+ARG BUILDER_TYPE
 
 # Dockerfile which loads and indexes new data into empty data container image
 MAINTAINER Reittiopas version: 0.1
