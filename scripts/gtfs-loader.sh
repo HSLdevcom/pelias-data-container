@@ -30,7 +30,7 @@ function load_gtfs {
     ZIPNAME=$NAME.zip
     DATAURL=$URL$1/$2/$ZIPNAME
     echo Loading GTFS from "$DATAURL"
-    curl -sS -O --fail $DATAURL$PARAMS
+    curl -sS --fail $DATAURL$PARAMS -o $ZIPNAME
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 }
@@ -46,7 +46,7 @@ load_gtfs v3 varely
 if [[ -v GTFS_AUTH ]]; then
     NAME="router-waltti-alt"
     ZIPNAME=$NAME.zip
-    curl -sS -O --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME$PARAMS
+    curl -sS --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME$PARAMS -o $ZIPNAME
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 fi
