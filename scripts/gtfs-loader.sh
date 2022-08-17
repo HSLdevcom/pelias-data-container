@@ -13,6 +13,7 @@ mkdir -p openstreetmap
 
 DATA_API="https://api.digitransit.fi/routing-data/"
 DEV_DATA_API="https://dev-api.digitransit.fi/routing-data/"
+PARAMS='?'"$API_SUBSCRIPTION_QUERY_PARAMETER_NAME"'='"$API_SUBSCRIPTION_TOKEN"
 
 if [ "$BUILDER_TYPE" = "dev" ]; then
     URL=$DEV_DATA_API
@@ -29,7 +30,7 @@ function load_gtfs {
     ZIPNAME=$NAME.zip
     DATAURL=$URL$1/$2/$ZIPNAME
     echo Loading GTFS from "$DATAURL"
-    curl -sS -O --fail $DATAURL
+    curl -sS -O --fail $DATAURL$PARAMS
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 }
@@ -45,7 +46,7 @@ load_gtfs v3 varely
 if [[ -v GTFS_AUTH ]]; then
     NAME="router-waltti-alt"
     ZIPNAME=$NAME.zip
-    curl -sS -O --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME
+    curl -sS -O --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME$PARAMS
     unzip -o $ZIPNAME && rm $ZIPNAME
     mv $NAME/*.zip gtfs/
 fi
