@@ -9,6 +9,18 @@
 grep -lr data -e '"type":"Point"'  | xargs rm
 grep -lr data -e 'alt-quattroshapes'  | xargs rm
 
+#remove admin data not used by digitransit
+grep -lr data -e 'wof:placetype":"country'  | xargs rm
+grep -lr data -e 'wof:placetype":"county'  | xargs rm
+grep -lr data -e 'wof:placetype":"borough'  | xargs rm
+grep -lr data -e 'wof:placetype":"macrocounty'  | xargs rm
+grep -lr data -e 'wof:placetype":"macroregion'  | xargs rm
+grep -lr data -e 'wof:placetype":"dependency'  | xargs rm
+grep -lr data -e 'wof:placetype":"empire'  | xargs rm
+grep -lr data -e 'wof:placetype":"continent'  | xargs rm
+grep -lr data -e 'wof:placetype":"marinearea'  | xargs rm
+grep -lr data -e 'wof:placetype":"ocean'  | xargs rm
+
 #Use only localadmins from figov. The rest are duplicates or trash.
 sed -i '/qs_pg/d' meta/whosonfirst-data-admin-fi-localadmin-latest.csv
 
