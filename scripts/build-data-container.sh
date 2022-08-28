@@ -46,7 +46,7 @@ function build {
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
-    docker build --no-cache --build-arg BUILDER_TYPE --build-arg MMLAPIKEY --build-arg GTFS_AUTH --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
+    docker build --no-cache --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg GTFS_AUTH --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 
