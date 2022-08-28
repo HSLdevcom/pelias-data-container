@@ -1,1 +1,75 @@
-{"id":101846693,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000181,"geom:area_square_m":1113804.961578,"geom:bbox":"19.932126,60.143521,19.960509,60.160667","geom:latitude":60.152406,"geom:longitude":19.948812,"gn:id":"3041759,3041760","gn:population":3662,"iso:country":"FI","lbl:latitude":60.155651,"lbl:longitude":19.949027,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":60.155651,"mps:longitude":19.949027,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ara_x_preferred":["جومالا"],"name:ast_x_preferred":["Jomala"],"name:ben_x_preferred":["জোমালা"],"name:ceb_x_preferred":["Jomala"],"name:dan_x_preferred":["Jomala"],"name:deu_x_preferred":["Jomala"],"name:ell_x_preferred":["Τζομαλά"],"name:eng_x_preferred":["Jomala"],"name:epo_x_preferred":["Jomala"],"name:est_x_preferred":["Jomala vald"],"name:eus_x_preferred":["Jomala"],"name:fao_x_preferred":["Jomala"],"name:fas_x_preferred":["یومالا"],"name:fin_x_preferred":["Jomala"],"name:fra_x_preferred":["Jomala"],"name:glg_x_preferred":["Jomala"],"name:guj_x_preferred":["જોમલા"],"name:hin_x_preferred":["जोमाला"],"name:ind_x_preferred":["Jomala"],"name:ita_x_preferred":["Jomala"],"name:jpn_x_preferred":["ヨマラ"],"name:jpn_x_variant":["ユーマラ"],"name:kan_x_preferred":["ಜೋಮಲಾ"],"name:kor_x_preferred":["조말라"],"name:lav_x_preferred":["Jomala"],"name:lit_x_preferred":["Jomala"],"name:mar_x_preferred":["जोमाला"],"name:msa_x_preferred":["Jomala"],"name:nld_x_preferred":["Jomala"],"name:nob_x_preferred":["Jomala"],"name:pol_x_preferred":["Jomala"],"name:por_x_preferred":["Jomala"],"name:ron_x_preferred":["Jomala"],"name:rus_x_preferred":["Йомала"],"name:sco_x_preferred":["Jomala"],"name:sin_x_preferred":["ජෝමලා"],"name:spa_x_preferred":["Jomala"],"name:sqi_x_preferred":["Jomala"],"name:swe_x_preferred":["Jomala"],"name:tam_x_preferred":["ஜும்லா"],"name:tel_x_preferred":["జోమాలా"],"name:tha_x_preferred":["โจมาลา"],"name:tur_x_preferred":["Jomala"],"name:ukr_x_preferred":["Йомала"],"name:urd_x_preferred":["جومالا"],"name:vie_x_preferred":["Jomala"],"name:zho_cn_x_preferred":["约马拉"],"name:zho_tw_x_preferred":["喬馬拉"],"name:zho_x_preferred":["約馬拉"],"qs:a0":"Åland","qs:a1":"*","qs:a1r":"0","qs:adm0":"Åland","qs:la":"Jomala","qs:la_lc":"*FI621170","qs:level":"locality","qs:loc":"Jomala","qs:loc_alt":"Jomala","qs:pop":0,"qs:source":"Custom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","src:population":"geonames","wof:belongsto":[85632789,102191581,907198489,136253047],"wof:breaches":[],"wof:concordances":{"gn:id":3041760,"gp:id":566304,"qs_pg:id":34613,"wd:id":"Q176178"},"wof:country":"FI","wof:geomhash":"3f9f3cd550948251233f4a88ed0b09cc","wof:hierarchy":[{"continent_id":102191581,"country_id":-1,"dependency_id":85632789,"empire_id":136253047,"localadmin_id":907198489,"locality_id":101846693,"region_id":-1}],"wof:id":101846693,"wof:lastmodified":1636494410,"wof:name":"Jomala","wof:parent_id":907198489,"wof:placetype":"locality","wof:population":3662,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[19.932126,60.143521,19.960509,60.160667],"geometry":{"coordinates":[[[19.950527,60.160541],[19.950261,60.159651],[19.952041,60.159525],[19.95151,60.157746],[19.953289,60.15762],[19.952492,60.154952],[19.95605,60.1547],[19.954988,60.151142],[19.960325,60.150763],[19.959793,60.148984],[19.958015,60.14911],[19.957218,60.146442],[19.958996,60.146316],[19.958731,60.145426],[19.960509,60.1453],[19.959978,60.143521],[19.9582,60.143647],[19.958465,60.144537],[19.95313,60.144915],[19.952864,60.144025],[19.949307,60.144277],[19.949838,60.146056],[19.948059,60.146182],[19.949386,60.15063],[19.947607,60.150756],[19.947872,60.151645],[19.946093,60.151771],[19.946624,60.15355],[19.937729,60.15418],[19.936933,60.151511],[19.935154,60.151637],[19.935684,60.153416],[19.932126,60.153667],[19.932921,60.156336],[19.93648,60.156085],[19.936745,60.156974],[19.940303,60.156723],[19.940569,60.157612],[19.944127,60.15736],[19.944392,60.15825],[19.946172,60.158124],[19.946703,60.159903],[19.948482,60.159777],[19.948748,60.160667],[19.950527,60.160541]]],"type":"Polygon"}}
+{
+  "id": 101846693,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000181,
+    "geom:area_square_m":1113804.961578,
+    "geom:bbox":"19.9321260504,60.1435210933,19.9605094516,60.1606668365",
+    "geom:latitude":60.152406,
+    "geom:longitude":19.948812,
+    "geonames:id":"3041759,3041760",
+    "gn:population":3662,
+    "iso:country":"FI",
+    "lbl:latitude":60.155651,
+    "lbl:longitude":19.949027,
+    "mps:latitude":60.155651,
+    "mps:longitude":19.949027,
+    "mz:hierarchy_label":1,
+    "qs:a0":"\u00c5land",
+    "qs:a1":"*",
+    "qs:a1r":"0",
+    "qs:adm0":"\u00c5land",
+    "qs:la":"Jomala",
+    "qs:la_lc":"*FI621170",
+    "qs:level":"locality",
+    "qs:loc":"Jomala",
+    "qs:loc_alt":"Jomala",
+    "qs:pop":0,
+    "qs:source":"Custom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        "102191581",
+        "85632789",
+        "85633143",
+        85667843
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":3041760,
+        "gp:id":566304,
+        "qs:id":34613
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"a38c397aac1d29ef8913ae2867a712aa",
+    "wof:hierarchy":[
+        {
+            "continent_id":"102191581",
+            "country_id":"85633143",
+            "dependency_id":"85632789",
+            "locality_id":101846693,
+            "region_id":85667843
+        }
+    ],
+    "wof:id":101846693,
+    "wof:lastmodified":1470852431,
+    "wof:name":"Jomala",
+    "wof:parent_id":85667843,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    19.93212605040947,
+    60.14352109328155,
+    19.96050945160687,
+    60.16066683649859
+],
+  "geometry": {"coordinates":[[[19.95052697491201,60.16054089004689],[19.95026143498063,60.15965133864887],[19.95204081200126,60.1595253736204],[19.95150968927896,60.15774627761033],[19.95328896192939,60.15762029777329],[19.952492262536,60.15495166318811],[19.9560504947766,60.15469965909585],[19.95498809024338,60.15114150629023],[19.96032479379318,60.15076337782978],[19.95979341416313,60.14898432253381],[19.95801461728922,60.14911038015327],[19.95721780787272,60.14644178402432],[19.95899646713332,60.14631573770868],[19.95873085076141,60.14542620893201],[19.96050945160687,60.1453001440517],[19.95997817609066,60.14352109328155],[19.95819966696649,60.14364715062635],[19.95846525070641,60.14453667990472],[19.95312951047435,60.14491472925135],[19.95286406431899,60.14402518867399],[19.94930693317946,60.14427710238044],[19.94983765833393,60.14605619834464],[19.94805898222302,60.14618212922744],[19.9493858510574,60.15062988359352],[19.9476069330189,60.15075581096318],[19.94787230981711,60.1516453648531],[19.94609333335075,60.15177127364973],[19.94662404408689,60.15355038821104],[19.93772851474887,60.1541796347434],[19.93693316150336,60.15151090609004],[19.93515415572284,60.15163667709362],[19.93568428313716,60.15341583729787],[19.93212605040947,60.15366732732576],[19.93292108828041,60.1563360883365],[19.93647959643238,60.1560845757478],[19.93674473344959,60.15697415473608],[19.94030328328699,60.15672254525475],[19.94056852841879,60.15761211647123],[19.94412711992152,60.1573604100937],[19.94439247317609,60.15824997353496],[19.94617179602267,60.15812408306783],[19.94670264328442,60.15990320167509],[19.94848204540767,60.1597772813339],[19.94874753942503,60.16066683649859],[19.95052697491201,60.16054089004689]]],"type":"Polygon"}
+}

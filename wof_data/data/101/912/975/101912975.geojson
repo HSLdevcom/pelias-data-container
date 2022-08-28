@@ -1,1 +1,74 @@
-{"id":101912975,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000098,"geom:area_square_m":598732.310207,"geom:bbox":"23.0438184748,60.3772998503,23.0690120352,60.4044954298","geom:latitude":60.38789,"geom:longitude":23.056616,"iso:country":"FI","lbl:latitude":60.38192,"lbl:longitude":23.057637,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":60.38192,"mps:longitude":23.057637,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"qs:a0":"Suomi#Finland","qs:a1":"*Varsinais-Suomi#Egentliga Finland","qs:a1r":"3Lounais-Suomen AVI#Sydvästra Finlands RFV","qs:adm0":"Suomi#Finland","qs:id":0,"qs:la":"Halikko","qs:la_lc":"*FI202073","qs:level":"locality","qs:loc":"Iilikenmäki","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural hamlet many local_admin match geoplanet","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683073,102191581,907198943,85633143,404227405,136253047,1159321585],"wof:breaches":[],"wof:concordances":{"gp:id":25946733,"qs_pg:id":1198072},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"83b6237d901ea0ebc817d3649b9b48e4","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321585,"empire_id":136253047,"localadmin_id":907198943,"locality_id":101912975,"macroregion_id":404227405,"region_id":85683073}],"wof:id":101912975,"wof:lastmodified":1582312171,"wof:name":"Iilikenmäki","wof:parent_id":907198943,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[23.04381847484797,60.37729985029478,23.06901203516287,60.4044954297712],"geometry":{"coordinates":[[[[23.04575245183327,60.40036087135445],[23.04381847484797,60.4044954297712],[23.04726950022632,60.40417565059664],[23.04691865835645,60.40329351620835],[23.0486989014795,60.40312852033594],[23.04764636984555,60.40048212775923],[23.04586626210545,60.40064710880904],[23.04575245183327,60.40036087135445]]],[[[23.04963237159814,60.39206617341301],[23.0473962319677,60.39684671113355],[23.05158297840399,60.39645857739168],[23.05088130020647,60.39469433613795],[23.05444082501367,60.39436423356176],[23.05338819877898,60.39171789602688],[23.04963237159814,60.39206617341301]]],[[[23.06901203516287,60.38752379798325],[23.05653945240107,60.37729985029478],[23.05321026256263,60.38441716863497],[23.05414061024828,60.38433088217454],[23.05449138187851,60.38521299117014],[23.05982909258819,60.38471768597879],[23.06053097091558,60.38648187219917],[23.06231026478372,60.38631671621147],[23.06266128135331,60.38719880331632],[23.06444060370018,60.38703362019811],[23.06479168690339,60.38791570164994],[23.0665710377267,60.38775049140037],[23.06692218756962,60.38863256719816],[23.06870156686648,60.38846732981602],[23.06835037194998,60.3875852589639],[23.06901203516287,60.38752379798325]]]],"type":"MultiPolygon"}}
+{
+  "id": 101912975,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000098,
+    "geom:area_square_m":598732.310208,
+    "geom:bbox":"23.0438184748,60.3772998503,23.0690120352,60.4044954298",
+    "geom:latitude":60.38789,
+    "geom:longitude":23.056616,
+    "iso:country":"FI",
+    "lbl:latitude":60.38192,
+    "lbl:longitude":23.057637,
+    "mps:latitude":60.38192,
+    "mps:longitude":23.057637,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"3Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Halikko",
+    "qs:la_lc":"*FI202073",
+    "qs:level":"locality",
+    "qs:loc":"Iilikenm\u00e4ki",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":25946733,
+        "qs:id":1198072
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"5b7e7537db0e7b2dce86d19f37f14b54",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101912975,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101912975,
+    "wof:lastmodified":1470852480,
+    "wof:name":"Iilikenm\u00e4ki",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    23.04381847484797,
+    60.37729985029478,
+    23.06901203516287,
+    60.4044954297712
+],
+  "geometry": {"coordinates":[[[[23.04575245183327,60.40036087135445],[23.04381847484797,60.4044954297712],[23.04726950022632,60.40417565059664],[23.04691865835645,60.40329351620835],[23.0486989014795,60.40312852033594],[23.04764636984555,60.40048212775923],[23.04586626210545,60.40064710880904],[23.04575245183327,60.40036087135445]]],[[[23.04963237159814,60.39206617341301],[23.0473962319677,60.39684671113355],[23.05158297840399,60.39645857739168],[23.05088130020647,60.39469433613795],[23.05444082501367,60.39436423356176],[23.05338819877898,60.39171789602688],[23.04963237159814,60.39206617341301]]],[[[23.06901203516287,60.38752379798325],[23.05653945240107,60.37729985029478],[23.05321026256263,60.38441716863497],[23.05414061024828,60.38433088217454],[23.05449138187851,60.38521299117014],[23.05982909258819,60.38471768597879],[23.06053097091558,60.38648187219917],[23.06231026478372,60.38631671621147],[23.06266128135331,60.38719880331632],[23.06444060370018,60.38703362019811],[23.06479168690339,60.38791570164994],[23.0665710377267,60.38775049140037],[23.06692218756962,60.38863256719816],[23.06870156686648,60.38846732981602],[23.06835037194998,60.3875852589639],[23.06901203516287,60.38752379798325]]]],"type":"MultiPolygon"}
+}

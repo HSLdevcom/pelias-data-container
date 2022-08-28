@@ -1,1 +1,57 @@
-{"id":421473651,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Heikinkylä","geom:area":0.007186,"geom:bbox":"26.1922733951,60.5340231462,26.3503443728,60.6141300774","geom:latitude":60.578154,"geom:longitude":26.273057,"gp:parent_id":"12591003","iso:country":"FI","lbl:latitude":60.581792,"lbl:longitude":26.274254,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[102191581,85633143,85683067,404227411],"wof:breaches":[],"wof:concordances":{"gp:id":"12828297"},"wof:country":"FI","wof:geomhash":"48d11925c530287fbb1493f24515bda3","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"macroregion_id":404227411,"postalcode_id":421473651,"region_id":85683067}],"wof:id":421473651,"wof:lastmodified":1469577625,"wof:name":"07850","wof:parent_id":85683067,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[26.19227339514672,60.53402314620397,26.35034437282113,60.61413007738635],"geometry":{"coordinates":[[[[26.28238003467455,60.61276710244405],[26.321859244644,60.58745058083047],[26.35034437282113,60.55369062533154],[26.3279071364328,60.53758008868751],[26.31946077369915,60.53402314620397],[26.22331191178616,60.56922695070422],[26.20578014899074,60.57707482215245],[26.19227339514672,60.58558898085433],[26.19334291975336,60.58628813589386],[26.19249960139079,60.59954366694837],[26.19964316642244,60.60536568437912],[26.2204912187811,60.60485050328084],[26.23657747693233,60.61413007738635],[26.28238003467455,60.61276710244405]]]],"type":"MultiPolygon"}}
+{
+  "id": 421473651,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Heikinkyl\u00e4",
+    "geom:area":0.007186,
+    "geom:bbox":"26.1922733951,60.5340231462,26.3503443728,60.6141300774",
+    "geom:latitude":60.578154,
+    "geom:longitude":26.273057,
+    "gp:parent_id":"12591003",
+    "iso:country":"FI",
+    "lbl:latitude":60.581792,
+    "lbl:longitude":26.274254,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683067,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12828297"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"48d11925c530287fbb1493f24515bda3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "postalcode_id":421473651,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":421473651,
+    "wof:lastmodified":1469577625,
+    "wof:name":"07850",
+    "wof:parent_id":85683067,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.19227339514672,
+    60.53402314620397,
+    26.35034437282113,
+    60.61413007738635
+],
+  "geometry": {"coordinates":[[[[26.28238003467455,60.61276710244405],[26.321859244644,60.58745058083047],[26.35034437282113,60.55369062533154],[26.3279071364328,60.53758008868751],[26.31946077369915,60.53402314620397],[26.22331191178616,60.56922695070422],[26.20578014899074,60.57707482215245],[26.19227339514672,60.58558898085433],[26.19334291975336,60.58628813589386],[26.19249960139079,60.59954366694837],[26.19964316642244,60.60536568437912],[26.2204912187811,60.60485050328084],[26.23657747693233,60.61413007738635],[26.28238003467455,60.61276710244405]]]],"type":"MultiPolygon"}
+}

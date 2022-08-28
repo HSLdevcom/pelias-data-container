@@ -1,1 +1,112 @@
-{"id":101815435,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000282,"geom:area_square_m":1710300.814052,"geom:bbox":"27.6838834767,60.6558127056,27.7112097642,60.6813804495","geom:latitude":60.671109,"geom:longitude":27.696186,"gn:population":2506,"iso:country":"FI","lbl:latitude":60.674076,"lbl:longitude":27.701672,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":60.674076,"mps:longitude":27.701672,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ast_x_preferred":["Miehikkälä"],"name:cat_x_preferred":["Miehikkälä"],"name:ceb_x_preferred":["Miehikkälä"],"name:deu_x_preferred":["Miehikkälä"],"name:eng_x_preferred":["Miehikkälä"],"name:est_x_preferred":["Miehikkälä vald"],"name:fin_x_preferred":["Miehikkälä"],"name:fra_x_preferred":["Miehikkälä"],"name:glg_x_preferred":["Miehikkälä"],"name:ita_x_preferred":["Miehikkälä"],"name:nld_x_preferred":["Miehikkälä"],"name:nno_x_preferred":["Miehikkälä"],"name:nob_x_preferred":["Miehikkälä"],"name:nor_x_preferred":["Miehikkälä"],"name:pol_x_preferred":["Miehikkälä"],"name:ron_x_preferred":["Miehikkälä"],"name:rus_x_preferred":["Миехиккяля"],"name:sco_x_preferred":["Miehikkälä"],"name:sme_x_preferred":["Miehikkälä"],"name:spa_x_preferred":["Miehikkälä"],"name:sqi_x_preferred":["Miehikkälä"],"name:swe_x_preferred":["Miehikkälä"],"name:tur_x_preferred":["Miehikkälä"],"name:und_x_variant":["Michikkala"],"name:vep_x_preferred":["Miehikkälä"],"name:vie_x_preferred":["Miehikkälä"],"name:zho_x_preferred":["米耶希凱萊"],"qs:a0":"Suomi#Finland","qs:a1":"*Kymenlaakso#Kymmenedalen","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:id":0,"qs:la":"Miehikkälä","qs:la_lc":"*FI108489","qs:level":"locality","qs:loc":"Miehikkälä","qs:loc_alt":"Miehikkala","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":198,"wof:belongsto":[85683081,102191581,907198737,85633143,404227411,136253047,1159321573],"wof:breaches":[],"wof:concordances":{"gn:id":646079,"gp:id":569779,"qs_pg:id":953625,"wd:id":"Q999203","wk:page":"Miehikkälä"},"wof:concordances_alt":{"qs_pg:id":977328},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"3d544add3ef6e9ef4dc7fdff041a97af","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321573,"empire_id":136253047,"localadmin_id":907198737,"locality_id":101815435,"macroregion_id":404227411,"region_id":85683081}],"wof:id":101815435,"wof:lastmodified":1582312180,"wof:name":"Miehikkälä","wof:parent_id":907198737,"wof:placetype":"locality","wof:population":2506,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[27.68388347665103,60.65581270556339,27.71120976417558,60.68138044951331],"geometry":{"coordinates":[[[27.70862795854191,60.68093392537372],[27.70766899228158,60.67919974566399],[27.71120976417558,60.67875316112452],[27.70929183996623,60.6752848352495],[27.7075216366074,60.67550811178717],[27.7051251033904,60.67117263430669],[27.70689509264582,60.67094939101941],[27.70593659834446,60.6692152018552],[27.70062681992607,60.66988482658849],[27.69727390922588,60.66381497333504],[27.69550423773404,60.66403809157089],[27.69502541011332,60.66317095648753],[27.69325575893288,60.66339404633743],[27.69038366299208,60.65819116163919],[27.68861424610543,60.65841418989942],[27.68717872043305,60.65581270556339],[27.68540940944024,60.65603569216734],[27.68732333085717,60.65950436123666],[27.68555382622861,60.65972735265592],[27.68651087638597,60.6614616906669],[27.68474126368301,60.66168467362309],[27.6890490487342,60.6694891735558],[27.69435897530337,60.6688199801298],[27.695795814576,60.67142139089054],[27.6904855025914,60.67209064411531],[27.6895278374833,60.67035633204375],[27.68775777414544,60.67057935966716],[27.68823654926916,60.67144652316335],[27.68469626945227,60.67189252644818],[27.68565373597363,60.67362687510928],[27.68388347665103,60.67384985741091],[27.68484097430343,60.67558421282183],[27.68838164181494,60.67513819989443],[27.68981836442657,60.67773968089165],[27.69512958249317,60.67707043855222],[27.69560867700073,60.67793757567557],[27.6991494621625,60.67749129205873],[27.70106647526313,60.68095977099728],[27.70460751308445,60.68051334717421],[27.70508692515415,60.68138044951331],[27.70862795854191,60.68093392537372]]],"type":"Polygon"}}
+{
+  "id": 101815435,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000282,
+    "geom:area_square_m":1710300.814053,
+    "geom:bbox":"27.6838834767,60.6558127056,27.7112097642,60.6813804495",
+    "geom:latitude":60.671109,
+    "geom:longitude":27.696186,
+    "gn:population":2506,
+    "iso:country":"FI",
+    "lbl:latitude":60.674076,
+    "lbl:longitude":27.701672,
+    "mps:latitude":60.674076,
+    "mps:longitude":27.701672,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:deu_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:est_x_preferred":[
+        "Miehikk\u00e4l\u00e4 vald"
+    ],
+    "name:fin_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:fra_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:ita_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:nld_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:nno_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:nor_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "name:pol_x_preferred":[
+        "Miehikk\u00e4l\u00e4"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Kymenlaakso#Kymmenedalen",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Miehikk\u00e4l\u00e4",
+    "qs:la_lc":"*FI108489",
+    "qs:level":"locality",
+    "qs:loc":"Miehikk\u00e4l\u00e4",
+    "qs:loc_alt":"Miehikkala",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":198,
+    "wof:belongsto":[
+        85683081,
+        102191581,
+        907198737,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":646079,
+        "gp:id":12590766,
+        "qs:id":953625,
+        "wd:id":"Q999203",
+        "wk:page":"Miehikk\u00e4l\u00e4"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"439ccd78210e00e99643e6821780ec60",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198737,
+            "locality_id":101815435,
+            "macroregion_id":404227411,
+            "region_id":85683081
+        }
+    ],
+    "wof:id":101815435,
+    "wof:lastmodified":1479772482,
+    "wof:name":"Miehikk\u00e4l\u00e4",
+    "wof:parent_id":907198737,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.68388347665103,
+    60.65581270556339,
+    27.71120976417558,
+    60.68138044951331
+],
+  "geometry": {"coordinates":[[[27.70862795854191,60.68093392537372],[27.70766899228158,60.67919974566399],[27.71120976417558,60.67875316112452],[27.70929183996623,60.6752848352495],[27.7075216366074,60.67550811178717],[27.7051251033904,60.67117263430669],[27.70689509264582,60.67094939101941],[27.70593659834446,60.6692152018552],[27.70062681992607,60.66988482658849],[27.69727390922588,60.66381497333504],[27.69550423773404,60.66403809157089],[27.69502541011332,60.66317095648753],[27.69325575893288,60.66339404633743],[27.69038366299208,60.65819116163919],[27.68861424610543,60.65841418989942],[27.68717872043305,60.65581270556339],[27.68540940944024,60.65603569216734],[27.68732333085717,60.65950436123666],[27.68555382622861,60.65972735265592],[27.68651087638597,60.6614616906669],[27.68474126368301,60.66168467362309],[27.6890490487342,60.6694891735558],[27.69435897530337,60.6688199801298],[27.695795814576,60.67142139089054],[27.6904855025914,60.67209064411531],[27.6895278374833,60.67035633204375],[27.68775777414544,60.67057935966716],[27.68823654926916,60.67144652316335],[27.68469626945227,60.67189252644818],[27.68565373597363,60.67362687510928],[27.68388347665103,60.67384985741091],[27.68484097430343,60.67558421282183],[27.68838164181494,60.67513819989443],[27.68981836442657,60.67773968089165],[27.69512958249317,60.67707043855222],[27.69560867700073,60.67793757567557],[27.6991494621625,60.67749129205873],[27.70106647526313,60.68095977099728],[27.70460751308445,60.68051334717421],[27.70508692515415,60.68138044951331],[27.70862795854191,60.68093392537372]]],"type":"Polygon"}
+}

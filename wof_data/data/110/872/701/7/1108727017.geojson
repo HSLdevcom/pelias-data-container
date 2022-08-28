@@ -1,1 +1,83 @@
-{"id":1108727017,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000434,"geom:area_square_m":2670104.886933,"geom:bbox":"24.8972194974,60.1426407286,24.9250150388,60.1621463632","geom:latitude":60.152424,"geom:longitude":24.910005,"hkigis:KOKOTUNNUS":"0911103203","hkigis:TUNNUS":"203","hkigis:aluejako":"OSA-ALUE","hkigis:kokotunnus":"0911103203","hkigis:tunnus":"203","iso:country":"FI","lbl:latitude":60.151689,"lbl:longitude":24.90974,"lbl:max_zoom":18,"mps:latitude":60.151689,"mps:longitude":24.90974,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:eng_x_preferred":["Jätkäsaari"],"name:fin_x_preferred":["Jätkäsaari"],"name:fra_x_preferred":["Jätkäsaari"],"name:nld_x_preferred":["Jätkäsaari"],"name:swe_x_preferred":["Busholmen"],"name:swe_x_variant":["Korso"],"name:tur_x_preferred":["Jätkäsaari"],"reversegeo:latitude":60.151689,"reversegeo:longitude":24.90974,"src:geom":"hkigis","src:geom_alt":[],"wof:belongsto":[102191581,1108727337,907199715,85633143,404227411,101748417,136253047,890536879,1159321633,85683067],"wof:breaches":[],"wof:concordances":{"wd:id":"Q3069090"},"wof:controlled":["wof:parent_id","wof:hierarchy"],"wof:country":"FI","wof:geomhash":"ef8110ca716630c3cbea7ca296484e68","wof:hierarchy":[{"borough_id":890536879,"continent_id":102191581,"country_id":85633143,"county_id":1159321633,"empire_id":136253047,"localadmin_id":907199715,"locality_id":101748417,"macrohood_id":1108727337,"macroregion_id":404227411,"neighbourhood_id":1108727017,"region_id":85683067}],"wof:id":1108727017,"wof:lastmodified":1566594918,"wof:name":"Jatkasaari","wof:parent_id":-3,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.89721949736836,60.14264072860195,24.92501503880699,60.16214636324273],"geometry":{"coordinates":[[[[24.89722020454047,60.14767340804971],[24.89722052583334,60.14264072860195],[24.91664753937244,60.1426508825728],[24.91664712746948,60.1466273537207],[24.92492117506068,60.15466837971984],[24.92495666231634,60.15696160780664],[24.92501503880699,60.16073326447687],[24.92218852757199,60.16214636324273],[24.92194744015955,60.16195562144459],[24.92132790419013,60.16193063636256],[24.91806681432848,60.16182156443243],[24.9139548988556,60.16165975289713],[24.91292602422704,60.161437431158],[24.90796636021354,60.16033876357994],[24.90498811703213,60.15967889993199],[24.8981198132357,60.15889735148643],[24.89721949736836,60.15878361485722],[24.8972195941291,60.15755512014906],[24.89721979245882,60.15418626483225],[24.89721980386909,60.1539830171791],[24.89721994128865,60.15183286203182],[24.89722020454047,60.14767340804971]]]],"type":"MultiPolygon"}}
+{
+  "id": 1108727017,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000434,
+    "geom:area_square_m":2670104.886934,
+    "geom:bbox":"24.8972194974,60.1426407286,24.9250150388,60.1621463632",
+    "geom:latitude":60.152424,
+    "geom:longitude":24.910005,
+    "hkigis:KOKOTUNNUS":"0911103203",
+    "hkigis:TUNNUS":"203",
+    "hkigis:aluejako":"OSA-ALUE",
+    "hkigis:kokotunnus":"0911103203",
+    "hkigis:tunnus":"203",
+    "iso:country":"FI",
+    "lbl:latitude":60.151689,
+    "lbl:longitude":24.90974,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "J\u00e4tk\u00e4saari"
+    ],
+    "name:swe_x_preferred":[
+        "Busholmen"
+    ],
+    "reversegeo:latitude":60.151689,
+    "reversegeo:longitude":24.90974,
+    "src:geom":"hkigis",
+    "src:geom_alt":[],
+    "wof:belongsto":[
+        102191581,
+        1108727337,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047,
+        890536879,
+        85683067
+    ],
+    "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
+    "wof:country":"FI",
+    "wof:geomhash":"ecd0a5493e79b15b1232f7f74e2ada78",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536879,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":1108727337,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727017,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108727017,
+    "wof:lastmodified":1492124069,
+    "wof:name":"Jatkasaari",
+    "wof:parent_id":-3,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.89721949736836,
+    60.14264072860195,
+    24.92501503880699,
+    60.16214636324273
+],
+  "geometry": {"coordinates":[[[[24.89722020454047,60.14767340804971],[24.89722052583334,60.14264072860195],[24.91664753937244,60.1426508825728],[24.91664712746948,60.1466273537207],[24.92492117506068,60.15466837971984],[24.92495666231634,60.15696160780664],[24.92501503880699,60.16073326447687],[24.92218852757199,60.16214636324273],[24.92194744015955,60.16195562144459],[24.92132790419013,60.16193063636256],[24.91806681432848,60.16182156443243],[24.9139548988556,60.16165975289713],[24.91292602422704,60.161437431158],[24.90796636021354,60.16033876357994],[24.90498811703213,60.15967889993199],[24.8981198132357,60.15889735148643],[24.89721949736836,60.15878361485722],[24.8972195941291,60.15755512014906],[24.89721979245882,60.15418626483225],[24.89721980386909,60.1539830171791],[24.89721994128865,60.15183286203182],[24.89722020454047,60.14767340804971]]]],"type":"MultiPolygon"}
+}

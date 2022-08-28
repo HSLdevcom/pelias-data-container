@@ -1,1 +1,77 @@
-{"id":101814433,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000154,"geom:area_square_m":814756.738616,"geom:bbox":"25.1887886066,64.6003390688,25.2161218234,64.6110624876","geom:latitude":64.606509,"geom:longitude":25.202926,"iso:country":"FI","lbl:latitude":64.606216,"lbl:longitude":25.202926,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":64.606216,"mps:longitude":25.202926,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":12,"name:ara_x_preferred":["بافولا"],"name:deu_x_preferred":["Paavola"],"name:eng_x_preferred":["Paavola"],"name:fin_x_preferred":["Paavola"],"name:fra_x_preferred":["Paavola"],"name:nld_x_preferred":["Paavola"],"name:nob_x_preferred":["Paavola"],"name:rus_x_preferred":["Павола"],"name:sme_x_preferred":["Paavola"],"name:swe_x_preferred":["Paavola"],"qs:a0":"Suomi#Finland","qs:a1":"*Pohjois-Pohjanmaa#Norra Österbotten","qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Ruukki","qs:la_lc":"*FI417708","qs:level":"locality","qs:loc":"Paavola","qs:loc_alt":"Paavola","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wd:wordcount":85,"wof:belongsto":[85683143,102191581,907199705,85633143,404227415,136253047,1159321631],"wof:breaches":[],"wof:concordances":{"gn:id":643270,"gp:id":570833,"qs_pg:id":382813,"wd:id":"Q3365627"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"9a013fa6e08cf7cb148403a624c7f2e4","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321631,"empire_id":136253047,"localadmin_id":907199705,"locality_id":101814433,"macroregion_id":404227415,"region_id":85683143}],"wof:id":101814433,"wof:lastmodified":1582312186,"wof:name":"Paavola","wof:parent_id":907199705,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.18878860663017,64.60033906878334,25.21612182338697,64.61106248758887],"geometry":{"coordinates":[[[25.19073500575632,64.61106248758887],[25.20290248068011,64.60989250833461],[25.20338952547996,64.61076982368121],[25.20744525511867,64.61037961286303],[25.20647096103454,64.60862500841125],[25.21458161980047,64.6078443355658],[25.21409428562231,64.60696705900614],[25.21612182338697,64.6067718338993],[25.21417259355241,64.60326274344447],[25.21214529471956,64.60345794114],[25.21165813342856,64.60258065876735],[25.20760357463439,64.60297096397096],[25.20614265647021,64.60033906878334],[25.20411551596533,64.60053416259734],[25.20460239441218,64.60141146900207],[25.20257516734102,64.6016065441695],[25.20306202060874,64.60248385626107],[25.19900736647793,64.60287394380254],[25.199494134823,64.60375126842774],[25.19746670775697,64.60394628079916],[25.19795345090284,64.60482361111087],[25.19592593725076,64.6050186048289],[25.19641265519067,64.60589594082762],[25.19235742786304,64.60628586545374],[25.19284406083125,64.60716321398371],[25.18878860663017,64.60755305029096],[25.19073500575632,64.61106248758887]]],"type":"Polygon"}}
+{
+  "id": 101814433,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000154,
+    "geom:area_square_m":814756.738618,
+    "geom:bbox":"25.1887886066,64.6003390688,25.2161218234,64.6110624876",
+    "geom:latitude":64.606509,
+    "geom:longitude":25.202926,
+    "iso:country":"FI",
+    "lbl:latitude":64.606216,
+    "lbl:longitude":25.202926,
+    "mps:latitude":64.606216,
+    "mps:longitude":25.202926,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Pohjanmaa#Norra \u00d6sterbotten",
+    "qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Ruukki",
+    "qs:la_lc":"*FI417708",
+    "qs:level":"locality",
+    "qs:loc":"Paavola",
+    "qs:loc_alt":"Paavola",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":85,
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        85633143,
+        404227415,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":643270,
+        "gp:id":570833,
+        "qs:id":382813,
+        "wd:id":"Q3365627"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"7b30e01b7baee61cd248f81881c8b593",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814433,
+            "macroregion_id":404227415,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":101814433,
+    "wof:lastmodified":1470852566,
+    "wof:name":"Paavola",
+    "wof:parent_id":85683143,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.18878860663017,
+    64.60033906878334,
+    25.21612182338697,
+    64.61106248758887
+],
+  "geometry": {"coordinates":[[[25.19073500575632,64.61106248758887],[25.20290248068011,64.60989250833461],[25.20338952547996,64.61076982368121],[25.20744525511867,64.61037961286303],[25.20647096103454,64.60862500841125],[25.21458161980047,64.6078443355658],[25.21409428562231,64.60696705900614],[25.21612182338697,64.6067718338993],[25.21417259355241,64.60326274344447],[25.21214529471956,64.60345794113999],[25.21165813342856,64.60258065876735],[25.20760357463439,64.60297096397096],[25.20614265647021,64.60033906878334],[25.20411551596533,64.60053416259734],[25.20460239441218,64.60141146900207],[25.20257516734102,64.6016065441695],[25.20306202060874,64.60248385626107],[25.19900736647793,64.60287394380254],[25.199494134823,64.60375126842774],[25.19746670775697,64.60394628079916],[25.19795345090284,64.60482361111087],[25.19592593725076,64.6050186048289],[25.19641265519067,64.60589594082762],[25.19235742786304,64.60628586545374],[25.19284406083125,64.60716321398371],[25.18878860663017,64.60755305029096],[25.19073500575632,64.61106248758887]]],"type":"Polygon"}
+}

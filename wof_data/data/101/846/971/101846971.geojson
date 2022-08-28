@@ -1,1 +1,75 @@
-{"id":101846971,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000146,"geom:area_square_m":834983.317842,"geom:bbox":"21.3612216072,62.3880546833,21.3870208092,62.3989917404","geom:latitude":62.39335,"geom:longitude":21.373849,"iso:country":"FI","lbl:latitude":62.392367,"lbl:longitude":21.371504,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":62.392367,"mps:longitude":21.371504,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:und_x_variant":["Pielax"],"qs:a0":"Suomi#Finland","qs:a1":"*Pohjanmaa#Österbotten","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Närpiö#Närpes","qs:la_lc":"*FI215545","qs:level":"locality","qs:loc":"Pjelax","qs:loc_alt":"Pjelax","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683119,102191581,907199661,85633143,404227417,136253047,1159321495],"wof:breaches":[],"wof:concordances":{"gn:id":641245,"gp:id":571509,"qs_pg:id":320643},"wof:country":"FI","wof:geomhash":"c8a16ee4f4234247e778b3c94e03c2c6","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321495,"empire_id":136253047,"localadmin_id":907199661,"locality_id":101846971,"macroregion_id":404227417,"region_id":85683119}],"wof:id":101846971,"wof:lastmodified":1566595184,"wof:name":"Pjelax","wof:parent_id":907199661,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[21.36122160722499,62.38805468334357,21.38702080923917,62.3989917403805],"geometry":{"coordinates":[[[21.38321863492195,62.39649147855164],[21.38702080923917,62.39620099838339],[21.38668840286567,62.39531379015881],[21.382886334658,62.39560426089906],[21.38122516289735,62.39116816674073],[21.38312594026979,62.39102296692857],[21.38279371877877,62.39013575162983],[21.37709149482373,62.39057126497505],[21.37675945439923,62.38968403515099],[21.37485873216008,62.38982915358559],[21.37419482323116,62.38805468334357],[21.36659218886234,62.38863487956797],[21.36692392021212,62.38952213371209],[21.36122160722499,62.38995704314749],[21.36155320137482,62.39084431101469],[21.36345404237409,62.39069936048577],[21.36411740255494,62.39247388564229],[21.36601833269515,62.3923289017157],[21.36734552851044,62.39587792852399],[21.36544438613322,62.39602293127422],[21.3661080095643,62.39779745174894],[21.36800925807972,62.39765243958493],[21.36767738232118,62.39676518424977],[21.37338086681052,62.39633001792595],[21.37437703757166,62.3989917403805],[21.37817959406732,62.39870148127716],[21.37784740904704,62.39781425027257],[21.38355095716133,62.39737869581097],[21.38321863492195,62.39649147855164]]],"type":"Polygon"}}
+{
+  "id": 101846971,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000146,
+    "geom:area_square_m":834983.317842,
+    "geom:bbox":"21.3612216072,62.3880546833,21.3870208092,62.3989917404",
+    "geom:latitude":62.39335,
+    "geom:longitude":21.373849,
+    "iso:country":"FI",
+    "lbl:latitude":62.392367,
+    "lbl:longitude":21.371504,
+    "mps:latitude":62.392367,
+    "mps:longitude":21.371504,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjanmaa#\u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"N\u00e4rpi\u00f6#N\u00e4rpes",
+    "qs:la_lc":"*FI215545",
+    "qs:level":"locality",
+    "qs:loc":"Pjelax",
+    "qs:loc_alt":"Pjelax",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683119,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":641245,
+        "gp:id":571509,
+        "qs:id":320643
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"47ac9e903c1082011a1f6bdbd4055e02",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846971,
+            "macroregion_id":404227417,
+            "region_id":85683119
+        }
+    ],
+    "wof:id":101846971,
+    "wof:lastmodified":1470852562,
+    "wof:name":"Pjelax",
+    "wof:parent_id":85683119,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    21.36122160722499,
+    62.38805468334357,
+    21.38702080923917,
+    62.3989917403805
+],
+  "geometry": {"coordinates":[[[21.38321863492195,62.39649147855164],[21.38702080923917,62.39620099838339],[21.38668840286567,62.39531379015881],[21.382886334658,62.39560426089906],[21.38122516289735,62.39116816674073],[21.38312594026979,62.39102296692857],[21.38279371877877,62.39013575162983],[21.37709149482373,62.39057126497505],[21.37675945439923,62.38968403515099],[21.37485873216008,62.38982915358559],[21.37419482323116,62.38805468334357],[21.36659218886234,62.38863487956797],[21.36692392021212,62.38952213371209],[21.36122160722499,62.38995704314749],[21.36155320137482,62.39084431101469],[21.36345404237409,62.39069936048577],[21.36411740255494,62.39247388564229],[21.36601833269515,62.3923289017157],[21.36734552851044,62.39587792852399],[21.36544438613322,62.39602293127422],[21.3661080095643,62.39779745174894],[21.36800925807972,62.39765243958493],[21.36767738232118,62.39676518424977],[21.37338086681052,62.39633001792595],[21.37437703757166,62.3989917403805],[21.37817959406732,62.39870148127716],[21.37784740904704,62.39781425027257],[21.38355095716133,62.39737869581097],[21.38321863492195,62.39649147855164]]],"type":"Polygon"}
+}

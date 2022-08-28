@@ -1,1 +1,75 @@
-{"id":101847059,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000073,"geom:area_square_m":377529.196988,"geom:bbox":"25.3338663729,65.2445540865,25.3587014845,65.2512866495","geom:latitude":65.247936,"geom:longitude":25.34671,"iso:country":"FI","lbl:latitude":65.248168,"lbl:longitude":25.350661,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":65.248168,"mps:longitude":25.35066,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:und_x_variant":["Halonen"],"qs:a0":"Suomi#Finland","qs:a1":"*Pohjois-Pohjanmaa#Norra Österbotten","qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Haukipudas","qs:la_lc":"*FI417084","qs:level":"locality","qs:loc":"Halosenniemi","qs:loc_alt":"Halosenniemi","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683143,102191581,907199459,85633143,404227415,136253047,1159321529],"wof:breaches":[],"wof:concordances":{"gn:id":659253,"gp:id":564970,"qs_pg:id":318825},"wof:country":"FI","wof:geomhash":"98bec77d1570406775d044334bfa7241","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321529,"empire_id":136253047,"localadmin_id":907199459,"locality_id":101847059,"macroregion_id":404227415,"region_id":85683143}],"wof:id":101847059,"wof:lastmodified":1566595218,"wof:name":"Halosenniemi","wof:parent_id":907199459,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.33386637285781,65.24455408649197,25.3587014845437,65.25128664952047],"geometry":{"coordinates":[[[25.35399904135085,65.25108916742403],[25.35248022454607,65.24845768698731],[25.3587014845437,65.24786514800974],[25.35768874755701,65.2461108643684],[25.35561514841714,65.2463083892452],[25.35460268429,65.24455408649197],[25.35045565109834,65.24494902938193],[25.35096173922636,65.24582619560658],[25.34888811689933,65.24602363497985],[25.34939417907799,65.24690080710837],[25.34109915226094,65.24769033178],[25.34059334119058,65.24681313118288],[25.3385195756789,65.24701043990814],[25.33801386418952,65.24613323098328],[25.33386637285781,65.24652775581256],[25.3358889372758,65.25003664114939],[25.34003693093916,65.24964205940717],[25.34054278963578,65.25051926348118],[25.34261680631084,65.2503219262926],[25.34211088481698,65.24944472933504],[25.34833257459917,65.24885258232166],[25.34934483115757,65.25060693231137],[25.35141879603032,65.25040948346941],[25.35192504234737,65.25128664952047],[25.35399904135085,65.25108916742403]]],"type":"Polygon"}}
+{
+  "id": 101847059,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000073,
+    "geom:area_square_m":377529.196989,
+    "geom:bbox":"25.3338663729,65.2445540865,25.3587014845,65.2512866495",
+    "geom:latitude":65.247936,
+    "geom:longitude":25.34671,
+    "iso:country":"FI",
+    "lbl:latitude":65.248168,
+    "lbl:longitude":25.350661,
+    "mps:latitude":65.248168,
+    "mps:longitude":25.35066,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Pohjanmaa#Norra \u00d6sterbotten",
+    "qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Haukipudas",
+    "qs:la_lc":"*FI417084",
+    "qs:level":"locality",
+    "qs:loc":"Halosenniemi",
+    "qs:loc_alt":"Halosenniemi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        85633143,
+        404227415,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":659253,
+        "gp:id":564970,
+        "qs:id":318825
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"856d8cc316d4d625ff8d67584f1758a4",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101847059,
+            "macroregion_id":404227415,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":101847059,
+    "wof:lastmodified":1470852534,
+    "wof:name":"Halosenniemi",
+    "wof:parent_id":85683143,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.33386637285781,
+    65.24455408649197,
+    25.3587014845437,
+    65.25128664952047
+],
+  "geometry": {"coordinates":[[[25.35399904135085,65.25108916742403],[25.35248022454607,65.24845768698731],[25.3587014845437,65.24786514800974],[25.35768874755701,65.2461108643684],[25.35561514841714,65.2463083892452],[25.35460268429,65.24455408649197],[25.35045565109834,65.24494902938193],[25.35096173922636,65.24582619560658],[25.34888811689933,65.24602363497985],[25.34939417907799,65.24690080710837],[25.34109915226094,65.24769033178001],[25.34059334119058,65.24681313118288],[25.3385195756789,65.24701043990814],[25.33801386418952,65.24613323098328],[25.33386637285781,65.24652775581256],[25.3358889372758,65.25003664114939],[25.34003693093916,65.24964205940717],[25.34054278963578,65.25051926348118],[25.34261680631084,65.2503219262926],[25.34211088481698,65.24944472933504],[25.34833257459917,65.24885258232166],[25.34934483115757,65.25060693231137],[25.35141879603032,65.25040948346941],[25.35192504234737,65.25128664952047],[25.35399904135085,65.25108916742403]]],"type":"Polygon"}
+}

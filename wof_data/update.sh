@@ -1,58 +1,52 @@
 #!/bin/bash
 
-#renewed script for processing data fetched from current WOF distribution at https://geocode.earth/data/whosonfirst
+#vTODO: this script is outdated. Wof data has been moved and can be downloaded
+# using pelias/whosonfirst download script. Unfortunately data fetched with the
+# new tool seems to be broken. For example, localadmin mapping does not work. 
 
-#remove all point features which cannot define an area
-#this will cause harmless warnings in wof lookup as metafiles refer to unknown geometry
-#to get rid of warnings, log warnings to a file and modify each warning line to to execute:
-#  sed -i '/xxxx.geojson/d' whosonfirst-data-<layer>-latest.csv
-grep -lr data -e '"type":"Point"'  | xargs rm
-grep -lr data -e 'alt-quattroshapes'  | xargs rm
+# path where to find wof cloning tool
+TOOLS=../
 
-#remove admin data not used by digitransit
-grep -lr data -e 'wof:placetype":"country'  | xargs rm
-grep -lr data -e 'wof:placetype":"county'  | xargs rm
-grep -lr data -e 'wof:placetype":"borough'  | xargs rm
-grep -lr data -e 'wof:placetype":"macrocounty'  | xargs rm
-grep -lr data -e 'wof:placetype":"macroregion'  | xargs rm
-grep -lr data -e 'wof:placetype":"dependency'  | xargs rm
-grep -lr data -e 'wof:placetype":"empire'  | xargs rm
-grep -lr data -e 'wof:placetype":"continent'  | xargs rm
-grep -lr data -e 'wof:placetype":"marinearea'  | xargs rm
-grep -lr data -e 'wof:placetype":"ocean'  | xargs rm
+# to install the wof cloning tool:
+# git clone https://github.com/whosonfirst/go-whosonfirst-clone.git $TOOLS/wof-clone
+# cd $TOOLS/wof-clone
+# make deps
+# make bin
 
-#Use only localadmins from figov. The rest are duplicates or trash.
-sed -i '/qs_pg/d' meta/whosonfirst-data-admin-fi-localadmin-latest.csv
 
-#remove quattroshapes neighbourhoods, they are rubbish, and some other data from bad sources
-sed -i '/quattroshapes/d' meta/whosonfirst-data-admin-fi-neighbourhood-latest.csv
-sed -i '/mz/d' meta/whosonfirst-data-admin-fi-neighbourhood-latest.csv
-sed -i '/qs_pg/d' meta/whosonfirst-data-admin-fi-neighbourhood-latest.csv
+# Download Whosonfirst admin lookup data
+URL=https://whosonfirst.mapzen.com/bundles
+METADIR=meta/
+DATADIR=data/
+mkdir -p $METADIR
+mkdir -p $DATADIR
 
-#remove geonames localities, bad quality and always point geometry
-sed -i '/geonames/d' meta/whosonfirst-data-admin-fi-locality-latest.csv
-sed -i '/alt-quattroshapes/d' meta/whosonfirst-data-admin-fi-locality-latest.csv
+cd $METADIR
 
-#remove bad region
-sed -i '/85683085.geojson/d' meta/whosonfirst-data-admin-fi-region-latest.csv
+admins=( country localadmin locality neighbourhood region )
 
-#remove bad postalcodes
-sed -i '/geoplanet/d' meta/whosonfirst-data-postalcode-fi-postalcode-latest.csv
+for target in "${admins[@]}"
+do
+    echo getting $target metadata
+    curl -O -sS $URL/wof-$target-latest.csv
+    if [ "$target" != "continent" ]
+    then
+	head -1 wof-$target-latest.csv > temp && cat wof-$target-latest.csv | grep ",FI," >> temp || true
+	mv temp wof-$target-latest.csv
+    fi
+done
 
-cd meta
-#remove unused admin metadata
-rm whosonfirst-data-admin-fi-borough-latest.csv
-rm whosonfirst-data-admin-fi-campus-latest.csv
-rm whosonfirst-data-admin-fi-country-latest.csv
-rm whosonfirst-data-admin-fi-county-latest.csv
-rm whosonfirst-data-admin-fi-dependency-latest.csv
-rm whosonfirst-data-admin-fi-macrohood-latest.csv
-rm whosonfirst-data-admin-fi-macroregion-latest.csv
-rm whosonfirst-data-admin-fi-microhood-latest.csv
+empty_admins=( continent borough county dependency disputed macrocounty macroregion )
 
-#rename metadata files into backward compatible form we use
-mv whosonfirst-data-admin-fi-neighbourhood-latest.csv whosonfirst-data-neighbourhood-latest.csv
-mv whosonfirst-data-admin-fi-region-latest.csv whosonfirst-data-region-latest.csv
-mv whosonfirst-data-admin-fi-localadmin-latest.csv whosonfirst-data-localadmin-latest.csv
-mv whosonfirst-data-admin-fi-locality-latest.csv whosonfirst-data-locality-latest.csv
-mv whosonfirst-data-postalcode-fi-postalcode-latest.csv whosonfirst-data-postalcode-latest.csv
+for target in "${empty_admins[@]}"
+do
+    cp ../empty.csv wof-$target-latest.csv
+done
+
+cd ../
+
+for target in "${admins[@]}"
+do
+    echo getting $target data
+    $TOOLS/go-whosonfirst-clone/bin/wof-clone-metafiles -dest $DATADIR $METADIR/wof-$target-latest.csv
+done

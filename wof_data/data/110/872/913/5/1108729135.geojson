@@ -1,1 +1,66 @@
-{"id":1108729135,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.001731,"geom:area_square_m":9747823.304481,"geom:bbox":"27.540648,62.891586,27.616902,62.931412","geom:latitude":62.908885,"geom:longitude":27.571228,"iso:country":"FI","kuogov:ID":"29","kuogov:NIMI":"Neulaniemi","lbl:latitude":62.909142,"lbl:longitude":27.567473,"lbl:max_zoom":18,"mps:latitude":62.909142,"mps:longitude":27.567473,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"reversegeo:latitude":62.909142,"reversegeo:longitude":27.567473,"src:geom":"kuogov","wof:belongsto":[102191581,907199673,85633143,404227407,101748439,136253047,1159321597,85683131],"wof:breaches":[],"wof:concordances":{},"wof:country":"FI","wof:geomhash":"29baeee5da322a9fd7494dda6ad6d6a6","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321597,"empire_id":136253047,"localadmin_id":907199673,"locality_id":101748439,"macroregion_id":404227407,"neighbourhood_id":1108729135,"region_id":85683131}],"wof:id":1108729135,"wof:lastmodified":1617131369,"wof:name":"Neulaniemi","wof:parent_id":101748439,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[27.540648,62.891586,27.616902,62.931412],"geometry":{"coordinates":[[[27.557686,62.931412],[27.560682,62.927952],[27.575165,62.923834],[27.583693,62.91533],[27.591157,62.915118],[27.603038,62.907141],[27.616902,62.897857],[27.60937,62.896635],[27.604131,62.895784],[27.601283,62.895322],[27.601064,62.895322],[27.600644,62.89522],[27.58299,62.89235],[27.577421,62.891586],[27.5552,62.893099],[27.555774,62.896647],[27.544798,62.905779],[27.540648,62.916324],[27.54121,62.926152],[27.548015,62.930108],[27.557686,62.931412]]],"type":"Polygon"}}
+{
+  "id": 1108729135,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.001731,
+    "geom:area_square_m":9747823.304487,
+    "geom:bbox":"27.5406476485,62.8915859761,27.616901881,62.9314121526",
+    "geom:latitude":62.908885,
+    "geom:longitude":27.571228,
+    "iso:country":"FI",
+    "kuogov:ID":"29",
+    "kuogov:NIMI":"Neulaniemi",
+    "lbl:latitude":62.909142,
+    "lbl:longitude":27.567473,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "reversegeo:latitude":62.909142,
+    "reversegeo:longitude":27.567473,
+    "src:geom":"kuogov",
+    "wof:belongsto":[
+        85683131,
+        102191581,
+        907199673,
+        85633143,
+        404227407,
+        101748439,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"058a0fb16200d9e387d0feb01afd0fc0",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199673,
+            "locality_id":101748439,
+            "macroregion_id":404227407,
+            "neighbourhood_id":1108729135,
+            "region_id":85683131
+        }
+    ],
+    "wof:id":1108729135,
+    "wof:lastmodified":1492016623,
+    "wof:name":"Neulaniemi",
+    "wof:parent_id":101748439,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.5406476485,
+    62.8915859761,
+    27.616901881,
+    62.9314121526
+],
+  "geometry": {"coordinates":[[[[27.557685942,62.9314121526],[27.557685942,62.9314121526],[27.560681829,62.9279523009],[27.5751648504,62.9238336393],[27.5836928335,62.9153300104],[27.5911574109,62.9151179031],[27.6030376552,62.9071411208],[27.616901881,62.8978566687],[27.6093695942,62.8966345108],[27.604131355,62.8957842426],[27.601282504,62.895322048],[27.6010641337,62.8953218118],[27.6006443993,62.8952198404],[27.5829903897,62.8923498774],[27.5774211989,62.8915859761],[27.5551998975,62.8930994507],[27.5557739554,62.8966470662],[27.5447980405,62.9057789815],[27.5406476485,62.9163241699],[27.5412102824,62.9261523823],[27.5480149244,62.9301082548],[27.557685942,62.9314121526]]]],"type":"MultiPolygon"}
+}

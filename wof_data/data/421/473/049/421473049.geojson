@@ -1,1 +1,63 @@
-{"id":421473049,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Malminkartano","geom:area":0.000315,"geom:area_square_m":1931925.237367,"geom:bbox":"24.8400402263,60.2405061289,24.8744431606,60.2550392706","geom:latitude":60.248727,"geom:longitude":24.858141,"iso:country":"FI","lbl:latitude":60.247885,"lbl:longitude":24.860189,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[85683067,102191581,907199715,85633143,404227411,101748417,136253047],"wof:breaches":[],"wof:concordances":{"gp:id":"12828012"},"wof:country":"FI","wof:geomhash":"1b3dc2cac693772bdc4fd9dafcfd6e7d","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"empire_id":136253047,"localadmin_id":907199715,"locality_id":101748417,"macroregion_id":404227411,"postalcode_id":421473049,"region_id":85683067}],"wof:id":421473049,"wof:lastmodified":1485373930,"wof:name":"00410","wof:parent_id":101748417,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.84004022634754,60.24050612894625,24.87444316059742,60.25503927062428],"geometry":{"coordinates":[[[[24.86087240117693,60.25503927062428],[24.86088474911888,60.25503265402333],[24.86698966608903,60.25336644406067],[24.86807613945972,60.25257998992117],[24.87444316059742,60.24797021487612],[24.87029298297216,60.24381239781219],[24.86182583575784,60.24050612894625],[24.85824218380534,60.24101352311772],[24.84881923350367,60.24520152755021],[24.84004022634754,60.25482957063279],[24.85308894741907,60.25496130360981],[24.86087240117693,60.25503927062428]]]],"type":"MultiPolygon"}}
+{
+  "id": 421473049,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Malminkartano",
+    "geom:area":0.000315,
+    "geom:area_square_m":1931925.237367,
+    "geom:bbox":"24.8400402263,60.2405061289,24.8744431606,60.2550392706",
+    "geom:latitude":60.248727,
+    "geom:longitude":24.858141,
+    "iso:country":"FI",
+    "lbl:latitude":60.247885,
+    "lbl:longitude":24.860189,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12828012"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"1b3dc2cac693772bdc4fd9dafcfd6e7d",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macroregion_id":404227411,
+            "postalcode_id":421473049,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":421473049,
+    "wof:lastmodified":1485373930,
+    "wof:name":"00410",
+    "wof:parent_id":101748417,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.84004022634754,
+    60.24050612894625,
+    24.87444316059742,
+    60.25503927062428
+],
+  "geometry": {"coordinates":[[[[24.86087240117693,60.25503927062428],[24.86088474911888,60.25503265402333],[24.86698966608903,60.25336644406067],[24.86807613945972,60.25257998992117],[24.87444316059742,60.24797021487612],[24.87029298297216,60.24381239781219],[24.86182583575784,60.24050612894625],[24.85824218380534,60.24101352311772],[24.84881923350367,60.24520152755021],[24.84004022634754,60.25482957063279],[24.85308894741907,60.25496130360981],[24.86087240117693,60.25503927062428]]]],"type":"MultiPolygon"}
+}

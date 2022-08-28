@@ -1,1 +1,81 @@
-{"id":1108727257,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.00087,"geom:area_square_m":5352805.058173,"geom:bbox":"25.0917912315,60.1506130763,25.160859456,60.1676344042","geom:latitude":60.158423,"geom:longitude":25.126671,"hkigis:KOKOTUNNUS":"0916603500","hkigis:TUNNUS":"500","hkigis:aluejako":"OSA-ALUE","hkigis:kokotunnus":"0916603500","hkigis:tunnus":"500","iso:country":"FI","lbl:latitude":60.158136,"lbl:longitude":25.126671,"lbl:max_zoom":18,"mps:latitude":60.158136,"mps:longitude":25.126671,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:ceb_x_preferred":["Villinge"],"name:eng_x_preferred":["Villinki"],"name:fin_x_preferred":["Villinki"],"name:fra_x_preferred":["Villinki"],"name:swe_x_preferred":["Villinge"],"reversegeo:latitude":60.158136,"reversegeo:longitude":25.126671,"src:geom":"hkigis","src:geom_alt":[],"wof:belongsto":[102191581,890537275,907199715,85633143,404227411,101748417,136253047,890536883,1159321633,85683067],"wof:breaches":[],"wof:concordances":{"wd:id":"Q3069160"},"wof:controlled":[],"wof:country":"FI","wof:geomhash":"4fb53a751201bd075a217b94ec560b6b","wof:hierarchy":[{"borough_id":890536883,"continent_id":102191581,"country_id":85633143,"county_id":1159321633,"empire_id":136253047,"localadmin_id":907199715,"locality_id":101748417,"macrohood_id":890537275,"macroregion_id":404227411,"neighbourhood_id":1108727257,"region_id":85683067}],"wof:id":1108727257,"wof:lastmodified":1566594954,"wof:name":"Villinki","wof:parent_id":890537275,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.09179123152456,60.15061307634937,25.16085945604729,60.16763440424727],"geometry":{"coordinates":[[[[25.09181304041581,60.15697127594185],[25.09179123152456,60.15277715560683],[25.0981910689744,60.15272603501132],[25.10499154373374,60.15168917114702],[25.10707319969216,60.15136912936613],[25.10988812803193,60.15101468985934],[25.11440735525452,60.15061307634937],[25.12395918923708,60.15104220904424],[25.14818450591922,60.15219903827864],[25.16085945604729,60.15420701315627],[25.15932694963291,60.1594729540689],[25.15754963615605,60.16557795779865],[25.14617394965203,60.16513068446182],[25.12574270515021,60.16509839778411],[25.12336172401581,60.16509443006668],[25.10619360777147,60.16763440424727],[25.09780173475427,60.1602771126781],[25.09666753736771,60.15932364120719],[25.09612853961264,60.15888187213559],[25.09181304041581,60.15697127594185]]]],"type":"MultiPolygon"}}
+{
+  "id": 1108727257,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00087,
+    "geom:area_square_m":5352805.058169,
+    "geom:bbox":"25.0917912315,60.1506130763,25.160859456,60.1676344042",
+    "geom:latitude":60.158423,
+    "geom:longitude":25.126671,
+    "hkigis:KOKOTUNNUS":"0916603500",
+    "hkigis:TUNNUS":"500",
+    "hkigis:aluejako":"OSA-ALUE",
+    "hkigis:kokotunnus":"0916603500",
+    "hkigis:tunnus":"500",
+    "iso:country":"FI",
+    "lbl:latitude":60.158136,
+    "lbl:longitude":25.126671,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Villinki"
+    ],
+    "name:swe_x_preferred":[
+        "Villinge"
+    ],
+    "reversegeo:latitude":60.158136,
+    "reversegeo:longitude":25.126671,
+    "src:geom":"hkigis",
+    "src:geom_alt":[],
+    "wof:belongsto":[
+        102191581,
+        890537275,
+        907199715,
+        85633143,
+        404227411,
+        101748417,
+        136253047,
+        890536883,
+        85683067
+    ],
+    "wof:breaches":[],
+    "wof:controlled":[],
+    "wof:country":"FI",
+    "wof:geomhash":"ce668a5c82ea30dd558b368182b2bb64",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536883,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":890537275,
+            "macroregion_id":404227411,
+            "neighbourhood_id":1108727257,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108727257,
+    "wof:lastmodified":1492124070,
+    "wof:name":"Villinki",
+    "wof:parent_id":890537275,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.09179123152456,
+    60.15061307634937,
+    25.16085945604729,
+    60.16763440424727
+],
+  "geometry": {"coordinates":[[[[25.09181304041581,60.15697127594185],[25.09179123152456,60.15277715560683],[25.0981910689744,60.15272603501132],[25.10499154373374,60.15168917114702],[25.10707319969216,60.15136912936613],[25.10988812803193,60.15101468985934],[25.11440735525452,60.15061307634937],[25.12395918923708,60.15104220904424],[25.14818450591922,60.15219903827864],[25.16085945604729,60.15420701315627],[25.15932694963291,60.1594729540689],[25.15754963615605,60.16557795779865],[25.14617394965203,60.16513068446182],[25.12574270515021,60.16509839778411],[25.12336172401581,60.16509443006668],[25.10619360777147,60.16763440424727],[25.09780173475427,60.1602771126781],[25.09666753736771,60.15932364120719],[25.09612853961264,60.15888187213559],[25.09181304041581,60.15697127594185]]]],"type":"MultiPolygon"}
+}

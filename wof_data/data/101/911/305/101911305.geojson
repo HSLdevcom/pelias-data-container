@@ -1,1 +1,159 @@
-{"id":101911305,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:deprecated":"2018-08-22","edtf:inception":"uuuu","edtf:superseded":"2018-08-22","geom:area":0.000304,"geom:area_square_m":1589709.428024,"geom:bbox":"24.6716493834,65.0033841803,24.7216323802,65.0170725159","geom:latitude":65.009372,"geom:longitude":24.698084,"gn:id":"","gn:population":955,"iso:country":"FI","lbl:latitude":65.007905,"lbl:longitude":24.697589,"mps:latitude":65.007905,"mps:longitude":24.697588,"mz:hierarchy_label":1,"mz:is_current":0,"name:cat_x_preferred":["Hailuoto"],"name:ceb_x_preferred":["Hailuoto"],"name:ces_x_preferred":["Hailuoto"],"name:deu_x_preferred":["Hailuoto"],"name:ell_x_preferred":["Χάιλουοτο"],"name:ell_x_variant":["Χαϊλουότο"],"name:eng_x_preferred":["Half Acre"],"name:eng_x_variant":["Hailuoto"],"name:epo_x_preferred":["Hailuoto"],"name:est_x_preferred":["Hailuoto"],"name:fin_x_preferred":["Hailuoto"],"name:fra_x_preferred":["Hailuoto"],"name:glg_x_preferred":["Hailuoto"],"name:heb_x_preferred":["היילואוטו"],"name:ita_x_preferred":["Hailuoto"],"name:jpn_x_preferred":["ハイルオト島"],"name:lit_x_preferred":["Hailuotas"],"name:nld_x_preferred":["Hailuoto"],"name:nno_x_preferred":["Karlö"],"name:nob_x_preferred":["Karlö"],"name:nor_x_preferred":["Karlö"],"name:pol_x_preferred":["Hailuoto"],"name:por_x_preferred":["Hailuoto"],"name:ron_x_preferred":["Hailuoto"],"name:rus_x_preferred":["Хайлуото"],"name:sme_x_preferred":["Hailuoto"],"name:spa_x_preferred":["Hailuoto"],"name:sqi_x_preferred":["Hailuoto"],"name:swe_x_preferred":["Karlö"],"name:unk_x_variant":["Karlö"],"name:zho_x_preferred":["海盧奧托島"],"qs:a0":"Suomi#Finland","qs:a1":"*Pohjois-Pohjanmaa#Norra Österbotten","qs:a1r":"4Pohjois-Suomen AVI#Norra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Hailuoto#Karlö","qs:la_lc":"*FI417072","qs:level":"locality","qs:loc":"Hailuoto","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural hamlet perfect local_admin match geoplanet","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl:centroid":"mapshaper","src:population":"geonames","wd:wordcount":384,"wof:belongsto":[85683143,102191581,907199435,85633143,404227415,136253047,1159321529],"wof:breaches":[],"wof:concordances":{"gn:id":659431,"gp:id":564894,"qs:id":909364,"qs_pg:id":1327443,"wd:id":"Q1569280"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"246606d52a4ec85eb814e40262f46e78","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321529,"empire_id":136253047,"localadmin_id":907199435,"locality_id":101911305,"macroregion_id":404227415,"region_id":85683143}],"wof:id":101911305,"wof:lang":["eng"],"wof:lastmodified":1582312189,"wof:name":"Hailuoto","wof:parent_id":907199435,"wof:placetype":"locality","wof:population":955,"wof:population_rank":2,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[1175611477],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.67164938344717,65.0033841803455,24.72163238019385,65.01707251590955],"geometry":{"coordinates":[[[24.72163238019385,65.01631556080434],[24.72067129970719,65.01455732463046],[24.71655047647312,65.01493582709537],[24.71510948929074,65.01229842429791],[24.72129012387211,65.01173069254298],[24.72080967763998,65.01085157647873],[24.71874955528546,65.01104083962116],[24.71586797959401,65.00576608046902],[24.71380820330916,65.00595527700801],[24.71332812425157,65.0050761400268],[24.70508899817952,65.00583263922897],[24.70460920245267,65.00495347413869],[24.70254941572728,65.0051425272024],[24.70159005255636,65.0033841803455],[24.6995303632263,65.00357319389872],[24.70000996532303,65.00445237461241],[24.67323074574023,65.00690727340293],[24.67370957398964,65.00778654087918],[24.67164938344717,65.0079752040329],[24.67260701929001,65.00973374935262],[24.6746673342671,65.00954507269961],[24.67658327003784,65.013062123809],[24.68070431707412,65.01268463848493],[24.6811835120115,65.01356388514336],[24.68736506731881,65.01299744187912],[24.68784448357678,65.01387666722343],[24.68990501037234,65.0136877940414],[24.68894608804521,65.01192935582117],[24.70542833689274,65.01041754255135],[24.70686826546148,65.0130550360326],[24.71098893132603,65.01267678215817],[24.71339012807215,65.01707251590955],[24.72163238019385,65.01631556080434]],[[24.69258727829799,65.01067235132422],[24.6864063387103,65.01123898804894],[24.68496850551145,65.00860129945164],[24.6911488852345,65.0080347235376],[24.69258727829799,65.01067235132422]]],"type":"Polygon"}}
+{
+  "id": 101911305,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000304,
+    "geom:area_square_m":1589709.428025,
+    "geom:bbox":"24.6716493834,65.0033841803,24.7216323802,65.0170725159",
+    "geom:latitude":65.009372,
+    "geom:longitude":24.698084,
+    "gn:id":"",
+    "gn:population":955,
+    "iso:country":"FI",
+    "lbl:latitude":65.007905,
+    "lbl:longitude":24.697589,
+    "mps:latitude":65.007905,
+    "mps:longitude":24.697588,
+    "mz:hierarchy_label":1,
+    "name:cat_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:ceb_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:ces_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:deu_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:ell_x_preferred":[
+        "\u03a7\u03ac\u03b9\u03bb\u03bf\u03c5\u03bf\u03c4\u03bf"
+    ],
+    "name:eng_x_preferred":[
+        "Half Acre"
+    ],
+    "name:epo_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:est_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:fin_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:fra_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:glg_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:ita_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:jpn_x_preferred":[
+        "\u30cf\u30a4\u30eb\u30aa\u30c8\u5cf6"
+    ],
+    "name:lit_x_preferred":[
+        "Hailuotas"
+    ],
+    "name:nld_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:nno_x_preferred":[
+        "Karl\u00f6"
+    ],
+    "name:nor_x_preferred":[
+        "Karl\u00f6"
+    ],
+    "name:pol_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:por_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:ron_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:rus_x_preferred":[
+        "\u0425\u0430\u0439\u043b\u0443\u043e\u0442\u043e"
+    ],
+    "name:sme_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:spa_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:sqi_x_preferred":[
+        "Hailuoto"
+    ],
+    "name:swe_x_preferred":[
+        "Karl\u00f6"
+    ],
+    "name:zho_x_preferred":[
+        "\u6d77\u76e7\u5967\u6258\u5cf6"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Pohjanmaa#Norra \u00d6sterbotten",
+    "qs:a1r":"4Pohjois-Suomen AVI#Norra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Hailuoto#Karl\u00f6",
+    "qs:la_lc":"*FI417072",
+    "qs:level":"locality",
+    "qs:loc":"Hailuoto",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet perfect local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":384,
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        85633143,
+        404227415,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":659431,
+        "gp:id":56489,
+        "qs:id":909364,
+        "wd:id":"Q1569280"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"348ac815f3f04cd95407992a3f782421",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101911305,
+            "macroregion_id":404227415,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":101911305,
+    "wof:lang":[
+        "eng"
+    ],
+    "wof:lastmodified":1470852529,
+    "wof:name":"Hailuoto",
+    "wof:parent_id":85683143,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.67164938344717,
+    65.0033841803455,
+    24.72163238019385,
+    65.01707251590955
+],
+  "geometry": {"coordinates":[[[24.72163238019385,65.01631556080434],[24.72067129970719,65.01455732463046],[24.71655047647312,65.01493582709537],[24.71510948929074,65.01229842429791],[24.72129012387211,65.01173069254298],[24.72080967763998,65.01085157647873],[24.71874955528546,65.01104083962116],[24.71586797959401,65.00576608046902],[24.71380820330916,65.00595527700801],[24.71332812425157,65.0050761400268],[24.70508899817952,65.00583263922897],[24.70460920245267,65.00495347413869],[24.70254941572728,65.00514252720239],[24.70159005255636,65.00338418034551],[24.6995303632263,65.00357319389872],[24.70000996532303,65.00445237461241],[24.67323074574023,65.00690727340293],[24.67370957398964,65.00778654087918],[24.67164938344717,65.0079752040329],[24.67260701929001,65.00973374935262],[24.6746673342671,65.00954507269961],[24.67658327003784,65.01306212380899],[24.68070431707412,65.01268463848493],[24.6811835120115,65.01356388514336],[24.68736506731881,65.01299744187912],[24.68784448357678,65.01387666722343],[24.68990501037234,65.0136877940414],[24.68894608804521,65.01192935582117],[24.70542833689274,65.01041754255135],[24.70686826546148,65.0130550360326],[24.71098893132603,65.01267678215817],[24.71339012807215,65.01707251590955],[24.72163238019385,65.01631556080434]],[[24.69258727829799,65.01067235132422],[24.6864063387103,65.01123898804894],[24.68496850551145,65.00860129945164],[24.6911488852345,65.00803472353761],[24.69258727829799,65.01067235132422]]],"type":"Polygon"}
+}

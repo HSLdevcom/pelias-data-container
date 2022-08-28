@@ -1,1 +1,97 @@
-{"id":101814049,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.00016,"geom:area_square_m":924496.69261,"geom:bbox":"27.4533686403,62.1275426789,27.4723988406,62.1434115991","geom:latitude":62.134246,"geom:longitude":27.463612,"gn:population":1123,"iso:country":"FI","lbl:latitude":62.13323,"lbl:longitude":27.462963,"lbl:max_zoom":16,"lbl:min_zoom":12,"mps:latitude":62.133229,"mps:longitude":27.462964,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:bul_x_preferred":["Виртасалми"],"name:ceb_x_preferred":["Virtasalmi"],"name:deu_x_preferred":["Virtasalmi"],"name:eng_x_preferred":["Virtasalmi"],"name:fin_x_preferred":["Virtasalmi"],"name:nld_x_preferred":["Virtasalmi"],"name:nob_x_preferred":["Virtasalmi"],"name:nor_x_preferred":["Virtasalmi"],"name:ron_x_preferred":["Virtasalmi"],"name:rus_x_preferred":["Виртасалми"],"name:swe_x_preferred":["Virtasalmi"],"qs:a0":"Suomi#Finland","qs:a1":"*Etelä-Savo#Södra Savolax","qs:a1r":"0Itä-Suomen AVI#Östra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Pieksänmaa","qs:la_lc":"*FI310640","qs:level":"locality","qs:loc":"Virtasalmi","qs:loc_alt":"Virtasalmi","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":44,"wof:belongsto":[85683109,102191581,907199013,85633143,404227407,136253047,1159321615],"wof:breaches":[],"wof:concordances":{"gn:id":631358,"gp:id":572004,"qs_pg:id":126451,"wd:id":"Q2779906","wk:page":"Virtasalmi"},"wof:country":"FI","wof:geomhash":"17194d0a553b884678caa7e2de452868","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321615,"empire_id":136253047,"localadmin_id":907199013,"locality_id":101814049,"macroregion_id":404227407,"region_id":85683109}],"wof:id":101814049,"wof:lastmodified":1566595226,"wof:name":"Virtasalmi","wof:parent_id":907199013,"wof:placetype":"locality","wof:population":1123,"wof:population_rank":3,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[27.45336864034482,62.12754267889255,27.47239884062179,62.14341159910441],"geometry":{"coordinates":[[[27.4713578508746,62.14187872985667],[27.46985176817583,62.13927379934341],[27.46799864299703,62.13949531509621],[27.4659911745938,62.13602202366411],[27.46969701857392,62.13557902510809],[27.46919513665085,62.13471071213701],[27.47104797361311,62.13448918549182],[27.47054607623079,62.13362087787169],[27.47239884062179,62.13339933531],[27.46988959851774,62.12905780765902],[27.47174209971388,62.12883627710403],[27.47124030025128,62.12796797366281],[27.46753536827197,62.12841099792115],[27.46703369630649,62.12754267889255],[27.46518124063869,62.12776414970403],[27.46568286495142,62.12863247571033],[27.45456732251989,62.12996086165646],[27.45557009574094,62.13169759249649],[27.45371732292296,62.13191892396605],[27.45522158108452,62.13452402895223],[27.45336864034482,62.13474535844688],[27.45437154467686,62.13648210092293],[27.4580775920216,62.13603939112949],[27.45857918785526,62.13690774597472],[27.46043222188229,62.13668634974857],[27.46193734566862,62.13929138358361],[27.46008416856353,62.13951280074502],[27.46058589321217,62.14038114907959],[27.46429231791461,62.13993827789437],[27.46629992027687,62.14341159910441],[27.46815328606925,62.14319010123012],[27.46765128944043,62.14232178035394],[27.4713578508746,62.14187872985667]]],"type":"Polygon"}}
+{
+  "id": 101814049,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00016,
+    "geom:area_square_m":924496.692611,
+    "geom:bbox":"27.4533686403,62.1275426789,27.4723988406,62.1434115991",
+    "geom:latitude":62.134246,
+    "geom:longitude":27.463612,
+    "gn:population":1123,
+    "iso:country":"FI",
+    "lbl:latitude":62.13323,
+    "lbl:longitude":27.462963,
+    "mps:latitude":62.133229,
+    "mps:longitude":27.462964,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Virtasalmi"
+    ],
+    "name:fin_x_preferred":[
+        "Virtasalmi"
+    ],
+    "name:nld_x_preferred":[
+        "Virtasalmi"
+    ],
+    "name:nor_x_preferred":[
+        "Virtasalmi"
+    ],
+    "name:ron_x_preferred":[
+        "Virtasalmi"
+    ],
+    "name:swe_x_preferred":[
+        "Virtasalmi"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Savo#S\u00f6dra Savolax",
+    "qs:a1r":"0It\u00e4-Suomen AVI#\u00d6stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Pieks\u00e4nmaa",
+    "qs:la_lc":"*FI310640",
+    "qs:level":"locality",
+    "qs:loc":"Virtasalmi",
+    "qs:loc_alt":"Virtasalmi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":44,
+    "wof:belongsto":[
+        85683109,
+        102191581,
+        85633143,
+        404227407,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":631358,
+        "gp:id":572004,
+        "qs:id":126451,
+        "wd:id":"Q2779906",
+        "wk:page":"Virtasalmi"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"1ea7abae9c29634589590eff409c8841",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814049,
+            "macroregion_id":404227407,
+            "region_id":85683109
+        }
+    ],
+    "wof:id":101814049,
+    "wof:lastmodified":1470852491,
+    "wof:name":"Virtasalmi",
+    "wof:parent_id":85683109,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    27.45336864034482,
+    62.12754267889255,
+    27.47239884062179,
+    62.14341159910441
+],
+  "geometry": {"coordinates":[[[27.4713578508746,62.14187872985667],[27.46985176817583,62.13927379934341],[27.46799864299703,62.13949531509621],[27.4659911745938,62.13602202366411],[27.46969701857392,62.13557902510809],[27.46919513665085,62.13471071213701],[27.47104797361311,62.13448918549182],[27.47054607623079,62.13362087787169],[27.47239884062179,62.13339933531],[27.46988959851774,62.12905780765902],[27.47174209971388,62.12883627710403],[27.47124030025128,62.12796797366281],[27.46753536827197,62.12841099792115],[27.46703369630649,62.12754267889255],[27.46518124063869,62.12776414970403],[27.46568286495142,62.12863247571033],[27.45456732251989,62.12996086165646],[27.45557009574094,62.13169759249649],[27.45371732292296,62.13191892396605],[27.45522158108452,62.13452402895223],[27.45336864034482,62.13474535844688],[27.45437154467686,62.13648210092293],[27.4580775920216,62.13603939112949],[27.45857918785526,62.13690774597472],[27.46043222188229,62.13668634974857],[27.46193734566862,62.13929138358361],[27.46008416856353,62.13951280074502],[27.46058589321217,62.14038114907959],[27.46429231791461,62.13993827789437],[27.46629992027687,62.14341159910441],[27.46815328606925,62.14319010123012],[27.46765128944043,62.14232178035394],[27.4713578508746,62.14187872985667]]],"type":"Polygon"}
+}

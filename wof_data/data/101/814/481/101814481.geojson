@@ -1,1 +1,79 @@
-{"id":101814481,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000251,"geom:area_square_m":1381375.873149,"geom:bbox":"24.9080236901,63.6021847843,24.9478222748,63.6162658314","geom:latitude":63.608374,"geom:longitude":24.926081,"gn:population":3052,"iso:country":"FI","lbl:latitude":63.609685,"lbl:longitude":24.920805,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":63.609685,"mps:longitude":24.920805,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ast_x_preferred":["Reisjärvi"],"name:ceb_x_preferred":["Reisjärvi"],"name:ces_x_preferred":["Reisjärvi"],"name:deu_x_preferred":["Reisjärvi"],"name:ell_x_preferred":["Ρεϊσγιάρβι"],"name:eng_x_preferred":["Reisjärvi"],"name:est_x_preferred":["Reisjärvi vald"],"name:fin_x_preferred":["Reisjärvi"],"name:fra_x_preferred":["Reisjärvi"],"name:glg_x_preferred":["Reisjärvi"],"name:ita_x_preferred":["Reisjärvi"],"name:nld_x_preferred":["Reisjärvi"],"name:nob_x_preferred":["Reisjärvi"],"name:pol_x_preferred":["Reisjärvi"],"name:por_x_preferred":["Reisjärvi"],"name:ron_x_preferred":["Reisjärvi"],"name:rus_x_preferred":["Рейсъярви"],"name:sme_x_preferred":["Reisjärvi"],"name:spa_x_preferred":["Reisjärvi"],"name:sqi_x_preferred":["Reisjärvi"],"name:swe_x_preferred":["Reisjärvi"],"name:tur_x_preferred":["Reisjärvi"],"name:vie_x_preferred":["Reisjärvi"],"name:zho_x_preferred":["雷斯耶爾維"],"qs:a0":"Suomi#Finland","qs:a1":"*Pohjois-Pohjanmaa#Norra Österbotten","qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Reisjärvi","qs:la_lc":"*FI417691","qs:level":"locality","qs:loc":"Reisjärvi","qs:loc_alt":"Reisjarvi","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":593,"wof:belongsto":[85683143,102191581,907199141,85633143,404227415,136253047,1159321591],"wof:breaches":[],"wof:concordances":{"gn:id":639576,"gp:id":572136,"qs_pg:id":126487,"wd:id":"Q377049","wk:page":"Reisjärvi"},"wof:concordances_alt":{"qs_pg:id":1192658},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"2186fa70ce6105a0250bbd258510ff7a","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321591,"empire_id":136253047,"localadmin_id":907199141,"locality_id":101814481,"macroregion_id":404227415,"region_id":85683143}],"wof:id":101814481,"wof:lastmodified":1582312186,"wof:name":"Reisjärvi","wof:parent_id":907199141,"wof:placetype":"locality","wof:population":3052,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.90802369010265,63.60218478429891,24.94782227478919,63.61626583141634],"geometry":{"coordinates":[[[24.91135625076691,63.6151974319568],[24.91920018182748,63.61443473376204],[24.92011523844303,63.61619024118022],[24.92403728052187,63.61580871877459],[24.92266440935066,63.61317549464144],[24.92658602117098,63.61279391246615],[24.92612834900166,63.61191618180999],[24.92808906298768,63.61172536026919],[24.92580089402566,63.60733672304599],[24.93364239721978,63.60657331969992],[24.93593167617001,63.61096182820052],[24.9398528370686,63.61057991462934],[24.9393948076638,63.60970222796038],[24.94135529618569,63.60951124073279],[24.94043922034831,63.60775587704245],[24.942399573606,63.60756487810863],[24.94194152717978,63.60668720108691],[24.94782227478919,63.60611407610156],[24.94644782415571,63.60348109653228],[24.94448776564661,63.60367214345422],[24.94402973353425,63.60279447499965],[24.93814957872428,63.60336744896091],[24.93769174431247,63.60248976011326],[24.9318115374673,63.60306249353039],[24.9313539007544,63.60218478429891],[24.92547364197833,63.60275727717334],[24.92638861383307,63.60451273316278],[24.92050780389144,63.6050850433773],[24.92005046878228,63.60420729662451],[24.9180902057916,63.60439801109413],[24.91854748541039,63.605275764277],[24.910705969052,63.60603840200491],[24.91116305793804,63.60691617983042],[24.90920256274717,63.60710678421907],[24.90965962737971,63.60798456740082],[24.91554120675698,63.60741266118299],[24.91691308782725,63.61004594644322],[24.91103100882702,63.61061791052219],[24.91148819850247,63.61149568942062],[24.90952740148299,63.611686301357],[24.90998456689834,63.61256408561331],[24.90802369010265,63.61275467938395],[24.90985244232058,63.61626583141634],[24.91181354127423,63.61607521192906],[24.91135625076691,63.6151974319568]]],"type":"Polygon"}}
+{
+  "id": 101814481,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000251,
+    "geom:area_square_m":1381375.873148,
+    "geom:bbox":"24.9080236901,63.6021847843,24.9478222748,63.6162658314",
+    "geom:latitude":63.608374,
+    "geom:longitude":24.926081,
+    "gn:population":3052,
+    "iso:country":"FI",
+    "lbl:latitude":63.609685,
+    "lbl:longitude":24.920805,
+    "mps:latitude":63.609685,
+    "mps:longitude":24.920805,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjois-Pohjanmaa#Norra \u00d6sterbotten",
+    "qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Reisj\u00e4rvi",
+    "qs:la_lc":"*FI417691",
+    "qs:level":"locality",
+    "qs:loc":"Reisj\u00e4rvi",
+    "qs:loc_alt":"Reisjarvi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":593,
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        85633143,
+        404227415,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":639576,
+        "gp:id":572136,
+        "qs:id":1192658,
+        "wd:id":"Q377049",
+        "wk:page":"Reisj\u00e4rvi"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"33da4c6adee8c9c1a58c9aa52d373bba",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814481,
+            "macroregion_id":404227415,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":101814481,
+    "wof:lastmodified":1470852501,
+    "wof:name":"Reisj\u00e4rvi",
+    "wof:parent_id":85683143,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.90802369010265,
+    63.60218478429891,
+    24.94782227478919,
+    63.61626583141634
+],
+  "geometry": {"coordinates":[[[24.91135625076691,63.6151974319568],[24.91920018182748,63.61443473376204],[24.92011523844303,63.61619024118022],[24.92403728052187,63.61580871877459],[24.92266440935066,63.61317549464144],[24.92658602117098,63.61279391246615],[24.92612834900166,63.61191618180999],[24.92808906298768,63.61172536026919],[24.92580089402566,63.60733672304599],[24.93364239721978,63.60657331969992],[24.93593167617001,63.61096182820052],[24.9398528370686,63.61057991462934],[24.9393948076638,63.60970222796038],[24.94135529618569,63.60951124073279],[24.94043922034831,63.60775587704245],[24.942399573606,63.60756487810863],[24.94194152717978,63.60668720108691],[24.94782227478919,63.60611407610156],[24.94644782415571,63.60348109653228],[24.94448776564661,63.60367214345422],[24.94402973353425,63.60279447499965],[24.93814957872428,63.60336744896091],[24.93769174431247,63.60248976011326],[24.9318115374673,63.60306249353039],[24.9313539007544,63.60218478429891],[24.92547364197833,63.60275727717334],[24.92638861383307,63.60451273316278],[24.92050780389144,63.6050850433773],[24.92005046878228,63.60420729662451],[24.9180902057916,63.60439801109413],[24.91854748541039,63.605275764277],[24.910705969052,63.60603840200491],[24.91116305793804,63.60691617983042],[24.90920256274717,63.60710678421907],[24.90965962737971,63.60798456740082],[24.91554120675698,63.60741266118299],[24.91691308782725,63.61004594644322],[24.91103100882702,63.61061791052219],[24.91148819850247,63.61149568942062],[24.90952740148299,63.611686301357],[24.90998456689834,63.61256408561331],[24.90802369010265,63.61275467938395],[24.90985244232058,63.61626583141634],[24.91181354127423,63.61607521192906],[24.91135625076691,63.6151974319568]]],"type":"Polygon"}
+}

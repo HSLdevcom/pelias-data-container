@@ -32,7 +32,6 @@ Data builder obeys the following environment variables, which can pe passed to t
  * THRESHOLD - optional regression limit, as %, defaults to 2%
  * BUILDER_TYPE - optional, prod or dev, default dev. Controls slack messages and data image tagging (dev->latest, prod->prod)
  * OSM_VENUE_FILTERS and OSM_ADDRESS_FILTERS - json array for adding additional key - value pairs to remove undesired content
- * API_SUBSCRIPTION_QUERY_PARAMETER_NAME, API_SUBSCRIPTION_TOKEN - digitransit api key, needed for loading GTFS data and accessing OTP
 
 An example venue filter: '[{ "name": "some ugly word" }]'
 
@@ -40,7 +39,7 @@ Data builder needs an access to host environment's docker service. The following
 shows how to accomplish this:
 
 ```bash
-docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> -e MMLAPIKEY=<secret> -e API_SUBSCRIPTION_QUERY_PARAMETER_NAME=<> -e API_SUBSCRIPTION_TOKEN=<> hsldevcom/pelias-data-container-builder
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e DOCKER_USER=hsldevcom -e DOCKER_AUTH=<secret> -e MMLAPIKEY=<secret> hsldevcom/pelias-data-container-builder
 ```
 
 Note: the builder image does not include a tool or script for relaunching the data build immediately from within the container. If an immediate build is needed,
@@ -54,7 +53,7 @@ Builder app can be run locally to get the data-container image:
 ```bash
 #leave dockerhub credentials unset to skip deployment
 #runs immediately and once if BUILD_INTERVAL=0
-docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 -e MMLAPIKEY=<secret> -e API_SUBSCRIPTION_QUERY_PARAMETER_NAME=<> -e API_SUBSCRIPTION_TOKEN=<>  hsldevcom/pelias-data-container-builder
+docker run -v /var/run/docker.sock:/var/run/docker.sock -e BUILD_INTERVAL=0 -e MMLAPIKEY=<secret> hsldevcom/pelias-data-container-builder
 ```
 
 Another alternative is to install required components locally:

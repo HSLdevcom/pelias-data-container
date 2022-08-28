@@ -1,1 +1,81 @@
-{"id":101814389,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000307,"geom:area_square_m":1609559.795704,"geom:bbox":"28.97944355,64.8952983031,29.024787344,64.9099731058","geom:latitude":64.901495,"geom:longitude":29.00421,"gn:population":9974,"iso:country":"FI","lbl:latitude":64.901993,"lbl:longitude":29.003867,"lbl:max_zoom":15,"lbl:min_zoom":11,"mps:latitude":64.901993,"mps:longitude":29.003867,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ast_x_preferred":["Suomussalmi"],"name:cat_x_preferred":["Suomussalmi"],"name:ceb_x_preferred":["Suomussalmi"],"name:ces_x_preferred":["Suomussalmi"],"name:dan_x_preferred":["Suomussalmi"],"name:deu_x_preferred":["Suomussalmi"],"name:eng_x_preferred":["Suomussalmi"],"name:epo_x_preferred":["Suomussalmi"],"name:est_x_preferred":["Suomussalmi vald"],"name:fin_x_preferred":["Suomussalmi"],"name:fra_x_preferred":["Suomussalmi"],"name:glg_x_preferred":["Suomussalmi"],"name:ita_x_preferred":["Suomussalmi"],"name:jpn_x_preferred":["スオムッサルミ"],"name:kor_x_preferred":["수오무살미"],"name:lat_x_preferred":["Suomussalmi"],"name:ltz_x_preferred":["Suomussalmi"],"name:nld_x_preferred":["Suomussalmi"],"name:nno_x_preferred":["Suomussalmi"],"name:nob_x_preferred":["Suomussalmi"],"name:pol_x_preferred":["Suomussalmi"],"name:por_x_preferred":["Suomussalmi"],"name:ron_x_preferred":["Suomussalmi"],"name:rus_x_preferred":["Суомуссалми"],"name:slk_x_preferred":["Suomussalmi"],"name:slv_x_preferred":["Suomussalmi"],"name:sme_x_preferred":["Suomussalmi"],"name:spa_x_preferred":["Suomussalmi"],"name:sqi_x_preferred":["Suomussalmi"],"name:swe_x_preferred":["Suomussalmi"],"name:tur_x_preferred":["Suomussalmi"],"name:ukr_x_preferred":["Суомуссалмі"],"name:und_x_variant":["Suomussahni"],"name:vie_x_preferred":["Suomussalmi"],"name:zho_x_preferred":["苏奥穆斯萨尔米"],"qs:a0":"Suomi#Finland","qs:a1":"*Kainuu#Kajanaland","qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Suomussalmi","qs:la_lc":"*FI418777","qs:level":"locality","qs:loc":"Suomussalmi","qs:loc_alt":"Suomussalmi","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":352,"wof:belongsto":[85683137,102191581,907199501,85633143,404227415,136253047,1159321549],"wof:breaches":[],"wof:concordances":{"gn:id":635696,"gp:id":573478,"qs_pg:id":1192673,"wd:id":"Q214054","wk:page":"Suomussalmi"},"wof:concordances_alt":{"qs_pg:id":1207061},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"d34698dc8e43ac73e8c4bce802ccd983","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321549,"empire_id":136253047,"localadmin_id":907199501,"locality_id":101814389,"macroregion_id":404227415,"region_id":85683137}],"wof:id":101814389,"wof:lastmodified":1582312187,"wof:name":"Suomussalmi","wof:parent_id":907199501,"wof:placetype":"locality","wof:population":9974,"wof:population_rank":5,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[28.97944355004904,64.8952983030859,29.02478734398056,64.90997310577711],"geometry":{"coordinates":[[[29.01248125546044,64.9075169718551],[29.01186647915233,64.90665378693956],[29.00984476016743,64.90689704334108],[29.00800086330855,64.90430744980694],[29.02012964232648,64.9028476888717],[29.02074457379581,64.90371083779206],[29.02478734398056,64.90322403330396],[29.02232742215057,64.89977149256885],[29.02434852821636,64.89952808683773],[29.02250387189321,64.89693868367704],[29.01441992979704,64.89791205402423],[29.01257634922723,64.89532252876637],[29.0105554504886,64.89556578316876],[29.0111698768531,64.89642896897618],[29.00308571601852,64.8974017701239],[29.00247151797072,64.89653855025534],[29.00045045046306,64.8967816793928],[28.99983635289948,64.89591844881016],[28.99781530873349,64.89616154438033],[28.99720131164656,64.8952983030859],[28.99113814799205,64.89602741393293],[28.994821753628,64.901206981911],[28.98875725841816,64.90193602042359],[28.98814338702482,64.90107273905687],[28.98410033575396,64.90155862240141],[28.98348662199561,64.90069532182054],[28.97944355004904,64.90118108789807],[28.98005714954502,64.90204440549326],[28.9820787595155,64.90180152647929],[28.98453381984882,64.90525474087741],[28.99059913296475,64.90452585133812],[28.99121317795027,64.90538912391384],[28.99323493862011,64.90514610209095],[28.99384908415294,64.9060093639552],[28.99789261847809,64.9055232280873],[28.99912126834897,64.90724971115725],[29.00518665934482,64.90652026827428],[29.00764516596905,64.90997310577711],[29.00966712393279,64.90972987394082],[29.00905237496266,64.90886667639097],[29.01107424199449,64.90862342801057],[29.01045947935228,64.90776023677796],[29.01248125546044,64.9075169718551]]],"type":"Polygon"}}
+{
+  "id": 101814389,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000307,
+    "geom:area_square_m":1609559.795704,
+    "geom:bbox":"28.97944355,64.8952983031,29.024787344,64.9099731058",
+    "geom:latitude":64.901495,
+    "geom:longitude":29.00421,
+    "gn:population":9974,
+    "iso:country":"FI",
+    "lbl:latitude":64.901993,
+    "lbl:longitude":29.003867,
+    "mps:latitude":64.901993,
+    "mps:longitude":29.003867,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Kainuu#Kajanaland",
+    "qs:a1r":"0Pohjois-Suomen AVI#Norra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Suomussalmi",
+    "qs:la_lc":"*FI418777",
+    "qs:level":"locality",
+    "qs:loc":"Suomussalmi",
+    "qs:loc_alt":"Suomussalmi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":352,
+    "wof:belongsto":[
+        85683137,
+        102191581,
+        907199501,
+        85633143,
+        404227415,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":635696,
+        "gp:id":12590872,
+        "qs:id":1207061,
+        "wd:id":"Q214054",
+        "wk:page":"Suomussalmi"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"5d4b5febdd56add13c3b7d12b69fdb00",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199501,
+            "locality_id":101814389,
+            "macroregion_id":404227415,
+            "region_id":85683137
+        }
+    ],
+    "wof:id":101814389,
+    "wof:lastmodified":1479776096,
+    "wof:name":"Suomussalmi",
+    "wof:parent_id":907199501,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.97944355004904,
+    64.8952983030859,
+    29.02478734398056,
+    64.90997310577711
+],
+  "geometry": {"coordinates":[[[29.01248125546044,64.9075169718551],[29.01186647915233,64.90665378693956],[29.00984476016743,64.90689704334108],[29.00800086330855,64.90430744980694],[29.02012964232648,64.9028476888717],[29.02074457379581,64.90371083779206],[29.02478734398056,64.90322403330396],[29.02232742215057,64.89977149256885],[29.02434852821636,64.89952808683773],[29.02250387189321,64.89693868367704],[29.01441992979704,64.89791205402423],[29.01257634922723,64.89532252876637],[29.0105554504886,64.89556578316876],[29.0111698768531,64.89642896897618],[29.00308571601852,64.89740177012391],[29.00247151797072,64.89653855025534],[29.00045045046306,64.8967816793928],[28.99983635289948,64.89591844881016],[28.99781530873349,64.89616154438033],[28.99720131164656,64.89529830308589],[28.99113814799205,64.89602741393293],[28.994821753628,64.901206981911],[28.98875725841816,64.90193602042359],[28.98814338702482,64.90107273905687],[28.98410033575396,64.90155862240141],[28.98348662199561,64.90069532182054],[28.97944355004904,64.90118108789807],[28.98005714954502,64.90204440549326],[28.9820787595155,64.90180152647929],[28.98453381984882,64.90525474087741],[28.99059913296475,64.90452585133812],[28.99121317795027,64.90538912391384],[28.99323493862011,64.90514610209095],[28.99384908415294,64.90600936395521],[28.99789261847809,64.9055232280873],[28.99912126834897,64.90724971115725],[29.00518665934482,64.90652026827428],[29.00764516596905,64.90997310577711],[29.00966712393279,64.90972987394082],[29.00905237496266,64.90886667639097],[29.01107424199449,64.90862342801057],[29.01045947935228,64.90776023677796],[29.01248125546044,64.9075169718551]]],"type":"Polygon"}
+}

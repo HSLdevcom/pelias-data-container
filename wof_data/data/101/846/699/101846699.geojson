@@ -1,1 +1,77 @@
-{"id":101846699,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000074,"geom:area_square_m":447478.573041,"geom:bbox":"25.2802134301,60.5224154275,25.311230384,60.5300887283","geom:latitude":60.526578,"geom:longitude":25.297343,"iso:country":"FI","lbl:latitude":60.525374,"lbl:longitude":25.296286,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":60.525374,"mps:longitude":25.296286,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:afr_x_preferred":["Chalkias"],"name:arg_x_preferred":["Chalkias"],"name:ast_x_preferred":["Chalkias"],"name:bar_x_preferred":["Chalkias"],"name:bos_x_preferred":["Chalkias"],"name:bre_x_preferred":["Chalkias"],"name:cat_x_preferred":["Chalkias"],"name:ces_x_preferred":["Chalkias"],"name:cos_x_preferred":["Chalkias"],"name:cym_x_preferred":["Chalkias"],"name:dan_x_preferred":["Chalkias"],"name:deu_x_preferred":["Chalkias"],"name:eng_x_preferred":["Chalkias"],"name:epo_x_preferred":["Chalkias"],"name:est_x_preferred":["Chalkias"],"name:eus_x_preferred":["Chalkias"],"name:fin_x_preferred":["Chalkias"],"name:fra_x_preferred":["Chalkias"],"name:frc_x_preferred":["Chalkias"],"name:frp_x_preferred":["Chalkias"],"name:fry_x_preferred":["Chalkias"],"name:fur_x_preferred":["Chalkias"],"name:gla_x_preferred":["Chalkias"],"name:gle_x_preferred":["Chalkias"],"name:glg_x_preferred":["Chalkias"],"name:gsw_x_preferred":["Chalkias"],"name:hrv_x_preferred":["Chalkias"],"name:hun_x_preferred":["Chalkias"],"name:ile_x_preferred":["Chalkias"],"name:ina_x_preferred":["Chalkias"],"name:ind_x_preferred":["Chalkias"],"name:isl_x_preferred":["Chalkias"],"name:ita_x_preferred":["Chalkias"],"name:jam_x_preferred":["Chalkias"],"name:kon_x_preferred":["Chalkias"],"name:lat_x_preferred":["Chalkias"],"name:lij_x_preferred":["Chalkias"],"name:lim_x_preferred":["Chalkias"],"name:ltz_x_preferred":["Chalkias"],"name:min_x_preferred":["Chalkias"],"name:mlg_x_preferred":["Chalkias"],"name:mlt_x_preferred":["Chalkias"],"name:msa_x_preferred":["Chalkias"],"name:nap_x_preferred":["Chalkias"],"name:nds_x_preferred":["Chalkias"],"name:nld_x_preferred":["Chalkias"],"name:nno_x_preferred":["Chalkias"],"name:nob_x_preferred":["Chalkias"],"name:nrm_x_preferred":["Chalkias"],"name:oci_x_preferred":["Chalkias"],"name:pcd_x_preferred":["Chalkias"],"name:pms_x_preferred":["Chalkias"],"name:pol_x_preferred":["Chalkias"],"name:por_x_preferred":["Chalkias"],"name:roh_x_preferred":["Chalkias"],"name:ron_x_preferred":["Chalkias"],"name:scn_x_preferred":["Chalkias"],"name:sco_x_preferred":["Chalkias"],"name:slk_x_preferred":["Chalkias"],"name:slv_x_preferred":["Chalkias"],"name:spa_x_preferred":["Chalkias"],"name:srd_x_preferred":["Chalkias"],"name:swa_x_preferred":["Chalkias"],"name:swe_x_preferred":["Chalkias"],"name:vec_x_preferred":["Chalkias"],"name:vie_x_preferred":["Chalkias"],"name:vls_x_preferred":["Chalkias"],"name:vol_x_preferred":["Chalkias"],"name:wln_x_preferred":["Chalkias"],"name:wol_x_preferred":["Chalkias"],"name:zul_x_preferred":["Chalkias"],"qs:a0":"Suomi#Finland","qs:a1":"*Uusimaa#Nyland","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Pornainen#Borgnäs","qs:la_lc":"*FI101611","qs:level":"locality","qs:loc":"Halkia","qs:loc_alt":"Halkia","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wd:wordcount":37,"wof:belongsto":[85683067,102191581,907198545,85633143,404227411,136253047,1159321633],"wof:breaches":[],"wof:concordances":{"gn:id":659340,"gp:id":564937,"qs_pg:id":1156703,"wd:id":"Q5068835"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"e43ede9487d055af27c060399c8ebf66","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321633,"empire_id":136253047,"localadmin_id":907198545,"locality_id":101846699,"macroregion_id":404227411,"region_id":85683067}],"wof:id":101846699,"wof:lastmodified":1582312176,"wof:name":"Halkia","wof:parent_id":907198545,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.28021343010732,60.52241542745918,25.31123038399863,60.53008872828184],"geometry":{"coordinates":[[[25.29033106154327,60.52970255464692],[25.28991859213545,60.52882708363387],[25.2934707520954,60.52844083352181],[25.29305821969893,60.52756537293226],[25.29838618131021,60.52698585005476],[25.29879884608044,60.52786129332657],[25.3005748384798,60.52766806925587],[25.30098757265358,60.52854350563314],[25.30631556539998,60.527963684084],[25.30590269886699,60.52708826503243],[25.31123038399863,60.52650826280006],[25.30999153914473,60.52388205090159],[25.30644003318503,60.52426870639749],[25.30685286796313,60.5251441230389],[25.29974944597882,60.52591719313926],[25.29809896430089,60.52241542745918],[25.29632323659081,60.52260861689268],[25.29673577499136,60.52348406576539],[25.29318417298509,60.52387039017714],[25.29400914913617,60.52562130764858],[25.2922332307167,60.52581444839552],[25.2926457125734,60.52668991122346],[25.29086973057599,60.5268830357391],[25.29128219357614,60.52775850321899],[25.28417789453817,60.52853080432681],[25.28335334683516,60.52677982209315],[25.28157731171461,60.5269728308225],[25.28198952880564,60.52784832826592],[25.28021343010732,60.52804132075812],[25.28062562831673,60.52891682285207],[25.28240177115117,60.52872382459219],[25.28281403875326,60.52959931980132],[25.28636635435015,60.52921324572816],[25.28677873548827,60.53008872828184],[25.29033106154327,60.52970255464692]]],"type":"Polygon"}}
+{
+  "id": 101846699,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000074,
+    "geom:area_square_m":447478.57304,
+    "geom:bbox":"25.2802134301,60.5224154275,25.311230384,60.5300887283",
+    "geom:latitude":60.526578,
+    "geom:longitude":25.297343,
+    "iso:country":"FI",
+    "lbl:latitude":60.525374,
+    "lbl:longitude":25.296286,
+    "mps:latitude":60.525374,
+    "mps:longitude":25.296286,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Pornainen#Borgn\u00e4s",
+    "qs:la_lc":"*FI101611",
+    "qs:level":"locality",
+    "qs:loc":"Halkia",
+    "qs:loc_alt":"Halkia",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":37,
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":659340,
+        "gp:id":564937,
+        "qs:id":1156703,
+        "wd:id":"Q5068835"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"f81b4f4eef747e35993c8491b3d0010a",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846699,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101846699,
+    "wof:lastmodified":1470852438,
+    "wof:name":"Halkia",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.28021343010732,
+    60.52241542745918,
+    25.31123038399863,
+    60.53008872828184
+],
+  "geometry": {"coordinates":[[[25.29033106154327,60.52970255464692],[25.28991859213545,60.52882708363387],[25.2934707520954,60.52844083352181],[25.29305821969893,60.52756537293226],[25.29838618131021,60.52698585005476],[25.29879884608044,60.52786129332657],[25.3005748384798,60.52766806925587],[25.30098757265358,60.52854350563314],[25.30631556539998,60.527963684084],[25.30590269886699,60.52708826503243],[25.31123038399863,60.52650826280006],[25.30999153914473,60.52388205090159],[25.30644003318503,60.52426870639749],[25.30685286796313,60.5251441230389],[25.29974944597882,60.52591719313926],[25.29809896430089,60.52241542745918],[25.29632323659081,60.52260861689268],[25.29673577499136,60.52348406576539],[25.29318417298509,60.52387039017714],[25.29400914913617,60.52562130764858],[25.2922332307167,60.52581444839552],[25.2926457125734,60.52668991122346],[25.29086973057599,60.5268830357391],[25.29128219357614,60.52775850321899],[25.28417789453817,60.52853080432681],[25.28335334683516,60.52677982209315],[25.28157731171461,60.5269728308225],[25.28198952880564,60.52784832826592],[25.28021343010732,60.52804132075812],[25.28062562831673,60.52891682285207],[25.28240177115117,60.52872382459219],[25.28281403875326,60.52959931980132],[25.28636635435015,60.52921324572816],[25.28677873548827,60.53008872828184],[25.29033106154327,60.52970255464692]]],"type":"Polygon"}
+}

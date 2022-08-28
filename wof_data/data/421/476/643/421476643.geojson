@@ -1,1 +1,56 @@
-{"id":421476643,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Eskoon Keskuslaitosalue","geom:area":0.000557,"geom:bbox":"22.8487897756,62.7103148284,22.8846923631,62.7324208308","geom:latitude":62.721997,"geom:longitude":22.866905,"iso:country":"FI","lbl:latitude":62.720567,"lbl:longitude":22.867248,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[102191581,85633143,85683113,404227417],"wof:breaches":[],"wof:concordances":{"gp:id":"12829801"},"wof:country":"FI","wof:geomhash":"c2c7c71421d0fa780d6dddf1a76a7e16","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"macroregion_id":404227417,"postalcode_id":421476643,"region_id":85683113}],"wof:id":421476643,"wof:lastmodified":1469577647,"wof:name":"60280","wof:parent_id":85683113,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[22.84878977562099,62.71031482838269,22.88469236313366,62.73242083079315],"geometry":{"coordinates":[[[[22.87036032059784,62.71031482838269],[22.86469573815664,62.71140092208621],[22.85889275286784,62.71440772694518],[22.84943916702469,62.72195075753996],[22.84878977562099,62.72660521558822],[22.85041171261949,62.73141305964901],[22.85178225437012,62.7324167373986],[22.85181272676456,62.73242083079315],[22.88389211495845,62.72786230439051],[22.88469236313366,62.72427469863911],[22.88356737920416,62.71631756352293],[22.87036032059784,62.71031482838269]]]],"type":"MultiPolygon"}}
+{
+  "id": 421476643,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Eskoon Keskuslaitosalue",
+    "geom:area":0.000557,
+    "geom:bbox":"22.8487897756,62.7103148284,22.8846923631,62.7324208308",
+    "geom:latitude":62.721997,
+    "geom:longitude":22.866905,
+    "iso:country":"FI",
+    "lbl:latitude":62.720567,
+    "lbl:longitude":22.867248,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683113,
+        404227417
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12829801"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"c2c7c71421d0fa780d6dddf1a76a7e16",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227417,
+            "postalcode_id":421476643,
+            "region_id":85683113
+        }
+    ],
+    "wof:id":421476643,
+    "wof:lastmodified":1469577647,
+    "wof:name":"60280",
+    "wof:parent_id":85683113,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.84878977562099,
+    62.71031482838269,
+    22.88469236313366,
+    62.73242083079315
+],
+  "geometry": {"coordinates":[[[[22.87036032059784,62.71031482838269],[22.86469573815664,62.71140092208621],[22.85889275286784,62.71440772694518],[22.84943916702469,62.72195075753996],[22.84878977562099,62.72660521558822],[22.85041171261949,62.73141305964901],[22.85178225437012,62.7324167373986],[22.85181272676456,62.73242083079315],[22.88389211495845,62.72786230439051],[22.88469236313366,62.72427469863911],[22.88356737920416,62.71631756352293],[22.87036032059784,62.71031482838269]]]],"type":"MultiPolygon"}
+}

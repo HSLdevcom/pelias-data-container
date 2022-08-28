@@ -1,1 +1,93 @@
-{"id":101814041,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000131,"geom:area_square_m":785501.02161,"geom:bbox":"28.5194370631,60.9573361227,28.5496903754,60.9664433482","geom:latitude":60.961173,"geom:longitude":28.536366,"gn:id":"644307,516673","gn:population":1199,"iso:country":"FI","lbl:latitude":60.961502,"lbl:longitude":28.538658,"lbl:max_zoom":16,"lbl:min_zoom":12,"mps:latitude":60.961502,"mps:longitude":28.538658,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ceb_x_preferred":["Ozero Nuyyamayarvi"],"name:deu_x_preferred":["Nuijamaa"],"name:eng_x_preferred":["Nuijamaa"],"name:est_x_preferred":["Nuijamaa vald"],"name:fin_x_preferred":["Nuijamaanjärvi"],"name:fin_x_variant":["Nuijamaa"],"name:fra_x_preferred":["Nuijamaa"],"name:nob_x_preferred":["Nuijamaa"],"name:rus_x_preferred":["Нуйямаярви"],"name:rus_x_variant":["Нуйямаа"],"name:swe_x_preferred":["Nuijamaanjärvi"],"name:swe_x_variant":["Nuijamaa"],"qs:a0":"Suomi#Finland","qs:a1":"*Etelä-Karjala#Södra Karelen","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Lappeenranta#Villmanstrand","qs:la_lc":"*FI109405","qs:level":"locality","qs:loc":"Nuijamaa","qs:loc_alt":"Nuijamaa","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":41,"wof:belongsto":[85683103,102191581,907198887,85633143,404227411,136253047,1159321547],"wof:breaches":[],"wof:concordances":{"gn:id":644307,"gp:id":570435,"qs_pg:id":1060313,"wd:id":"Q2004537"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"3a671777a00362791312bbca62637afa","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321547,"empire_id":136253047,"localadmin_id":907198887,"locality_id":101814041,"macroregion_id":404227411,"region_id":85683103}],"wof:id":101814041,"wof:lastmodified":1582312182,"wof:name":"Nuijamaa","wof:parent_id":907198887,"wof:placetype":"locality","wof:population":1199,"wof:population_rank":3,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[28.51943706305087,60.95733612269009,28.54969037535619,60.96644334821065],"geometry":{"coordinates":[[[28.54256931464403,60.96378020061417],[28.54969037535619,60.9628446447515],[28.54766054798171,60.95938896546477],[28.54588049081553,60.95962285908251],[28.54537315480763,60.95875892762439],[28.5418130544756,60.95922663537584],[28.54079864782233,60.95749873885381],[28.53545857537694,60.95820009476296],[28.53495154772173,60.95733612269009],[28.53139146550444,60.95780357018538],[28.53189840715453,60.95866755628492],[28.5247777829469,60.95960221750892],[28.52427101333325,60.958738203363],[28.52071064340583,60.95920538903783],[28.52121732698822,60.96006941720344],[28.51943706305087,60.96030298431987],[28.51994373470734,60.96116701765436],[28.52172404166572,60.96093344352846],[28.52223078744083,60.96179746801238],[28.52579141547506,60.96133024027534],[28.52629827839502,60.96219424889574],[28.52985889654843,60.96172691985026],[28.53087288779813,60.96345490351274],[28.53443358207994,60.9629874591289],[28.53646228219543,60.96644334821065],[28.53824276542861,60.96620956522281],[28.53773550068462,60.96534560273602],[28.54307667730615,60.96464414389391],[28.54256931464403,60.96378020061417]]],"type":"Polygon"}}
+{
+  "id": 101814041,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000131,
+    "geom:area_square_m":785501.021611,
+    "geom:bbox":"28.5194370631,60.9573361227,28.5496903754,60.9664433482",
+    "geom:latitude":60.961173,
+    "geom:longitude":28.536366,
+    "geonames:id":"644307,516673",
+    "gn:population":1199,
+    "iso:country":"FI",
+    "lbl:latitude":60.961502,
+    "lbl:longitude":28.538658,
+    "mps:latitude":60.961502,
+    "mps:longitude":28.538658,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Ozero Nuyyamayarvi"
+    ],
+    "name:fin_x_preferred":[
+        "Nuijamaanj\u00e4rvi"
+    ],
+    "name:rus_x_preferred":[
+        "\u041d\u0443\u0439\u044f\u043c\u0430\u044f\u0440\u0432\u0438"
+    ],
+    "name:swe_x_preferred":[
+        "Nuijamaanj\u00e4rvi"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Karjala#S\u00f6dra Karelen",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Lappeenranta#Villmanstrand",
+    "qs:la_lc":"*FI109405",
+    "qs:level":"locality",
+    "qs:loc":"Nuijamaa",
+    "qs:loc_alt":"Nuijamaa",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":41,
+    "wof:belongsto":[
+        85683103,
+        102191581,
+        907198887,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":644307,
+        "gp:id":570435,
+        "qs:id":1060313,
+        "wd:id":"Q3458892"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"52ab280715d611981ddbb354cb3c82c7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198887,
+            "locality_id":101814041,
+            "macroregion_id":404227411,
+            "region_id":85683103
+        }
+    ],
+    "wof:id":101814041,
+    "wof:lastmodified":1479773135,
+    "wof:name":"Nuijamaa",
+    "wof:parent_id":907198887,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.51943706305087,
+    60.95733612269009,
+    28.54969037535619,
+    60.96644334821065
+],
+  "geometry": {"coordinates":[[[28.54256931464403,60.96378020061417],[28.54969037535619,60.9628446447515],[28.54766054798171,60.95938896546477],[28.54588049081553,60.95962285908251],[28.54537315480763,60.95875892762439],[28.5418130544756,60.95922663537584],[28.54079864782233,60.95749873885381],[28.53545857537694,60.95820009476296],[28.53495154772173,60.95733612269009],[28.53139146550444,60.95780357018538],[28.53189840715453,60.95866755628492],[28.5247777829469,60.95960221750892],[28.52427101333325,60.958738203363],[28.52071064340583,60.95920538903783],[28.52121732698822,60.96006941720344],[28.51943706305087,60.96030298431987],[28.51994373470734,60.96116701765436],[28.52172404166572,60.96093344352846],[28.52223078744083,60.96179746801238],[28.52579141547506,60.96133024027534],[28.52629827839502,60.96219424889574],[28.52985889654843,60.96172691985026],[28.53087288779813,60.96345490351274],[28.53443358207994,60.9629874591289],[28.53646228219543,60.96644334821065],[28.53824276542861,60.96620956522281],[28.53773550068462,60.96534560273602],[28.54307667730615,60.96464414389391],[28.54256931464403,60.96378020061417]]],"type":"Polygon"}
+}

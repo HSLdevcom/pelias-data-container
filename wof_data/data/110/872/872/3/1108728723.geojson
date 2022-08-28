@@ -1,1 +1,70 @@
-{"id":1108728723,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.00002,"geom:area_square_m":122567.156815,"geom:bbox":"22.2576570713,60.4488255117,22.2666257926,60.4532158707","geom:latitude":60.451026,"geom:longitude":22.262167,"iso:country":"FI","lbl:latitude":60.45103,"lbl:longitude":22.262158,"lbl:max_zoom":18,"mps:latitude":60.45103,"mps:longitude":22.262158,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:fin_x_preferred":["Kristiinankatu pohjoinen"],"reversegeo:latitude":60.45103,"reversegeo:longitude":22.262158,"src:geom":"tkugov","tkugov:ID":"59","tkugov:NIMI":"Kristiinankatu pohjoinen","tkugov:PIENALUE":"853101005","wof:belongsto":[102191581,907198909,85633143,404227405,101748421,136253047,1159321603,85683073],"wof:breaches":[],"wof:concordances":{},"wof:country":"FI","wof:geomhash":"c8a492410389b1d6a2e9dcda8c697477","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321603,"empire_id":136253047,"localadmin_id":907198909,"locality_id":101748421,"macroregion_id":404227405,"neighbourhood_id":1108728723,"region_id":85683073}],"wof:id":1108728723,"wof:lastmodified":1566594936,"wof:name":"Kristiinankatu pohjoinen","wof:parent_id":101748421,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[22.25765707126713,60.44882551169606,22.26662579257109,60.45321587071442],"geometry":{"coordinates":[[[22.25912108116419,60.45047753226056],[22.25765707126713,60.45151678689329],[22.25805943473726,60.45160100831758],[22.26272271987582,60.45321587071442],[22.26331149996254,60.45280493583088],[22.26354651285606,60.45264155277295],[22.26359663814552,60.45265874827442],[22.2664070588566,60.45069453031696],[22.26662579257109,60.45050234001028],[22.26580111479982,60.45021091925678],[22.26570399488801,60.4502634559133],[22.26153623962737,60.44882551169606],[22.25922176702056,60.45050028786448],[22.25912108116419,60.45047753226056]]],"type":"Polygon"}}
+{
+  "id": 1108728723,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.00002,
+    "geom:area_square_m":122567.156814,
+    "geom:bbox":"22.2576570713,60.4488255117,22.2666257926,60.4532158707",
+    "geom:latitude":60.451026,
+    "geom:longitude":22.262167,
+    "iso:country":"FI",
+    "lbl:latitude":60.45103,
+    "lbl:longitude":22.262158,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Kristiinankatu pohjoinen"
+    ],
+    "reversegeo:latitude":60.45103,
+    "reversegeo:longitude":22.262158,
+    "src:geom":"tkugov",
+    "tkugov:ID":"59",
+    "tkugov:NIMI":"Kristiinankatu pohjoinen",
+    "tkugov:PIENALUE":"853101005",
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        907198909,
+        85633143,
+        404227405,
+        101748421,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"c8a492410389b1d6a2e9dcda8c697477",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198909,
+            "locality_id":101748421,
+            "macroregion_id":404227405,
+            "neighbourhood_id":1108728723,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":1108728723,
+    "wof:lastmodified":1492536505,
+    "wof:name":"Kristiinankatu pohjoinen",
+    "wof:parent_id":101748421,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.25765707126713,
+    60.44882551169606,
+    22.26662579257109,
+    60.45321587071442
+],
+  "geometry": {"coordinates":[[[22.25912108116419,60.45047753226056],[22.25765707126713,60.45151678689329],[22.25805943473726,60.45160100831758],[22.26272271987582,60.45321587071442],[22.26331149996254,60.45280493583088],[22.26354651285606,60.45264155277295],[22.26359663814552,60.45265874827442],[22.2664070588566,60.45069453031696],[22.26662579257109,60.45050234001028],[22.26580111479982,60.45021091925678],[22.26570399488801,60.4502634559133],[22.26153623962737,60.44882551169606],[22.25922176702056,60.45050028786448],[22.25912108116419,60.45047753226056]]],"type":"Polygon"}
+}

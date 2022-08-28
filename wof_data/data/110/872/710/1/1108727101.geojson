@@ -1,1 +1,82 @@
-{"id":1108727101,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000317,"geom:area_square_m":1947733.865732,"geom:bbox":"24.843386,60.168871,24.882227,60.185425","geom:latitude":60.176217,"geom:longitude":24.859472,"hkigis:KOKOTUNNUS":"0912202303","hkigis:TUNNUS":"303","hkigis:aluejako":"OSA-ALUE","hkigis:kokotunnus":"0912202303","hkigis:tunnus":"303","iso:country":"FI","lbl:latitude":60.176193,"lbl:longitude":24.860796,"lbl:max_zoom":18,"mps:latitude":60.176193,"mps:longitude":24.860796,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:ceb_x_preferred":["Lehtisaari"],"name:fin_x_preferred":["Lehtisaari"],"name:nld_x_preferred":["Lehtisaari"],"name:swe_x_preferred":["Lövö"],"reversegeo:latitude":60.176193,"reversegeo:longitude":24.860796,"src:geom":"hkigis","src:geom_alt":[],"wof:belongsto":[890536879,102191581,85633143,136253047,907199715,101748417,890537235,85683067],"wof:breaches":[],"wof:concordances":{},"wof:controlled":["wof:parent_id","wof:hierarchy"],"wof:country":"FI","wof:geomhash":"ad1e66c8c49f27d1a5d782cedcab5a08","wof:hierarchy":[{"borough_id":890536879,"continent_id":102191581,"country_id":85633143,"empire_id":136253047,"localadmin_id":907199715,"locality_id":101748417,"macrohood_id":890537235,"neighbourhood_id":1108727101,"region_id":85683067}],"wof:id":1108727101,"wof:lastmodified":1637775645,"wof:name":"Lehtisaari","wof:parent_id":890537235,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.843386,60.168871,24.882227,60.185425],"geometry":{"coordinates":[[[[24.843386,60.185425],[24.843637,60.181021],[24.84365,60.180787],[24.843723,60.179428],[24.84412,60.173565],[24.852988,60.173357],[24.857366,60.173253],[24.857101,60.171895],[24.863207,60.171064],[24.863191,60.170608],[24.86303,60.168871],[24.875746,60.169612],[24.882227,60.172112],[24.868815,60.177674],[24.85863,60.181892],[24.857558,60.182141],[24.856591,60.182367],[24.853362,60.18312],[24.853155,60.183161],[24.852155,60.183359],[24.852043,60.183381],[24.850035,60.18378],[24.844316,60.185195],[24.843386,60.185425]]]],"type":"MultiPolygon"}}
+{
+  "id": 1108727101,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000317,
+    "geom:area_square_m":1947733.865733,
+    "geom:bbox":"24.8433862772,60.1688706661,24.8822267349,60.1854253324",
+    "geom:latitude":60.176217,
+    "geom:longitude":24.859472,
+    "hkigis:KOKOTUNNUS":"0912202303",
+    "hkigis:TUNNUS":"303",
+    "hkigis:aluejako":"OSA-ALUE",
+    "hkigis:kokotunnus":"0912202303",
+    "hkigis:tunnus":"303",
+    "iso:country":"FI",
+    "lbl:latitude":60.176193,
+    "lbl:longitude":24.860796,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Lehtisaari"
+    ],
+    "name:swe_x_preferred":[
+        "L\u00f6v\u00f6"
+    ],
+    "reversegeo:latitude":60.176193,
+    "reversegeo:longitude":24.860796,
+    "src:geom":"hkigis",
+    "src:geom_alt":[],
+    "wof:belongsto":[
+        102191581,
+        890537261,
+        907199715,
+        85633143,
+        101748417,
+        136253047,
+        890536889,
+        85683067,
+        890536879
+    ],
+    "wof:breaches":[],
+    "wof:controlled":[
+        "wof:parent_id"
+    ],
+    "wof:country":"FI",
+    "wof:geomhash":"630db8ed5eec3e899ac74bdc5eb4bc82",
+    "wof:hierarchy":[
+        {
+            "borough_id":890536879,
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199715,
+            "locality_id":101748417,
+            "macrohood_id":890537261,
+            "neighbourhood_id":1108727101,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":1108727101,
+    "wof:lastmodified":1492124069,
+    "wof:name":"Lehtisaari",
+    "wof:parent_id":890537261,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.84338627718459,
+    60.16887066611115,
+    24.8822267348607,
+    60.18542533238409
+],
+  "geometry": {"coordinates":[[[[24.84338627718459,60.18542533238409],[24.84363655420605,60.18102107779028],[24.84364991424109,60.18078674011396],[24.84372253603055,60.17942809196729],[24.84412003487585,60.1735654727545],[24.85298808736658,60.17335669360139],[24.85736644632831,60.17325339863034],[24.85710094807934,60.17189456024483],[24.86320745554304,60.17106393785706],[24.86319102771938,60.17060796621806],[24.8630301413554,60.16887066611115],[24.87574560388211,60.16961160143279],[24.8822267348607,60.17211169506495],[24.86881515417553,60.17767378774707],[24.85862979922211,60.18189157930028],[24.85755842282486,60.18214134717906],[24.85659135140186,60.18236680138588],[24.85336210733616,60.18311953304846],[24.85315535021758,60.18316058162742],[24.85215534532258,60.18335911192651],[24.85204277183285,60.1833814624215],[24.85003525746999,60.18377998458944],[24.84431603474915,60.18519528594309],[24.84338627718459,60.18542533238409]]]],"type":"MultiPolygon"}
+}

@@ -1,1 +1,108 @@
-{"id":101846697,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000226,"geom:area_square_m":1372200.426885,"geom:bbox":"26.4508478475,60.5176695628,26.4884590247,60.5302047793","geom:latitude":60.52474,"geom:longitude":26.466909,"gn:population":2836,"iso:country":"FI","lbl:latitude":60.52391,"lbl:longitude":26.466909,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":60.52391,"mps:longitude":26.466909,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":11,"name:ceb_x_preferred":["Ruotsinpyhtää"],"name:dan_x_preferred":["Strömfors"],"name:deu_x_preferred":["Ruotsinpyhtää"],"name:eng_x_preferred":["Ruotsinpyhtää"],"name:est_x_preferred":["Ruotsinpyhtää vald"],"name:eus_x_preferred":["Ruotsinpyhtää"],"name:fin_x_preferred":["Ruotsinpyhtää"],"name:fra_x_preferred":["Ruotsinpyhtää"],"name:ita_x_preferred":["Ruotsinpyhtää"],"name:nld_x_preferred":["Ruotsinpyhtää"],"name:nob_x_preferred":["Strömfors"],"name:nor_x_preferred":["Strömfors"],"name:ron_x_preferred":["Ruotsinpyhtää"],"name:sme_x_preferred":["Ruotsinpyhtää"],"name:spa_x_preferred":["Ruotsinpyhtää"],"name:swe_x_preferred":["Strömfors"],"name:tur_x_preferred":["Ruotsinpyhtää"],"name:und_x_variant":["Pyhtää"],"name:vie_x_preferred":["Ruotsinpyhtää"],"qs:a0":"Suomi#Finland","qs:a1":"*Uusimaa#Nyland","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Ruotsinpyhtää#Strömfors","qs:la_lc":"*FI120701","qs:level":"locality","qs:loc":"Ruotsinpyhtää","qs:loc_alt":"Ruotsinpyhtaa","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":293,"wof:belongsto":[85683067,102191581,907198469,85633143,404227411,136253047,1159321525],"wof:breaches":[],"wof:concordances":{"gn:id":638711,"gp:id":572464,"qs_pg:id":1337622,"wd:id":"Q999193"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"65c32b2a69c4723e1b7a2984d740bf05","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321525,"empire_id":136253047,"localadmin_id":907198469,"locality_id":101846697,"macroregion_id":404227411,"region_id":85683067}],"wof:id":101846697,"wof:lastmodified":1582312176,"wof:name":"Ruotsinpyhtää","wof:parent_id":907198469,"wof:placetype":"locality","wof:population":2836,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[26.45084784751543,60.5176695628345,26.488459024664,60.53020477931676],"geometry":{"coordinates":[[[26.47695358038385,60.52642505519037],[26.48226214401114,60.52580132540766],[26.48270625294066,60.52667280360947],[26.48447577573774,60.52646484383138],[26.48491995505543,60.5273363144799],[26.488459024664,60.52692031705192],[26.48668212357427,60.52343447578363],[26.48137400740598,60.52405836491101],[26.48092997972537,60.5231868826167],[26.47916060925587,60.5233947958136],[26.47871665194424,60.52252330596849],[26.47340854533348,60.52314689602508],[26.47163350626431,60.51966084879729],[26.46986426887872,60.51986864375647],[26.46942062004746,60.51899712236207],[26.4658821693605,60.51941263443194],[26.46499512599837,60.5176695628345],[26.4614567651642,60.51808496287083],[26.46234363536672,60.51982805918772],[26.46057433713361,60.52003573882172],[26.46101776950269,60.52090729111978],[26.4592484071502,60.52111495510326],[26.45969182326223,60.52198651222108],[26.45438348136832,60.52260939171981],[26.45527013488146,60.52435253894993],[26.45350055932158,60.52456013414059],[26.45394388332471,60.52543171189615],[26.45217424362767,60.52563929143014],[26.45261755135385,60.52651087400568],[26.45084784751543,60.52671843788238],[26.45262117555666,60.53020477931676],[26.47739755940859,60.52729655195469],[26.47695358038385,60.52642505519037]]],"type":"Polygon"}}
+{
+  "id": 101846697,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000226,
+    "geom:area_square_m":1372200.426887,
+    "geom:bbox":"26.4508478475,60.5176695628,26.4884590247,60.5302047793",
+    "geom:latitude":60.52474,
+    "geom:longitude":26.466909,
+    "gn:population":2836,
+    "iso:country":"FI",
+    "lbl:latitude":60.52391,
+    "lbl:longitude":26.466909,
+    "mps:latitude":60.52391,
+    "mps:longitude":26.466909,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:deu_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:est_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4 vald"
+    ],
+    "name:eus_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:fin_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:fra_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:ita_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:nld_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "name:nor_x_preferred":[
+        "Str\u00f6mfors"
+    ],
+    "name:spa_x_preferred":[
+        "Ruotsinpyht\u00e4\u00e4"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Ruotsinpyht\u00e4\u00e4#Str\u00f6mfors",
+    "qs:la_lc":"*FI120701",
+    "qs:level":"locality",
+    "qs:loc":"Ruotsinpyht\u00e4\u00e4",
+    "qs:loc_alt":"Ruotsinpyhtaa",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":293,
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":638711,
+        "gp:id":572464,
+        "qs:id":1337622,
+        "wd:id":"Q999193"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"0fd635e2ca04112e8f1b47f31612cb3e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846697,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101846697,
+    "wof:lastmodified":1470852430,
+    "wof:name":"Ruotsinpyht\u00e4\u00e4",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.45084784751543,
+    60.5176695628345,
+    26.488459024664,
+    60.53020477931676
+],
+  "geometry": {"coordinates":[[[26.47695358038385,60.52642505519037],[26.48226214401114,60.52580132540766],[26.48270625294066,60.52667280360947],[26.48447577573774,60.52646484383138],[26.48491995505543,60.5273363144799],[26.488459024664,60.52692031705192],[26.48668212357427,60.52343447578363],[26.48137400740598,60.52405836491101],[26.48092997972537,60.5231868826167],[26.47916060925587,60.5233947958136],[26.47871665194424,60.52252330596849],[26.47340854533348,60.52314689602508],[26.47163350626431,60.51966084879729],[26.46986426887872,60.51986864375647],[26.46942062004746,60.51899712236207],[26.4658821693605,60.51941263443194],[26.46499512599837,60.5176695628345],[26.4614567651642,60.51808496287083],[26.46234363536672,60.51982805918772],[26.46057433713361,60.52003573882172],[26.46101776950269,60.52090729111978],[26.4592484071502,60.52111495510326],[26.45969182326223,60.52198651222108],[26.45438348136832,60.52260939171981],[26.45527013488146,60.52435253894993],[26.45350055932158,60.52456013414059],[26.45394388332471,60.52543171189615],[26.45217424362767,60.52563929143014],[26.45261755135385,60.52651087400568],[26.45084784751543,60.52671843788238],[26.45262117555666,60.53020477931676],[26.47739755940859,60.52729655195469],[26.47695358038385,60.52642505519037]]],"type":"Polygon"}
+}

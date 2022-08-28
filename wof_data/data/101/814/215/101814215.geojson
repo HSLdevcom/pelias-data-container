@@ -1,1 +1,109 @@
-{"id":101814215,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000222,"geom:area_square_m":1292346.081444,"geom:bbox":"26.114145114,61.9045440329,26.1372468776,61.9260565833","geom:latitude":61.913958,"geom:longitude":26.124195,"gn:population":1138,"iso:country":"FI","lbl:latitude":61.912747,"lbl:longitude":26.124195,"lbl:max_zoom":16,"lbl:min_zoom":12,"mps:latitude":61.912747,"mps:longitude":26.124195,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ceb_x_preferred":["Leivonmäki"],"name:deu_x_preferred":["Leivonmäki"],"name:eng_x_preferred":["Leivonmäki"],"name:epo_x_preferred":["Leivonmäki"],"name:est_x_preferred":["Leivonmäki vald"],"name:fin_x_preferred":["Leivonmäki"],"name:fra_x_preferred":["Leivonmäki"],"name:ita_x_preferred":["Leivonmäki"],"name:nld_x_preferred":["Leivonmäki"],"name:nno_x_preferred":["Leivonmäki"],"name:nob_x_preferred":["Leivonmäki"],"name:nor_x_preferred":["Leivonmäki"],"name:ron_x_preferred":["Leivonmäki"],"name:rus_x_preferred":["Лейвонмяки"],"name:sme_x_preferred":["Leivonmäki"],"name:swe_x_preferred":["Leivonmäki"],"qs:a0":"Suomi#Finland","qs:a1":"*Keski-Suomi#Mellersta Finland","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Leivonmäki","qs:la_lc":"*FI213415","qs:level":"locality","qs:loc":"Leivonmäki","qs:loc_alt":"Leivonmaki","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":152,"wof:belongsto":[85683117,102191581,907198751,85633143,404227417,136253047,1159321619],"wof:breaches":[],"wof:concordances":{"gn:id":648397,"gp:id":568944,"qs_pg:id":172446,"wd:id":"Q1025712","wk:page":"Leivonmäki"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"47b5d7d1a07e6edaedc4d9aa66cc35fc","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321619,"empire_id":136253047,"localadmin_id":907198751,"locality_id":101814215,"macroregion_id":404227417,"region_id":85683117}],"wof:id":101814215,"wof:lastmodified":1582312186,"wof:name":"Leivonmäki","wof:parent_id":907198751,"wof:placetype":"locality","wof:population":1138,"wof:population_rank":3,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[26.11414511404485,61.90454403287589,26.13724687762254,61.92605658327403],"geometry":{"coordinates":[[[26.12614651475224,61.92349224070017],[26.12568666714691,61.92261917019044],[26.12383792106709,61.92282373670935],[26.12245869907503,61.92020449803556],[26.12430730102528,61.9199999507926],[26.12338787082916,61.91825379797132],[26.13263005902292,61.91723078183463],[26.13354996951807,61.91897687039443],[26.13724687762254,61.91856747762495],[26.13678681160081,61.91769444685872],[26.13493841695157,61.91789914828627],[26.13355853967937,61.91528002882058],[26.13171026633006,61.91548468802307],[26.12987103426315,61.91199248464807],[26.13171911557197,61.91178785114926],[26.13125933314399,61.91091480344971],[26.1331073437081,61.91071015343829],[26.13034897920795,61.9054718782258],[26.12850125659588,61.90567648969221],[26.12804168014912,61.90480343280728],[26.12249851991464,61.9054171103358],[26.12203911683605,61.90454403287589],[26.12019139930487,61.90474853976337],[26.12156955279045,61.90736778747242],[26.11787376161652,61.90777677095917],[26.11925189177481,61.91039604539844],[26.11555572168834,61.91080497565133],[26.11923126145814,61.91778975259126],[26.11553423207846,61.9181986938076],[26.11599371087675,61.9190717978754],[26.11414511404485,61.919276240486],[26.11506406383421,61.92102245753728],[26.11876142693825,61.92061352368148],[26.12014036065301,61.92323280090113],[26.11829154632255,61.92343729857322],[26.11967060085129,61.92605658327403],[26.12336849510251,61.92564752643085],[26.12244890374194,61.92390136364105],[26.12614651475224,61.92349224070017]]],"type":"Polygon"}}
+{
+  "id": 101814215,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000222,
+    "geom:area_square_m":1292346.081445,
+    "geom:bbox":"26.114145114,61.9045440329,26.1372468776,61.9260565833",
+    "geom:latitude":61.913958,
+    "geom:longitude":26.124195,
+    "gn:population":1138,
+    "iso:country":"FI",
+    "lbl:latitude":61.912747,
+    "lbl:longitude":26.124195,
+    "mps:latitude":61.912747,
+    "mps:longitude":26.124195,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:deu_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:epo_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:est_x_preferred":[
+        "Leivonm\u00e4ki vald"
+    ],
+    "name:fin_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:fra_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:ita_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:nld_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:nno_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "name:nor_x_preferred":[
+        "Leivonm\u00e4ki"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Keski-Suomi#Mellersta Finland",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Leivonm\u00e4ki",
+    "qs:la_lc":"*FI213415",
+    "qs:level":"locality",
+    "qs:loc":"Leivonm\u00e4ki",
+    "qs:loc_alt":"Leivonmaki",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":152,
+    "wof:belongsto":[
+        85683117,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":648397,
+        "gp:id":568944,
+        "qs:id":172446,
+        "wd:id":"Q1025712",
+        "wk:page":"Leivonm\u00e4ki"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"70c7167de2aa6e228fa2bcd78881ecf2",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814215,
+            "macroregion_id":404227417,
+            "region_id":85683117
+        }
+    ],
+    "wof:id":101814215,
+    "wof:lastmodified":1470852458,
+    "wof:name":"Leivonm\u00e4ki",
+    "wof:parent_id":85683117,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    26.11414511404485,
+    61.90454403287589,
+    26.13724687762254,
+    61.92605658327403
+],
+  "geometry": {"coordinates":[[[26.12614651475224,61.92349224070017],[26.12568666714691,61.92261917019044],[26.12383792106709,61.92282373670935],[26.12245869907503,61.92020449803556],[26.12430730102528,61.9199999507926],[26.12338787082916,61.91825379797132],[26.13263005902292,61.91723078183463],[26.13354996951807,61.91897687039443],[26.13724687762254,61.91856747762495],[26.13678681160081,61.91769444685872],[26.13493841695157,61.91789914828627],[26.13355853967937,61.91528002882058],[26.13171026633006,61.91548468802307],[26.12987103426315,61.91199248464807],[26.13171911557197,61.91178785114926],[26.13125933314399,61.91091480344971],[26.1331073437081,61.91071015343829],[26.13034897920795,61.9054718782258],[26.12850125659588,61.90567648969221],[26.12804168014912,61.90480343280728],[26.12249851991464,61.9054171103358],[26.12203911683605,61.90454403287589],[26.12019139930487,61.90474853976337],[26.12156955279045,61.90736778747242],[26.11787376161652,61.90777677095917],[26.11925189177481,61.91039604539844],[26.11555572168834,61.91080497565133],[26.11923126145814,61.91778975259126],[26.11553423207846,61.9181986938076],[26.11599371087675,61.9190717978754],[26.11414511404485,61.919276240486],[26.11506406383421,61.92102245753728],[26.11876142693825,61.92061352368148],[26.12014036065301,61.92323280090113],[26.11829154632255,61.92343729857322],[26.11967060085129,61.92605658327403],[26.12336849510251,61.92564752643085],[26.12244890374194,61.92390136364105],[26.12614651475224,61.92349224070017]]],"type":"Polygon"}
+}

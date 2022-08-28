@@ -1,1 +1,54 @@
-{"id":874343335,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Leinelä","geom:area":0.000024,"geom:bbox":"25.034491612,60.3220713369,25.0450316736,60.3269941442","geom:latitude":60.324747,"geom:longitude":25.040063,"iso:country":"FI","lbl:latitude":60.325009,"lbl:longitude":25.040063,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[102191581,85633143,85683067,404227411],"wof:breaches":[],"wof:country":"FI","wof:created":1464735042,"wof:geomhash":"e203aa5732f0c90de0591dbda4574b93","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"macroregion_id":404227411,"postalcode_id":874343335,"region_id":85683067}],"wof:id":874343335,"wof:lastmodified":1469577668,"wof:name":"01340","wof:parent_id":85683067,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.03449161197478,60.32207133692781,25.04503167359998,60.32699414416182],"geometry":{"coordinates":[[[[25.03449161197478,60.32564767847679],[25.03909458417106,60.32699414416182],[25.04059494884314,60.32659786649592],[25.04337001439673,60.32523629311545],[25.04393208524731,60.32315758918156],[25.04503167359998,60.32222210561217],[25.04386241936353,60.32207133692781],[25.04193588725611,60.32276089144327],[25.03861516443303,60.32368029046185],[25.03537110746884,60.3250014424561],[25.03449161197478,60.32564767847679]]]],"type":"MultiPolygon"}}
+{
+  "id": 874343335,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Leinel\u00e4",
+    "geom:area":0.000024,
+    "geom:bbox":"25.034491612,60.3220713369,25.0450316736,60.3269941442",
+    "geom:latitude":60.324747,
+    "geom:longitude":25.040063,
+    "iso:country":"FI",
+    "lbl:latitude":60.325009,
+    "lbl:longitude":25.040063,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683067,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:created":1464735042,
+    "wof:geomhash":"e203aa5732f0c90de0591dbda4574b93",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "postalcode_id":874343335,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":874343335,
+    "wof:lastmodified":1469577668,
+    "wof:name":"01340",
+    "wof:parent_id":85683067,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.03449161197478,
+    60.32207133692781,
+    25.04503167359998,
+    60.32699414416182
+],
+  "geometry": {"coordinates":[[[[25.03449161197478,60.32564767847679],[25.03909458417106,60.32699414416182],[25.04059494884314,60.32659786649592],[25.04337001439673,60.32523629311545],[25.04393208524731,60.32315758918156],[25.04503167359998,60.32222210561217],[25.04386241936353,60.32207133692781],[25.04193588725611,60.32276089144327],[25.03861516443303,60.32368029046185],[25.03537110746884,60.3250014424561],[25.03449161197478,60.32564767847679]]]],"type":"MultiPolygon"}
+}

@@ -1,1 +1,75 @@
-{"id":101912993,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000214,"geom:area_square_m":1311209.841419,"geom:bbox":"25.3743646059,60.252542784,25.3958661815,60.2741243366","geom:latitude":60.261415,"geom:longitude":25.385415,"iso:country":"FI","lbl:latitude":60.258741,"lbl:longitude":25.386731,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":60.258741,"mps:longitude":25.386731,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:fin_x_preferred":["Kalkkiranta"],"name:swe_x_preferred":["Kalkstrand"],"qs:a0":"Suomi#Finland","qs:a1":"*Uusimaa#Nyland","qs:a1r":"7Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:id":0,"qs:la":"Sipoo#Sibbo","qs:la_lc":"*FI120753","qs:level":"locality","qs:loc":"Kalkkiranta","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural hamlet many local_admin match geoplanet","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683067,102191581,907198521,85633143,404227411,136253047,1159321633],"wof:breaches":[],"wof:concordances":{"gn:id":847626,"gp:id":29305297,"qs_pg:id":71113},"wof:concordances_alt":{"qs_pg:id":1250768},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"b6a8b90700f7ec0cc34c44022970650e","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321633,"empire_id":136253047,"localadmin_id":907198521,"locality_id":101912993,"macroregion_id":404227411,"region_id":85683067}],"wof:id":101912993,"wof:lastmodified":1582312171,"wof:name":"Kalkkiranta","wof:parent_id":907198521,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.37436460587094,60.25254278402849,25.39586618149974,60.27412433657673],"geometry":{"coordinates":[[[[25.38713373901555,60.27277755552632],[25.38909617491453,60.26855939924445],[25.38182338147288,60.26936063774417],[25.38141271318932,60.26848552213164],[25.37436460587094,60.26926157271367],[25.37559616595399,60.27188698503926],[25.37735835146088,60.27169298787874],[25.37817960278807,60.2734432456075],[25.37994185571813,60.27324921515731],[25.38035256209764,60.27412433657673],[25.38211483914262,60.27393027857647],[25.38170408945626,60.27305516289965],[25.38699067550164,60.27247287528917],[25.38713373901555,60.27277755552632]]],[[[25.38999880648896,60.26661923852492],[25.38981155584304,60.26663988029782],[25.38990078678302,60.26682992690382],[25.38999880648896,60.26661923852492]]],[[[25.39135282115222,60.26370885278413],[25.39586618149974,60.25400761397611],[25.39504002334911,60.25409873091445],[25.39462925312824,60.25322366141745],[25.39286811506565,60.25341786040622],[25.39245741300982,60.25254278402849],[25.37660669684141,60.25428954262827],[25.37947940979728,60.26041541504026],[25.3812409799695,60.26022137775306],[25.38411521682144,60.26634715435586],[25.38940072100934,60.26576479112867],[25.38857912616561,60.26401460937842],[25.39135282115222,60.26370885278413]]]],"type":"MultiPolygon"}}
+{
+  "id": 101912993,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000214,
+    "geom:area_square_m":1311209.84142,
+    "geom:bbox":"25.3743646059,60.252542784,25.3958661815,60.2741243366",
+    "geom:latitude":60.261415,
+    "geom:longitude":25.385415,
+    "iso:country":"FI",
+    "lbl:latitude":60.258741,
+    "lbl:longitude":25.386731,
+    "mps:latitude":60.258741,
+    "mps:longitude":25.386731,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"7Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:id":0,
+    "qs:la":"Sipoo#Sibbo",
+    "qs:la_lc":"*FI120753",
+    "qs:level":"locality",
+    "qs:loc":"Kalkkiranta",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural hamlet many local_admin match geoplanet",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":847626,
+        "gp:id":23408660,
+        "qs:id":1250768
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"8e343e2bb75fad5c31b72a325baa4fd7",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101912993,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101912993,
+    "wof:lastmodified":1470852435,
+    "wof:name":"Kalkkiranta",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.37436460587094,
+    60.25254278402849,
+    25.39586618149974,
+    60.27412433657673
+],
+  "geometry": {"coordinates":[[[[25.38713373901555,60.27277755552632],[25.38909617491453,60.26855939924445],[25.38182338147288,60.26936063774417],[25.38141271318932,60.26848552213164],[25.37436460587094,60.26926157271367],[25.37559616595399,60.27188698503926],[25.37735835146088,60.27169298787874],[25.37817960278807,60.2734432456075],[25.37994185571813,60.27324921515731],[25.38035256209764,60.27412433657673],[25.38211483914262,60.27393027857647],[25.38170408945626,60.27305516289965],[25.38699067550164,60.27247287528917],[25.38713373901555,60.27277755552632]]],[[[25.38999880648896,60.26661923852492],[25.38981155584304,60.26663988029782],[25.38990078678302,60.26682992690382],[25.38999880648896,60.26661923852492]]],[[[25.39135282115222,60.26370885278413],[25.39586618149974,60.25400761397611],[25.39504002334911,60.25409873091445],[25.39462925312824,60.25322366141745],[25.39286811506565,60.25341786040622],[25.39245741300982,60.25254278402849],[25.37660669684141,60.25428954262827],[25.37947940979728,60.26041541504026],[25.3812409799695,60.26022137775306],[25.38411521682144,60.26634715435586],[25.38940072100934,60.26576479112867],[25.38857912616561,60.26401460937842],[25.39135282115222,60.26370885278413]]]],"type":"MultiPolygon"}
+}

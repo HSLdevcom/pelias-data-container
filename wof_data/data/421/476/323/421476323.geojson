@@ -1,1 +1,57 @@
-{"id":421476323,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Keskussairaala-alue-Kimpinen","geom:area":0.000178,"geom:bbox":"28.2020334752,61.0611611098,28.2187620456,61.0756369541","geom:latitude":61.068378,"geom:longitude":28.210805,"gp:parent_id":"568782","iso:country":"FI","lbl:latitude":61.068005,"lbl:longitude":28.210646,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[102191581,85633143,85683103,404227411],"wof:breaches":[],"wof:concordances":{"gp:id":"12829649"},"wof:country":"FI","wof:geomhash":"c80c66e782589418e942d22b7d726c94","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"macroregion_id":404227411,"postalcode_id":421476323,"region_id":85683103}],"wof:id":421476323,"wof:lastmodified":1469577646,"wof:name":"53130","wof:parent_id":85683103,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[28.20203347523358,61.0611611098372,28.21876204560653,61.07563695407388],"geometry":{"coordinates":[[[[28.2184903567528,61.06183383125923],[28.21023941150116,61.0611611098372],[28.20720535532748,61.06292225194692],[28.20517293500818,61.063452851349],[28.20393152397925,61.06559038734986],[28.20203347523358,61.07188749908498],[28.20559033266751,61.07430390947864],[28.21876204560653,61.07563695407388],[28.21662697469103,61.07230807160123],[28.21591777181149,61.07041528345943],[28.2174784044558,61.06763525918109],[28.21801290080398,61.06583580401076],[28.2184903567528,61.06183383125923]]]],"type":"MultiPolygon"}}
+{
+  "id": 421476323,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Keskussairaala-alue-Kimpinen",
+    "geom:area":0.000178,
+    "geom:bbox":"28.2020334752,61.0611611098,28.2187620456,61.0756369541",
+    "geom:latitude":61.068378,
+    "geom:longitude":28.210805,
+    "gp:parent_id":"568782",
+    "iso:country":"FI",
+    "lbl:latitude":61.068005,
+    "lbl:longitude":28.210646,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        102191581,
+        85633143,
+        85683103,
+        404227411
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12829649"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"c80c66e782589418e942d22b7d726c94",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "macroregion_id":404227411,
+            "postalcode_id":421476323,
+            "region_id":85683103
+        }
+    ],
+    "wof:id":421476323,
+    "wof:lastmodified":1469577646,
+    "wof:name":"53130",
+    "wof:parent_id":85683103,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.20203347523358,
+    61.0611611098372,
+    28.21876204560653,
+    61.07563695407388
+],
+  "geometry": {"coordinates":[[[[28.2184903567528,61.06183383125923],[28.21023941150116,61.0611611098372],[28.20720535532748,61.06292225194692],[28.20517293500818,61.063452851349],[28.20393152397925,61.06559038734986],[28.20203347523358,61.07188749908498],[28.20559033266751,61.07430390947864],[28.21876204560653,61.07563695407388],[28.21662697469103,61.07230807160123],[28.21591777181149,61.07041528345943],[28.2174784044558,61.06763525918109],[28.21801290080398,61.06583580401076],[28.2184903567528,61.06183383125923]]]],"type":"MultiPolygon"}
+}

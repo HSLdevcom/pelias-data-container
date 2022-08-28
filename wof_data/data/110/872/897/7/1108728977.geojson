@@ -1,1 +1,71 @@
-{"id":1108728977,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000061,"geom:area_square_m":321225.266151,"geom:bbox":"25.472929892,65.0069844368,25.4889248549,65.0146999239","geom:latitude":65.010988,"geom:longitude":25.480939,"iso:country":"FI","lbl:latitude":65.011171,"lbl:longitude":25.481052,"lbl:max_zoom":18,"mps:latitude":65.011171,"mps:longitude":25.481052,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:deu_x_preferred":["Vaara"],"name:eng_x_preferred":["Vaara"],"name:fin_x_preferred":["Vaara"],"name:fra_x_preferred":["Vaara"],"name:swe_x_preferred":["Vaara"],"oulugov:AJ_KAUPU00":"Vaara","oulugov:AJ_KAUPUNG":"2","oulugov:ID":"77","oulugov:TEKSTI":"564101002","reversegeo:latitude":65.011171,"reversegeo:longitude":25.481052,"src:geom":"oulugov","wof:belongsto":[102191581,907199459,85633143,404227415,101748443,136253047,1159321529,85683143],"wof:breaches":[],"wof:concordances":{"wd:id":"Q13461679"},"wof:country":"FI","wof:geomhash":"5f0a339c5f9777fde338637244e3eacb","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321529,"empire_id":136253047,"localadmin_id":907199459,"locality_id":101748443,"macroregion_id":404227415,"neighbourhood_id":1108728977,"region_id":85683143}],"wof:id":1108728977,"wof:lastmodified":1566595008,"wof:name":"Vaara","wof:parent_id":101748443,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.472929892,65.0069844368,25.4889248549,65.0146999239],"geometry":{"coordinates":[[[[25.472929892,65.0099485904],[25.4784459619,65.0136885649],[25.4789650185,65.013771116],[25.4793109844,65.0138928047],[25.4795430737,65.0140405611],[25.4790674468,65.0141710497],[25.4798467411,65.0146999239],[25.4864571846,65.0129030675],[25.487960866,65.0123738131],[25.4889248549,65.012124843],[25.4818842334,65.0073846257],[25.4814281588,65.0070728198],[25.4813701386,65.0071513855],[25.4812025936,65.0072134229],[25.4805704066,65.0073332351],[25.4802144671,65.007341776],[25.4799578365,65.0073164815],[25.4794622996,65.0069844368],[25.4790112506,65.007107744],[25.4803243228,65.0078452627],[25.4786460823,65.0083074445],[25.4786895941,65.0083365733],[25.472929892,65.0099485904]]]],"type":"MultiPolygon"}}
+{
+  "id": 1108728977,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000061,
+    "geom:area_square_m":321225.266151,
+    "geom:bbox":"25.472929892,65.0069844368,25.4889248549,65.0146999239",
+    "geom:latitude":65.010988,
+    "geom:longitude":25.480939,
+    "iso:country":"FI",
+    "lbl:latitude":65.011171,
+    "lbl:longitude":25.481052,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Vaara"
+    ],
+    "oulugov:AJ_KAUPU00":"Vaara",
+    "oulugov:AJ_KAUPUNG":"2",
+    "oulugov:ID":"77",
+    "oulugov:TEKSTI":"564101002",
+    "reversegeo:latitude":65.011171,
+    "reversegeo:longitude":25.481052,
+    "src:geom":"oulugov",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        907199459,
+        85633143,
+        404227415,
+        101748443,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"8a5728bab903371e2638e21bba74d575",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199459,
+            "locality_id":101748443,
+            "macroregion_id":404227415,
+            "neighbourhood_id":1108728977,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":1108728977,
+    "wof:lastmodified":1492019425,
+    "wof:name":"Vaara",
+    "wof:parent_id":101748443,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.472929892,
+    65.0069844368,
+    25.4889248549,
+    65.0146999239
+],
+  "geometry": {"coordinates":[[[[25.472929892,65.0099485904],[25.4784459619,65.01368856489999],[25.4789650185,65.013771116],[25.4793109844,65.01389280470001],[25.4795430737,65.0140405611],[25.4790674468,65.0141710497],[25.4798467411,65.0146999239],[25.4864571846,65.01290306750001],[25.487960866,65.0123738131],[25.4889248549,65.012124843],[25.4818842334,65.0073846257],[25.4814281588,65.0070728198],[25.4813701386,65.00715138549999],[25.4812025936,65.00721342289999],[25.4805704066,65.00733323510001],[25.4802144671,65.007341776],[25.4799578365,65.0073164815],[25.4794622996,65.0069844368],[25.4790112506,65.007107744],[25.4803243228,65.0078452627],[25.4786460823,65.00830744450001],[25.4786895941,65.0083365733],[25.472929892,65.0099485904]]]],"type":"MultiPolygon"}
+}

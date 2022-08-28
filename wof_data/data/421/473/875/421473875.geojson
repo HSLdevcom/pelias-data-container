@@ -1,1 +1,58 @@
-{"id":421473875,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Hämeenlinna sairaala-alue","geom:area":0.00003,"geom:bbox":"24.4097088447,60.9857302278,24.4182366653,60.9933563705","geom:latitude":60.989084,"geom:longitude":24.41359,"iso:country":"FI","lbl:latitude":60.989442,"lbl:longitude":24.415076,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[85683077,102191581,85633143,404227411,101815409],"wof:breaches":[],"wof:concordances":{"gp:id":"12828406"},"wof:country":"FI","wof:geomhash":"0f49fe1b592aa58f444500eede59ada3","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"locality_id":101815409,"macroregion_id":404227411,"postalcode_id":421473875,"region_id":85683077}],"wof:id":421473875,"wof:lastmodified":1469577628,"wof:name":"13530","wof:parent_id":101815409,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.40970884465077,60.98573022776255,24.41823666527272,60.99335637046877],"geometry":{"coordinates":[[[[24.41823666527272,60.98959835313551],[24.41784567105366,60.98897179990958],[24.41575055850279,60.98781009409997],[24.41399441217721,60.98686043107138],[24.41195276803939,60.98573022776255],[24.40970884465077,60.98639628043122],[24.40979496390606,60.98740712450493],[24.41110995709461,60.98915610028417],[24.41241548595299,60.9891933934875],[24.41341712447079,60.98922199688485],[24.41216639919647,60.98956786677568],[24.41178424335158,60.99335637046877],[24.41823666527272,60.98959835313551]]]],"type":"MultiPolygon"}}
+{
+  "id": 421473875,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"H\u00e4meenlinna sairaala-alue",
+    "geom:area":0.00003,
+    "geom:bbox":"24.4097088447,60.9857302278,24.4182366653,60.9933563705",
+    "geom:latitude":60.989084,
+    "geom:longitude":24.41359,
+    "iso:country":"FI",
+    "lbl:latitude":60.989442,
+    "lbl:longitude":24.415076,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683077,
+        102191581,
+        85633143,
+        404227411,
+        101815409
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12828406"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"0f49fe1b592aa58f444500eede59ada3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "locality_id":101815409,
+            "macroregion_id":404227411,
+            "postalcode_id":421473875,
+            "region_id":85683077
+        }
+    ],
+    "wof:id":421473875,
+    "wof:lastmodified":1469577628,
+    "wof:name":"13530",
+    "wof:parent_id":101815409,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.40970884465077,
+    60.98573022776255,
+    24.41823666527272,
+    60.99335637046877
+],
+  "geometry": {"coordinates":[[[[24.41823666527272,60.98959835313551],[24.41784567105366,60.98897179990958],[24.41575055850279,60.98781009409997],[24.41399441217721,60.98686043107138],[24.41195276803939,60.98573022776255],[24.40970884465077,60.98639628043122],[24.40979496390606,60.98740712450493],[24.41110995709461,60.98915610028417],[24.41241548595299,60.9891933934875],[24.41341712447079,60.98922199688485],[24.41216639919647,60.98956786677568],[24.41178424335158,60.99335637046877],[24.41823666527272,60.98959835313551]]]],"type":"MultiPolygon"}
+}

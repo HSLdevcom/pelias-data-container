@@ -1,1 +1,73 @@
-{"id":1108728593,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000175,"geom:area_square_m":1072043.339309,"geom:bbox":"22.2584376855,60.3893089062,22.2837748723,60.3991107031","geom:latitude":60.393892,"geom:longitude":22.272194,"iso:country":"FI","lbl:latitude":60.394113,"lbl:longitude":22.272435,"lbl:max_zoom":18,"mps:latitude":60.394113,"mps:longitude":22.272435,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:ceb_x_preferred":["Papinsaari"],"name:fin_x_preferred":["Papinsaari"],"name:koi_x_preferred":["Папинсари"],"name:rus_x_preferred":["Папинсаари"],"name:swe_x_preferred":["Prästholm"],"name:swe_x_variant":["Prästholmen"],"reversegeo:latitude":60.394113,"reversegeo:longitude":22.272435,"src:geom":"tkugov","tkugov:ID":"119","tkugov:NIMI":"Papinsaari","tkugov:PIENALUE":"853217053","wof:belongsto":[102191581,907198909,85633143,404227405,101748421,136253047,1159321603,85683073],"wof:breaches":[],"wof:concordances":{},"wof:country":"FI","wof:geomhash":"21ddd5725476ebb71de9e583d356a987","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321603,"empire_id":136253047,"localadmin_id":907198909,"locality_id":101748421,"macroregion_id":404227405,"neighbourhood_id":1108728593,"region_id":85683073}],"wof:id":1108728593,"wof:lastmodified":1566594940,"wof:name":"Papinsaari","wof:parent_id":101748421,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[22.25843768549989,60.38930890624751,22.28377487232116,60.39911070305771],"geometry":{"coordinates":[[[22.26433280764098,60.39051039470814],[22.25843768549989,60.39450592541251],[22.26104394447906,60.39575596477491],[22.26141001900569,60.39593883410301],[22.26261611781433,60.39636256523784],[22.26341490284262,60.39655037330575],[22.26437998243974,60.39691746579356],[22.26459057535365,60.39700628371515],[22.26777992878637,60.39823242712657],[22.27221124941314,60.39880956317087],[22.2791662504297,60.39911070305771],[22.2797075861891,60.39845321544958],[22.2820774174362,60.39324013968334],[22.28377487232116,60.39097916233859],[22.28194038503567,60.3894306753447],[22.2753336310007,60.38930890624751],[22.26839610014555,60.38954434472043],[22.26433280764098,60.39051039470814]]],"type":"Polygon"}}
+{
+  "id": 1108728593,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000175,
+    "geom:area_square_m":1072043.339309,
+    "geom:bbox":"22.2584376855,60.3893089062,22.2837748723,60.3991107031",
+    "geom:latitude":60.393892,
+    "geom:longitude":22.272194,
+    "iso:country":"FI",
+    "lbl:latitude":60.394113,
+    "lbl:longitude":22.272435,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Papinsaari"
+    ],
+    "name:swe_x_preferred":[
+        "Pr\u00e4stholm"
+    ],
+    "reversegeo:latitude":60.394113,
+    "reversegeo:longitude":22.272435,
+    "src:geom":"tkugov",
+    "tkugov:ID":"119",
+    "tkugov:NIMI":"Papinsaari",
+    "tkugov:PIENALUE":"853217053",
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        907198909,
+        85633143,
+        404227405,
+        101748421,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"21ddd5725476ebb71de9e583d356a987",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907198909,
+            "locality_id":101748421,
+            "macroregion_id":404227405,
+            "neighbourhood_id":1108728593,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":1108728593,
+    "wof:lastmodified":1492536501,
+    "wof:name":"Papinsaari",
+    "wof:parent_id":101748421,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.25843768549989,
+    60.38930890624751,
+    22.28377487232116,
+    60.39911070305771
+],
+  "geometry": {"coordinates":[[[22.26433280764098,60.39051039470814],[22.25843768549989,60.39450592541251],[22.26104394447906,60.39575596477491],[22.26141001900569,60.39593883410301],[22.26261611781433,60.39636256523784],[22.26341490284262,60.39655037330575],[22.26437998243974,60.39691746579356],[22.26459057535365,60.39700628371515],[22.26777992878637,60.39823242712657],[22.27221124941314,60.39880956317087],[22.2791662504297,60.39911070305771],[22.2797075861891,60.39845321544958],[22.2820774174362,60.39324013968334],[22.28377487232116,60.39097916233859],[22.28194038503567,60.3894306753447],[22.2753336310007,60.38930890624751],[22.26839610014555,60.38954434472043],[22.26433280764098,60.39051039470814]]],"type":"Polygon"}
+}

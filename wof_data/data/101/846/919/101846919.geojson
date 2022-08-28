@@ -1,1 +1,77 @@
-{"id":101846919,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000061,"geom:area_square_m":347888.879681,"geom:bbox":"21.875858906,62.628955391,21.8889296182,62.6388539761","geom:latitude":62.634134,"geom:longitude":21.881633,"iso:country":"FI","lbl:latitude":62.633593,"lbl:longitude":21.880098,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":62.633593,"mps:longitude":21.880098,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:ast_x_preferred":["Kesti"],"name:eng_x_preferred":["Kesti"],"name:nld_x_preferred":["Kesti"],"name:und_x_variant":["Järvenpää"],"qs:a0":"Suomi#Finland","qs:a1":"*Etelä-Pohjanmaa#Södra Österbotten","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Jurva","qs:la_lc":"*FI214175","qs:level":"locality","qs:loc":"Kesti","qs:loc_alt":"Kesti","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","wd:wordcount":16,"wof:belongsto":[85683113,102191581,907199007,85633143,404227417,136253047,1159321561],"wof:breaches":[],"wof:concordances":{"gn:id":655949,"gp:id":25952580,"qs_pg:id":956458,"wd:id":"Q6395230"},"wof:country":"FI","wof:geomhash":"94218e2be289a476acafe1d9c765c650","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321561,"empire_id":136253047,"localadmin_id":907199007,"locality_id":101846919,"macroregion_id":404227417,"region_id":85683113}],"wof:id":101846919,"wof:lastmodified":1566595193,"wof:name":"Kesti","wof:parent_id":907199007,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[21.87585890599956,62.62895539099958,21.88892961819374,62.63885397609306],"geometry":{"coordinates":[[[21.88892961819374,62.63839880323684],[21.88787822100824,62.63574059734907],[21.88596450691045,62.63589233087879],[21.88561414156931,62.63500625633793],[21.88370046311485,62.63515796076405],[21.88229944986523,62.63161363801834],[21.88421291354643,62.6314619534466],[21.88386266486515,62.63057587654197],[21.88194925486869,62.6307275561511],[21.88124893483916,62.62895539099958],[21.87742227544373,62.62925865796683],[21.87777231643673,62.63014475070059],[21.87585890599956,62.63029635294248],[21.87830946996053,62.63649902360066],[21.88022325627679,62.63634738663063],[21.88057348383717,62.63723347559056],[21.88248730581114,62.6370818095167],[21.8831879383539,62.63885397609306],[21.88892961819374,62.63839880323684]]],"type":"Polygon"}}
+{
+  "id": 101846919,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000061,
+    "geom:area_square_m":347888.87968,
+    "geom:bbox":"21.875858906,62.628955391,21.8889296182,62.6388539761",
+    "geom:latitude":62.634134,
+    "geom:longitude":21.881633,
+    "iso:country":"FI",
+    "lbl:latitude":62.633593,
+    "lbl:longitude":21.880098,
+    "mps:latitude":62.633593,
+    "mps:longitude":21.880098,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Pohjanmaa#S\u00f6dra \u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Jurva",
+    "qs:la_lc":"*FI214175",
+    "qs:level":"locality",
+    "qs:loc":"Kesti",
+    "qs:loc_alt":"Kesti",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":16,
+    "wof:belongsto":[
+        85683113,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":655949,
+        "gp:id":25952580,
+        "qs:id":956458,
+        "wd:id":"Q6395230"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"28bf6943cccb742261c71483c8da53b3",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846919,
+            "macroregion_id":404227417,
+            "region_id":85683113
+        }
+    ],
+    "wof:id":101846919,
+    "wof:lastmodified":1470852490,
+    "wof:name":"Kesti",
+    "wof:parent_id":85683113,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    21.87585890599956,
+    62.62895539099958,
+    21.88892961819374,
+    62.63885397609306
+],
+  "geometry": {"coordinates":[[[21.88892961819374,62.63839880323684],[21.88787822100824,62.63574059734907],[21.88596450691045,62.63589233087879],[21.88561414156931,62.63500625633793],[21.88370046311485,62.63515796076405],[21.88229944986523,62.63161363801834],[21.88421291354643,62.6314619534466],[21.88386266486515,62.63057587654197],[21.88194925486869,62.6307275561511],[21.88124893483916,62.62895539099958],[21.87742227544373,62.62925865796683],[21.87777231643673,62.63014475070059],[21.87585890599956,62.63029635294248],[21.87830946996053,62.63649902360066],[21.88022325627679,62.63634738663063],[21.88057348383717,62.63723347559056],[21.88248730581114,62.6370818095167],[21.8831879383539,62.63885397609306],[21.88892961819374,62.63839880323684]]],"type":"Polygon"}
+}

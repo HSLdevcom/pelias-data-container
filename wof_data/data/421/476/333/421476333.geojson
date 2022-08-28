@@ -1,1 +1,59 @@
-{"id":421476333,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","figov:nimi":"Mustola","geom:area":0.00066,"geom:bbox":"28.2985591064,61.0455656867,28.3562211398,61.0728596785","geom:latitude":61.05933,"geom:longitude":28.326279,"gp:parent_id":"568782","iso:country":"FI","lbl:latitude":61.059781,"lbl:longitude":28.326279,"mz:hierarchy_label":1,"src:geom":"figov","src:lbl:centroid":"mapshaper","wof:belongsto":[85683103,102191581,85633143,404227411,101748433],"wof:breaches":[],"wof:concordances":{"gp:id":"12829653"},"wof:country":"FI","wof:geomhash":"6ddf013f2067a13012915f6504addeb9","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"locality_id":101748433,"macroregion_id":404227411,"postalcode_id":421476333,"region_id":85683103}],"wof:id":421476333,"wof:lastmodified":1469577646,"wof:name":"53420","wof:parent_id":101748433,"wof:placetype":"postalcode","wof:repo":"whosonfirst-data-postalcode-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[28.29855910635939,61.04556568672901,28.35622113975967,61.07285967846414],"geometry":{"coordinates":[[[[28.34253119641877,61.06161706104799],[28.34848769824503,61.05325368914414],[28.35622113975967,61.05005842835585],[28.35227402798297,61.04556568672901],[28.34149466804841,61.04941142399474],[28.32632101440072,61.05217099994589],[28.3196032955024,61.05382621766962],[28.30972832559145,61.0562795350827],[28.30632961475349,61.05879606943738],[28.30266389906667,61.060032349771],[28.29855910635939,61.06200286936993],[28.30683862098143,61.06845997085982],[28.31845660808582,61.07285967846414],[28.32266090038205,61.06866286409528],[28.34253119641877,61.06161706104799]]]],"type":"MultiPolygon"}}
+{
+  "id": 421476333,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "figov:nimi":"Mustola",
+    "geom:area":0.00066,
+    "geom:bbox":"28.2985591064,61.0455656867,28.3562211398,61.0728596785",
+    "geom:latitude":61.05933,
+    "geom:longitude":28.326279,
+    "gp:parent_id":"568782",
+    "iso:country":"FI",
+    "lbl:latitude":61.059781,
+    "lbl:longitude":28.326279,
+    "mz:hierarchy_label":1,
+    "src:geom":"figov",
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683103,
+        102191581,
+        85633143,
+        404227411,
+        101748433
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"12829653"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"6ddf013f2067a13012915f6504addeb9",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "locality_id":101748433,
+            "macroregion_id":404227411,
+            "postalcode_id":421476333,
+            "region_id":85683103
+        }
+    ],
+    "wof:id":421476333,
+    "wof:lastmodified":1469577646,
+    "wof:name":"53420",
+    "wof:parent_id":101748433,
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    28.29855910635939,
+    61.04556568672901,
+    28.35622113975967,
+    61.07285967846414
+],
+  "geometry": {"coordinates":[[[[28.34253119641877,61.06161706104799],[28.34848769824503,61.05325368914414],[28.35622113975967,61.05005842835585],[28.35227402798297,61.04556568672901],[28.34149466804841,61.04941142399474],[28.32632101440072,61.05217099994589],[28.3196032955024,61.05382621766962],[28.30972832559145,61.0562795350827],[28.30632961475349,61.05879606943738],[28.30266389906667,61.060032349771],[28.29855910635939,61.06200286936993],[28.30683862098143,61.06845997085982],[28.31845660808582,61.07285967846414],[28.32266090038205,61.06866286409528],[28.34253119641877,61.06161706104799]]]],"type":"MultiPolygon"}
+}

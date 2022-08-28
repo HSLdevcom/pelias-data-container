@@ -1,1 +1,109 @@
-{"id":101815449,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000417,"geom:area_square_m":2495673.235594,"geom:bbox":"25.1291339132,61.015445039,25.1729647189,61.0374036727","geom:latitude":61.0253,"geom:longitude":25.153113,"gn:population":2149,"iso:country":"FI","lbl:latitude":61.023531,"lbl:longitude":25.152781,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":61.023531,"mps:longitude":25.152781,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:bel_x_preferred":["Хямеэнкаскі"],"name:ceb_x_preferred":["Hämeenkoski"],"name:deu_x_preferred":["Hämeenkoski"],"name:eng_x_preferred":["Koski"],"name:eng_x_variant":["Hämeenkoski"],"name:fin_x_preferred":["Hämeenkoski"],"name:fra_x_preferred":["Hämeenkoski"],"name:hye_x_preferred":["Հյամեէնկոսկի"],"name:ita_x_preferred":["Hämeenkoski"],"name:jpn_x_preferred":["ハメーンコスキ"],"name:nld_x_preferred":["Hämeenkoski"],"name:nno_x_preferred":["Hämeenkoski"],"name:nob_x_preferred":["Hämeenkoski"],"name:nor_x_preferred":["Hämeenkoski"],"name:pol_x_preferred":["Hämeenkoski"],"name:ron_x_preferred":["Hämeenkoski"],"name:rus_x_preferred":["Коски"],"name:rus_x_variant":["Хямеэнкоски"],"name:slv_x_preferred":["Hämeenkoski"],"name:sme_x_preferred":["Hämeenkoski"],"name:spa_x_preferred":["Hämeenkoski"],"name:sqi_x_preferred":["Hämeenkoski"],"name:swe_x_preferred":["Hämeenkoski"],"name:tur_x_preferred":["Hämeenkoski"],"name:zho_x_preferred":["海門科斯基"],"qs:a0":"Suomi#Finland","qs:a1":"*Päijät-Häme#Päijänne-Tavastland","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Hämeenkoski","qs:la_lc":"*FI107283","qs:level":"locality","qs:loc":"Hämeenkoski","qs:loc_alt":"Hameenkoski","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":184,"wof:belongsto":[85683091,102191581,907198585,85633143,404227411,136253047,1159321483],"wof:breaches":[],"wof:concordances":{"gn:id":651073,"gp:id":568012,"qs_pg:id":897615,"wd:id":"Q1025738","wk:page":"Hämeenkoski"},"wof:concordances_alt":{"qs_pg:id":977294},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"eca0aaeef0956b770655d0cd22b9010e","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321483,"empire_id":136253047,"localadmin_id":907198585,"locality_id":101815449,"macroregion_id":404227411,"region_id":85683091}],"wof:id":101815449,"wof:lastmodified":1582312177,"wof:name":"Hämeenkoski","wof:parent_id":907198585,"wof:placetype":"locality","wof:population":2149,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.12913391324901,61.01544503902801,25.17296471891075,61.03740367270365],"geometry":{"coordinates":[[[25.15647877502926,61.03740367270365],[25.16549940335551,61.03644437528897],[25.16341219605749,61.03206434292304],[25.16521603256467,61.03187244547308],[25.16396388305066,61.02924443043656],[25.16757122120276,61.0288606034257],[25.1659016864985,61.02535661479203],[25.1640982105331,61.02554851611336],[25.16201210609813,61.02116847643236],[25.16381535326695,61.02097660432963],[25.16339816461675,61.02010059894872],[25.16520134599483,61.0199087103008],[25.16478413759086,61.01903270966682],[25.16839034873351,61.0186488768968],[25.16797307483864,61.01777288685327],[25.17157911433338,61.01738897622857],[25.17116177496246,61.01651299677673],[25.17296471891075,61.01632101373252],[25.17254735980811,61.01544503902801],[25.16533564669982,61.01621281352391],[25.16575282286863,61.01708881160403],[25.16034369044041,61.01766442496489],[25.15992665149111,61.01678840935944],[25.15812361302642,61.01698022986699],[25.15770664579964,61.01610420732607],[25.15590363305023,61.01629599960785],[25.15632055453403,61.01717202798818],[25.15091125891144,61.01774728803116],[25.15007771638983,61.01599519514673],[25.14286540797195,61.01676184841807],[25.14536524901581,61.02201825403336],[25.13815152211998,61.02278468911959],[25.13856807007596,61.02366077624231],[25.13135383986929,61.02442687636733],[25.13093747503513,61.02355076591186],[25.12913391324901,61.02374222912351],[25.13038294824071,61.02637057471748],[25.13399032652995,61.02598759090517],[25.13565643622923,61.02949198977672],[25.14106790306244,61.02891727606402],[25.14148463279065,61.02979335554801],[25.1486998247089,61.02902673367998],[25.14911676358662,61.02990278871806],[25.15452808453159,61.029327569629],[25.15661385572253,61.03370774079417],[25.15300587053071,61.03409130100425],[25.15384017784174,61.03584338518152],[25.15203606356334,61.03603514337186],[25.15245321042136,61.03691118966231],[25.15606151054226,61.03652763919411],[25.15647877502926,61.03740367270365]]],"type":"Polygon"}}
+{
+  "id": 101815449,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000417,
+    "geom:area_square_m":2495673.235592,
+    "geom:bbox":"25.1291339132,61.015445039,25.1729647189,61.0374036727",
+    "geom:latitude":61.0253,
+    "geom:longitude":25.153113,
+    "gn:population":2149,
+    "iso:country":"FI",
+    "lbl:latitude":61.023531,
+    "lbl:longitude":25.152781,
+    "mps:latitude":61.023531,
+    "mps:longitude":25.152781,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:deu_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:fin_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:fra_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:ita_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:nld_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:nno_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:nor_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:pol_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "name:spa_x_preferred":[
+        "H\u00e4meenkoski"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*P\u00e4ij\u00e4t-H\u00e4me#P\u00e4ij\u00e4nne-Tavastland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"H\u00e4meenkoski",
+    "qs:la_lc":"*FI107283",
+    "qs:level":"locality",
+    "qs:loc":"H\u00e4meenkoski",
+    "qs:loc_alt":"Hameenkoski",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":184,
+    "wof:belongsto":[
+        85683091,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":651073,
+        "gp:id":12590652,
+        "qs:id":897615,
+        "wd:id":"Q1025738",
+        "wk:page":"H\u00e4meenkoski"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"ae55e7fd4aa8382c605e3581d9064a6b",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101815449,
+            "macroregion_id":404227411,
+            "region_id":85683091
+        }
+    ],
+    "wof:id":101815449,
+    "wof:lastmodified":1470852443,
+    "wof:name":"H\u00e4meenkoski",
+    "wof:parent_id":85683091,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.12913391324901,
+    61.01544503902801,
+    25.17296471891075,
+    61.03740367270365
+],
+  "geometry": {"coordinates":[[[25.15647877502926,61.03740367270365],[25.16549940335551,61.03644437528897],[25.16341219605749,61.03206434292304],[25.16521603256467,61.03187244547308],[25.16396388305066,61.02924443043656],[25.16757122120276,61.0288606034257],[25.1659016864985,61.02535661479203],[25.1640982105331,61.02554851611336],[25.16201210609813,61.02116847643236],[25.16381535326695,61.02097660432963],[25.16339816461675,61.02010059894872],[25.16520134599483,61.0199087103008],[25.16478413759086,61.01903270966682],[25.16839034873351,61.0186488768968],[25.16797307483864,61.01777288685327],[25.17157911433338,61.01738897622857],[25.17116177496246,61.01651299677673],[25.17296471891075,61.01632101373252],[25.17254735980811,61.01544503902801],[25.16533564669982,61.01621281352391],[25.16575282286863,61.01708881160403],[25.16034369044041,61.01766442496489],[25.15992665149111,61.01678840935944],[25.15812361302642,61.01698022986699],[25.15770664579964,61.01610420732607],[25.15590363305023,61.01629599960785],[25.15632055453403,61.01717202798818],[25.15091125891144,61.01774728803116],[25.15007771638983,61.01599519514673],[25.14286540797195,61.01676184841807],[25.14536524901581,61.02201825403336],[25.13815152211998,61.02278468911959],[25.13856807007596,61.02366077624231],[25.13135383986929,61.02442687636733],[25.13093747503513,61.02355076591186],[25.12913391324901,61.02374222912351],[25.13038294824071,61.02637057471748],[25.13399032652995,61.02598759090517],[25.13565643622923,61.02949198977672],[25.14106790306244,61.02891727606402],[25.14148463279065,61.02979335554801],[25.1486998247089,61.02902673367998],[25.14911676358662,61.02990278871806],[25.15452808453159,61.029327569629],[25.15661385572253,61.03370774079417],[25.15300587053071,61.03409130100425],[25.15384017784174,61.03584338518152],[25.15203606356334,61.03603514337186],[25.15245321042136,61.03691118966231],[25.15606151054226,61.03652763919411],[25.15647877502926,61.03740367270365]]],"type":"Polygon"}
+}

@@ -1,1 +1,79 @@
-{"id":101846903,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000077,"geom:area_square_m":427361.886836,"geom:bbox":"22.8716126696,63.2315781527,22.8864116992,63.2403548994","geom:latitude":63.235917,"geom:longitude":22.878822,"gn:population":4915,"iso:country":"FI","lbl:latitude":63.235458,"lbl:longitude":22.878822,"lbl:max_zoom":15,"lbl:min_zoom":11.5,"mps:latitude":63.235459,"mps:longitude":22.878822,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ceb_x_preferred":["Alahärmä"],"name:deu_x_preferred":["Alahärmä"],"name:eng_x_preferred":["Alahärmä"],"name:est_x_preferred":["Alahärmä vald"],"name:fin_x_preferred":["Alahärmä"],"name:fra_x_preferred":["Alahärmä"],"name:hun_x_preferred":["Alahärmä"],"name:ita_x_preferred":["Alahärmä"],"name:nld_x_preferred":["Alahärmä"],"name:nob_x_preferred":["Alahärmä"],"name:ron_x_preferred":["Alahärmä"],"name:sme_x_preferred":["Alahärmä"],"name:swe_x_preferred":["Alahärmä"],"qs:a0":"Suomi#Finland","qs:a1":"*Etelä-Pohjanmaa#Södra Österbotten","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Alahärmä","qs:la_lc":"*FI214004","qs:level":"locality","qs:loc":"Alahärmä","qs:loc_alt":"Alaharma","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":364,"wof:belongsto":[85683113,102191581,907199237,85633143,404227417,136253047,1159321561],"wof:breaches":[],"wof:concordances":{"gn:id":661601,"gp:id":25948950,"qs_pg:id":845274,"wd:id":"Q575090","wk:page":"Alahärmä"},"wof:country":"FI","wof:geomhash":"192084dfffcc9ee5ecbed8b8d2319f38","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321561,"empire_id":136253047,"localadmin_id":907199237,"locality_id":101846903,"macroregion_id":404227417,"region_id":85683113}],"wof:id":101846903,"wof:lastmodified":1566595186,"wof:name":"Alahärmä","wof:parent_id":907199237,"wof:placetype":"locality","wof:population":4915,"wof:population_rank":4,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[22.87161266957054,63.23157815265012,22.88641169924426,63.24035489944293],"geometry":{"coordinates":[[[22.88641169924426,63.2384830218698],[22.88485409445423,63.23494823793033],[22.88290695617502,63.23511296897561],[22.88134999627107,63.23157815265012],[22.87356212637275,63.23223674329739],[22.87472914071412,63.23488792255216],[22.87278195558525,63.23505252535432],[22.87355998618449,63.23681998596652],[22.87161266957054,63.23698457522323],[22.87200166897321,63.23786831006299],[22.87394904110397,63.23770371530424],[22.87511636437455,63.24035489944293],[22.87706388260284,63.24019026362203],[22.87667469289943,63.23930654172568],[22.88641169924426,63.2384830218698]]],"type":"Polygon"}}
+{
+  "id": 101846903,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000077,
+    "geom:area_square_m":427361.886836,
+    "geom:bbox":"22.8716126696,63.2315781527,22.8864116992,63.2403548994",
+    "geom:latitude":63.235917,
+    "geom:longitude":22.878822,
+    "gn:population":4915,
+    "iso:country":"FI",
+    "lbl:latitude":63.235458,
+    "lbl:longitude":22.878822,
+    "mps:latitude":63.235459,
+    "mps:longitude":22.878822,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Pohjanmaa#S\u00f6dra \u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Alah\u00e4rm\u00e4",
+    "qs:la_lc":"*FI214004",
+    "qs:level":"locality",
+    "qs:loc":"Alah\u00e4rm\u00e4",
+    "qs:loc_alt":"Alaharma",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":364,
+    "wof:belongsto":[
+        85683113,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":661601,
+        "gp:id":"25948950",
+        "qs:id":845274,
+        "wd:id":"Q575090",
+        "wk:page":"Alah\u00e4rm\u00e4"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"e10e84cfee3fd431c4e20a2111c6fe16",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846903,
+            "macroregion_id":404227417,
+            "region_id":85683113
+        }
+    ],
+    "wof:id":101846903,
+    "wof:lastmodified":1477508573,
+    "wof:name":"Alah\u00e4rm\u00e4",
+    "wof:parent_id":85683113,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.87161266957054,
+    63.23157815265012,
+    22.88641169924426,
+    63.24035489944293
+],
+  "geometry": {"coordinates":[[[22.88641169924426,63.2384830218698],[22.88485409445423,63.23494823793033],[22.88290695617502,63.23511296897561],[22.88134999627107,63.23157815265012],[22.87356212637275,63.23223674329739],[22.87472914071412,63.23488792255216],[22.87278195558525,63.23505252535432],[22.87355998618449,63.23681998596652],[22.87161266957054,63.23698457522323],[22.87200166897321,63.23786831006299],[22.87394904110397,63.23770371530424],[22.87511636437455,63.24035489944293],[22.87706388260284,63.24019026362203],[22.87667469289943,63.23930654172568],[22.88641169924426,63.2384830218698]]],"type":"Polygon"}
+}

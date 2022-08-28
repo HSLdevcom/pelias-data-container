@@ -1,1 +1,78 @@
-{"id":101814191,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000088,"geom:area_square_m":506952.738144,"geom:bbox":"25.5408071269,62.2596481816,25.5611850535,62.2719001642","geom:latitude":62.266158,"geom:longitude":25.549466,"iso:country":"FI","lbl:latitude":62.264562,"lbl:longitude":25.546069,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":62.264562,"mps:longitude":25.546069,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:eng_x_preferred":["Vesanka"],"name:fin_x_preferred":["Jyväskylän kaupunginosat"],"name:rus_x_preferred":["Весанка"],"qs:a0":"Suomi#Finland","qs:a1":"*Keski-Suomi#Mellersta Finland","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Jyväskylän mlk#Jyväskylä lk","qs:la_lc":"*FI213180","qs:level":"locality","qs:loc":"Vesanka","qs:loc_alt":"Vesanka","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683117,102191581,907199265,85633143,404227417,136253047,1159321625],"wof:breaches":[],"wof:concordances":{"gn:id":631878,"gp:id":574857,"qs_pg:id":345500},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"82ce9df8ece4e9b53abddcf276e34ac8","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321625,"empire_id":136253047,"localadmin_id":907199265,"locality_id":101814191,"macroregion_id":404227417,"region_id":85683117}],"wof:id":101814191,"wof:lastmodified":1582312185,"wof:name":"Vesanka","wof:parent_id":907199265,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.54080712685555,62.2596481816397,25.56118505353919,62.27190016423526],"geometry":{"coordinates":[[[25.56118505353919,62.2689636428766],[25.56073468688379,62.26808854445954],[25.55698986472828,62.26848404259124],[25.55563923856647,62.26585870233828],[25.5537669427016,62.26605639750784],[25.55331684218226,62.26518127540083],[25.55144457341822,62.26537894094855],[25.55099455184569,62.26450381134583],[25.54912231018585,62.26470144727318],[25.547322715012,62.26120089174401],[25.54545064957136,62.26139847914607],[25.54455112670558,62.2596481816397],[25.54080712685555,62.26004326130078],[25.54485500544286,62.26791967603043],[25.54672746405839,62.26772209114654],[25.54717742418569,62.2685972360897],[25.54904990992037,62.26839962158289],[25.55085024173428,62.27190016423526],[25.55272290377218,62.27170250118701],[25.55227272721891,62.2708273736161],[25.55789042842855,62.27023426346597],[25.55744013195056,62.26935915362463],[25.56118505353919,62.2689636428766]]],"type":"Polygon"}}
+{
+  "id": 101814191,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000088,
+    "geom:area_square_m":506952.738144,
+    "geom:bbox":"25.5408071269,62.2596481816,25.5611850535,62.2719001642",
+    "geom:latitude":62.266158,
+    "geom:longitude":25.549466,
+    "iso:country":"FI",
+    "lbl:latitude":62.264562,
+    "lbl:longitude":25.546069,
+    "mps:latitude":62.264562,
+    "mps:longitude":25.546069,
+    "mz:hierarchy_label":1,
+    "name:fin_x_preferred":[
+        "Jyv\u00e4skyl\u00e4n kaupunginosat"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Keski-Suomi#Mellersta Finland",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Jyv\u00e4skyl\u00e4n mlk#Jyv\u00e4skyl\u00e4 lk",
+    "qs:la_lc":"*FI213180",
+    "qs:level":"locality",
+    "qs:loc":"Vesanka",
+    "qs:loc_alt":"Vesanka",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683117,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":631878,
+        "gp:id":574857,
+        "qs:id":345500
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"47cc861629b7c485ea827779fb33c24e",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814191,
+            "macroregion_id":404227417,
+            "region_id":85683117
+        }
+    ],
+    "wof:id":101814191,
+    "wof:lastmodified":1470852516,
+    "wof:name":"Vesanka",
+    "wof:parent_id":85683117,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.54080712685555,
+    62.2596481816397,
+    25.56118505353919,
+    62.27190016423526
+],
+  "geometry": {"coordinates":[[[25.56118505353919,62.2689636428766],[25.56073468688379,62.26808854445954],[25.55698986472828,62.26848404259124],[25.55563923856647,62.26585870233828],[25.5537669427016,62.26605639750784],[25.55331684218226,62.26518127540083],[25.55144457341822,62.26537894094855],[25.55099455184569,62.26450381134583],[25.54912231018585,62.26470144727318],[25.547322715012,62.26120089174401],[25.54545064957136,62.26139847914607],[25.54455112670558,62.2596481816397],[25.54080712685555,62.26004326130078],[25.54485500544286,62.26791967603043],[25.54672746405839,62.26772209114654],[25.54717742418569,62.2685972360897],[25.54904990992037,62.26839962158289],[25.55085024173428,62.27190016423526],[25.55272290377218,62.27170250118701],[25.55227272721891,62.2708273736161],[25.55789042842855,62.27023426346597],[25.55744013195056,62.26935915362463],[25.56118505353919,62.2689636428766]]],"type":"Polygon"}
+}

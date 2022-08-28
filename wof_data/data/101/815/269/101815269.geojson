@@ -1,1 +1,83 @@
-{"id":101815269,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000114,"geom:area_square_m":696085.452093,"geom:bbox":"24.6968102074,60.4402245118,24.7187042895,60.4546327259","geom:latitude":60.446079,"geom:longitude":24.70718,"iso:country":"FI","lbl:latitude":60.444558,"lbl:longitude":24.705521,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":60.444558,"mps:longitude":24.705521,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":12,"name:eng_x_preferred":["Perttula"],"name:est_x_preferred":["Perttula"],"name:fin_x_preferred":["Perttula"],"name:nld_x_preferred":["Perttula"],"name:rus_x_preferred":["Перттула"],"name:swe_x_preferred":["Bertby"],"qs:a0":"Suomi#Finland","qs:a1":"*Uusimaa#Nyland","qs:a1r":"0Etelä-Suomen AVI#Södra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Nurmijärvi","qs:la_lc":"*FI101543","qs:level":"locality","qs:loc":"Perttula","qs:loc_alt":"Perttula","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wd:latitude":60.45,"wd:longitude":24.7,"wd:wordcount":35,"wof:belongsto":[85683067,102191581,907198599,85633143,404227411,136253047,1159321633],"wof:breaches":[],"wof:concordances":{"gn:id":642083,"gp:id":571279,"qs_pg:id":182971,"wd:id":"Q11887569","wk:page":"Perttula"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"c280c2a797fd3fe9143a77810161777a","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321633,"empire_id":136253047,"localadmin_id":907198599,"locality_id":101815269,"macroregion_id":404227411,"region_id":85683067}],"wof:id":101815269,"wof:lastmodified":1582312178,"wof:name":"Perttula","wof:parent_id":907198599,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.69681020740592,60.44022451182269,24.71870428952366,60.45463272594156],"geometry":{"coordinates":[[[24.71299745480724,60.45338377679394],[24.71022672219431,60.44724281462902],[24.71732556801339,60.44649938213445],[24.71692966896239,60.44562211999221],[24.71870428952366,60.44543621236085],[24.71791247562373,60.44368169615302],[24.70903962881175,60.44461095861624],[24.70706162422675,60.44022451182269],[24.70351279748337,60.4405960072163],[24.70390826147928,60.44147330967184],[24.69681020740592,60.44221605838504],[24.69720551859393,60.44309338200412],[24.69898010431444,60.4429077223167],[24.70056176813551,60.44641698459338],[24.69701222396048,60.44678832627858],[24.69740761189905,60.44766565042346],[24.69918243757485,60.44747998505113],[24.69957789399371,60.44835730265072],[24.7066771873757,60.44761439873525],[24.70984312750033,60.45463272594156],[24.71161825843308,60.454446900525],[24.71122238681812,60.45356961869066],[24.71299745480724,60.45338377679394]]],"type":"Polygon"}}
+{
+  "id": 101815269,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000114,
+    "geom:area_square_m":696085.452093,
+    "geom:bbox":"24.6968102074,60.4402245118,24.7187042895,60.4546327259",
+    "geom:latitude":60.446079,
+    "geom:longitude":24.70718,
+    "iso:country":"FI",
+    "lbl:latitude":60.444558,
+    "lbl:longitude":24.705521,
+    "mps:latitude":60.444558,
+    "mps:longitude":24.705521,
+    "mz:hierarchy_label":1,
+    "name:fin_x_preferred":[
+        "Perttula"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Uusimaa#Nyland",
+    "qs:a1r":"0Etel\u00e4-Suomen AVI#S\u00f6dra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Nurmij\u00e4rvi",
+    "qs:la_lc":"*FI101543",
+    "qs:level":"locality",
+    "qs:loc":"Perttula",
+    "qs:loc_alt":"Perttula",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:latitude":60.45,
+    "wk:longitude":24.7,
+    "wk:wordcount":35,
+    "wof:belongsto":[
+        85683067,
+        102191581,
+        85633143,
+        404227411,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":642083,
+        "gp:id":571279,
+        "qs:id":182971,
+        "wd:id":"Q11887569",
+        "wk:page":"Perttula"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"dcc7438b570c469185fe2647568ca612",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101815269,
+            "macroregion_id":404227411,
+            "region_id":85683067
+        }
+    ],
+    "wof:id":101815269,
+    "wof:lastmodified":1470852445,
+    "wof:name":"Perttula",
+    "wof:parent_id":85683067,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.69681020740592,
+    60.44022451182269,
+    24.71870428952366,
+    60.45463272594156
+],
+  "geometry": {"coordinates":[[[24.71299745480724,60.45338377679394],[24.71022672219431,60.44724281462902],[24.71732556801339,60.44649938213445],[24.71692966896239,60.44562211999221],[24.71870428952366,60.44543621236085],[24.71791247562373,60.44368169615302],[24.70903962881175,60.44461095861624],[24.70706162422675,60.44022451182269],[24.70351279748337,60.4405960072163],[24.70390826147928,60.44147330967184],[24.69681020740592,60.44221605838504],[24.69720551859393,60.44309338200412],[24.69898010431444,60.4429077223167],[24.70056176813551,60.44641698459338],[24.69701222396048,60.44678832627858],[24.69740761189905,60.44766565042346],[24.69918243757485,60.44747998505113],[24.69957789399371,60.44835730265072],[24.7066771873757,60.44761439873525],[24.70984312750033,60.45463272594156],[24.71161825843308,60.454446900525],[24.71122238681812,60.45356961869066],[24.71299745480724,60.45338377679394]]],"type":"Polygon"}
+}

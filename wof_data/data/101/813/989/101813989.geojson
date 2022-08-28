@@ -1,1 +1,126 @@
-{"id":101813989,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000561,"geom:area_square_m":3260657.458802,"geom:bbox":"24.0506807645,61.9674310657,24.0992302084,61.9931966522","geom:latitude":61.979668,"geom:longitude":24.074171,"gn:population":5314,"iso:country":"FI","lbl:latitude":61.980623,"lbl:longitude":24.070493,"lbl:max_zoom":15,"lbl:min_zoom":11,"mps:latitude":61.980623,"mps:longitude":24.070493,"mz:hierarchy_label":1,"mz:is_current":1,"mz:min_zoom":11,"name:ast_x_preferred":["Ruovesi"],"name:ceb_x_preferred":["Ruovesi"],"name:dan_x_preferred":["Ruovesi"],"name:deu_x_preferred":["Ruovesi"],"name:eng_x_preferred":["Ruovesi"],"name:est_x_preferred":["Ruovesi vald"],"name:fin_x_preferred":["Ruovesi"],"name:fra_x_preferred":["Ruovesi"],"name:glg_x_preferred":["Ruovesi"],"name:ita_x_preferred":["Ruovesi"],"name:jpn_x_preferred":["ルオヴェシ"],"name:nld_x_preferred":["Ruovesi"],"name:nob_x_preferred":["Ruovesi"],"name:nor_x_preferred":["Ruovesi"],"name:pol_x_preferred":["Ruovesi"],"name:por_x_preferred":["Ruovesi"],"name:ron_x_preferred":["Ruovesi"],"name:rus_x_preferred":["Руовеси"],"name:sco_x_preferred":["Ruovesi"],"name:sme_x_preferred":["Ruovesi"],"name:sqi_x_preferred":["Ruovesi"],"name:swe_x_preferred":["Ruovesi"],"name:tur_x_preferred":["Ruovesi"],"name:vie_x_preferred":["Ruovesi"],"name:zho_x_preferred":["魯奧韋西"],"qs:a0":"Suomi#Finland","qs:a1":"*Pirkanmaa#Birkaland","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Ruovesi","qs:la_lc":"*FI206702","qs:level":"locality","qs:loc":"Ruovesi","qs:loc_alt":"Ruovesi","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","src:population":"geonames","wd:wordcount":253,"wof:belongsto":[85683099,102191581,907199295,85633143,404227417,136253047,1159321485],"wof:breaches":[],"wof:concordances":{"gn:id":650443,"gp:id":572469,"qs_pg:id":467780,"wd:id":"Q510636"},"wof:concordances_alt":{"qs_pg:id":1223616},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"8fb504e1ba55f8d5e959c63e62fb50d0","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321485,"empire_id":136253047,"localadmin_id":907199295,"locality_id":101813989,"macroregion_id":404227417,"region_id":85683099}],"wof:id":101813989,"wof:lastmodified":1582312188,"wof:name":"Ruovesi","wof:parent_id":907199295,"wof:placetype":"locality","wof:population":5314,"wof:population_rank":5,"wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[24.05068076448066,61.96743106568005,24.09923020841256,61.99319665220446],"geometry":{"coordinates":[[[24.06095578382059,61.99301791576761],[24.05974734900082,61.99037865993188],[24.06161142362345,61.99019991719075],[24.06120861430281,61.98932016915489],[24.06493660354437,61.98896262508799],[24.06453372065982,61.98808288750956],[24.06826152977527,61.98772526155813],[24.06785857334364,61.98684553443854],[24.0771774948002,61.98595109009597],[24.07637116222065,61.98419168992638],[24.09127959262304,61.98275945811042],[24.09006909479712,61.98012048742896],[24.09193240863954,61.97994137064285],[24.09152891177325,61.97906171765544],[24.09711858312585,61.9785242445638],[24.0955042595275,61.97500569188878],[24.09923020841256,61.97464730546034],[24.09680890865116,61.96936951798926],[24.09867155454401,61.96919032390946],[24.09786456379049,61.96743106568005],[24.09413945070014,61.96778940784895],[24.09454283362612,61.9686690487593],[24.09081754056598,61.96902730913939],[24.09122085012666,61.96990696051409],[24.08563261037784,61.97044419345809],[24.08603579683239,61.97132386096916],[24.07858432978367,61.97203986821376],[24.07939038299094,61.97379924596004],[24.07007509902098,61.97469378767306],[24.06967230811296,61.97381407089489],[24.0678092407141,61.97399290369111],[24.06740652558409,61.97311318036492],[24.05809113573366,61.97400696661225],[24.05849360210163,61.97488671826318],[24.05663041407075,61.97506541129297],[24.05783781997525,61.97770467796272],[24.05597446254882,61.97788336468574],[24.05637693344528,61.97876312414854],[24.05451350614408,61.97894179323657],[24.05491595328209,61.97982155748434],[24.05677943035982,61.97964288273272],[24.05718195329479,61.98052264043832],[24.05904546004479,61.98034393672305],[24.06025333434616,61.98298318757202],[24.05466230570931,61.98351927979809],[24.05425980427674,61.9826395133997],[24.05239613763706,61.98281815853926],[24.05440865607767,61.98721701007065],[24.05068076448066,61.98757428707438],[24.05309604786942,61.9928529479165],[24.05868875177885,61.99231689547014],[24.05909153961426,61.99319665220446],[24.06095578382059,61.99301791576761]]],"type":"Polygon"}}
+{
+  "id": 101813989,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000561,
+    "geom:area_square_m":3260657.458804,
+    "geom:bbox":"24.0506807645,61.9674310657,24.0992302084,61.9931966522",
+    "geom:latitude":61.979668,
+    "geom:longitude":24.074171,
+    "gn:population":5314,
+    "iso:country":"FI",
+    "lbl:latitude":61.980623,
+    "lbl:longitude":24.070493,
+    "mps:latitude":61.980623,
+    "mps:longitude":24.070493,
+    "mz:hierarchy_label":1,
+    "name:ceb_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:deu_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:fin_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:fra_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:ita_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:nld_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:nor_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:pol_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:ron_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:rus_x_preferred":[
+        "\u0420\u0443\u043e\u0432\u0435\u0441\u0438"
+    ],
+    "name:sco_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:sme_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:sqi_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:swe_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:vie_x_preferred":[
+        "Ruovesi"
+    ],
+    "name:zho_x_preferred":[
+        "\u9b6f\u5967\u97cb\u897f"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pirkanmaa#Birkaland",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Ruovesi",
+    "qs:la_lc":"*FI206702",
+    "qs:level":"locality",
+    "qs:loc":"Ruovesi",
+    "qs:loc_alt":"Ruovesi",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":253,
+    "wof:belongsto":[
+        85683099,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":638691,
+        "gp:id":12590684,
+        "qs:id":467780,
+        "wd:id":"Q510636"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fc6dabdb3cc0bdf781c16e76895dba34",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101813989,
+            "macroregion_id":404227417,
+            "region_id":85683099
+        }
+    ],
+    "wof:id":101813989,
+    "wof:lastmodified":1470852521,
+    "wof:name":"Ruovesi",
+    "wof:parent_id":85683099,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    24.05068076448066,
+    61.96743106568005,
+    24.09923020841256,
+    61.99319665220446
+],
+  "geometry": {"coordinates":[[[24.06095578382059,61.99301791576761],[24.05974734900082,61.99037865993188],[24.06161142362345,61.99019991719075],[24.06120861430281,61.98932016915489],[24.06493660354437,61.98896262508799],[24.06453372065982,61.98808288750956],[24.06826152977527,61.98772526155813],[24.06785857334364,61.98684553443854],[24.0771774948002,61.98595109009597],[24.07637116222065,61.98419168992638],[24.09127959262304,61.98275945811042],[24.09006909479712,61.98012048742896],[24.09193240863954,61.97994137064285],[24.09152891177325,61.97906171765544],[24.09711858312585,61.9785242445638],[24.0955042595275,61.97500569188878],[24.09923020841256,61.97464730546034],[24.09680890865116,61.96936951798926],[24.09867155454401,61.96919032390946],[24.09786456379049,61.96743106568005],[24.09413945070014,61.96778940784895],[24.09454283362612,61.9686690487593],[24.09081754056598,61.96902730913939],[24.09122085012666,61.96990696051409],[24.08563261037784,61.97044419345809],[24.08603579683239,61.97132386096916],[24.07858432978367,61.97203986821376],[24.07939038299094,61.97379924596004],[24.07007509902098,61.97469378767306],[24.06967230811296,61.97381407089489],[24.0678092407141,61.97399290369111],[24.06740652558409,61.97311318036492],[24.05809113573366,61.97400696661225],[24.05849360210163,61.97488671826318],[24.05663041407075,61.97506541129297],[24.05783781997525,61.97770467796272],[24.05597446254882,61.97788336468574],[24.05637693344528,61.97876312414854],[24.05451350614408,61.97894179323657],[24.05491595328209,61.97982155748434],[24.05677943035982,61.97964288273272],[24.05718195329479,61.98052264043832],[24.05904546004479,61.98034393672305],[24.06025333434616,61.98298318757202],[24.05466230570931,61.98351927979809],[24.05425980427674,61.9826395133997],[24.05239613763706,61.98281815853926],[24.05440865607767,61.98721701007065],[24.05068076448066,61.98757428707438],[24.05309604786942,61.9928529479165],[24.05868875177885,61.99231689547014],[24.05909153961426,61.99319665220446],[24.06095578382059,61.99301791576761]]],"type":"Polygon"}
+}

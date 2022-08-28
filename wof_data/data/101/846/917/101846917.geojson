@@ -1,1 +1,75 @@
-{"id":101846917,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000077,"geom:area_square_m":437352.132747,"geom:bbox":"21.7510673601,62.654551868,21.7775391266,62.6634456825","geom:latitude":62.658557,"geom:longitude":21.763111,"iso:country":"FI","lbl:latitude":62.660016,"lbl:longitude":21.759602,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":62.660016,"mps:longitude":21.759602,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"qs:a0":"Suomi#Finland","qs:a1":"*Etelä-Pohjanmaa#Södra Österbotten","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Jurva","qs:la_lc":"*FI214175","qs:level":"locality","qs:loc":"Närvijoki","qs:loc_alt":"Narvijoki","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":[],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683113,102191581,907199007,85633143,404227417,136253047,1159321561],"wof:breaches":[],"wof:concordances":{"gn:id":645059,"gp:id":570178,"qs_pg:id":320280},"wof:country":"FI","wof:geomhash":"be69bb8081bbfd1e8bdb764497b64a41","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321561,"empire_id":136253047,"localadmin_id":907199007,"locality_id":101846917,"macroregion_id":404227417,"region_id":85683113}],"wof:id":101846917,"wof:lastmodified":1566595194,"wof:name":"Närvijoki","wof:parent_id":907199007,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[21.75106736011054,62.6545518679676,21.77753912663439,62.66344568246632],"geometry":{"coordinates":[[[21.76517179286611,62.66003570256362],[21.76482460550426,62.65914930917489],[21.76865600382126,62.65884885833219],[21.7683087318776,62.65796247433542],[21.7702243502921,62.65781221757601],[21.76987704764412,62.65692583804963],[21.77753912663439,62.65632458898682],[21.77684415999744,62.6545518679676],[21.7691825118211,62.65515307763883],[21.76952976815465,62.65603945807044],[21.75995203555192,62.65679045092338],[21.76029904573392,62.65767685550657],[21.75263632186909,62.65827723434637],[21.75298313970131,62.65916365814951],[21.75106736011054,62.6593136973384],[21.75141414719241,62.66020012560824],[21.75524579623578,62.65990001322137],[21.75663360698513,62.66344568246632],[21.75854962019616,62.66329557033401],[21.75820257890604,62.66240915861698],[21.76203444381321,62.66210887165619],[21.76168731790068,62.66122246932849],[21.76360316960017,62.66107229450267],[21.76325601295969,62.66018589664446],[21.76517179286611,62.66003570256362]]],"type":"Polygon"}}
+{
+  "id": 101846917,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000077,
+    "geom:area_square_m":437352.132746,
+    "geom:bbox":"21.7510673601,62.654551868,21.7775391266,62.6634456825",
+    "geom:latitude":62.658557,
+    "geom:longitude":21.763111,
+    "iso:country":"FI",
+    "lbl:latitude":62.660016,
+    "lbl:longitude":21.759602,
+    "mps:latitude":62.660016,
+    "mps:longitude":21.759602,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Etel\u00e4-Pohjanmaa#S\u00f6dra \u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Jurva",
+    "qs:la_lc":"*FI214175",
+    "qs:level":"locality",
+    "qs:loc":"N\u00e4rvijoki",
+    "qs:loc_alt":"Narvijoki",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683113,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":645059,
+        "gp:id":"570178",
+        "qs:id":320280
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"5b01b16d59f03763caa434636f347524",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846917,
+            "macroregion_id":404227417,
+            "region_id":85683113
+        }
+    ],
+    "wof:id":101846917,
+    "wof:lastmodified":1477508573,
+    "wof:name":"N\u00e4rvijoki",
+    "wof:parent_id":85683113,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    21.75106736011054,
+    62.6545518679676,
+    21.77753912663439,
+    62.66344568246632
+],
+  "geometry": {"coordinates":[[[21.76517179286611,62.66003570256362],[21.76482460550426,62.65914930917489],[21.76865600382126,62.65884885833219],[21.7683087318776,62.65796247433542],[21.7702243502921,62.65781221757601],[21.76987704764412,62.65692583804963],[21.77753912663439,62.65632458898682],[21.77684415999744,62.6545518679676],[21.7691825118211,62.65515307763883],[21.76952976815465,62.65603945807044],[21.75995203555192,62.65679045092338],[21.76029904573392,62.65767685550657],[21.75263632186909,62.65827723434637],[21.75298313970131,62.65916365814951],[21.75106736011054,62.6593136973384],[21.75141414719241,62.66020012560824],[21.75524579623578,62.65990001322137],[21.75663360698513,62.66344568246632],[21.75854962019616,62.66329557033401],[21.75820257890604,62.66240915861698],[21.76203444381321,62.66210887165619],[21.76168731790068,62.66122246932849],[21.76360316960017,62.66107229450267],[21.76325601295969,62.66018589664446],[21.76517179286611,62.66003570256362]]],"type":"Polygon"}
+}

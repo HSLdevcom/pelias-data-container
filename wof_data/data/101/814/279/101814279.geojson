@@ -1,1 +1,75 @@
-{"id":101814279,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000115,"geom:area_square_m":666031.974116,"geom:bbox":"21.3510553652,62.1176030334,21.3681837994,62.1354724005","geom:latitude":62.124818,"geom:longitude":21.360428,"iso:country":"FI","lbl:latitude":62.119771,"lbl:longitude":21.362569,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":62.119771,"mps:longitude":21.362569,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"qs:a0":"Suomi#Finland","qs:a1":"*Pohjanmaa#Österbotten","qs:a1r":"0Länsi- ja Sisä-Suomen AVI#Västra och Inre Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Kristiinankaupunki#Kristinesta","qs:la_lc":"*FI215287","qs:level":"locality","qs:loc":"Skaftung","qs:loc_alt":"Skaftung","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-in-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wof:belongsto":[85683119,102191581,907198827,85633143,404227417,136253047,1159321495],"wof:breaches":[],"wof:concordances":{"gn:id":636602,"gp:id":573171,"qs_pg:id":183010},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"c1ce375514559311e9d3104fe115e605","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321495,"empire_id":136253047,"localadmin_id":907198827,"locality_id":101814279,"macroregion_id":404227417,"region_id":85683119}],"wof:id":101814279,"wof:lastmodified":1582312186,"wof:name":"Skaftung","wof:parent_id":907198827,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[21.35105536522281,62.11760303338946,21.36818379943514,62.13547240047308],"geometry":{"coordinates":[[[21.36818379943514,62.13119970627764],[21.36785558674717,62.1303125747512],[21.36597059278625,62.13045743342826],[21.36498623981731,62.12779602251243],[21.36310138535015,62.12794084346888],[21.36211738187501,62.12527941503549],[21.36023266688505,62.12542419827832],[21.35990476071333,62.12453705002605],[21.35802008114734,62.12468180485905],[21.35703664752975,62.12202034378566],[21.36457464202431,62.12144123769014],[21.36424666572219,62.12055410180523],[21.36801545937146,62.12026441551762],[21.36703134733904,62.11760303338946],[21.35572570322819,62.11847172349331],[21.35605340711106,62.11935887915848],[21.35228462237006,62.11964826177945],[21.35293988648647,62.12142259051103],[21.35105536522281,62.12156725547726],[21.35236594288767,62.12511592679482],[21.35613538498626,62.12482653593167],[21.35679101070474,62.12660085063646],[21.35867581091895,62.1264561102667],[21.35965956665825,62.12911756541564],[21.36154450637207,62.12897278733402],[21.36351291023084,62.13429565905426],[21.35974238962325,62.13458524726656],[21.36007042804761,62.13547240047308],[21.36761161103038,62.13489311036602],[21.36629875343351,62.13134456960825],[21.36818379943514,62.13119970627764]]],"type":"Polygon"}}
+{
+  "id": 101814279,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000115,
+    "geom:area_square_m":666031.974116,
+    "geom:bbox":"21.3510553652,62.1176030334,21.3681837994,62.1354724005",
+    "geom:latitude":62.124818,
+    "geom:longitude":21.360428,
+    "iso:country":"FI",
+    "lbl:latitude":62.119771,
+    "lbl:longitude":21.362569,
+    "mps:latitude":62.119771,
+    "mps:longitude":21.362569,
+    "mz:hierarchy_label":1,
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Pohjanmaa#\u00d6sterbotten",
+    "qs:a1r":"0L\u00e4nsi- ja Sis\u00e4-Suomen AVI#V\u00e4stra och Inre Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Kristiinankaupunki#Kristinesta",
+    "qs:la_lc":"*FI215287",
+    "qs:level":"locality",
+    "qs:loc":"Skaftung",
+    "qs:loc_alt":"Skaftung",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-in-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wof:belongsto":[
+        85683119,
+        102191581,
+        85633143,
+        404227417,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":636602,
+        "gp:id":573171,
+        "qs:id":183010
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fa4bede58de7a326e4ead584d568d273",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101814279,
+            "macroregion_id":404227417,
+            "region_id":85683119
+        }
+    ],
+    "wof:id":101814279,
+    "wof:lastmodified":1470852464,
+    "wof:name":"Skaftung",
+    "wof:parent_id":85683119,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    21.35105536522281,
+    62.11760303338946,
+    21.36818379943514,
+    62.13547240047308
+],
+  "geometry": {"coordinates":[[[21.36818379943514,62.13119970627764],[21.36785558674717,62.1303125747512],[21.36597059278625,62.13045743342826],[21.36498623981731,62.12779602251243],[21.36310138535015,62.12794084346888],[21.36211738187501,62.12527941503549],[21.36023266688505,62.12542419827832],[21.35990476071333,62.12453705002605],[21.35802008114734,62.12468180485905],[21.35703664752975,62.12202034378566],[21.36457464202431,62.12144123769014],[21.36424666572219,62.12055410180523],[21.36801545937146,62.12026441551762],[21.36703134733904,62.11760303338946],[21.35572570322819,62.11847172349331],[21.35605340711106,62.11935887915848],[21.35228462237006,62.11964826177945],[21.35293988648647,62.12142259051103],[21.35105536522281,62.12156725547726],[21.35236594288767,62.12511592679482],[21.35613538498626,62.12482653593167],[21.35679101070474,62.12660085063646],[21.35867581091895,62.1264561102667],[21.35965956665825,62.12911756541564],[21.36154450637207,62.12897278733402],[21.36351291023084,62.13429565905426],[21.35974238962325,62.13458524726656],[21.36007042804761,62.13547240047308],[21.36761161103038,62.13489311036602],[21.36629875343351,62.13134456960825],[21.36818379943514,62.13119970627764]]],"type":"Polygon"}
+}

@@ -1,1 +1,99 @@
-{"id":101846733,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.000156,"geom:area_square_m":944662.995422,"geom:bbox":"22.3701969433,60.5875211938,22.395861027,60.5993263101","geom:latitude":60.594229,"geom:longitude":22.38411,"iso:country":"FI","lbl:latitude":60.594876,"lbl:longitude":22.386054,"lbl:max_zoom":18,"lbl:min_zoom":13.5,"mps:latitude":60.594876,"mps:longitude":22.386054,"mz:hierarchy_label":1,"mz:is_current":-1,"mz:min_zoom":12,"name:eng_x_preferred":["Paattinen"],"name:est_x_preferred":["Paattinen"],"name:fin_x_preferred":["Paattinen"],"name:fra_x_preferred":["Paattinen"],"name:koi_x_preferred":["Паттинен"],"name:nob_x_preferred":["Patis"],"name:nor_x_preferred":["Patis"],"name:rus_x_preferred":["Пааттинен"],"name:swe_x_preferred":["Patis"],"qs:a0":"Suomi#Finland","qs:a1":"*Varsinais-Suomi#Egentliga Finland","qs:a1r":"0Lounais-Suomen AVI#Sydvästra Finlands RFV","qs:adm0":"Suomi#Finland","qs:la":"Turku#Åbo","qs:la_lc":"*FI202853","qs:level":"locality","qs:loc":"Paattinen","qs:loc_alt":"Paattinen","qs:pop":0,"qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet","qs:type":"rural point-near-poly","src:geom":"quattroshapes","src:geom_alt":["quattroshapes_pg"],"src:lbl_centroid":"mapshaper","wd:wordcount":175,"wof:belongsto":[85683073,102191581,907198909,85633143,404227405,136253047,1159321603],"wof:breaches":[],"wof:concordances":{"gn:id":643308,"gp:id":570823,"qs_pg:id":1156788,"wd:id":"Q3735042","wk:page":"Paattinen"},"wof:country":"FI","wof:geom_alt":["quattroshapes_pg"],"wof:geomhash":"c749776aef9e24679e777c4fc0c060e9","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321603,"empire_id":136253047,"localadmin_id":907198909,"locality_id":101846733,"macroregion_id":404227405,"region_id":85683073}],"wof:id":101846733,"wof:lastmodified":1582312175,"wof:name":"Paattinen","wof:parent_id":907198909,"wof:placetype":"locality","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[22.37019694334089,60.58752119381006,22.39586102703254,60.59932631009423],"geometry":{"coordinates":[[[22.39440358130059,60.5991694011538],[22.39406755653545,60.5982854556699],[22.39586102703254,60.59812852904923],[22.39552497698179,60.59724458771348],[22.39373155259449,60.59740150959198],[22.39205184518346,60.59298177029422],[22.39384503906234,60.59282487212226],[22.39182980044495,60.58752119381006],[22.3900368830885,60.58767806354399],[22.39104427050432,60.59032991959037],[22.38207875218262,60.59111400309018],[22.38174316602408,60.59023002797983],[22.37636380115924,60.59070019485665],[22.37602837407331,60.58981620494961],[22.37423526653691,60.58997287767136],[22.37524147185081,60.59262485982026],[22.37165493216816,60.5929381664057],[22.37199028329422,60.59382216874053],[22.37019694334089,60.59397879313485],[22.37086761571402,60.59574680549912],[22.37266104789296,60.59559017163872],[22.37299646136984,60.59647417220214],[22.37837680020527,60.59600412188138],[22.37871237281888,60.59688810764897],[22.38050583318704,60.59673137462721],[22.38084147271405,60.59761535506664],[22.38263496317967,60.5974585948847],[22.38330639687837,60.59922654451282],[22.39227407000283,60.59844235986833],[22.39261004865409,60.59932631009423],[22.39440358130059,60.5991694011538]]],"type":"Polygon"}}
+{
+  "id": 101846733,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.000156,
+    "geom:area_square_m":944662.995422,
+    "geom:bbox":"22.3701969433,60.5875211938,22.395861027,60.5993263101",
+    "geom:latitude":60.594229,
+    "geom:longitude":22.38411,
+    "iso:country":"FI",
+    "lbl:latitude":60.594876,
+    "lbl:longitude":22.386054,
+    "mps:latitude":60.594876,
+    "mps:longitude":22.386054,
+    "mz:hierarchy_label":1,
+    "name:est_x_preferred":[
+        "Paattinen"
+    ],
+    "name:fin_x_preferred":[
+        "Paattinen"
+    ],
+    "name:fra_x_preferred":[
+        "Paattinen"
+    ],
+    "name:koi_x_preferred":[
+        "\u041f\u0430\u0442\u0442\u0438\u043d\u0435\u043d"
+    ],
+    "name:nor_x_preferred":[
+        "Patis"
+    ],
+    "name:rus_x_preferred":[
+        "\u041f\u0430\u0430\u0442\u0442\u0438\u043d\u0435\u043d"
+    ],
+    "name:swe_x_preferred":[
+        "Patis"
+    ],
+    "qs:a0":"Suomi#Finland",
+    "qs:a1":"*Varsinais-Suomi#Egentliga Finland",
+    "qs:a1r":"0Lounais-Suomen AVI#Sydv\u00e4stra Finlands RFV",
+    "qs:adm0":"Suomi#Finland",
+    "qs:la":"Turku#\u00c5bo",
+    "qs:la_lc":"*FI202853",
+    "qs:level":"locality",
+    "qs:loc":"Paattinen",
+    "qs:loc_alt":"Paattinen",
+    "qs:pop":0,
+    "qs:source":"DCustom EuroGlobalMap + UMZ Urban Polygons + Geonames + GeoPlanet",
+    "qs:type":"rural point-near-poly",
+    "src:geom":"quattroshapes",
+    "src:geom_alt":[],
+    "src:lbl:centroid":"mapshaper",
+    "wk:wordcount":175,
+    "wof:belongsto":[
+        85683073,
+        102191581,
+        85633143,
+        404227405,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gn:id":643308,
+        "gp:id":570823,
+        "qs:id":1156788,
+        "wd:id":"Q3735042",
+        "wk:page":"Paattinen"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"c00a120520dae92d77260be2b8c90102",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "locality_id":101846733,
+            "macroregion_id":404227405,
+            "region_id":85683073
+        }
+    ],
+    "wof:id":101846733,
+    "wof:lastmodified":1470852474,
+    "wof:name":"Paattinen",
+    "wof:parent_id":85683073,
+    "wof:placetype":"locality",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    22.37019694334089,
+    60.58752119381006,
+    22.39586102703254,
+    60.59932631009423
+],
+  "geometry": {"coordinates":[[[22.39440358130059,60.5991694011538],[22.39406755653545,60.5982854556699],[22.39586102703254,60.59812852904923],[22.39552497698179,60.59724458771348],[22.39373155259449,60.59740150959198],[22.39205184518346,60.59298177029422],[22.39384503906234,60.59282487212226],[22.39182980044495,60.58752119381006],[22.3900368830885,60.58767806354399],[22.39104427050432,60.59032991959037],[22.38207875218262,60.59111400309018],[22.38174316602408,60.59023002797983],[22.37636380115924,60.59070019485665],[22.37602837407331,60.58981620494961],[22.37423526653691,60.58997287767136],[22.37524147185081,60.59262485982026],[22.37165493216816,60.5929381664057],[22.37199028329422,60.59382216874053],[22.37019694334089,60.59397879313485],[22.37086761571402,60.59574680549912],[22.37266104789296,60.59559017163872],[22.37299646136984,60.59647417220214],[22.37837680020527,60.59600412188138],[22.37871237281888,60.59688810764897],[22.38050583318704,60.59673137462721],[22.38084147271405,60.59761535506664],[22.38263496317967,60.5974585948847],[22.38330639687837,60.59922654451282],[22.39227407000283,60.59844235986833],[22.39261004865409,60.59932631009423],[22.39440358130059,60.5991694011538]]],"type":"Polygon"}
+}

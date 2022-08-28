@@ -1,1 +1,71 @@
-{"id":1108728843,"type":"Feature","properties":{"edtf:cessation":"uuuu","edtf:inception":"uuuu","geom:area":0.026545,"geom:area_square_m":138789475.454898,"geom:bbox":"25.0453867948,64.9035498262,25.408540966,65.0504498445","geom:latitude":64.98499,"geom:longitude":25.218801,"iso:country":"FI","lbl:latitude":64.96826,"lbl:longitude":25.27722,"lbl:max_zoom":18,"mps:latitude":64.96826,"mps:longitude":25.27722,"mz:hierarchy_label":1,"mz:is_current":1,"mz:is_funky":0,"mz:is_landuse_aoi":0,"mz:max_zoom":18,"mz:min_zoom":15,"name:fin_x_preferred":["Salonpää"],"oulugov:AJ_KAUPU00":"Salonpää","oulugov:AJ_KAUPUNG":"142","oulugov:ID":"5","oulugov:TEKSTI":"564440142","reversegeo:latitude":64.96826,"reversegeo:longitude":25.27722,"src:geom":"oulugov","wof:belongsto":[102191581,907199459,85633143,404227415,101748443,136253047,1159321529,85683143],"wof:breaches":[],"wof:concordances":{},"wof:country":"FI","wof:geomhash":"30adfc128d0cf3edbc072004831b0964","wof:hierarchy":[{"continent_id":102191581,"country_id":85633143,"county_id":1159321529,"empire_id":136253047,"localadmin_id":907199459,"locality_id":101748443,"macroregion_id":404227415,"neighbourhood_id":1108728843,"region_id":85683143}],"wof:id":1108728843,"wof:lastmodified":1566594986,"wof:name":"Salonpaa","wof:parent_id":101748443,"wof:placetype":"neighbourhood","wof:repo":"whosonfirst-data-admin-fi","wof:superseded_by":[],"wof:supersedes":[],"wof:tags":[]},"bbox":[25.0453867948,64.9035498262,25.408540966,65.0504498445],"geometry":{"coordinates":[[[[25.0486452687,64.9830338314],[25.0453898037,64.9842179656],[25.0453867948,64.984219023],[25.1242285992,65.0504498445],[25.2480093331,65.0212625025],[25.2861225723,65.0350203705],[25.3255771474,65.0224472476],[25.3511846998,65.0095927138],[25.3694917278,65.0003924947],[25.3814217852,64.9943923849],[25.408540966,64.980739638],[25.3698706857,64.9684020449],[25.3623053244,64.9663879618],[25.3560730895,64.9643788899],[25.3521566697,64.965507586],[25.3501866886,64.964284028],[25.3531388325,64.9634328189],[25.3207858348,64.9529928514],[25.2619470185,64.9278736755],[25.2671053397,64.9035498262],[25.2635664469,64.9048480537],[25.2635659193,64.9048482306],[25.1593626055,64.9428457622],[25.1231803842,64.9559550347],[25.0552803111,64.9806199345],[25.0486452687,64.9830338314]]]],"type":"MultiPolygon"}}
+{
+  "id": 1108728843,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:inception":"uuuu",
+    "geom:area":0.026545,
+    "geom:area_square_m":138789475.454898,
+    "geom:bbox":"25.0453867948,64.9035498262,25.408540966,65.0504498445",
+    "geom:latitude":64.98499,
+    "geom:longitude":25.218801,
+    "iso:country":"FI",
+    "lbl:latitude":64.96826,
+    "lbl:longitude":25.27722,
+    "mz:hierarchy_label":1,
+    "mz:is_funky":0,
+    "mz:is_landuse_aoi":0,
+    "mz:max_zoom":18,
+    "mz:min_zoom":15,
+    "name:fin_x_preferred":[
+        "Salonp\u00e4\u00e4"
+    ],
+    "oulugov:AJ_KAUPU00":"Salonp\u00e4\u00e4",
+    "oulugov:AJ_KAUPUNG":"142",
+    "oulugov:ID":"5",
+    "oulugov:TEKSTI":"564440142",
+    "reversegeo:latitude":64.96826,
+    "reversegeo:longitude":25.27722,
+    "src:geom":"oulugov",
+    "wof:belongsto":[
+        85683143,
+        102191581,
+        907199459,
+        85633143,
+        404227415,
+        101748443,
+        136253047
+    ],
+    "wof:breaches":[],
+    "wof:country":"FI",
+    "wof:geomhash":"10105d5f47b4d6f87981bf8bdc7ac3df",
+    "wof:hierarchy":[
+        {
+            "continent_id":102191581,
+            "country_id":85633143,
+            "empire_id":136253047,
+            "localadmin_id":907199459,
+            "locality_id":101748443,
+            "macroregion_id":404227415,
+            "neighbourhood_id":1108728843,
+            "region_id":85683143
+        }
+    ],
+    "wof:id":1108728843,
+    "wof:lastmodified":1492019342,
+    "wof:name":"Salonpaa",
+    "wof:parent_id":101748443,
+    "wof:placetype":"neighbourhood",
+    "wof:repo":"whosonfirst-data",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    25.0453867948,
+    64.9035498262,
+    25.408540966,
+    65.0504498445
+],
+  "geometry": {"coordinates":[[[[25.0486452687,64.98303383139999],[25.0453898037,64.9842179656],[25.0453867948,64.98421902299999],[25.1242285992,65.05044984449999],[25.2480093331,65.02126250249999],[25.2861225723,65.03502037050001],[25.3255771474,65.0224472476],[25.3511846998,65.0095927138],[25.3694917278,65.00039249469999],[25.3814217852,64.9943923849],[25.408540966,64.980739638],[25.3698706857,64.9684020449],[25.3623053244,64.9663879618],[25.3560730895,64.9643788899],[25.3521566697,64.965507586],[25.3501866886,64.96428402799999],[25.3531388325,64.9634328189],[25.3207858348,64.9529928514],[25.2619470185,64.9278736755],[25.2671053397,64.90354982620001],[25.2635664469,64.90484805369999],[25.2635659193,64.9048482306],[25.1593626055,64.94284576219999],[25.1231803842,64.9559550347],[25.0552803111,64.9806199345],[25.0486452687,64.98303383139999]]]],"type":"MultiPolygon"}
+}

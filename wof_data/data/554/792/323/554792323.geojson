@@ -1,0 +1,53 @@
+{
+  "id": 554792323,
+  "type": "Feature",
+  "properties": {
+    "edtf:cessation":"uuuu",
+    "edtf:deprecated":"2016-05-31",
+    "edtf:inception":"uuuu",
+    "geom:area":0.0,
+    "geom:bbox":"0.0,0.0,0.0,0.0",
+    "geom:latitude":0.0,
+    "geom:longitude":0.0,
+    "iso:country":"AX",
+    "mz:hierarchy_label":1,
+    "src:geom":"geoplanet",
+    "wof:belongsto":[
+        "102191581",
+        "85632789",
+        "85633143",
+        85667899
+    ],
+    "wof:breaches":[],
+    "wof:concordances":{
+        "gp:id":"56448094"
+    },
+    "wof:country":"FI",
+    "wof:geomhash":"fc4d4085e55d16b479f231dbf54d3cfb",
+    "wof:hierarchy":[
+        {
+            "continent_id":"102191581",
+            "country_id":"85633143",
+            "dependency_id":"85632789",
+            "postalcode_id":554792323,
+            "region_id":85667899
+        }
+    ],
+    "wof:id":554792323,
+    "wof:lastmodified":1469577667,
+    "wof:name":"22151",
+    "wof:parent_id":"85667899",
+    "wof:placetype":"postalcode",
+    "wof:repo":"whosonfirst-data-postalcode-fi",
+    "wof:superseded_by":[],
+    "wof:supersedes":[],
+    "wof:tags":[]
+},
+  "bbox": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+],
+  "geometry": {"coordinates":[0.0,0.0],"type":"Point"}
+}
