@@ -23,6 +23,10 @@ else
     APIURL="https://api.digitransit.fi/"
 fi
 
+if [[ -v API_SUBSCRIPTION_QUERY_PARAMETER_NAME ]]; then
+   APIKEYPARAMS='?'"$API_SUBSCRIPTION_QUERY_PARAMETER_NAME"'='"$API_SUBSCRIPTION_TOKEN"
+fi
+
 echo "###### Using $APIURL data"
 
 #==============
@@ -68,12 +72,12 @@ function import_router {
 import_router gtfs
 echo '###### gtfs done'
 
-node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/finland/index/graphql
-node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/waltti/index/graphql
+node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/finland/index/graphql$APIKEYPARAMS
+node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/waltti/index/graphql$APIKEYPARAMS
 echo '###### city bike station loading done'
 
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql carPark liipi
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql bikePark liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql$APIKEYPARAMS carPark liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql$APIKEYPARAMS bikePark liipi
 echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
