@@ -76,8 +76,7 @@ node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/finland/index/graphq
 node $TOOLS/bikes-pelias/import "$APIURL"routing/v1/routers/waltti/index/graphql$APIKEYPARAMS
 echo '###### city bike station loading done'
 
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql$APIKEYPARAMS carPark liipi
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v1/routers/hsl/index/graphql$APIKEYPARAMS bikePark liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v2/routers/hsl/index/graphql$APIKEYPARAMS liipi
 echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
