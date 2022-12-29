@@ -1,7 +1,7 @@
 const request = require ("request");
 const FeedParser = require ("feedparser");
 const apiKey = process.env.MMLAPIKEY;
-const feedUrl = "https://tiedostopalvelu.maanmittauslaitos.fi/tp/feed/mtp/nimisto/paikat?api_key=" + apiKey;
+const feedUrl = "https://tiedostopalvelu.maanmittauslaitos.fi/tp/feed/mtp/nimisto_oapif/places?api_key=" + apiKey;
 
 function getFeed (urlfeed, callback) {
   var req = request (urlfeed);
