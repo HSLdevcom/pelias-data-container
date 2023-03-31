@@ -183,9 +183,11 @@ while true; do
 
     SUCCESS=0
     echo "Building new container..."
-    if [ -v SLACK_WEBHOOK_URL ]; then
-        curl -X POST -H 'Content-type: application/json' \
-             --data '{"username":"Pelias data builder '$BUILDER_TYPE'","text":"Geocoding data build started\n"}' $SLACK_WEBHOOK_URL
+
+    if [ -n "${SLACK_CHANNEL_ID}" ]; then
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text":"Geocoding data build started", "username": "Pelias data builder '$BUILDER_TYPE'"}'
+	TIMESTAMP=$(curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' \
+	  -d "$MSG" 'https://slack.com/api/chat.postMessage' | jq -r .ts)
     fi
 
     ( build $BUILD_IMAGE 2>&1 | tee log.txt )
@@ -223,17 +225,20 @@ while true; do
 
     if [ $SUCCESS = 0 ]; then
         echo "ERROR: Build failed"
-        if [ -v SLACK_WEBHOOK_URL ]; then
+	if [ -n "${SLACK_CHANNEL_ID}" ]; then
             #extract log end which most likely contains info about failure
-            { echo -e "Geocoding data build failed :boom: \n..."; tail -n 20 log.txt; } | jq -R -s '{"username":"Pelias data builder '$BUILDER_TYPE'",text: .}' | \
-                curl -X POST -H 'Content-type: application/json' -d@- $SLACK_WEBHOOK_URL
-        fi
+	    MSG=$({ echo -e "Dataloading log: \n"; tail -n 8 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
+
+	    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build failed :boom:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
+	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
+	fi
     else
         echo "Build finished successfully"
-        if [ -v SLACK_WEBHOOK_URL ]; then
-            curl -X POST -H 'Content-type: application/json' \
-                 --data '{"username":"Pelias data builder '$BUILDER_TYPE'","text":"Geocoding data build finished\n"}' $SLACK_WEBHOOK_URL
-        fi
+	if [ -n "${SLACK_CHANNEL_ID}" ]; then
+	    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build finished :white_check_mark:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
+	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
+	fi
     fi
 
     if [[ "$BUILD_INTERVAL" -le 0 ]]; then
