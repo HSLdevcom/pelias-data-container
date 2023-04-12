@@ -44,7 +44,8 @@
       "enabled": true,
       "maxConcurrentReqs": 4,
       "localizedNames": true,
-      "dropUnmapped": true
+      "dropUnmapped": true,
+      "usePostalCities": false
     },
     "openstreetmap": {
       "datapath": "/mnt/data/openstreetmap/",
