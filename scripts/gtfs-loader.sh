@@ -35,7 +35,7 @@ function load_gtfs {
     mv $NAME/*.zip gtfs/
 }
 
-load_gtfs v2 finland
+load_gtfs v3 finland
 # use already validated osm data from our own data api
 mv router-finland/*.pbf openstreetmap/
 
