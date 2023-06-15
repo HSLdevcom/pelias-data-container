@@ -58,6 +58,10 @@
         {
           "filename": "hsl_geocode_appendix.osm.pbf",
           "importVenues": true
+        },
+	{
+          "filename": "estonia-latest.osm.pbf",
+          "importVenues": true
         }
       ]
     },
