@@ -33,10 +33,10 @@ echo "###### Using $APIURL data"
 # Download data
 #==============
 
-$SCRIPTS/vrk-loader.sh
+# $SCRIPTS/vrk-loader.sh
 $SCRIPTS/osm-loader.sh
-$SCRIPTS/nlsfi-loader.sh
-$SCRIPTS/gtfs-loader.sh
+# $SCRIPTS/nlsfi-loader.sh
+# $SCRIPTS/gtfs-loader.sh
 
 cd $TOOLS
 git clone --single-branch https://github.com/hsldevcom/pelias-data-container tpdc
@@ -69,34 +69,34 @@ function import_router {
     done
 }
 
-import_router gtfs
+# import_router gtfs
 echo '###### gtfs done'
 
-node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/routers/finland/index/graphql$APIKEYPARAMS
-node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/routers/waltti/index/graphql$APIKEYPARAMS
+# node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/routers/finland/index/graphql$APIKEYPARAMS
+# node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/routers/waltti/index/graphql$APIKEYPARAMS
 echo '###### city bike station loading done'
 
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v2/routers/hsl/index/graphql$APIKEYPARAMS liipi
+# node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v2/routers/hsl/index/graphql$APIKEYPARAMS liipi
 echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
 echo '###### openstreetmap done'
 
-node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
+# node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 echo '###### nlsfi places done'
 
 #import dvv address data
-cd  $TOOLS/pelias-vrk
-node import.js $DATA/vrk/vrk.txt
+# cd  $TOOLS/pelias-vrk
+# node import.js $DATA/vrk/vrk.txt
 echo '###### DVV done'
 
 #cleanup
-rm -rf $DATA/vrk
+# rm -rf $DATA/vrk
 rm -rf $DATA/openstreetmap
-rm -rf $DATA/nls-places
-rm -rf $DATA/router-waltti
-rm -rf $DATA/router-waltti-alt
-rm -rf $DATA/router-finland
-rm -rf $DATA/router-hsl
-rm -rf $DATA/gtfs
-rm -rf $DATA/wof_data
+# rm -rf $DATA/nls-places
+# rm -rf $DATA/router-waltti
+# rm -rf $DATA/router-waltti-alt
+# rm -rf $DATA/router-finland
+# rm -rf $DATA/router-hsl
+# rm -rf $DATA/gtfs
+# rm -rf $DATA/wof_data
