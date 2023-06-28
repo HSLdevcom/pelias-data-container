@@ -35,7 +35,7 @@
 
   "imports": {
     "blacklist": ["mml-10012934", "mml-12011355", "relation:13410240"],
-    "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode"],
+    "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode", "country"],
     "defaultCountry": {
       "name": "Suomi",
       "abbr": "FIN"
