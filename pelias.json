@@ -69,9 +69,9 @@
       "datapath": "/mnt/data/wof_data"
     },
     "wofPipNames": {
-      "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "region": ["name:fin_x_preferred", "name:swe_x_preferred"],
-      "neighbourhood": ["name:fin_x_preferred", "name:swe_x_preferred"]
+      "localadmin": ["name:fin_x_preferred", "name:swe_x_preferred", "name:est_x_preferred"],
+      "region": ["name:fin_x_preferred", "name:swe_x_preferred", "name:est_x_preferred"],
+      "neighbourhood": ["name:fin_x_preferred", "name:swe_x_preferred", "name:est_x_preferred"]
     }
   },
   "schema": {
