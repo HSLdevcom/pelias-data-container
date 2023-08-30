@@ -28,7 +28,7 @@ set -x
 set -e
 apt-get update
 echo 'APT::Acquire::Retries "20";' >> /etc/apt/apt.conf
-apt-get install -y --no-install-recommends git unzip python python-pip python-dev build-essential gdal-bin rlwrap procps emacs curl
+apt-get install -y --no-install-recommends git unzip python3 python-pip python-dev build-essential gdal-bin rlwrap procps emacs curl
 rm -rf /var/lib/apt/lists/*
 
 mkdir -p $SCRIPTS
