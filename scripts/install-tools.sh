@@ -33,7 +33,7 @@ rm -rf /var/lib/apt/lists/*
 
 mkdir -p $SCRIPTS
 
-curl -sL https://deb.nodesource.com/setup_10.x | bash -
+curl -sL https://deb.nodesource.com/setup_16.x | bash -
 apt-get install -y --no-install-recommends nodejs
 
 cd $SCRIPTS
