@@ -118,31 +118,33 @@ function test_container {
         fi
     done
 
-    echo "Test reverse geocoding"
-    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
-    if [ $STATUS_CODE = 200 ]; then
-        echo "Reverse geocoding OK"
-    else
-        TESTS_PASSED=1
-        echo "Reverse geocoding failed"
-    fi
+    if [ $TESTS_PASSED = 0 ]; then
+	echo "Test reverse geocoding"
+	STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/reverse?point.lat=60.212358&point.lon=24.981812")
+	if [ $STATUS_CODE = 200 ]; then
+            echo "Reverse geocoding OK"
+	else
+            TESTS_PASSED=1
+            echo "Reverse geocoding failed"
+	fi
 
-    echo "Test autocomplete"
-    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/autocomplete?text=helsi")
-    if [ $STATUS_CODE = 200 ]; then
-        echo "Autocomplete OK"
-    else
-        TESTS_PASSED=1
-        echo "Autocomplete failed"
-    fi
+	echo "Test autocomplete"
+	STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/autocomplete?text=helsi")
+	if [ $STATUS_CODE = 200 ]; then
+            echo "Autocomplete OK"
+	else
+            TESTS_PASSED=1
+            echo "Autocomplete failed"
+	fi
 
-    echo "Test place endpoint"
-    STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/place?ids=openstreetmap%3Avenue%3Anode%3A5995720648")
-    if [ $STATUS_CODE = 200 ]; then
-        echo "Place endpoint OK"
-    else
-        TESTS_PASSED=1
-        echo "Place endpoint failed"
+	echo "Test place endpoint"
+	STATUS_CODE=$(curl -s -o /dev/null -w "%{http_code}" "http://$HOST:8080/v1/place?ids=openstreetmap%3Avenue%3Anode%3A5995720648")
+	if [ $STATUS_CODE = 200 ]; then
+            echo "Place endpoint OK"
+	else
+            TESTS_PASSED=1
+            echo "Place endpoint failed"
+	fi
     fi
 
     if [ $TESTS_PASSED = 0 ]; then
@@ -227,7 +229,7 @@ while true; do
         echo "ERROR: Build failed"
 	if [ -n "${SLACK_CHANNEL_ID}" ]; then
             #extract log end which most likely contains info about failure
-	    MSG=$({ echo -e "Dataloading log: \n"; tail -n 8 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+	    MSG=$({ echo -e "Dataloading log: \n"; tail -n 10 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
 	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
 
 	    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build failed :boom:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
