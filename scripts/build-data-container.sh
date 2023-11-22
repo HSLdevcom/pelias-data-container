@@ -26,12 +26,6 @@ BASE_IMAGE=$ORG/pelias-data-container-base:$DOCKER_TAG
 
 #Threshold value for regression testing, as %
 THRESHOLD=${THRESHOLD:-2}
-#how often data is built (default once a day)
-BUILD_INTERVAL=${BUILD_INTERVAL:-1}
-#Substract one day, because first wait hours are computed before each build
-BUILD_INTERVAL_SECONDS=$((($BUILD_INTERVAL - 1)*24*3600))
-#start build at this time (GMT):
-BUILD_TIME=${BUILD_TIME:-23:00:00}
 
 cd $WORKDIR
 export PELIAS_CONFIG=$WORKDIR/pelias.json
@@ -160,95 +154,73 @@ function test_container {
 
 echo "Launching geocoding data builder service" | tee log.txt
 
-#build errors should not stop the continuous build loop
 set +e
 
-# run data build loop forever, unless build interval is set to zero
-while true; do
-    if [[ "$BUILD_INTERVAL" -gt 0 ]]; then
-        SLEEP=$(($(date -u -d $BUILD_TIME +%s) - $(date -u +%s) + 1))
-        if [[ "$SLEEP" -le 0 ]]; then
-            #today's build time is gone, start counting from tomorrow
-            SLEEP=$(($SLEEP + 24*3600))
-        fi
-        SLEEP=$(($SLEEP + $BUILD_INTERVAL_SECONDS))
+BUILD_TAG=$DOCKER_TAG-$(date +"%Y-%m-%dT%H.%M.%S")
+BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 
-        echo "Sleeping $SLEEP seconds until the next build ..."
-        sleep $SLEEP
-    fi
+SUCCESS=0
+echo "Building new container..."
 
-    BUILD_TAG=$DOCKER_TAG-$(date +"%Y-%m-%dT%H.%M.%S")
-    BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
-
-    # rotate log
-    mv log.txt _log.txt
-
-    SUCCESS=0
-    echo "Building new container..."
-
-    if [ -n "${SLACK_CHANNEL_ID}" ]; then
-	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text":"Geocoding data build started", "username": "Pelias data builder '$BUILDER_TYPE'"}'
-	TIMESTAMP=$(curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' \
+if [ -n "${SLACK_CHANNEL_ID}" ]; then
+    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text":"Geocoding data build started", "username": "Pelias data builder '$BUILDER_TYPE'"}'
+    TIMESTAMP=$(curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' \
 	  -d "$MSG" 'https://slack.com/api/chat.postMessage' | jq -r .ts)
-    fi
+fi
 
-    ( build $BUILD_IMAGE 2>&1 | tee log.txt )
-    read BUILD_OK </tmp/build_ok
+( build $BUILD_IMAGE 2>&1 | tee log.txt )
+read BUILD_OK </tmp/build_ok
 
-    if [ $BUILD_OK = 0 ]; then
-        echo "New container built. Testing next... "
-        ( test_container $BUILD_IMAGE 2>&1 | tee -a log.txt )
-        read TESTS_PASSED </tmp/tests_passed #get test return val
+if [ $BUILD_OK = 0 ]; then
+    echo "New container built. Testing next... "
+    ( test_container $BUILD_IMAGE 2>&1 | tee -a log.txt )
+    read TESTS_PASSED </tmp/tests_passed #get test return val
 
-        if [ $TESTS_PASSED = 0 ]; then
-            echo "Container passed tests"
-            if [[ -v DOCKER_USER && -v DOCKER_AUTH ]]; then
-                echo "Deploying ..."
+    if [ $TESTS_PASSED = 0 ]; then
+        echo "Container passed tests"
+        if [[ -v DOCKER_USER && -v DOCKER_AUTH ]]; then
+            echo "Deploying ..."
 
-                ( deploy $BUILD_IMAGE 2>&1 | tee -a log.txt )
-                read DEPLOY_OK </tmp/deploy_ok
+            ( deploy $BUILD_IMAGE 2>&1 | tee -a log.txt )
+            read DEPLOY_OK </tmp/deploy_ok
 
-                if [ $DEPLOY_OK = 0 ]; then
-                    echo "Container deployed"
-                    SUCCESS=1
-                else
-                    echo "Deployment failed"
-                fi
-            else
+            if [ $DEPLOY_OK = 0 ]; then
+                echo "Container deployed"
                 SUCCESS=1
+            else
+                echo "Deployment failed"
             fi
         else
-            echo "Test failed"
+            SUCCESS=1
         fi
-    fi
-
-    docker rmi $BUILD_IMAGE
-    docker rmi $BASE_IMAGE
-
-    if [ $SUCCESS = 0 ]; then
-        echo "ERROR: Build failed"
-	if [ -n "${SLACK_CHANNEL_ID}" ]; then
-            #extract log end which most likely contains info about failure
-	    MSG=$({ echo -e "Dataloading log: \n"; tail -n 10 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
-	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
-
-	    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build failed :boom:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
-	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
-	fi
     else
-        echo "Build finished successfully"
-	if [ -n "${SLACK_CHANNEL_ID}" ]; then
-	    MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build finished :white_check_mark:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
-	    curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
-	fi
+        echo "Test failed"
     fi
+fi
 
-    if [[ "$BUILD_INTERVAL" -le 0 ]]; then
-        #run only once
-        if [ $SUCCESS = 1 ]; then
-            exit 0
-        else
-            exit 1
-        fi
+docker rmi $BUILD_IMAGE
+docker rmi $BASE_IMAGE
+
+if [ $SUCCESS = 0 ]; then
+    echo "ERROR: Build failed"
+    if [ -n "${SLACK_CHANNEL_ID}" ]; then
+        #extract log end which most likely contains info about failure
+	MSG=$({ echo -e "Dataloading log: \n"; tail -n 10 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
+
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build failed :boom:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
+	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
+	fi
+else
+    echo "Build finished successfully"
+    if [ -n "${SLACK_CHANNEL_ID}" ]; then
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build finished :white_check_mark:", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
+	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
     fi
-done
+fi
+
+if [ $SUCCESS = 1 ]; then
+    exit 0
+else
+    exit 1
+fi
