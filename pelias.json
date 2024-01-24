@@ -34,7 +34,7 @@
   },
 
   "imports": {
-    "blacklist": ["mml-10012934", "mml-12011355", "mml-12002598", "relation:13410240", "relation:34914", "node:59631552"],
+    "blacklist": ["mml-10012934", "mml-12011355", "mml-12002598", "relation:13410240", "relation:34914", "node:59631552", "way:395604698"],
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode", "country"],
     "defaultCountry": {
       "name": "Suomi",
