@@ -4,7 +4,7 @@
 
 Geocoding data build tools
 
-## github actions build
+## Github actions build
 
 Creates and pushes to dockerhub/hsldevcom two docker containers:
 
