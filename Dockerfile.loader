@@ -17,4 +17,4 @@ RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 EXPOSE 9200
 EXPOSE 9300
 
-CMD /etc/init.d/elasticsearch start && sleep 10000d
+CMD gosu elasticsearch /usr/share/elasticsearch/bin/elasticsearch

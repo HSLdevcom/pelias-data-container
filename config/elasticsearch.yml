@@ -2,3 +2,6 @@ network.host: 0.0.0.0
 path.logs: /var/log/elasticsearch
 path.data: /var/lib/elasticsearch/pelias_data
 discovery.type: single-node
+xpack.security.enabled: false
+xpack.security.autoconfiguration.enabled: false
+xpack.security.transport.ssl.enabled: false

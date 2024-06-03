@@ -13,13 +13,9 @@ export SCRIPTS=$TOOLS/scripts
 # Launch Elasticsearch
 cd /root
 
-service elasticsearch start
-sleep 60
-service elasticsearch status &> /dev/null
-if [ $? -ne 0 ]; then
-    cat  /var/log/elasticsearch/elasticsearch.log
-    exit 1
-fi
+gosu elasticsearch /usr/share/elasticsearch/bin/elasticsearch -p /tmp/elasticsearch-pid -d
+
+sleep 40
 
 curl localhost:9200 &> /dev/null
 if [ $? -ne 0 ]; then
@@ -31,6 +27,7 @@ fi
 $SCRIPTS/dl-and-index.sh
 
 #shutdown ES in a friendly way
-service elasticsearch stop
+pid=$(cat /tmp/elasticsearch-pid)
+kill -SIGTERM $pid
 
 sleep 5
