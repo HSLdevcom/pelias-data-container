@@ -33,6 +33,7 @@
     "endpoints": { "local": "http://localhost:3100/v1/" }
   },
   "imports": {
+    "blacklistUrl": "https://geocoding.blob.core.windows.net/vrk/blacklist.txt",
     "blacklist": ["mml-10012934", "mml-12011355", "mml-12002598", "relation:13410240", "relation:34914", "node:59631552", "way:395604698", "node:9770559599", "node:2098884693", "node:10240591962", "node:2005331907", "way:121861337", "node:5730435574"],
     "defaultAdminLayers": ["localadmin", "locality", "neighbourhood", "region", "postalcode", "country"],
     "defaultCountry": {

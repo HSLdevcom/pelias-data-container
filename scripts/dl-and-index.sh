@@ -17,6 +17,9 @@ export SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
 cd $TOOLS/pelias-schema/
 node scripts/create_index
 
+cd $SCRIPTS/
+node fetchBlackList.js
+
 if [ "$BUILDER_TYPE" = "dev" ]; then
     APIURL="https://dev-api.digitransit.fi/"
 else
