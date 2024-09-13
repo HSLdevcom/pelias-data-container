@@ -11,16 +11,12 @@ cd $DATA
 mkdir -p gtfs
 mkdir -p openstreetmap
 
-DATA_API="https://api.digitransit.fi/routing-data/"
-DEV_DATA_API="https://dev-api.digitransit.fi/routing-data/"
 PARAMS='?'"$API_SUBSCRIPTION_QUERY_PARAMETER_NAME"'='"$API_SUBSCRIPTION_TOKEN"
 
 if [ "$BUILDER_TYPE" = "dev" ]; then
-    URL=$DEV_DATA_API
-    WALTTI_ALT_URL="$DEV_DATA_API"v3/waltti-alt/
+    URL="https://dev-api.digitransit.fi/routing-data/"
 else
-    URL=$DATA_API
-    WALTTI_ALT_URL="$DATA_API"v3/waltti-alt/
+    URL="https://api.digitransit.fi/routing-data/"
 fi
 
 # param1: data version, v2 or v3
@@ -42,13 +38,6 @@ mv router-finland/*.pbf openstreetmap/
 load_gtfs v3 waltti
 load_gtfs v3 hsl
 load_gtfs v3 varely
-
-if [ -n "${GTFS_AUTH}" ]; then
-    NAME="router-waltti-alt"
-    ZIPNAME=$NAME.zip
-    curl -sS --fail -u $GTFS_AUTH $WALTTI_ALT_URL$ZIPNAME$PARAMS -o $ZIPNAME
-    unzip -o $ZIPNAME && rm $ZIPNAME
-    mv $NAME/*.zip gtfs/
-fi
+load_gtfs v3 waltti-alt
 
 echo '##### Loaded GTFS data'
