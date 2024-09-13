@@ -42,6 +42,6 @@ mv router-finland/*.pbf openstreetmap/
 load_gtfs v3 waltti
 load_gtfs v3 hsl
 load_gtfs v3 varely
-load_gtfs v3 router-waltti-alt
+load_gtfs v3 waltti-alt
 
 echo '##### Loaded GTFS data'
