@@ -76,10 +76,9 @@ import_router gtfs
 echo '###### gtfs done'
 
 node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/finland/gtfs/v1$APIKEYPARAMS
-node $TOOLS/bikes-pelias/import "$APIURL"routing/v2/waltti/gtfs/v1$APIKEYPARAMS
 echo '###### city bike station loading done'
 
-node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v2/hsl/gtfs/v1$APIKEYPARAMS liipi
+node $TOOLS/parking-areas-pelias/import "$APIURL"routing/v2/finland/gtfs/v1$APIKEYPARAMS liipi
 echo '###### park & ride location loading done'
 
 node $TOOLS/openstreetmap/index
