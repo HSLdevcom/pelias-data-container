@@ -39,4 +39,8 @@ load_gtfs v3 waltti
 load_gtfs v3 hsl
 load_gtfs v3 varely
 
+if [ $EXTRA_SRC ]; then
+    load_gtfs v3 $EXTRA_SRC
+fi
+
 echo '##### Loaded GTFS data'
