@@ -1,6 +1,6 @@
 # Dockerfile which provides the search engine with data indexing tools
 
-FROM debian:bookworm-slim
+FROM debian:bullseye-slim
 
 RUN mkdir -p /mnt/tools/scripts
 ADD scripts/* /mnt/tools/scripts/
