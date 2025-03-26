@@ -13,7 +13,7 @@ cd $DATA/nls-places
 # Download nls paikat data
 echo 'Loading nlsfi data...'
 
-curl --ca-native -sS -o $NAME -L --fail $URL
+curl -k -sS -o $NAME -L --fail $URL
 unzip -o $NAME
 rm $NAME
 
