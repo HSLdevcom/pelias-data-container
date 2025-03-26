@@ -29,4 +29,4 @@ RUN mkdir -p /mnt/data
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
 
-ENV ES_HEAP_SIZE 3g
+ENV ES_HEAP_SIZE 4g
