@@ -15,6 +15,8 @@ RUN curl -sS -O -L --fail https://artifacts.elastic.co/downloads/elasticsearch/e
 
 # Finalize elasticsearch installation
 ADD config/elasticsearch.yml /etc/elasticsearch/
+RUN mkdir -p  /etc/elasticsearch/jvm.options.d
+ADD config/custom.options /etc/elasticsearch/jvm.options.d/
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
