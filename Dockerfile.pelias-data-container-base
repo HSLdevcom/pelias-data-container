@@ -1,6 +1,6 @@
 # Dockerfile which provides the search engine with data indexing tools
 
-FROM debian:bullseye-slim
+FROM debian:buster-slim
 
 RUN mkdir -p /mnt/tools/scripts
 ADD scripts/* /mnt/tools/scripts/
@@ -15,14 +15,10 @@ RUN curl -sS -O -L --fail https://artifacts.elastic.co/downloads/elasticsearch/e
 
 # Finalize elasticsearch installation
 ADD config/elasticsearch.yml /etc/elasticsearch/
-RUN mkdir -p  /etc/elasticsearch/jvm.options.d
-ADD config/custom.options /etc/elasticsearch/jvm.options.d/
 RUN /usr/share/elasticsearch/bin/elasticsearch-plugin install analysis-icu
 
 RUN mkdir -p /var/lib/elasticsearch/pelias_data \
   && chown -R elasticsearch:elasticsearch /var/lib/elasticsearch/pelias_data
-
-RUN chmod -R a+rwX /etc/sysctl.conf && chown -R 9999:9999 /etc/sysctl.conf
 
 # Copy pelias config file
 ADD pelias.json /root/pelias.json
@@ -31,4 +27,4 @@ RUN mkdir -p /mnt/data
 RUN chmod -R a+rwX /var/lib/elasticsearch/ \
   && chown -R 9999:9999 /var/lib/elasticsearch/
 
-ENV ES_HEAP_SIZE 4g
+ENV ES_HEAP_SIZE 2g

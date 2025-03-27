@@ -17,6 +17,5 @@ RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
 EXPOSE 9200
 EXPOSE 9300
-ENV ES_JAVA_OPTS="-Xms4g -Xmx4g"
 
-CMD sysctl -w vm.max_map_count=262144 && /etc/init.d/elasticsearch start && sleep 10000d
+CMD /etc/init.d/elasticsearch start && sleep 10000d

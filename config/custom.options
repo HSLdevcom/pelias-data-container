@@ -1,3 +1,0 @@
-# JVM Heap Size - see /etc/elasticsearch/jvm.options
--Xms4g
--Xmx4g
