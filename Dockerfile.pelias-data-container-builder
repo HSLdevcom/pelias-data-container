@@ -2,6 +2,9 @@
 
 FROM docker:20.10.7-dind
 
+# fuzzy testing threshold
+ARG THRESHOLD
+
 WORKDIR /mnt
 
 ADD Dockerfile.loader ${WORKDIR}
