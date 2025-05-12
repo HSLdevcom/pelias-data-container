@@ -17,4 +17,11 @@ RUN git clone --single-branch https://github.com/hsldevcom/pelias-fuzzy-tests \
   && cd pelias-fuzzy-tests \
   && npm install
 
-CMD ( dockerd-entrypoint.sh & ) && sleep 40 && unset DOCKER_HOST && /bin/bash /mnt/build-data-container.sh
+CMD ( dockerd-entrypoint.sh --log-level=error > /dev/null 2>&1 & ) && \
+    unset DOCKER_HOST && \
+    until docker info > /dev/null 2>&1; do \
+    echo "Waiting for Docker to start."; \
+    sleep 1; \
+    done && \
+    echo "Docker is running!" && \
+    /bin/bash /mnt/build-data-container.sh
