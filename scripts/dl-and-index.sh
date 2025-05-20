@@ -54,11 +54,12 @@ rm -rf tpdc
 # param2: import folder name
 function import_gtfs {
     unzip -o $1
-
-    # extract feed id
-    index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
-    prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
-    node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
+    if [ -f stops.txt ]; then
+      # extract feed id
+      index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
+      prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
+      node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
+    fi
     # remove already parsed gtfs files
     rm *.txt
 }
