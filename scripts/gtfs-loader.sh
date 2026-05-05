@@ -28,7 +28,7 @@ function load_gtfs {
     echo Loading GTFS from "$DATAURL"
     curl -sS --fail $DATAURL$PARAMS -o $ZIPNAME
     unzip -o $ZIPNAME && rm $ZIPNAME
-    mv $NAME/*.zip gtfs/
+    mv $NAME/*gtfs.zip gtfs/
 }
 
 load_gtfs v3 finland
