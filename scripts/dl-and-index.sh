@@ -52,13 +52,14 @@ rm -rf tpdc
 
 # param1: zip name containing gtfs data
 # param2: import folder name
+# param3: service name for the OTP routing API (e.g. finland, waltti, hsl, varely)
 function import_gtfs {
     unzip -o $1
     if [ -f stops.txt ]; then
       # extract feed id
       index=$(sed -n $'1s/,/\\\n/gp' feed_info.txt | grep -nx 'feed_id' | cut -d: -f1)
       prefix=$(cat feed_info.txt | sed -n 2p | cut -d "," -f $index)
-      node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix
+      node $TOOLS/pelias-gtfs/import -d $DATA/$2 --prefix=$prefix --otpUrl="$APIURL"routing/v2/$3/gtfs/v1$APIKEYPARAMS
     fi
     # remove already parsed gtfs files
     rm *.txt
@@ -69,7 +70,9 @@ function import_router {
     targets=(`ls *.zip`)
     for target in "${targets[@]}"
     do
-        import_gtfs $target $1
+        # service name was prefixed onto the filename by gtfs-loader.sh, e.g. "waltti--x-gtfs.zip"
+        service="${target%%--*}"
+        import_gtfs $target $1 $service
     done
 }
 
