@@ -28,7 +28,10 @@ function load_gtfs {
     echo Loading GTFS from "$DATAURL"
     curl -sS --fail $DATAURL$PARAMS -o $ZIPNAME
     unzip -o $ZIPNAME && rm $ZIPNAME
-    mv $NAME/*-gtfs.zip gtfs/
+    # prefix each zip with its service name so the correct OTP routing URL can be resolved on import
+    for f in $NAME/*-gtfs.zip; do
+        mv "$f" "gtfs/$2--$(basename "$f")"
+    done
 }
 
 load_gtfs v3 finland
