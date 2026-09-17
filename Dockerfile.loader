@@ -2,7 +2,6 @@ ARG DOCKER_TAG=latest
 FROM hsldevcom/pelias-data-container-base:$DOCKER_TAG
 
 ARG MMLAPIKEY
-ARG GTFS_AUTH
 ARG OSM_VENUE_FILTERS
 ARG OSM_ADDRESS_FILTERS
 ARG BUILDER_TYPE
@@ -11,7 +10,7 @@ ARG API_SUBSCRIPTION_TOKEN
 ARG EXTRA_SRC
 
 # Dockerfile which loads and indexes new data into empty data container image
-MAINTAINER Reittiopas version: 0.1
+LABEL maintainer="Reittiopas version: 0.1"
 
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 

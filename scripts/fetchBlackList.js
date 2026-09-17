@@ -6,12 +6,12 @@ const config = JSON.parse(data);
 const {parse} = require('csv-parse/sync');
 const url = config.imports.blacklistUrl;
 
-if(url && fs.existsSync(confPath)) {
+if(url) {
   if (!config.imports.blacklist) {
     config.imports.blacklist = [];
   }
   console.log('Fetching blacklist from ' + url);
-  axios.get(url)
+  axios.get(url, { timeout: 30000 })
     .then(function (response) {
       const rows = parse(response.data, {
 	trim: true,
@@ -26,5 +26,6 @@ if(url && fs.existsSync(confPath)) {
       console.log('Blacklist updated');
     }).catch(err => {
       console.error(err);
+      process.exitCode = 1;
     })
 }

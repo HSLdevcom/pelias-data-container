@@ -67,7 +67,7 @@ function import_gtfs {
 
 function import_router {
     cd $DATA/$1
-    targets=(`ls *.zip`)
+    targets=(*.zip)
     for target in "${targets[@]}"
     do
         # service name was prefixed onto the filename by gtfs-loader.sh, e.g. "waltti--x-gtfs.zip"
@@ -101,8 +101,11 @@ rm -rf $DATA/vrk
 rm -rf $DATA/openstreetmap
 rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
-rm -rf $DATA/router-waltti-alt
 rm -rf $DATA/router-finland
 rm -rf $DATA/router-hsl
+rm -rf $DATA/router-varely
+if [ -n "$EXTRA_SRC" ]; then
+    rm -rf $DATA/router-$EXTRA_SRC
+fi
 rm -rf $DATA/gtfs
 rm -rf $DATA/wof_data
