@@ -125,6 +125,12 @@ function test_container {
 
     DATACONT=pelias-test-"$BUILDER_TYPE"-data-container
     API=pelias-test-"$BUILDER_TYPE"-api
+
+    # Ensure both test containers are always stopped, even if this function
+    # aborts early (e.g. a failing command under 'set -e'), so failed runs
+    # don't leak running containers.
+    trap 'docker stop $DATACONT $API >/dev/null 2>&1' EXIT
+
     docker run --name $DATACONT --rm $BUILD_IMAGE &
     docker pull $API_IMAGE
 
