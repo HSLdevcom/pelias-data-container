@@ -7,6 +7,33 @@
 
 set -e
 
+# Waits for basic outbound DNS/network connectivity to become available,
+# polling a canary host a bounded number of times. This works around a
+# transient DNS failure seen on AKS: the nested dockerd (docker:dind) rewrites
+# iptables rules on startup, which can race with the pod's CNI-managed DNS
+# routing. See HSLdevcom/OpenTripPlanner-data-container's waitForNetwork.
+CANARY_HOST=${CANARY_HOST:-slack.com}
+MAX_NETWORK_ATTEMPTS=12
+NETWORK_RETRY_DELAY=5
+
+function wait_for_network {
+    local attempt=1
+    while [ $attempt -le $MAX_NETWORK_ATTEMPTS ]; do
+        if node -e "require('dns').lookup('$CANARY_HOST', err => process.exit(err ? 1 : 0))"; then
+            return 0
+        fi
+        echo "Network not ready yet (attempt $attempt/$MAX_NETWORK_ATTEMPTS)"
+        attempt=$((attempt + 1))
+        if [ $attempt -le $MAX_NETWORK_ATTEMPTS ]; then
+            sleep $NETWORK_RETRY_DELAY
+        fi
+    done
+    echo "ERROR: Network did not become ready in time. Exiting so Kubernetes can restart the pod."
+    exit 1
+}
+
+wait_for_network
+
 ORG=${ORG:-hsldevcom}
 DOCKER_IMAGE=pelias-data-container
 WORKDIR=/mnt
