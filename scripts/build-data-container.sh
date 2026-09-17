@@ -246,7 +246,7 @@ if [ $BUILD_OK = 0 ]; then
 
     if [ $TESTS_PASSED = 0 ]; then
         echo "Container passed tests"
-        if [[ -v DOCKER_USER && -v DOCKER_AUTH ]]; then
+        if [ -n "$DOCKER_USER" ] && [ -n "$DOCKER_AUTH" ]; then
             echo "Deploying ..."
 
             ( deploy $BUILD_IMAGE 2>&1 | tee -a log.txt )
