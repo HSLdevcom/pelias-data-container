@@ -31,3 +31,4 @@ node_modules
 # Local env files with secrets for local build/test (MMLAPIKEY, GTFS_AUTH, etc.)
 .env
 .env.*
+!.env.example
