@@ -54,7 +54,7 @@ the builder image itself (e.g. via a scheduled job elsewhere), not by these work
 ## Key conventions
 
 - All cross-script env vars are passed positionally through the pipeline: scripts assume
-  `$DATA`, `$TOOLS`, `$SCRIPTS`, `$WORKDIR`, `$MMLAPIKEY`, `$GTFS_AUTH`,
+  `$DATA`, `$TOOLS`, `$SCRIPTS`, `$WORKDIR`, `$MMLAPIKEY`,
   `$API_SUBSCRIPTION_QUERY_PARAMETER_NAME`/`$API_SUBSCRIPTION_TOKEN`, and `$BUILDER_TYPE`
   (`dev` or `prod`, controls whether dev-api or prod-api Digitransit endpoints are used and
   how images are tagged: `dev`→`latest`, `prod`→`prod`) are already exported by the caller.
