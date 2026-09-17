@@ -11,7 +11,7 @@ ARG API_SUBSCRIPTION_TOKEN
 ARG EXTRA_SRC
 
 # Dockerfile which loads and indexes new data into empty data container image
-MAINTAINER Reittiopas version: 0.1
+LABEL maintainer="Reittiopas version: 0.1"
 
 RUN /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
