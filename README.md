@@ -32,6 +32,8 @@ Data builder obeys the following environment variables, which can pe passed to t
  * BUILDER_TYPE - optional, prod or dev, default dev. Controls slack messages and data image tagging (dev->latest, prod->prod)
  * OSM_VENUE_FILTERS and OSM_ADDRESS_FILTERS - json array for adding additional key - value pairs to remove undesired content
  * API_SUBSCRIPTION_QUERY_PARAMETER_NAME, API_SUBSCRIPTION_TOKEN - authentication for Digitransit GTFS data sources
+ * EXTRA_SRC - optional, name of an additional GTFS service/router to load alongside finland/waltti/hsl/varely
+ * SLACK_CHANNEL_ID, SLACK_ACCESS_TOKEN - optional, for posting build status messages to Slack
 
 An example venue filter: '[{ "name": "some ugly word" }]'
 
