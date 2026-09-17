@@ -59,6 +59,33 @@ export PELIAS_CONFIG=$WORKDIR/pelias.json
 
 set +e
 
+# Polls a readiness check command instead of a fixed sleep, so callers
+# proceed as soon as a container is ready and only wait the full timeout
+# when something is actually wrong.
+# param1: container name, only used for log output
+# param2: max attempts
+# param3: delay between attempts, in seconds
+# param4: shell command string to run; success (exit 0) means "ready"
+function wait_for_container_cmd {
+    local name=$1
+    local max_attempts=$2
+    local delay=$3
+    local check_cmd=$4
+    local attempt=1
+
+    until eval "$check_cmd" >/dev/null 2>&1; do
+        if [ $attempt -ge $max_attempts ]; then
+            echo "WARNING: $name did not become ready in time, continuing anyway"
+            docker logs $name
+            return 0
+        fi
+        echo "Waiting for $name to start (attempt $attempt/$max_attempts)..."
+        attempt=$((attempt + 1))
+        sleep $delay
+    done
+    echo "$name is up"
+}
+
 function build {
     set -e
     echo 1 >/tmp/build_ok
@@ -100,9 +127,17 @@ function test_container {
     API=pelias-test-"$BUILDER_TYPE"-api
     docker run --name $DATACONT --rm $BUILD_IMAGE &
     docker pull $API_IMAGE
-    sleep 60
+
+    # Poll instead of a fixed sleep: wait for the data container's
+    # Elasticsearch to answer before starting the API container, which
+    # depends on it (via --link) and may not recover if ES isn't up yet.
+    wait_for_container_cmd "$DATACONT" 30 5 "docker exec $DATACONT curl -sS -o /dev/null localhost:9200"
+
     docker run --name $API -p 3100:8080 --link $DATACONT:pelias-data-container --rm $API_IMAGE &
-    sleep 60
+
+    # Wait for the API container process itself to be up; its HTTP endpoint
+    # readiness is polled separately below.
+    wait_for_container_cmd "$API" 30 2 "[ \"\$(docker inspect --format '{{.State.Running}}' $API 2>/dev/null)\" = true ]"
 
     MAX_WAIT=2
     ITERATIONS=$(($MAX_WAIT * 3))
