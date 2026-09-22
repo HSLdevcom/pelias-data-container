@@ -2,6 +2,17 @@
 
 FROM debian:bullseye-slim
 
+# bullseye's regular support window has ended and deb.debian.org has started
+# pruning superseded package builds from its live security/updates mirrors,
+# causing 404s during apt-get install. debian:bullseye-slim ships commented-out
+# snapshot.debian.org fallback lines in sources.list for exactly this case;
+# switch to those so apt-get fetches a consistent, frozen package set instead.
+RUN sed -i \
+      -e 's|^deb http://deb.debian.org|# deb http://deb.debian.org|' \
+      -e 's|^# deb http://snapshot.debian.org|deb http://snapshot.debian.org|' \
+      /etc/apt/sources.list \
+ && echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99no-check-valid-until
+
 RUN mkdir -p /mnt/tools/scripts
 ADD scripts/* /mnt/tools/scripts/
 RUN /bin/bash -c "source /mnt/tools/scripts/install-tools.sh"
