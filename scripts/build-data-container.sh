@@ -152,7 +152,11 @@ function test_container {
     set +e
 
     #find api's current IP
-    HOST=$(docker inspect --format '{{ .NetworkSettings.IPAddress }}' $API)
+    # note: newer Docker versions removed the legacy top-level
+    # .NetworkSettings.IPAddress field; the IP now only lives under
+    # .NetworkSettings.Networks.<network-name>. Ranging over Networks
+    # works regardless of which network name is in use.
+    HOST=$(docker inspect --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $API)
     ENDPOINT='    "endpoints": { "local": "http://'$HOST':8080/v1/" }'
     sed -i "/endpoints/c $ENDPOINT" $PELIAS_CONFIG
 
