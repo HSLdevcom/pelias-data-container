@@ -4,10 +4,9 @@
   "author": "digitransit",
   "version": "0.0.0",
   "dependencies": {
-    "csv-parse": "^5.5.6",
-    "feedparser": "2.2.9",
-    "axios": "1.18.0",
-    "request": "2.88.0"
+    "csv-parse": "^7.0.2",
+    "feedparser": "^2.6.0",
+    "axios": "^1.20.0"
   },
   "license": "MIT",
   "engines": {
