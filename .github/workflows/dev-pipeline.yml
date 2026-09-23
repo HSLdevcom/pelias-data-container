@@ -6,6 +6,8 @@ on:
   pull_request:
     branches:
       - master
+env:
+  TZ: Europe/Helsinki
 jobs:
   docker-push:
     if: github.ref == 'refs/heads/master'
@@ -13,10 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - name: Set time zone to Europe/Helsinki
-        uses: zcong1993/setup-timezone@master
-        with:
-          timezone: "Europe/Helsinki"
       - name: Build docker images from master and push them
         run: ./.github/workflows/scripts/build_and_push_dev.sh
         env:
