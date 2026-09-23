@@ -44,7 +44,7 @@ mkdir -p $SCRIPTS
 # whole sequence a few times before giving up.
 set -o pipefail
 for i in 1 2 3 4 5; do
-    curl -sL --fail https://deb.nodesource.com/setup_18.x | bash - \
+    curl -sL --fail https://deb.nodesource.com/setup_24.x | bash - \
         && apt-get install -y --no-install-recommends nodejs \
         && break
     if [ "$i" -eq 5 ]; then
