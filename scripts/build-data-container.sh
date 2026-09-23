@@ -281,14 +281,14 @@ if [ $SUCCESS = 0 ]; then
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
 
 	FINISH_TIME=$(TZ='Europe/Helsinki' date +"%H:%M:%S %Z")
-	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build failed :boom: at '$FINISH_TIME'", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') :boom: Geocoding data build failed", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
 	fi
 else
     echo "Build finished successfully"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
 	FINISH_TIME=$(TZ='Europe/Helsinki' date +"%H:%M:%S %Z")
-	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "Geocoding data build finished :white_check_mark: at '$FINISH_TIME'", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') :white_check_mark: Geocoding data build finished", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
     fi
 fi
