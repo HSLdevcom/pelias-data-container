@@ -234,6 +234,21 @@ BUILD_IMAGE=$ORG/$DOCKER_IMAGE:$BUILD_TAG
 SUCCESS=0
 echo "Building new container..."
 
+START_EPOCH=$(date +%s)
+
+# Prints the time elapsed since START_EPOCH as e.g. 5m16s or 1h02m03s
+elapsed_time() {
+    local total=$(( $(date +%s) - START_EPOCH ))
+    local h=$(( total / 3600 ))
+    local m=$(( total % 3600 / 60 ))
+    local s=$(( total % 60 ))
+    if [ $h -gt 0 ]; then
+        printf '%dh%02dm%02ds' $h $m $s
+    else
+        printf '%dm%02ds' $m $s
+    fi
+}
+
 if [ -n "${SLACK_CHANNEL_ID}" ]; then
     MSG='{"channel": "'$SLACK_CHANNEL_ID'","text":"Geocoding data build started", "username": "Pelias data builder '$BUILDER_TYPE'"}'
     TIMESTAMP=$(curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' \
@@ -280,14 +295,14 @@ if [ $SUCCESS = 0 ]; then
 	MSG=$({ echo -e "Dataloading log: \n"; tail -n 10 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
 
-	FINISH_TIME=$(TZ='Europe/Helsinki' date +"%H:%M:%S %Z")
+	FINISH_TIME="$(TZ='Europe/Helsinki' date +"%H:%M:%S"), total $(elapsed_time)"
 	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') :boom: Geocoding data build failed", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}'
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
 	fi
 else
     echo "Build finished successfully"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
-	FINISH_TIME=$(TZ='Europe/Helsinki' date +"%H:%M:%S %Z")
+	FINISH_TIME="$(TZ='Europe/Helsinki' date +"%H:%M:%S"), total $(elapsed_time)"
 	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') :white_check_mark: Geocoding data build finished", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
     fi
