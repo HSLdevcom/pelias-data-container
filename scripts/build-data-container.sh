@@ -94,7 +94,8 @@ function build {
 
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
-    docker build --no-cache --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
+    # plain progress keeps the output of failing RUN steps in log.txt (BuildKit's default tty UI hides it)
+    docker build --progress=plain --no-cache --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 
@@ -291,8 +292,9 @@ docker rmi $BASE_IMAGE
 if [ $SUCCESS = 0 ]; then
     echo "ERROR: Build failed"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
-        #extract log end which most likely contains info about failure
-	MSG=$({ echo -e "Dataloading log: \n"; tail -n 10 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+        #extract log end which most likely contains info about failure. BuildKit appends a ~12 line
+        #footer (lint warnings, Dockerfile excerpt) after the failing step output, so 10 lines is too few.
+	MSG=$({ echo -e "Dataloading log: \n"; tail -n 40 log.txt; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
 
 	FINISH_TIME="$(TZ='Europe/Helsinki' date +"%H:%M:%S"), total $(elapsed_time)"
