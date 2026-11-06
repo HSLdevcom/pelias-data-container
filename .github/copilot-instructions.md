@@ -35,7 +35,7 @@ scripts themselves.
 2. **`pelias-data-container` (loader)** (`Dockerfile.loader`) — `FROM` the base image, runs
    `scripts/getdata.sh` at build time, which starts Elasticsearch and calls
    `scripts/dl-and-index.sh`. That script downloads data via the `*-loader.sh` scripts
-   (`vrk-loader.sh`, `osm-loader.sh`, `nlsfi-loader.sh`, `gtfs-loader.sh`), pulls the
+   (`osm-loader.sh`, `nlsfi-loader.sh`, `gtfs-loader.sh`), pulls the
    `wof_data/` (Who's On First admin data, pre-filtered by `wof_data/update.sh`) from this
    same repo, then indexes everything via the external importer tools cloned in step 1,
    producing a self-contained ES data image.
