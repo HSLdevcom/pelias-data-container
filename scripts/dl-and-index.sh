@@ -36,7 +36,6 @@ echo "###### Using $APIURL data"
 # Download data
 #==============
 
-$SCRIPTS/vrk-loader.sh
 $SCRIPTS/osm-loader.sh
 $SCRIPTS/nlsfi-loader.sh
 $SCRIPTS/gtfs-loader.sh
@@ -91,13 +90,12 @@ echo '###### openstreetmap done'
 node $TOOLS/pelias-nlsfi-places-importer/lib/index -d $DATA/nls-places
 echo '###### nlsfi places done'
 
-#import dvv address data
+#import dvv address data (fetched directly from the Ryhti open_address API)
 cd  $TOOLS/pelias-vrk
-node import.js $DATA/vrk/vrk.txt
+node import.js
 echo '###### DVV done'
 
 #cleanup
-rm -rf $DATA/vrk
 rm -rf $DATA/openstreetmap
 rm -rf $DATA/nls-places
 rm -rf $DATA/router-waltti
