@@ -19,8 +19,7 @@ function backup_sas {
     if [ -z "$value" ] && [ -r "/run/secrets/$1" ]; then
         value=$(cat "/run/secrets/$1")
     fi
-    # accept the token with or without the leading question mark
-    echo "${value#\?}"
+    echo "$value"
 }
 
 # Lines with this prefix are reported to Slack by build-data-container.sh

@@ -7,8 +7,8 @@ source "$(dirname "$0")/backup-utils.sh"
 # The URL can be overridden, e.g. to test the backup copy with an unavailable source
 ESTONIA_OSM_URL=${ESTONIA_OSM_URL:-https://download.geofabrik.de/europe/estonia/estonia-latest.osm.pbf}
 
-# The Estonia extract is about 125 MB; a much smaller file is a failed or partial download.
-MIN_ESTONIA_BYTES=50000000
+# The Estonia extract is about 125 MB and does not shrink; a smaller file is a failed or partial download.
+MIN_ESTONIA_BYTES=100000000
 
 function valid_estonia_pbf {
     [ "$(file_size "$1")" -ge $MIN_ESTONIA_BYTES ] && head -c 100 "$1" | grep -aq OSMHeader
