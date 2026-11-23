@@ -25,6 +25,11 @@ function backup_sas {
     echo "${value#\?}"
 }
 
+# Lines with this prefix are reported to Slack by build-data-container.sh
+function backup_warn {
+    echo "BACKUP WARNING: $*"
+}
+
 function file_size {
     wc -c < "$1" | tr -d ' '
 }
@@ -45,7 +50,7 @@ function upload_backup {
         -o /dev/null "$BACKUP_BLOB_URL/$1?$sas"; then
         echo "Updated backup copy $1 ($(file_size "$2") bytes)"
     else
-        echo "WARNING: updating backup copy $1 failed"
+        backup_warn "updating backup copy $1 failed"
     fi
     return 0
 }
@@ -55,7 +60,7 @@ function upload_backup {
 function restore_backup {
     local sas
     sas=$(backup_sas BLOB_READ_SAS)
-    echo "WARNING: using backup copy $BACKUP_BLOB_URL/$1"
+    backup_warn "using backup copy $BACKUP_BLOB_URL/$1"
     curl -sS --fail --retry 3 --connect-timeout 30 -L -o "$2" "$BACKUP_BLOB_URL/$1${sas:+?$sas}"
 }
 
@@ -73,7 +78,7 @@ function fetch_with_backup {
         upload_backup "$name" "$file"
         return 0
     fi
-    echo "WARNING: downloading $file from the source failed"
+    backup_warn "downloading $file from the source failed"
     rm -f "$file"
     restore_backup "$name" "$file" || return 1
     if ! "$validate" "$file"; then

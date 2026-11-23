@@ -297,6 +297,15 @@ fi
 docker rmi $BUILD_IMAGE
 docker rmi $BASE_IMAGE
 
+# tell if a source was unavailable and its backup copy was used (see backup-utils.sh)
+if [ -n "${SLACK_CHANNEL_ID}" ]; then
+    BACKUP_WARNINGS=$(grep -h 'BACKUP WARNING' log.txt | sed 's/^#[0-9]* [0-9.]* //' | sort -u)
+    if [ -n "$BACKUP_WARNINGS" ]; then
+        MSG=$({ echo -e ":warning: Source data backup copies were used or updating them failed:\n"; echo "$BACKUP_WARNINGS"; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+        curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
+    fi
+fi
+
 if [ $SUCCESS = 0 ]; then
     echo "ERROR: Build failed"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
