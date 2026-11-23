@@ -12,7 +12,7 @@ function blobSas() {
   if (!sas && fs.existsSync('/run/secrets/BLOB_SAS')) {
     sas = fs.readFileSync('/run/secrets/BLOB_SAS', 'utf8');
   }
-  return sas ? sas.trim() : '';
+  return sas || '';
 }
 if (url && url.includes('.blob.core.windows.net/') && blobSas()) {
   url += '?' + blobSas();
