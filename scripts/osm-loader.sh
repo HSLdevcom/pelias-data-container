@@ -18,7 +18,8 @@ mkdir -p $DATA/openstreetmap
 cd $DATA/openstreetmap
 
 echo 'Loading OSM data...'
-curl -sS -O -L --fail https://geocoding.blob.core.windows.net/vrk/hsl_geocode_appendix.osm.pbf
+sas=$(backup_sas BLOB_SAS)
+curl -sS -O -L --fail "$BACKUP_BLOB_URL/hsl_geocode_appendix.osm.pbf${sas:+?$sas}"
 fetch_with_backup backup/estonia-latest.osm.pbf estonia-latest.osm.pbf valid_estonia_pbf \
     curl -sS -L --fail --retry 3 -o estonia-latest.osm.pbf $ESTONIA_OSM_URL
 
