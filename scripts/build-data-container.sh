@@ -95,7 +95,15 @@ function build {
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
     # plain progress keeps the output of failing RUN steps in log.txt (BuildKit's default tty UI hides it)
-    docker build --progress=plain --no-cache --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
+    # optional tokens of the source data backup storage, passed as BuildKit secrets
+    local secret_args=()
+    if [ -n "$BLOB_READ_SAS" ]; then
+        secret_args+=(--secret id=BLOB_READ_SAS,env=BLOB_READ_SAS)
+    fi
+    if [ -n "$BLOB_WRITE_SAS" ]; then
+        secret_args+=(--secret id=BLOB_WRITE_SAS,env=BLOB_WRITE_SAS)
+    fi
+    docker build --progress=plain --no-cache "${secret_args[@]}" --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 
