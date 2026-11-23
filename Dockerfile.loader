@@ -13,7 +13,7 @@ ARG EXTRA_SRC
 LABEL maintainer="Reittiopas version: 0.1"
 
 # Optional backup storage tokens are mounted as BuildKit secrets so that they do not end up in the image history
-RUN --mount=type=secret,id=BLOB_READ_SAS --mount=type=secret,id=BLOB_WRITE_SAS \
+RUN --mount=type=secret,id=BLOB_SAS \
     /bin/bash -c "source /mnt/tools/scripts/getdata.sh"
 
 EXPOSE 9200

@@ -4,12 +4,10 @@
 # A successful download refreshes the backup, and the backup is used when the source is unavailable.
 # Source this file; it does not change shell options.
 #
-# Optional settings (without BLOB_WRITE_SAS backups are not updated, without BLOB_READ_SAS the
-# backup is read anonymously):
+# Optional settings (without BLOB_SAS backups are not updated and the backup is read anonymously):
 #   BACKUP_BLOB_URL - container URL, defaults to the geocoding storage account
-#   BLOB_READ_SAS   - SAS token with read permission
-#   BLOB_WRITE_SAS  - SAS token with create and write permissions
-# The tokens are read from the environment or, preferably, from BuildKit secrets
+#   BLOB_SAS        - SAS token with read, create and write permissions
+# The token is read from the environment or, preferably, from BuildKit secrets
 # (/run/secrets/<name>), which keeps them out of the image history.
 
 BACKUP_BLOB_URL=${BACKUP_BLOB_URL:-https://geocoding.blob.core.windows.net/vrk}
@@ -39,9 +37,9 @@ function file_size {
 # A failed upload only logs a warning, because the data itself has already been loaded.
 function upload_backup {
     local sas
-    sas=$(backup_sas BLOB_WRITE_SAS)
+    sas=$(backup_sas BLOB_SAS)
     if [ -z "$sas" ]; then
-        echo "Backup of $1 not updated: BLOB_WRITE_SAS is not set"
+        echo "Backup of $1 not updated: BLOB_SAS is not set"
         return 0
     fi
     # a single Put Blob request replaces the blob atomically
@@ -59,7 +57,7 @@ function upload_backup {
 # param2: destination file
 function restore_backup {
     local sas
-    sas=$(backup_sas BLOB_READ_SAS)
+    sas=$(backup_sas BLOB_SAS)
     backup_warn "using backup copy $BACKUP_BLOB_URL/$1"
     curl -sS --fail --retry 3 --connect-timeout 30 -L -o "$2" "$BACKUP_BLOB_URL/$1${sas:+?$sas}"
 }
