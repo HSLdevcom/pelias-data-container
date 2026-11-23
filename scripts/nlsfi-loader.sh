@@ -34,7 +34,7 @@ NAME=paikat.zip
 if load_from_nls; then
     upload_backup $BACKUP_NAME $NAME
 else
-    echo "WARNING: Loading nlsfi data from NLS failed"
+    backup_warn "loading nlsfi data from NLS failed"
     rm -rf $DATA/nls-places/*
     restore_backup $BACKUP_NAME $NAME
     valid_zip $NAME
