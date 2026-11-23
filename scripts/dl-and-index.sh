@@ -13,6 +13,7 @@
 set -e
 
 export SCRIPTS=${SCRIPTS:-$TOOLS/scripts}
+source $SCRIPTS/backup-utils.sh
 #schema script runs only from current dir
 cd $TOOLS/pelias-schema/
 node scripts/create_index
@@ -92,7 +93,20 @@ echo '###### nlsfi places done'
 
 #import dvv address data (fetched directly from the Ryhti open_address API)
 cd  $TOOLS/pelias-vrk
-node import.js
+DVV_BACKUP_NAME=backup/dvv-addresses.ndjson.gz
+DVV_DUMP=$DATA/dvv-addresses.ndjson.gz
+if DVV_DUMP_FILE=$DVV_DUMP node import.js; then
+    # an importer without dump support does not create the file
+    if [ -f $DVV_DUMP ]; then
+        upload_backup $DVV_BACKUP_NAME $DVV_DUMP
+    fi
+else
+    echo "WARNING: DVV import from the API failed, importing from the backup copy"
+    rm -f $DVV_DUMP
+    restore_backup $DVV_BACKUP_NAME $DVV_DUMP
+    DVV_SOURCE_FILE=$DVV_DUMP node import.js
+fi
+rm -f $DVV_DUMP
 echo '###### DVV done'
 
 #cleanup

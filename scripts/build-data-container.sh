@@ -95,7 +95,12 @@ function build {
     BUILD_IMAGE=$1
     echo "Building $BUILD_IMAGE"
     # plain progress keeps the output of failing RUN steps in log.txt (BuildKit's default tty UI hides it)
-    docker build --progress=plain --no-cache --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
+    # optional token of the source data backup storage, passed as BuildKit secrets
+    local secret_args=()
+    if [ -n "$BLOB_SAS" ]; then
+        secret_args+=(--secret id=BLOB_SAS,env=BLOB_SAS)
+    fi
+    docker build --progress=plain --no-cache "${secret_args[@]}" --build-arg BUILDER_TYPE --build-arg API_SUBSCRIPTION_QUERY_PARAMETER_NAME --build-arg API_SUBSCRIPTION_TOKEN --build-arg MMLAPIKEY --build-arg OSM_VENUE_FILTERS --build-arg OSM_ADDRESS_FILTERS --build-arg EXTRA_SRC --build-arg DOCKER_TAG=$DOCKER_TAG -t="$BUILD_IMAGE" -f Dockerfile.loader .
     echo 0 >/tmp/build_ok
 }
 
@@ -288,6 +293,15 @@ fi
 
 docker rmi $BUILD_IMAGE
 docker rmi $BASE_IMAGE
+
+# tell if a source was unavailable and its backup copy was used (see backup-utils.sh)
+if [ -n "${SLACK_CHANNEL_ID}" ]; then
+    BACKUP_WARNINGS=$(grep -h 'BACKUP WARNING' log.txt | sed 's/^#[0-9]* [0-9.]* //' | sort -u)
+    if [ -n "$BACKUP_WARNINGS" ]; then
+        MSG=$({ echo -e ":warning: Source data backup copies were used or updating them failed:\n"; echo "$BACKUP_WARNINGS"; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
+        curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
+    fi
+fi
 
 if [ $SUCCESS = 0 ]; then
     echo "ERROR: Build failed"
