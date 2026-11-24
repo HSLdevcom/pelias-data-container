@@ -295,8 +295,8 @@ docker rmi $BUILD_IMAGE
 docker rmi $BASE_IMAGE
 
 # tell if a source was unavailable and its backup copy was used (see backup-utils.sh)
+BACKUP_WARNINGS=$(grep -h 'BACKUP WARNING' log.txt | sed 's/^#[0-9]* [0-9.]* //' | sort -u)
 if [ -n "${SLACK_CHANNEL_ID}" ]; then
-    BACKUP_WARNINGS=$(grep -h 'BACKUP WARNING' log.txt | sed 's/^#[0-9]* [0-9.]* //' | sort -u)
     if [ -n "$BACKUP_WARNINGS" ]; then
         MSG=$({ echo -e ":warning: Source data backup copies were used or updating them failed:\n"; echo "$BACKUP_WARNINGS"; } | jq -R -s '{"channel": "'$SLACK_CHANNEL_ID'", "username": "Pelias data builder '$BUILDER_TYPE'", "thread_ts": "'$TIMESTAMP'", "text": .}')
         curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.postMessage'
@@ -319,7 +319,12 @@ else
     echo "Build finished successfully"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
 	FINISH_TIME="$(TZ='Europe/Helsinki' date +"%H:%M:%S"), total $(elapsed_time)"
-	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') :white_check_mark: Geocoding data build finished", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
+	if [ -n "$BACKUP_WARNINGS" ]; then
+	    RESULT=":warning: Geocoding data build finished, but partially falling back to backup data"
+	else
+	    RESULT=":white_check_mark: Geocoding data build finished"
+	fi
+	MSG='{"channel": "'$SLACK_CHANNEL_ID'","text": "('$FINISH_TIME') '"$RESULT"'", "username": "Pelias data builder '$BUILDER_TYPE'", "ts": "'$TIMESTAMP'"}';
 	curl -X POST -H 'Content-Type: application/json' -H "Authorization: Bearer $SLACK_ACCESS_TOKEN" -H 'Accept: */*' -d "$MSG" 'https://slack.com/api/chat.update'
     fi
 fi
