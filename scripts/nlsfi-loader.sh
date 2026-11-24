@@ -15,7 +15,7 @@ cd $DATA/nls-places
 function load_from_nls {
     echo 'Extracting nlsfi data address...'
     local url
-    url=$(timeout 120 node $SCRIPTS/parse_nlsfi_url.js) || return 1
+    url=$(MMLAPIKEY=OUTAGE-TEST timeout 120 node $SCRIPTS/parse_nlsfi_url.js) || return 1
     # the script prints errors to stdout and exits 0, so check that we really got a URL
     [[ "$url" == http* ]] || return 1
 

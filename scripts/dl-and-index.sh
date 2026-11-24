@@ -95,7 +95,7 @@ echo '###### nlsfi places done'
 cd  $TOOLS/pelias-vrk
 DVV_BACKUP_NAME=backup/dvv-addresses.ndjson.gz
 DVV_DUMP=$DATA/dvv-addresses.ndjson.gz
-if DVV_DUMP_FILE=$DVV_DUMP node import.js; then
+if DVV_API_URL=https://invalid.invalid/OUTAGE-TEST DVV_DUMP_FILE=$DVV_DUMP node import.js; then
     # an importer without dump support does not create the file
     if [ -f $DVV_DUMP ]; then
         upload_backup $DVV_BACKUP_NAME $DVV_DUMP
