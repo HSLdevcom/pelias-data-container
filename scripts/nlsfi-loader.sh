@@ -7,7 +7,7 @@ source "$(dirname "$0")/backup-utils.sh"
 
 # Backup copy of the nlsfi data (places.xml + the xsd files the importer reads), used when the
 # NLS file service is unavailable. It is refreshed after every successful download.
-BACKUP_NAME=nls-places-fallback.zip
+BACKUP_NAME=backup/nls-places-fallback.zip
 
 mkdir -p $DATA/nls-places
 cd $DATA/nls-places
