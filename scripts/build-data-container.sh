@@ -319,8 +319,10 @@ else
     echo "Build finished successfully"
     if [ -n "${SLACK_CHANNEL_ID}" ]; then
 	FINISH_TIME="$(TZ='Europe/Helsinki' date +"%H:%M:%S"), total $(elapsed_time)"
-	if [ -n "$BACKUP_WARNINGS" ]; then
-	    RESULT=":warning: Geocoding data build finished, but partially falling back to backup data"
+	if echo "$BACKUP_WARNINGS" | grep -q 'using backup copy'; then
+	    RESULT=":warning: Geocoding data build finished, but partially falling back to older data"
+	elif [ -n "$BACKUP_WARNINGS" ]; then
+	    RESULT=":warning: Geocoding data build finished"
 	else
 	    RESULT=":white_check_mark: Geocoding data build finished"
 	fi
